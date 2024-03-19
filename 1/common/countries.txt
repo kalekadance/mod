@@ -13,6 +13,8 @@ A05		= "countries/Holy Roman Empire.txt"
 A06		= "countries/Roman Empire.txt"
 A07		= "countries/Intermarium.txt"
 A08		= "countries/GreatSibiria.txt"
+A09		= "countries/Tongan Empire.txt"
+A10		= "countries/United States of New York.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"

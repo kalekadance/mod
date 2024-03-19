@@ -23293,4 +23293,10 @@ A07_conservative;Партия Междуморской короны;X;X;X;X;X;X
 A08;Сибирия;X;X;X;X;X;X
 A08_ADJ;Сибирск.;X;X;X;X;X;X
 A08_conservative;Союз сибирских консерваторов;X;X;X;X;X;X
+A09;Тонганская империя;X;X;X;X;X;X
+A09_ADJ;Тонганск.;X;X;X;X;X;X
+A09_conservative;Племенной совет;X;X;X;X;X;X
+A10;Соединенные штаты Нью-Йорка;X;X;X;X;X;X
+A10_ADJ;Нью-Йоркск.;X;X;X;X;X;X
+A10_conservative;Партия сдержанности;X;X;X;X;X;X
 KOMMIE_END;че последнюю строчку не читает ебать ;X;X;X;X;X;X
