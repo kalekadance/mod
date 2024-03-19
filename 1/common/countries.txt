@@ -5,7 +5,7 @@ REB 	= 	"countries/rebels.txt"
 
 # Minor mpmod
 
-A01		= "countries/Anjouan Kingdom.txt"
+# A01		= "countries/Anjouan Kingdom.txt"
 A02		= "countries/Lorraine.txt"
 A03		= "countries/Francia.txt"
 A04		= "countries/Franco-Iberia.txt"
