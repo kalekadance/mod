@@ -40,6 +40,17 @@ A08 = {
 	color = { 42 143 217 }
 }
 
+#Tongan Empire
+A09 = {
+	color = { 53 38 77 }
+}
+
+#USNY
+A10 = {
+	color = { 33 102 15 }
+}
+
+
 # Sweden
 SWE = {
  color1= { 62 122 189 }
