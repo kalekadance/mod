@@ -35,6 +35,11 @@ A07 = {
 	color = { 143 98 217 }
 }
 
+#GreatSibiria
+A08 = {
+	color = { 42 143 217 }
+}
+
 # Sweden
 SWE = {
  color1= { 62 122 189 }

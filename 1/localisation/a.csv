@@ -23290,4 +23290,7 @@ A06_conservative;Партия Римской короны;X;X;X;X;X;X
 A07;Междуморье;X;X;X;X;X;X
 A07_ADJ;Междуморск.;X;X;X;X;X;X
 A07_conservative;Партия Междуморской короны;X;X;X;X;X;X
+A08;Сибирия;X;X;X;X;X;X
+A08_ADJ;Сибирск.;X;X;X;X;X;X
+A08_conservative;Союз сибирских консерваторов;X;X;X;X;X;X
 KOMMIE_END;че последнюю строчку не читает ебать ;X;X;X;X;X;X

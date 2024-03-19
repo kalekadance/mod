@@ -23,6 +23,7 @@ form_anjou_kingdom = {
 			prestige = 20
 			ruling_party_ideology = conservative
 			add_accepted_culture = french
+			add_core=1
 		}
 		ai_will_do = {
 			factor = 1
@@ -165,6 +166,31 @@ form_Intermarium = {
 		effect = {
 			set_country_flag = form_Intermarium
 			change_tag = A07
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+form_GreatSibiria = {
+	picture = graet_eic
+		potential = {
+			tag = MTC
+			NOT = {
+				has_country_flag = form_GreatSibiria
+			}		
+		}	
+		allow = {
+		owns = 1191
+		owns = 1198
+		owns = 1202
+			
+		}
+		
+		effect = {
+			set_country_flag = form_GreatSibiria
+			change_tag = A08
 			prestige = 20
 			ruling_party_ideology = conservative
 		}
