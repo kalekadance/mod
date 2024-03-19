@@ -1,0 +1,175 @@
+political_decisions = {
+form_anjou_kingdom = {
+	picture = graet_eic
+		potential = {
+			tag = D22
+			NOT = {
+				has_country_flag = form_anjou_kingdom
+			}		
+		}	
+		allow = {
+		owns = 300
+		owns = 269
+		owns = 263
+		owns = 260
+		owns = 254
+		owns = 418
+		owns = 435
+		}
+		
+		effect = {
+			set_country_flag = form_anjou_kingdom
+			change_tag = A01
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = french
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Lorraine = {
+	picture = graet_eic
+		potential = {
+			tag = LUX
+			NOT = {
+				has_country_flag = form_Lorraine
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Lorraine
+			change_tag = A02
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Francia = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			NOT = {
+				has_country_flag = form_Francia
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Francia
+			change_tag = A03
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Franco_Iberia = {
+	picture = graet_eic
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = form_Franco_Iberia
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Franco_Iberia
+			change_tag = A04
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_HRE = {
+	picture = graet_eic
+		potential = {
+			tag = CZH
+			NOT = {
+				has_country_flag = form_HRE
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_HRE
+			change_tag = A05
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_RE = {
+	picture = graet_eic
+		potential = {
+			tag = SIC
+			NOT = {
+				has_country_flag = form_RE
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_RE
+			change_tag = A06
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_Intermarium = {
+	picture = graet_eic
+		potential = {
+			tag = PLC
+			NOT = {
+				has_country_flag = form_Intermarium
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium
+			change_tag = A07
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

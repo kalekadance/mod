@@ -1,0 +1,101 @@
+
+# Arabian Event to Inherit
+country_event = {
+	id = 111011928
+	title = "EVTNAME111011928"
+	desc = "EVTDESC111011928"
+	picture = "Celebration"
+	news = yes
+	news_desc_long = "EVTDESC111011928_NEWS_LONG"
+	news_desc_medium = "EVTDESC111011928_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC111011928_NEWS_SHORT"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA111011928"
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	option = {
+		name = "EVTOPTB111011928"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 10
+				NOT = {
+					relation = { who = FROM value = 100 }
+				}
+			}
+		}
+	}
+}
+
+ 
+country_event = {
+
+	id = 100010
+
+	title = "EVTNAME100000" #Egypt
+	desc = "EVTDESC100000"
+	picture = "Celebration"
+
+	trigger = {
+ OR = {
+		 ARA = {
+			 invention = capital_for_investors
+		 }
+ EGY = {
+			 invention = capital_for_investors
+		 }		
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 70
+
+		modifier = {
+			factor = 0.9 
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9 
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9 
+			average_consciousness = 7
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 18
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = -3
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+ 

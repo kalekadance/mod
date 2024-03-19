@@ -1,0 +1,360 @@
+political_decisions = {
+
+	form_arabia = {
+	picture = form_arabia
+
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		
+		allow = {
+			OR = { 
+				AND = { 
+					is_greater_power = yes
+					any_neighbor_country = {
+						in_sphere = this
+						is_culture_group = arab
+						relation = { who = THIS value = 100 }
+					}
+				}
+				AND = {
+					tag = EGY
+					HDJ = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+					NEJ = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+				}
+			    AND = {
+					tag = EGY
+					NEJ = { 
+						all_core = { 
+							owned_by = TUR 
+						} 
+					}
+				}
+				AND = {
+					tag = EGY 
+					year = 1852
+			
+					}
+
+				
+			}
+		
+		
+		}
+		effect = {
+			prestige = 45
+			badboy = 7
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS 
+				add_core = ARA
+			}
+			change_tag = ARA
+			random_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 111011928
+			}
+			add_accepted_culture = bedouin
+			add_accepted_culture = maghrebi
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					add_core = ARA
+				}
+			}
+			914 = {
+				remove_core = ARA
+ }
+			912 = {
+				remove_core = ARA
+ }
+			915 = {
+				remove_core = ARA
+ }
+			902 = {
+				remove_core = ARA
+ }
+			913 = {
+				remove_core = ARA
+ }
+			903 = {
+				remove_core = ARA
+ }
+			906 = {
+				remove_core = ARA
+ }
+			907 = {
+				remove_core = ARA
+ }
+			931 = {
+				remove_core = ARA
+ }
+			927 = {
+				remove_core = ARA
+ }
+			929 = {
+				remove_core = ARA
+ }
+			926 = {
+				remove_core = ARA
+ }
+			934 = {
+				remove_core = ARA
+ }
+			935 = {
+				remove_core = ARA
+ }
+			932 = {
+				remove_core = ARA
+ }
+			933 = {
+				remove_core = ARA
+ }
+			930 = {
+				remove_core = ARA
+ }
+			928 = {
+				remove_core = ARA
+ }
+			925 = {
+				remove_core = ARA
+ }
+			924 = {
+				remove_core = ARA
+ }
+			923 = {
+				remove_core = ARA
+ }
+ 
+			1683 = {
+				remove_core = ARA
+ }
+ 
+			1684 = {
+				remove_core = ARA
+ }
+ 
+			1697 = {
+				remove_core = ARA
+ }
+ 
+			1698 = {
+				remove_core = ARA
+ }
+ 
+			1699 = {
+				remove_core = ARA
+ }
+ 
+			1686 = {
+				remove_core = ARA
+ }
+ 
+			1687 = {
+				remove_core = ARA
+ }
+ 
+			1688 = {
+				remove_core = ARA
+ }
+ 
+			1681 = {
+				remove_core = ARA
+ }
+ 
+			1685 = {
+				remove_core = ARA
+ }
+ 
+			1682 = {
+				remove_core = ARA
+ }
+ 
+			1680 = {
+				remove_core = ARA
+ }
+ 
+			1692 = {
+				remove_core = ARA
+ }
+ 
+			1691 = {
+				remove_core = ARA
+ }
+ 
+			2563 = {
+				remove_core = ARA
+ }
+ 
+			1690 = {
+				remove_core = ARA
+ }
+ 
+			1693 = {
+				remove_core = ARA
+ }
+ 
+			1695 = {
+				remove_core = ARA
+ }
+ 
+			1694 = {
+				remove_core = ARA
+ }
+ 
+			1696 = {
+				remove_core = ARA
+ }
+            1725 = {
+				remove_core = ARA
+ }
+            1726 = {
+				remove_core = ARA
+ }
+            1727 = {
+				remove_core = ARA
+ }
+            1728 = {
+				remove_core = ARA
+ }
+            1729 = {
+				remove_core = ARA
+ }
+            1730 = {
+				remove_core = ARA
+ }
+            ALD_1708 = {
+					remove_core = ARA
+ }
+            ALD_1704 = {
+					remove_core = ARA
+ }
+            FRA_1700 = {
+								remove_core = ARA
+ }
+			EGY_903 = {remove_core = EGY
+			}
+			EGY_915 = {remove_core = EGY}
+            1737 = {
+			add_core = ARA
+			}
+			1736 = {
+			add_core = ARA
+			}
+			1735 = {
+			add_core = ARA
+			}
+			1734 = {
+			add_core = ARA
+			}
+			1733 = {
+			add_core = ARA
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	eastern_crisis = {
+	picture = brazzas_expedition
+
+		potential = {
+		NOT = {
+				has_country_flag = sasai_kudasai
+			}
+		OR =
+		{ tag = EGY
+			tag = ARA }
+		}
+		
+		allow = {
+		OR = {
+		AND = {
+			 owns = 1151
+			owns = 1178
+			owns = 1166
+			owns = 1167
+			owns = 1160
+			owns = 1157
+			owns = 1156]
+			year = 1870
+			 }
+		}
+		}
+		effect = {
+			prestige = 35
+			 research_points = 8000
+			 set_country_flag = sasai_kudasai
+			 EGY_915  = {
+			 add_core = ARA
+			 }
+			 
+			 
+			 
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Osman_peredacha = {
+        picture = OSMAN_PEREDACHA
+        potential = {
+        OR = {    
+		    tag = EGY
+	        tag = ARA
+		}
+		war = no
+            NOT = { 
+                has_country_flag = creat
+            }
+        }
+        allow = {
+            war = no
+            897 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                }
+            }
+        }
+        effect = {
+            set_country_flag = creat
+            EGY_897 = {
+            secede_province = TUR
+            }
+            EGY_843 = {
+            secede_province = TUR
+            }
+		     prestige = 10	
+        }    
+		
+	         ai_will_do = {
+             factor = 0
+             }
+    }
+}
+

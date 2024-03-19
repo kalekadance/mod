@@ -1,0 +1,225 @@
+political_decisions = {
+	famine_mug_1 = {
+	picture = expand_motala_verkstad
+		potential = {
+			year = 1870
+			has_country_modifier = famine_la_india
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_1_yes
+			}
+		}
+		allow = {
+			money = 1100000
+			owns = 1292
+		}
+		effect = {
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_mug_1_yes
+			remove_country_modifier = famine_la_india
+			add_country_modifier = {
+					name = famine_war_first_step
+					duration = -1
+			}
+			1292 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_mug_2 = {
+	picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_1_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_2_yes
+			}
+		}
+		allow = {
+			money = 2100000
+			year = 1871
+			owns = 1239
+		}
+		effect = {
+			money = -2000000
+			prestige = 5
+			set_global_flag = famine_mug_2_yes
+			remove_country_modifier = famine_war_first_step
+			add_country_modifier = {
+					name = famine_war_second_step
+					duration = -1
+			}
+			1239 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_mug_3 = {
+	picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_2_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_3_yes
+			}
+		}
+		allow = {
+			money = 2500000
+			year = 1872
+			owns = 1296
+		}
+		effect = {
+			money = -2000000
+			money = -500000
+			prestige = 5
+			set_global_flag = famine_mug_3_yes
+			remove_country_modifier = famine_war_second_step
+			add_country_modifier = {
+					name = famine_war_third_step
+					duration = -1
+			}
+			1296 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_war_end_2 = {
+		picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_3_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_war_end_2_yes
+			}
+		}
+		allow = {
+			money = 4100000
+			OR = {
+				owns = 1298
+				owns = 1318
+			}
+			year = 1873
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			prestige = 5
+			set_global_flag = famine_war_end_2_yes
+			THIS = {
+				country_event = { id=18945 days=0 }
+			}
+			1298 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+			1318 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	UNCOR_PUNJAB = {
+	  picture = expand_motala_verkstad
+        potential = {
+		 year = 1870
+		 OR = {
+            tag = IGM
+	 	tag = PER}
+            NOT = {
+                has_country_flag = core_punjab
+            }
+		}
+		 allow = {
+		 year = 1875
+		  PAN_1227 = {
+		  owned_by = THIS
+		  }
+
+		  PAN_1229 = { 
+          owned_by = THIS
+		  }
+		 
+          
+        }
+		effect = {
+	    PAN_1227 = {remove_core = PAN}
+        PAN_1229 = {remove_core = PAN}
+		badboy = 5
+		set_country_flag = core_punjab
+		 1200 = {add_core = THIS}
+		  1206 = {add_core = THIS}
+		}
+		
+}
+
+UNCOR_TAJIKS = {
+	  picture = expand_motala_verkstad
+        potential = {
+		 year = 1880
+		 OR = {
+            tag = IGM
+	 	tag = PER}
+            NOT = {
+                has_country_flag = core_tajiks
+            }
+		}
+		 allow = {
+		 year = 1890
+		  RUS_1196 = {
+		  owned_by = THIS
+		  }
+
+		  KHI_1191 = { 
+          owned_by = THIS
+		  }
+		  KOK_1190 = { 
+          owned_by = THIS
+		  }
+		 
+          
+        }
+		effect = {
+	 KHI_1191 = {remove_core = KHI
+	 remove_core = BUK
+	 remove_core = KOK
+	 add_core = THIS}
+        KOK_1190 = {remove_core = KOK
+		remove_core = BUK
+		add_core = THIS}
+		RUS_1196  = {remove_core = KHI
+		add_core = THIS}
+		badboy = 5
+		set_country_flag = core_tajiks
+		 
+		}
+		
+}	 
+	
+}

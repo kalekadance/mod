@@ -1,0 +1,208 @@
+country_event = { 
+	id = 402001
+	title = "EVTNAME402001"
+	desc = "EVTDESC402001"
+	picture = "greatpowers"
+	trigger = {
+     tag = NET
+	 year = 1860
+	  	    NET = {
+		        OR = {
+				   in_sphere = ENG
+				   in_sphere = GER
+				   in_sphere = FRA
+				}
+			}	
+            BEL_394 = {
+		    owned_by = NET
+            }
+            BEL_393 =  {
+		    owned_by = NET
+            }
+            BEL_387 = { 
+            owned_by = NET
+		    }
+            NET_375 = {
+            owned_by = NET
+		     }
+            NET_385 = {
+		    owned_by = NET
+            }
+            NET_381 = {
+	  	    owned_by = NET
+		    }
+		 	NET_1399 = {
+		 	owned_by = NET
+		 	}
+		 	NET_1398 = {
+		 	owned_by = NET
+		 	}
+			 NET_1413 = {
+			 owned_by = NET
+		 	}
+			 NET_1414 = {
+		 	owned_by = NET
+		 	}
+
+	NOT = {
+	has_country_modifier = podsos
+	}
+}	
+	
+	option = {
+	name = "EVTOPTA402001"
+	any_country = {
+		limit = {
+		is_sphere_leader_of = NET
+		}	
+		add_country_modifier = { 
+	     name = jopa_podsosa
+	     duration = -1
+	    }	
+	  set_country_flag = yes_papik
+    }
+		any_country = {
+		limit = {
+		is_sphere_leader_of = NET
+		tag = GER
+		}
+		NET = {
+				add_country_modifier = { 
+				name = podsos
+				duration = -1
+				}
+		}
+		}
+		any_country = {
+		limit = {
+		is_sphere_leader_of = NET
+		tag = FRA
+		}
+		NET = {
+				add_country_modifier = { 
+				name = podsos2
+				duration = -1
+				}
+		}
+		}
+		
+		any_country = {
+		limit = {
+		is_sphere_leader_of = NET
+		tag = ENG
+		}
+		NET = {
+				add_country_modifier = { 
+				name = podsos3
+				duration = -1
+				}
+		}
+		}
+ 	  set_country_flag = yes_papik
+	  add_country_modifier = { 
+	  name = podsos1
+	  duration = -1
+	  }
+	  
+    }
+}
+
+country_event = { 
+	id = 402002
+	title = "EVTNAME402002"
+	desc = "EVTDESC402002"
+	picture = "greatpowers"
+	trigger = {
+	tag = NET
+	year = 1860
+	has_country_flag = yes_papik
+	OR = {
+    and = {	
+				NOT = {in_sphere = GER}
+				NOT = {in_sphere = FRA}
+				NOT = {in_sphere = ENG}
+				
+				}
+
+	and = {
+	OR = {
+            BEL_394 = {
+		        NOT = {
+			    owned_by = NET
+		    	}
+            }
+            BEL_393 =  {
+		        NOT = {
+		    	owned_by = NET
+			    }
+            }
+            BEL_387 = { 
+                NOT = {
+		    	owned_by = NET
+			    }
+		    }
+            NET_375 = {
+                NOT = {
+		    	owned_by = NET
+			    }
+		     }
+            NET_385 = {
+		        NOT = {
+		    	owned_by = NET
+			    }
+            }
+            NET_381 = {
+	  	        NOT = {
+		    	owned_by = NET
+			    }
+		    }
+		 	NET_1399 = {
+		 	    NOT = {
+		    	owned_by = NET
+			    }
+		 	}
+		 	NET_1398 = {
+		 	    NOT = {
+		    	owned_by = NET
+			    }
+		 	}
+			 NET_1413 = {
+			     NOT = {
+		    	owned_by = NET
+			    }
+		 	}
+			 NET_1414 = {
+		 	    NOT = {
+		    	owned_by = NET
+			    }
+		 	}
+		} 
+		has_country_modifier = podsos
+	   } 
+	}
+}	
+
+	option = {
+	name = "EVTOPTA402002"
+		any_country = {
+		limit = {
+		has_country_modifier = jopa_podsosa
+		}	
+		remove_country_modifier = jopa_podsosa
+		clr_country_flag = yes_papik
+	    }
+        remove_country_modifier = podsos
+		remove_country_modifier = podsos1
+		remove_country_modifier = podsos2
+		remove_country_modifier = podsos3
+	    clr_country_flag = yes_papik
+	}
+}	
+	
+
+	
+	   	  
+	  
+
+		
+		

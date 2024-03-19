@@ -1,0 +1,6 @@
+owner = KUT
+controller = KUT
+add_core = KUT
+add_core = IGM
+trade_goods = iron
+life_rating = 35 

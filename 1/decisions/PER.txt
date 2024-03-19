@@ -1,0 +1,98 @@
+political_decisions = {
+Turkmen_colonized = {
+    picture = cavours_diplomacy
+        potential = {
+	 
+            tag = PER
+             NOT = {
+                has_country_flag = Turkmen_colonized
+            }
+        }
+        allow = {
+        money = 150000
+        }
+
+        effect = {
+            money = -150000
+            prestige = 5
+            1204 = { secede_province = PER }
+			 
+            1205 = { secede_province = PER }
+			 
+            set_country_flag = Turkmen_colonized
+        }
+    }
+	travel_to_europe = {
+		potential = {
+or = {
+ tag = PER
+ tag = IGM
+ }
+ year = 1862
+ NOT = { has_country_flag = travel_to_europe }
+ }
+		allow = {
+			money = 300000
+		}
+		effect = {
+ money = -300000
+ prestige = 16
+ years_of_research = 0.1
+ add_accepted_culture = sindi
+ 1231 = {remove_core = SIN }
+ relation = {
+ who = ENG
+ value = 50
+ }
+ set_country_flag = travel_to_europe
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						moralism = 30
+						liberal = 60
+					}
+				}
+			}		
+		}
+	}
+	persian_cinema = {
+		potential = {
+		or = {
+ tag = PER
+ tag = IGM}
+ NOT = { has_country_flag = persian_cinema }
+ NOT = { has_country_modifier = silver_age }
+ year = 1880
+ }
+		allow = {
+			 OR = {
+ any_greater_power = { invention = the_talkies relation = { who = THIS value = 50 } }
+ invention = the_talkies
+ }
+		}
+		effect = {
+ set_country_flag = persian_cinema
+ prestige = 25
+ years_of_research = 0.5
+ rich_strata = {
+ militancy = -1
+ }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						moralism = 30
+						liberal = 60
+					}
+				}
+			}		
+		}
+	}
+}

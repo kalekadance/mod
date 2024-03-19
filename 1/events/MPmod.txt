@@ -1,0 +1,2158 @@
+country_event = {
+	id = 777701
+	trigger = {
+ tag = PRU
+ year = 1840
+ #war = no
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777701"
+	desc = "EVTDESC777701"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777701"
+		inherit	= LIP	
+		inherit	= BRA
+		inherit	= ANH
+		inherit	= BRE
+		inherit	= COB
+		inherit	= FRM
+		inherit	= HAM
+		inherit	= HEK
+		inherit	= HES
+		inherit	= LUB
+		inherit	= MEC
+		inherit	= MEI
+		inherit	= NAS
+		inherit	= OLD
+		inherit	= WEI
+		prestige = 10
+		badboy = 4
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777701"
+		prestige = -5
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777702
+	trigger = {
+ tag = PRU
+ year = 1848
+ #war = no
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777702"
+	desc = "EVTDESC777702"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777702"
+		inherit	= HAN	
+		inherit	= HOL
+		prestige = 40
+		badboy = 4
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777702"
+		prestige = -15
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777703
+	trigger = {
+		OR = {
+			tag = PRU
+			tag = NGF			
+		}
+		NOT = {
+				exists = GER
+			}
+ year = 1860
+ #war = no
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 2
+
+ }
+	title = "EVTNAME777703"
+	desc = "EVTDESC777703"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777703"
+		change_tag = GER
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		prestige = 55
+		badboy = 5
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777703"
+		prestige = -25
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777705
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = PRU
+			tag = NGF
+			tag = GER
+			tag = BEL
+			tag = NET
+		}
+ year = 1848
+		exists = LUX
+		LUX = {
+				all_core = {
+					owner = {
+							in_sphere = THIS
+						}
+				}
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777705"
+	desc = "EVTDESC777705"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777705"
+		inherit	= LUX	
+		prestige = 15
+		badboy = 1
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777705"
+		prestige = -15
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777704
+	trigger = {
+		OR = {
+		tag = KUK
+			tag = AUS
+			tag = RUS
+			tag = PRU
+			tag = NGF
+			tag = GER
+		}
+ year = 1840
+		exists = KRA
+		KRA = {
+				all_core = {
+					owner = {
+							in_sphere = THIS
+						}
+				}
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777704"
+	desc = "EVTDESC777704"
+	picture = "greatpowers"
+
+	 
+
+	option = {
+		name = "EVTOPTA777704"
+		inherit	= KRA	
+		badboy = 3
+		ai_chance = {
+ factor = 99
+ }
+		add_accepted_culture = ashkenazi
+	}
+
+	option = {
+		name = "EVTOPTB777704"
+		prestige = -15
+		ai_chance = {
+ factor = 1
+ }
+	}
+
+}
+country_event = {
+	id = 777706
+	trigger = {
+	OR = {
+	and = {
+	OR = {
+		tag = AUS
+		tag = KUK
+		}
+		MON = {
+				in_sphere = THIS
+		}
+	}
+    and = {
+	 tag = TUR
+	 MON = {
+				in_sphere = THIS
+		}
+	}	
+	and = {
+	tag = ITA
+		MON = {
+				in_sphere = THIS
+		}
+	}	
+		
+	and = {
+ 		tag = ITA
+		MON = {
+			 vassal_of = ITA
+		}
+	}
+	}
+	 year = 1845
+	 exists = MON
+	}
+				
+		
+ 
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777706"
+	desc = "EVTDESC777706"
+	picture = "greatpowers"
+
+	 
+   immediate = {
+   AUS = {remove_accepted_culture = albanian
+		remove_accepted_culture = croat}
+		   TUR = {remove_accepted_culture = albanian
+		remove_accepted_culture = croat}
+		   KUK = {remove_accepted_culture = albanian}
+		   ITA = {remove_accepted_culture = albanian
+		remove_accepted_culture = croat}
+   }
+	option = {
+		name = "EVTOPTA777706"
+		inherit	= MON	
+		prestige = 15
+		badboy = 5
+		ai_chance = {
+ factor = 99
+ }
+		add_accepted_culture = albanian
+		add_accepted_culture = croat
+	}
+
+	option = {
+		name = "EVTOPTB777706"
+		prestige = 5
+		badboy = 2
+		inherit	= MON
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+ 
+          
+ 
+# ---------------- -----------------
+country_event = {
+	id = 347105
+	is_triggered_only = yes 
+	title = "EVTNAME347005"
+	desc = "EVTDESC347005"
+	picture = "greatpowers"
+
+	#fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA347005"
+		political_reform = population_equal_weight
+		political_reform = harassment 
+		political_reform = universal_voting
+		government = democracy
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTB347005"
+		political_reform = underground_parties
+		political_reform = party_appointed
+		political_reform = all_trade_unions
+		political_reform = none_voting
+		government = proletarian_dictatorship
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTDDDD347005"
+		political_reform = underground_parties
+		political_reform = party_appointed 
+		political_reform = none_voting
+		political_reform = no_trade_unions
+
+		government = bourgeois_dictatorship	
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTA34700555"
+		any_pop	= {
+			#consciousness = -1
+			militancy = -2
+		}
+		#government = fascist_dictatorship	
+		ai_chance = {
+ factor = 99
+ }
+	}
+}
+# ---------------- -----------------
+
+country_event = {
+	id = 347005
+	is_triggered_only = yes 
+	title = "EVTNAME347005"
+	desc = "EVTDESC347005"
+	picture = "greatpowers"
+
+	#fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA347005"
+		political_reform = harassment
+		political_reform = population_equal_weight
+		political_reform = universal_voting
+		government = democracy
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTB347005"
+		political_reform = underground_parties
+		political_reform = party_appointed
+		political_reform = none_voting
+		political_reform = all_trade_unions
+		
+		government = proletarian_dictatorship
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTC347005"
+		political_reform = party_appointed
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = no_trade_unions
+		government = fascist_dictatorship	
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTDDDD347005"
+		
+		political_reform = underground_parties
+		political_reform = party_appointed 
+		political_reform = none_voting
+		political_reform = no_trade_unions 
+		government = bourgeois_dictatorship	
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTE347005"
+	    political_reform = appointed
+	    political_reform = wealth_voting
+		government = hms_government	
+		ai_chance = {
+ factor = 99
+ }
+	}
+	option = {
+		name = "EVTOPTA34700555"
+		any_pop	= {
+			consciousness = -1
+			militancy = -2
+		}
+		#government = fascist_dictatorship	
+		ai_chance = {
+ factor = 99
+ }
+	}
+}
+# ----------------------------------------------------- Китай ------------------------------------------------------------
+country_event = {
+	id = 347006
+	trigger = {
+ tag = CHI
+ year = 1860
+ war = no
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME347006"
+	desc = "EVTDESC347006"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA347006"
+		
+		#foreign_training = no_foreign_training
+		#foreign_weapons = no_foreign_weapons
+		#military_constructions = no_military_constructions
+		#foreign_officers = no_foreign_officers
+		inherit	= MGL	
+		inherit	= XBI
+		inherit	= XIN
+		inherit	= TIB
+		inherit	= YNN
+		inherit	= GXI
+		inherit	= MCK
+		prestige = 10
+		badboy = 20
+		years_of_research = -30
+		ai_chance = {
+ factor = 1
+ }
+	}
+
+	option = {
+		name = "EVTOPTB347006"
+		prestige = 25
+		ai_chance = {
+ factor = 0
+ }
+	}
+}
+country_event = {
+	title = "EVTNAME3471003"
+	desc = "EVTDESC3471003"
+	picture = "Celebration"
+
+	id = 180180
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA3471003" 
+ FROM = {
+			release_vassal = THIS
+ }
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB3471003"
+		prestige = -10
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+# ----------------------------------------------------- Бутан ------------------------------------------------------------
+country_event = {
+	id = 777708
+	trigger = {
+		tag = HND
+ year = 1888
+ #war = no
+		exists = BHU
+		BHU = {
+				in_sphere = THIS
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 3
+
+ }
+	title = "EVTNAME777711"
+	desc = "EVTDESC777711"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777711"
+		inherit	= BHU
+		prestige = 15
+		badboy = 1
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777711"
+		prestige = -15
+		badboy = -1
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+# ----------------------------------------------------- Ежедневные нужды ------------------------------------------------------------
+country_event = {
+	id = 777712
+	trigger = {
+		civilized = yes
+		NOT = { has_country_modifier = needs1 }
+		year = 1836
+		NOT = {
+			year = 1837
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+ fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs1
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777713
+	trigger = {
+		civilized = yes
+		year = 1841
+		NOT = { has_country_modifier = needs1 }
+		NOT = { has_country_modifier = needs2 }
+		NOT = {
+			year = 1842
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs2
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777714
+	trigger = {
+		civilized = yes
+		year = 1846
+		NOT = { has_country_modifier = needs2 }
+		NOT = { has_country_modifier = needs3 }
+		NOT = {
+			year = 1847
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs3
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777715
+	trigger = {
+		civilized = yes
+		year = 1851
+		NOT = { has_country_modifier = needs3 }
+		NOT = { has_country_modifier = needs4 }
+		NOT = {
+			year = 1852
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs4
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777716
+	trigger = {
+		civilized = yes
+		year = 1856
+		NOT = { has_country_modifier = needs4 }
+		NOT = { has_country_modifier = needs5 }
+		NOT = {
+			year = 1857
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs5
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777717
+	trigger = {
+		civilized = yes
+		year = 1861
+		NOT = { has_country_modifier = needs5 }
+		NOT = { has_country_modifier = needs6 }
+		NOT = {
+			year = 1862
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs6
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777718
+	trigger = {
+		civilized = yes
+		year = 1866
+		NOT = { has_country_modifier = needs6 }
+		NOT = { has_country_modifier = needs7 }
+		NOT = {
+			year = 1867
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs7
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777719
+	trigger = {
+		civilized = yes
+		year = 1871
+		NOT = { has_country_modifier = needs7 }
+		NOT = { has_country_modifier = needs8 }
+		NOT = {
+			year = 1872
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs8
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777720
+	trigger = {
+		civilized = yes
+		year = 1876
+		NOT = { has_country_modifier = needs8 }
+		NOT = { has_country_modifier = needs9 }
+		NOT = {
+			year = 1877
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ months = 2
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs9
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777721
+	trigger = {
+		civilized = yes
+		year = 1881
+		NOT = { has_country_modifier = needs9 }
+		NOT = { has_country_modifier = needs10 }
+		NOT = {
+			year = 1882
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs10
+			duration = 1760
+		}
+		clr_country_flag = pora_kopat
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777722
+	trigger = {
+		civilized = yes
+		year = 1886
+		NOT = { has_country_modifier = needs10 }
+		NOT = { has_country_modifier = needs11 }
+		NOT = {
+			year = 1887
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs11
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777723
+	trigger = {
+		civilized = yes
+		year = 1891
+		NOT = { has_country_modifier = needs11 }
+		NOT = { has_country_modifier = needs12 }
+		NOT = {
+			year = 1892
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs12
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777724
+	trigger = {
+		civilized = yes
+		year = 1896
+		NOT = { has_country_modifier = needs12 }
+		NOT = { has_country_modifier = needs13 }
+		NOT = {
+			year = 1897
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs13
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777725
+	trigger = {
+		civilized = yes
+		year = 1901
+		NOT = { has_country_modifier = needs13 }
+		NOT = { has_country_modifier = needs14 }
+		NOT = {
+			year = 1902
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs14
+			duration = 1760
+		}
+		clr_country_flag = pora_kopat
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777726
+	trigger = {
+		civilized = yes
+		year = 1906
+		NOT = { has_country_modifier = needs14 }
+		NOT = { has_country_modifier = needs15 }
+		NOT = {
+			year = 1907
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs15
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777727
+	trigger = {
+		civilized = yes
+		year = 1911
+		NOT = { has_country_modifier = needs15 }
+		NOT = { has_country_modifier = needs16 }
+		NOT = {
+			year = 1912
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs16
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777728
+	trigger = {
+		civilized = yes
+		year = 1916
+		NOT = { has_country_modifier = needs16 }
+		NOT = { has_country_modifier = needs17 }
+		NOT = {
+			year = 1917
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs17
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777729
+	trigger = {
+		civilized = yes
+		year = 1921
+		NOT = { has_country_modifier = needs17 }
+		NOT = { has_country_modifier = needs18 }
+		NOT = {
+			year = 1922
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs18
+			duration = 1760
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	id = 777730
+	trigger = {
+		civilized = yes
+		year = 1926
+		NOT = { has_country_modifier = needs18 }
+		NOT = { has_country_modifier = needs19 }
+		NOT = {
+			year = 1927
+			}
+ }
+	mean_time_to_happen = { # этот блок регулирует вероятность срабатывания евента
+ days = 1
+ }
+	title = "EVTNAME777712"
+	desc = "EVTDESC777712"
+	picture = "greatpowers"
+
+	fire_only_once = no
+
+	option = {
+		name = "EVTOPTA777712"
+		add_country_modifier = {
+			name = needs19
+			duration = 3600
+		}
+		
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+#country_event = {
+		
+	#id =101101 #sattelit Grecia
+	#trigger = {
+		#tag = TUR
+		#year = 1855 
+		#exists = GRE
+		#GRE = {
+		#is_vassal = no}
+	#}
+	#mean_time_to_happen = {
+		#months = 1
+	#}
+    #option = {
+	#name = "EVTOPTA101101"
+	#create_vassal = GRE
+	#}
+	#title = "EVTNAME101101"
+	#desc = "EVTDESC101101"
+	#picture = "greek_osman"
+#}
+country_event = {
+		
+	id =101102 #vibor
+	is_triggered_only = yes
+	 
+    option = {
+	set_country_flag = tech_shkola1
+	name = "EVTOPTA10112"
+	 
+	}
+	 option = {
+	 set_country_flag = tech_shkola2
+	name = "EVTOPTB10112"
+	 
+	}
+	 option = {
+	 set_country_flag = tech_shkola3
+	name = "EVTOPTC10112"
+	 
+	}
+	title = "EVTNAME101102"
+	desc = "EVTDESC101102"
+	picture = "greek_osman"
+}
+country_event = {
+		
+	id =101103 #tech shkola 1
+	is_triggered_only = yes
+	 
+    option = {
+	name = "EVTOPTA101103"
+	activate_technology = mechanical_production
+	activate_technology = ad_hoc_money_bill_printing
+	activate_technology = stock_exchange
+	activate_technology = experimental_railroad 
+	activate_technology = early_railroad 
+	 
+	}
+	title = "EVTNAME101103"
+	desc = "EVTDESC101103"
+	picture = "greek_osman"
+}
+country_event = {
+		
+	id =101104 #tech shkola 2
+	is_triggered_only = yes
+    option = {
+	name = "EVTOPTA101104"
+	 activate_technology = freedom_of_trade
+	 activate_technology = idealism
+	 activate_technology = ideological_thought
+	 activate_technology = state_n_government
+	 activate_technology = army_professionalism
+	  
+	}
+	title = "EVTNAME101104"
+	desc = "EVTDESC101104"
+	picture = "greek_osman"
+}
+country_event = {
+		
+	id =101105 #tech shkola 3
+	is_triggered_only = yes
+	 
+    option = {
+	name = "EVTOPTA101105"
+	activate_technology = army_professionalism
+	activate_technology = military_plans
+	activate_technology = ideological_thought
+	activate_technology = medicine
+	activate_technology = mechanical_production
+	 
+	years_of_research = 0.5
+	 
+	}
+	title = "EVTNAME101105"
+	desc = "EVTDESC101105"
+	picture = "greek_osman"
+
+}
+country_event = {
+		
+	id =1011015 #raskopka 1
+	trigger = {
+	 
+	 or = {
+	and = {
+	has_country_flag = kopaem
+	has_country_flag = nam_ne_meshaut}
+	and = {
+	year = 1900
+	any_owned_province = {
+				has_province_modifier = raskopka
+			}
+	}
+	
+	}
+	 
+	}
+	
+	mean_time_to_happen = {
+	days = 270
+	}
+	 
+    option = {
+	name = "EVTOPTA1011015"
+	random_list = {
+	50 = {
+	random_owned = {
+	limit = {
+	has_province_modifier = raskopka
+	}
+	 trade_goods = iron
+	 remove_province_modifier = raskopka}
+	 clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	 }
+	 50 = { prestige = -5
+	 clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	 }
+	 }
+	  
+	}
+	option = {
+	name = "EVTOPTB1011015"
+	prestige = -10
+	money = 250000
+	  clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	}
+	option = {
+	name = "EVTOPTC1011015"
+	money = -500000
+	random_owned = {
+	limit = {
+	has_province_modifier = raskopka
+	}
+	 trade_goods = iron
+	 remove_province_modifier = raskopka}
+	  clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	}
+	 
+	title = "EVTNAME1011015"
+	desc = "EVTDESC1011015"
+	picture = "greek_osman"
+}
+
+		country_event = {
+	id =1011016 #raskopka 2
+	is_triggered_only = yes
+	 
+    option = {
+	name = "EVTOPTA1011016"
+	 set_country_flag = kopaem
+	  random_country = {
+	 limit = {
+    neighbour = THIS
+      	
+    
+	 }
+	 country_event = 1011017
+	 }
+	}
+	
+	option = {
+	name = "EVTOPTB1011016"
+	prestige = -10
+	 money = 250000
+	}
+	title = "EVTNAME1011016"
+	desc = "EVTDESC1011016"
+	picture = "greek_osman"
+}
+country_event = {
+	id =1011017 #raskopka meshat
+	is_triggered_only = yes
+	 
+    option = {
+	name = "EVTOPTA1011017"
+	  from = {
+	  set_country_flag = nam_meshaut
+	  prestige = -5
+	  }
+	  add_country_modifier = {
+	  name = meshaem_kopat
+	  duration = 180
+	  
+	  }
+	 
+	}
+	
+	option = {
+	name = "EVTOPTB1011017"
+	prestige = -10
+	 from ={
+	 set_country_flag = nam_ne_meshaut
+	 }
+	 ai_chance = {
+ factor = 1
+ }
+	}
+	title = "EVTNAME1011017"
+	desc = "EVTDESC1011017"
+	picture = "greek_osman"
+}
+ country_event = {
+		
+	id =1011018 #raskopka_meshaut
+	trigger = {
+ 
+	and = {
+	has_country_flag = kopaem
+	has_country_flag = nam_meshaut }
+	 
+	}
+	
+	mean_time_to_happen = {
+	days = 365
+	}
+	 
+    option = {
+	name = "EVTOPTA1011018"
+	random_list = {
+	25 = {
+	random_owned = {
+	limit = {
+	has_province_modifier = raskopka
+	}
+	 trade_goods = iron
+	 remove_province_modifier = raskopka}
+	 clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	 }
+	 75 = { prestige = -5
+	 clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	 }
+	 }
+	  ai_chance = {
+ factor = 1
+ }
+	}
+	option = {
+	name = "EVTOPTB1011018"
+	prestige = -10
+	money = 250000
+	  clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	}
+	option = {
+	name = "EVTOPTC1011018"
+	money = -1000000
+	random_owned = {
+	limit = {
+	has_province_modifier = raskopka
+	}
+	 trade_goods = iron
+	 remove_province_modifier = raskopka}
+	  clr_country_flag = kopaem
+	 clr_country_flag = nam_meshaut
+	 clr_country_flag = nam_ne_meshaut
+	}
+	 
+	title = "EVTNAME1011018"
+	desc = "EVTDESC1011018"
+	picture = "greek_osman"
+}	
+country_event = {
+	id =1011201 #osnovat_kompaniu
+	is_triggered_only = yes
+	  	
+	option = {
+	name = "EVTOPTA1011201"
+	prestige = 25
+	 set_country_flag = close_company  
+	  sphere_owner = {
+	add_country_modifier = {
+	name = cost_of_inv_4
+	duration = 700
+	}
+	}
+	 set_variable = {
+	which = company_level
+	value = 1
+}  
+	}
+	title = "EVTNAME1011201"
+	desc = "EVTDESC1011201"
+	picture = "greek_osman"
+}
+province_event = {
+	id =1011202 #lvl 1
+	trigger = {
+	trade_goods = oil
+	not = {
+	has_province_modifier = oil_drill
+	}
+	owner = {
+	check_variable = {
+       which = company_level
+       value = 0.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+}
+	
+	}
+	 mean_time_to_happen = {
+	 months = 24
+	 }
+	 
+    option = {
+	name = "EVTOPTA1011202"
+	   
+	   add_province_modifier = {
+	   name = oil_drill
+	   duration = -1
+	   }
+	   
+ 
+	  
+	 
+	}
+ 
+	title = "EVTNAME1011202"
+	desc = "EVTDESC1011202"
+ 
+}
+province_event = {
+	id =1011203  
+	 trigger = {
+	 trade_goods = oil
+	 not = {
+	 has_province_modifier = oil_migracia
+	 }
+	 owner = {
+	 check_variable = {
+       which = company_level
+       value = 1.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+}
+	 }
+	 mean_time_to_happen = {
+	 months = 15
+	 }
+	 
+    option = {
+	name = "EVTOPTA1011203"	
+	add_province_modifier = {
+	  name = oil_migracia
+	  duration = -1
+	}
+ 
+ }
+ 
+	title = "EVTNAME1011203"
+	desc = "EVTDESC1011203"
+	 
+}
+province_event = {
+	id =1011204
+	 trigger = {
+	 trade_goods = oil
+	  is_accepted_culture = no
+	  is_state_capital = no
+	  owner = {
+	 check_variable = {
+       which = company_level
+       value = 2.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+}
+	 }
+	 mean_time_to_happen = {	
+	 months = 15
+	 }
+	 
+    option = {
+	name = "EVTOPTA1011204"	
+	 assimilate = yes
+ 
+ }
+ 
+	title = "EVTNAME1011204"
+	desc = "EVTDESC1011204"
+	 
+}
+country_event = {
+	id =1011205 #fuel boost
+	trigger = {
+	not = {
+	has_country_modifier = fuel_boost
+	}
+	check_variable = {
+       which = company_level
+       value = 2.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+	}
+	mean_time_to_happen = {months = 12}
+	  	
+	option = {
+	name = "EVTOPTA1011205"
+	prestige = 5
+    sphere_owner = {
+	add_country_modifier = {
+	name = fuel_boost
+	duration = -1
+	}
+	}
+	add_country_modifier = {
+	name = fuel_boost
+	duration = -1
+	}
+	}
+	title = "EVTNAME1011205"
+	desc = "EVTDESC1011205"
+	picture = "greek_osman"
+}
+country_event = {
+	id = 10112061 #per_mod
+	title = "EVTNAME10112061"
+	desc = "EVTDESC10112061"
+	picture = "greek_osman"
+trigger = {
+     tag = IGM
+	not = {
+	has_country_flag = northvssouth
+	}
+	check_variable = {
+       which = company_level
+       value = 2.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+has_country_modifier = fuel_boost
+	}
+		mean_time_to_happen = {
+		months = 60
+		}
+	 option = {
+      name = "EVTOPTA10112061"
+	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = oil
+		trade_goods = timber
+		trade_goods = coal
+		trade_goods = iron
+		}
+		}
+		life_rating = 2
+	  }
+	  	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = tea
+		trade_goods = wool
+		trade_goods = dye
+		trade_goods = cotton
+		trade_goods = grain
+		trade_goods = fruit
+		trade_goods = cattle
+		trade_goods = fish
+		}
+		}
+		life_rating = -2
+	  }
+	 }
+	 option = {
+      name = "EVTOPTB10112061"
+	   any_owned = {
+	    limit = {
+		or = {
+		trade_goods = oil
+		trade_goods = timber
+		trade_goods = coal
+		trade_goods = iron
+		}
+		}
+		life_rating = -2
+	  }
+	  	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = tea
+		trade_goods = wool
+		trade_goods = dye
+		trade_goods = cotton
+		trade_goods = grain
+		trade_goods = fruit
+		trade_goods = cattle
+		trade_goods = fish
+		}
+		}
+		life_rating = 4
+	  }
+	 }
+	}
+       country_event = {
+	id =1011206 #closed_company
+	trigger = {
+	or = {
+	and = {
+	check_variable = {
+       which = company_level
+       value = 1
+}
+ has_country_flag = close_company
+ part_of_sphere = no
+ is_greater_power = no
+ }
+ and = {
+ not = {tag = ARA}
+not = {tag = IGM}
+ 
+ has_country_modifier = fuel_boost
+	 
+	 not = {
+	 is_sphere_leader_of = ARA}
+	 not = {
+	 is_sphere_leader_of = IGM}
+	 
+ }
+	}
+	}
+	  	mean_time_to_happen = {
+		months = 12
+		}
+	option = {
+	name = "EVTOPTA1011206"
+	prestige = -30
+	clr_country_flag = close_company
+	change_variable = {
+	which = company_level
+	value = -3
+	}
+    any_owned = {
+	limit = {
+	trade_goods = oil
+	}
+	remove_province_modifier = oil_drill
+	remove_province_modifier = oil_migracia
+	 
+	}
+	 
+	remove_country_modifier = fuel_boost
+	}
+	title = "EVTNAME1011206"
+	desc = "EVTDESC1011206"
+	picture = "greek_osman"
+}
+province_event = {
+	id =1011207
+	 trigger = {
+	 
+	  has_province_modifier = assim_core
+	  
+	 }
+	 mean_time_to_happen = {	
+	 months = 12
+	 }
+	 
+    option = {
+	name = "EVTOPTA1011207"	
+	remove_province_modifier = assim_core
+	 assimilate = yes
+	 farmers = {
+	 reduce_pop = 0.7
+	 }
+	 labourers = {
+	 reduce_pop = 0.7
+	 }
+ 
+ }
+ 
+	title = "EVTNAME1011207"
+	desc = "EVTDESC1011207"
+	 
+}
+country_event = {
+	id =1011208
+	picture = "greek_osman"
+	  is_triggered_only = yes
+	  
+	 
+    option = {
+	name = "EVTOPTA1011208"	
+	 TUR = {country_event = 1011209}
+	 
+ 
+ }
+  option = {
+	name = "EVTOPTB1011208"	
+	 prestige = -10
+ }
+ 
+	title = "EVTNAME1011208"
+	desc = "EVTDESC1011208"
+	 
+}
+country_event = {
+
+	id =1011209
+	  is_triggered_only = yes
+      picture = "greek_osman"	  
+	 
+    option = {
+	name = "EVTOPTA1011209"	
+	  
+			935 = {secede_province = ARA}
+			932 = {secede_province = IGM}
+			 TUR_935 = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+	 TUR_923 = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+	 TUR_931  = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+		
+ }
+  option = {
+	name = "EVTOPTB1011209"	
+	 prestige = 30
+	 EGY_903 = {add_core = ARA}
+	 935 = {add_core = ARA}
+	  932 = {add_core = IGM}
+	 TUR_935 = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+	 TUR_923 = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+	 TUR_931  = { 
+			  add_province_modifier = {
+			 name = assim_core
+			 duration = -1}}
+	 
+ }
+ 
+	title = "EVTNAME1011209"
+	desc = "EVTDESC1011209"
+	 
+}
+country_event = {
+
+	id =1011210
+	 trigger = {
+	 not = {year = 1890}
+	 or = {tag = GER
+	 tag = KUK
+	 tag = FRA
+	 tag = ITA}
+	 not = {accepted_culture = swiss}
+	 not = {exists = SWI}
+	 or = {
+	 and = {
+	 owns = 603
+	 not = {owns = 605}
+	 }
+	  and = {
+	 owns = 605
+	 not = {owns = 603}
+	 }
+	 }
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011210"	
+	 add_accepted_culture = swiss 
+		 
+		
+ }
+  
+ 
+	title = "EVTNAME1011210"
+	desc = "EVTDESC1011210"
+	 
+}
+country_event = {
+
+	id =1011211
+	  trigger = {
+	   not = {year = 1890}
+	 or = {tag = GER
+	 tag = KUK
+	 tag = FRA
+	 tag = ITA}
+	 accepted_culture = swiss
+	 not = {exists = SWI}
+	 or = {
+	 and = {
+	 not = {owns = 603}
+	 not = {owns = 605}
+	 }
+	  and = {
+	 owns = 605
+	 owns = 603
+	 }
+	 }
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011211"	
+	 remove_accepted_culture = swiss 
+		 
+		
+ }
+   
+ 
+	title = "EVTNAME1011211"
+	desc = "EVTDESC1011211"
+	 
+}
+country_event = {
+
+	id =1011212
+	  trigger = {
+	  OR = {
+	  tag = KUK
+	  tag = ITA
+	  }
+	   year = 1880
+	   729 = {
+	   not = {
+	   has_province_modifier = Arsenal_ven}
+	   }
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011212"	
+	729 = { add_province_modifier = {
+	 name = Arsenal_ven
+	 duration = -1
+	 }
+	 }
+ }
+   
+ 
+	title = "EVTNAME1011212"
+	desc = "EVTDESC1011212"
+	 
+}
+
+country_event = {
+
+	id =10112121
+	  trigger = {
+	  tag = IGM
+	   year = 1880
+	   not = {year = 1914}
+	   war = yes
+	   war_exhaustion = 10
+	   NOT = {has_country_flag = unluck_event}
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 4
+	 }
+    option = {
+	name = "EVTOPTA10112121"	
+	set_country_flag = unluck_event
+	any_owned = {
+	limit = {
+	terrain = mountain
+	}
+	infrastructure  = 1
+	fort = 1
+	}
+ }
+   option = {
+   set_country_flag = unluck_event
+	name = "EVTOPTB10112121"
+	prestige = 40		
+	} 
+ 
+	title = "EVTNAME10112121"
+	desc = "EVTDESC10112121"
+	 
+}
+
+province_event = {
+	
+	id = 999121
+
+	trigger = {
+	owner = {
+        tag = SAF}
+	 
+		trade_goods = precious_metal
+		not = { has_province_modifier = blood_gold }
+		
+	}
+	title = "EVTNAME999121"
+	desc = "EVTDESC999121"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA999121"
+	 
+	  add_province_modifier = {
+	  name = blood_gold
+	  duration = -1
+	  }
+	  
+	}
+}
+
+country_event = {
+	
+	id = 9991211
+
+	 is_triggered_only = yes
+	title = "EVTNAME9991211"
+	desc = "EVTDESC9991211"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA9991211"
+	 MEX = {money = 100000}
+	 2190 = {secede_province = MEX}
+	  
+	}
+	option = {
+		name = "EVTOPTB9991211"
+	  MEX = {money = 100000}
+	  money = -100000
+	  
+	}
+	option = {
+		name = "EVTOPTC9991211"
+	  MEX = {prestige = -20}
+	  2190 = {add_core = THIS}
+	  
+	}
+}
+
+country_event = {
+	
+	id = 99912112
+
+	trigger = {
+	tag = TUR
+	NOT = {has_country_flag = bosfordone}
+	}
+	
+	title = "EVTNAME99912112"
+	desc = "EVTDESC99912112"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA99912112"
+	 	enable_canal = 5
+			enable_canal = 4
+            add_country_modifier = {
+				name = stambul
+				duration = 100000
+			}
+			prestige = 20
+	 
+	  set_country_flag = bosfordone
+	}
+
+}
+
+country_event = {
+	picture = "Scandinavia"
+	id = 99912113
+    fire_only_once = yes
+	trigger = {
+	tag = SCA
+	owns = 349
+	}
+	 mean_time_to_happen = {
+	 months = 4
+	 }
+	title = "EVTNAME99912113"
+	desc = "EVTDESC99912113"
+
+	option = {	
+		name = "EVTOPTA99912113"
+	 	 add_accepted_culture = estonian
+	}
+
+}
+
+country_event = {
+	picture = "Celebration"
+	id = 99912114
+    fire_only_once = yes
+	trigger = {
+	tag = GER
+	 owns = 364	
+	}
+	 mean_time_to_happen = {
+	 months = 4
+	 }
+	title = "EVTNAME99912114"
+	desc = "EVTDESC99912114"
+
+	option = {
+		name = "EVTOPTA99912114"
+	    add_accepted_culture = lithuanian
+	}
+
+}
+
+country_event = {
+	picture = "Celebration"
+	id = 99912115
+    is_triggered_only = yes
+	title = "EVTNAME99912115"
+	desc = "EVTDESC99912115"
+
+	option = {
+		name = "EVTOPTA99912115"
+	    clr_country_flag = changed_army2
+	}
+
+} 
+	
+ 	
+	

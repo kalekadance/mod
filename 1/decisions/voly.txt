@@ -1,0 +1,137 @@
+
+political_decisions = {
+	opit_boic  = {
+		potential = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		 }
+	     tag = ENG
+			NOT = {
+				has_country_flag = opit_dla_Indii
+			}
+		}
+		allow = {
+			money = 2200000
+		}
+		effect = {
+		  set_country_flag = opit_dla_Indii
+		    HND = {
+			    add_country_modifier = {
+                name = opit_v_boic_ot_eng
+				duration = -1
+                }
+			   }	
+		    EIC = {
+			    add_country_modifier = {
+                name = opit_v_boic_ot_eng
+				duration = -1
+                }
+		    }
+				money = -2000000
+		}
+    }
+
+	inzeneri_eng_v_boic = {
+		potential = {
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+			NOT = {
+				has_country_flag = inzeneri_eng_v_boic
+			}
+		}
+		allow = {
+		   ENG = {
+		   semi_automatization = 1
+		   }
+			money = 520000
+		}
+		effect = {
+		        add_country_modifier = {
+                name = inzeneri_eng_v_boic
+				duration = -1
+				}
+		  set_country_flag = inzeneri_eng_v_boic
+		   money = -500000
+		}
+    }
+	
+	integratia_boic_v_eng = {
+		potential = {
+		 year = 1845
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+			NOT = {
+				has_country_flag = integratia_boic_v_eng
+			}
+		}
+		allow = {
+		NOT = {
+		industrial_score = 100
+		}
+		}
+		effect = {
+		        remove_country_modifier = gudbay_eng1
+		        add_country_modifier = {
+                name = integratia_boic_v_eng
+				duration = -1
+				}
+		  set_country_flag = integratia_boic_v_eng
+		}
+    }
+	
+	gudbay_eng = {
+		potential = {
+		has_country_flag = integratia_boic_v_eng
+		 year = 1870
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+		}
+		allow = {
+		}
+		effect = {
+					sphere_owner = {
+				 diplomatic_influence = {
+				 who = THIS
+				 value = -200
+				 }
+			    }
+                add_country_modifier = {
+                name = gudbay_eng1
+				duration = -1
+				}
+		        add_country_modifier = {
+                name = gudbay_eng2
+				duration = 1825
+				}
+
+		}
+    }
+	
+	
+}
+

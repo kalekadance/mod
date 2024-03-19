@@ -1,0 +1,322 @@
+country_event = {
+	id = 18905
+	title = "EVTNAME18905"
+	desc = "EVTDESC18905"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+		
+	option = {
+		name = "EVTOPTA18905"
+		money = -100000
+		ENG = {
+				country_event = { id=18906 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18905"
+		money = -100000
+		RUS = {
+				country_event = { id=18907 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTC18905"
+		money = -100000
+		USA = {
+				country_event = { id=18908 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTD18905"
+		money = -100000
+		GER = {
+				country_event = { id=18909 days=0 }
+		}
+		PRU = {
+				country_event = { id=18909 days=0 }
+		}
+		NGF = {
+				country_event = { id=18909 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTE18905"
+		money = -100000
+		FRA = {
+				country_event = { id=18910 days=0 }
+		}
+	}
+}
+country_event = {
+	id = 18906
+	title = "EVTNAME18906"
+	desc = "EVTDESC18906"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18906"
+		money = 100000
+		add_country_modifier = {
+			name = cost_of_inv_3
+			duration = 365
+		}
+		TUR = {
+				country_event = { id=18911 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18906"
+		TUR = {
+				country_event = { id=18912 days=0 }
+		}
+	}
+}
+country_event = {
+	id = 18907
+	title = "EVTNAME18907"
+	desc = "EVTDESC18907"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18907"
+		money = 100000
+		add_country_modifier = {
+			name = cost_of_inv_3
+			duration = 365
+		}
+		TUR = {
+				country_event = { id=18913 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18907"
+		TUR = {
+				country_event = { id=18912 days=0 }
+			}
+	}
+}
+country_event = {
+	id = 18908
+	title = "EVTNAME18908"
+	desc = "EVTDESC18908"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18908"
+		money = 100000
+		add_country_modifier = {
+			name = cost_of_inv_3
+			duration = 365
+		}
+		TUR = {
+				country_event = { id=18914 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18908"
+		TUR = {
+				country_event = { id=18912 days=0 }
+		}
+	}
+}
+country_event = {
+	id = 18909
+	title = "EVTNAME18909"
+	desc = "EVTDESC18909"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18909"
+		money = 100000
+		add_country_modifier = {
+			name = cost_of_inv_3
+			duration = 365
+		}
+		TUR = {
+				country_event = { id=18915 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18909"
+		TUR = {
+				country_event = { id=18912 days=0 }
+		}
+	}
+}
+country_event = {
+	id = 18910
+	title = "EVTNAME18910"
+	desc = "EVTDESC18910"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18910"
+		money = 100000
+		add_country_modifier = {
+			name = cost_of_inv_3
+			duration = 365
+		}
+		TUR = {
+				country_event = { id=18916 days=0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB18910"
+		TUR = {
+				country_event = { id=18912 days=0 }
+		}
+	}
+}
+country_event = {
+	id = 18911
+	title = "EVTNAME18911"
+	desc = "EVTDESC18911"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18911"
+		add_country_modifier = {
+				name = eng_investments
+				duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 18912
+	title = "EVTNAME18912"
+	desc = "EVTDESC18912"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18912"
+		prestige = -5
+	}
+}
+country_event = {
+	id = 18913
+	title = "EVTNAME18913"
+	desc = "EVTDESC18913"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18913"
+		add_country_modifier = {
+				name = rus_investiments
+				duration = 1825
+			}
+	}
+}
+country_event = {
+	id = 18914
+	title = "EVTNAME18914"
+	desc = "EVTDESC18914"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18914"
+		add_country_modifier = {
+				name = usa_investiments
+				duration = 1825
+			}
+	}
+}
+country_event = {
+	id = 18915
+	title = "EVTNAME18915"
+	desc = "EVTDESC18915"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18915"
+		add_country_modifier = {
+				name = ger_investiments
+				duration = 1825
+			}
+	}
+}
+country_event = {
+	id = 18916
+	title = "EVTNAME18916"
+	desc = "EVTDESC18916"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	option = {
+		name = "EVTOPTA18916"
+		add_country_modifier = {
+			name = fra_investiments
+			duration = 1825
+		}
+	}
+}
+country_event = {
+	id = 18917
+	title = "EVTNAME18917"
+	desc = "EVTDESC18917"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	option = {
+		name = "EVTOPTA18917"
+		add_country_modifier = {
+				name = tur_war_warfare_army
+				duration = 1825
+		}
+	}
+	option = {
+		name = "EVTOPTB18917"
+		add_country_modifier = {
+				name = tur_war_warfare_navy
+				duration = 1825
+		}
+	}
+}

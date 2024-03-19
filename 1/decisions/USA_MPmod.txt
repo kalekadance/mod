@@ -1,0 +1,25 @@
+political_decisions = {
+	liberia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = USA
+			NOT = {
+				has_global_flag = liberia_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1888
+			owns = 1887
+			war = no
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = liberia_conquered
+			THIS = {
+				country_event = { id=19001 days=0 }
+			}
+		}
+	}
+}

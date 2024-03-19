@@ -1,0 +1,175 @@
+political_decisions = {
+	iron_in_nagpur = {
+		picture = expand_motala_verkstad
+		potential = {
+			owns = 1277
+			OR = {
+				tag = EIC
+				tag = HND
+				tag = MUG
+				tag = IGM
+			}
+			NOT = {
+				has_global_flag = iron_in_nagpur_yes
+			}
+		}
+		allow = {
+			money = 1100000
+			cheap_iron = 1
+		}
+		effect = {
+			money = -1000000
+			1277 = { trade_goods = iron }
+			prestige = 5
+			set_global_flag = iron_in_nagpur_yes
+		}
+	}
+	famine_ind_1 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 1255
+			year = 1870
+			has_country_modifier = famine_la_india
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_1_yes
+			}
+		}
+		allow = {
+			money = 1100000
+		}
+		effect = {
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_ind_1_yes
+			remove_country_modifier = famine_la_india
+			add_country_modifier = {
+					name = famine_war_first_step
+					duration = -1
+			}
+			1255 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_ind_2 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 2566
+			has_global_flag = famine_ind_1_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_2_yes
+			}
+		}
+		allow = {
+			money = 2100000
+			year = 1871
+		}
+		effect = {
+			money = -2000000
+			prestige = 5
+			set_global_flag = famine_ind_2_yes
+			remove_country_modifier = famine_war_first_step
+			add_country_modifier = {
+					name = famine_war_second_step
+					duration = -1
+			}
+			2566 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_ind_3 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 1262
+			owns = 1263
+			has_global_flag = famine_ind_2_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_3_yes
+			}
+		}
+		allow = {
+			money = 3100000
+			year = 1872
+			OR = {
+				owns = 1307
+				owns = 1281
+			}
+		}
+		effect = {
+			money = -2000000
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_ind_3_yes
+			remove_country_modifier = famine_war_second_step
+			add_country_modifier = {
+					name = famine_war_third_step
+					duration = -1
+			}
+			1262 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+			1263 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_war_end_1 = {
+		picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_ind_3_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_war_end_1_yes
+			}
+		}
+		allow = {
+			money = 5100000
+			owns = 1280
+			year = 1873
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_war_end_1_yes
+			THIS = {
+				country_event = { id=18943 days=0 }
+			}
+			1280 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+}

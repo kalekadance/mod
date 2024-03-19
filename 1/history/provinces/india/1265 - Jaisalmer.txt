@@ -1,0 +1,5 @@
+owner = SIN
+controller = SIN
+add_core = IGM
+trade_goods = iron
+life_rating = 35 

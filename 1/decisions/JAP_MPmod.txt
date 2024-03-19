@@ -1,0 +1,367 @@
+political_decisions = {
+	korea_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = korea_conquered
+				 
+			}
+		}
+		
+		allow = {
+			owns = 1624
+			owns = 1619
+			owns = 1626
+			owns = 1632
+		}
+		
+		effect = {
+			prestige = 5
+			add_country_modifier = {
+				name = korea_yes
+				duration = -1
+			}
+			set_global_flag = korea_conquered
+		}
+	}
+	manchu_invasion_fast = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = manchu_conquered
+				year = 1845
+			}
+		}
+		
+		allow = {
+			owns = 1555
+			owns = 1619
+			owns = 1624
+		}
+		
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = fast_manchu
+				duration = -1
+			}
+			set_global_flag = manchu_conquered
+		}
+	}
+	manchu_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_global_flag = korea_conquered
+			year = 1845
+			NOT = {
+				has_global_flag = manchu_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1555
+		}
+		
+		effect = {
+			prestige = 10
+			add_country_modifier = {
+				name = not_fast_manchu
+				duration = -1
+			}
+			set_global_flag = manchu_conquered
+		}
+	}
+	kong_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_global_flag = manchu_conquered
+			NOT = {
+				has_global_flag = kong_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1380
+			owns = 1375
+			owns = 1369
+		}
+		
+		effect = {
+			prestige = 10
+			set_global_flag = kong_conquered
+		}
+	}
+	taiwan_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_global_flag = manchu_conquered
+			NOT = {
+				has_global_flag = taiwan_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1485
+			owns = 2562
+			year = 1860
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = taiwan_conquered
+			2521 = { add_core = JAP	}
+			658 = {	add_core = JAP }
+		}
+	}
+	hawaii_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_global_flag = taiwan_conquered
+			year = 1870
+			NOT = {
+				has_global_flag = hawaii_conquered
+			}
+		}
+		
+		allow = {
+			owns = 658
+			year = 1880
+		}
+		
+		effect = {
+			prestige = 50
+			set_global_flag = hawaii_conquered
+			1649 = {
+				add_province_modifier = {
+					name = japan_werft
+					duration = -1
+				}
+			}
+			THIS = {
+				country_event = { id=18902 days=0 }
+			}
+		}
+	}
+	russia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_country_flag = russia_way
+			has_global_flag = kong_conquered
+			year = 1880
+			NOT = {
+				has_global_flag = russia_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1082
+			owns = 1083
+			owns = 2617
+			owns = 1084
+			owns = 1085
+			owns = 1086
+			owns = 1087
+			owns = 1088
+			owns = 1089
+		}
+		
+		effect = {
+			prestige = 50
+			 
+			set_global_flag = russia_conquered
+			set_country_flag = japanease_banzai
+		}
+	}
+	phillipines_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_country_flag = sea_way
+			has_global_flag = kong_conquered
+			year = 1880
+			NOT = {
+				has_global_flag = phillipines_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1456
+			owns = 1455
+			owns = 1457
+			owns = 1458
+			owns = 1461
+			owns = 2565
+			owns = 1460
+			owns = 1459
+			owns = 1463
+			owns = 1462
+			owns = 1464
+		}
+		
+		effect = {
+			prestige = 50
+			 
+			set_global_flag = phillipines_conquered
+			THIS = {
+				country_event = { id=18903 days=0 }
+			}
+		}
+	}
+	indonesia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			has_country_flag = cont_sea
+			NOT = {
+				has_global_flag = indonesia_conquered
+			}
+		}
+		
+		allow = {
+			owns = 1393
+			owns = 1423
+			owns = 1432
+			owns = 1384
+			year = 1905
+		}
+		
+		effect = {
+			prestige = 100
+			set_global_flag = indonesia_conquered
+			set_country_flag = japanease_banzai
+		}
+	}
+	toyota_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = JAP
+			year = 1885
+			owns = 1671
+			owns = 1672
+			NOT = {
+				has_global_flag = toyota_corp_expanded
+			}
+		}
+		
+		allow = {
+			combustion_engine = 1
+			1671 = {
+				state_scope = {
+					has_building = automobile_factory
+					has_building = steel_factory
+				}
+			}
+			1672 = {
+				state_scope = {
+					has_building = automobile_factory
+					has_building = steel_factory
+				}
+			}
+			money = 550000
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = toyota_corp_work
+				duration = -1
+			}
+			prestige = 5
+			set_global_flag = toyota_corp_expanded
+			money = -550000
+		}
+	}
+	mitsubishi_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = JAP
+			year = 1898
+			has_global_flag = manchu_conquered
+			NOT = {
+				has_global_flag = mitsubishi_corp_expanded
+			}
+		}
+		
+		allow = {
+			integral_rail_system = 1
+			money = 1100000
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = mitsubishi_corp_work
+				duration = -1
+			}
+			prestige = 5
+			money = -1000000
+			set_global_flag = mitsubishi_corp_expanded
+		}
+	}
+	sanction_on = {
+		potential = {
+			tag = USA
+			has_global_flag = hawaii_conquered
+			NOT = {
+				has_global_flag = sanction_on_yes
+				has_global_flag = sanction_off_yes
+			}
+		}
+		allow = {
+			money = 100000
+		}
+		
+		effect = {
+			money = -100000
+			set_global_flag = sanction_on_yes
+		}
+	}
+	sanction_off = {
+		potential = {
+			tag = USA
+			has_global_flag = sanction_on_yes
+		}
+		allow = {
+			money = 100000
+		}
+		
+		effect = {
+			money = -100000
+			prestige = -50
+			clr_global_flag = sanction_on_yes
+			set_global_flag = sanction_off_yes
+		}
+	}
+	build_yamato = {
+	potential = {
+			tag = JAP
+			year = 1900
+			has_global_flag = taiwan_conquered
+			NOT = {
+				has_country_flag = yamato_built
+			}
+		}
+		allow = {
+			money = 50000
+			steam_turbine_ships = 1
+			high_sea_battle_fleet = 1
+		}
+		
+		effect = {
+			set_country_flag = yamato_built
+			money = -50000
+			prestige = 5
+			1649 = {
+				sub_unit = {
+					type = dreadnought
+					value = current
+				}
+			}	
+		}
+	}
+}	

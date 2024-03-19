@@ -1,0 +1,301 @@
+country_event = {
+	title = "EVTNAME90900"
+	desc = "EVTDESC90900"
+	picture = "Celebration"
+
+	id = 90900
+	news = yes
+	news_desc_long = "EVTDESC90900_NEWS_LONG"
+	news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90900_NEWS_SHORT"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = the_dragon_wakes }
+		}
+
+	option = {				
+		name = "EVTOPTA90900"
+		set_global_flag = the_dragon_wakes
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+			country_event = { id=90901 days=0 }
+		}
+		THIS = {
+		activate_technology = post_napoleonic_thought	
+		activate_technology = strategic_mobility
+		activate_technology = bronze_muzzle_loaded_artillery
+		activate_technology = army_professionalism
+		activate_technology = army_command_principle
+		activate_technology = military_staff_system 
+		activate_technology = flintlock_rifles
+		}
+		prestige = 10
+		set_variable = {
+	which =  irons_dug
+	value = 0
+          }
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+province_event = {
+	
+	id = 1100992
+
+	trigger = {
+		year = 1859
+		not = {has_global_flag = the_dragon_wakes}
+		or = {
+		 
+		    province_id = 1611			# Sitka
+			province_id = 1545			# Kuala Lumpur
+			province_id = 1478			# Kuantan
+			province_id = 1614			# Muraleve
+			province_id = 1558			# Sumbawa
+		}
+			 trade_goods = iron 
+		 
+		}
+		mean_time_to_happen = {
+		months = 1
+
+	}
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = tea
+	 
+	}
+		}
+
+province_event = {
+	
+	id = 1100991
+    title = "EVTNAME1100991"
+	desc = "EVTDESC1100991"
+	trigger = {
+		year = 1861
+		not = {year = 1870}
+		or = {
+		    province_id = 1577			# Sitka
+			province_id = 1585			# Kuala Lumpur
+			province_id = 1520			# Kuantan
+			province_id = 1524			# Muraleve
+			province_id = 1527			# Sumbawa
+			province_id = 1522			# Sitka
+			province_id = 1546				# Yakutat
+			province_id = 1483			# Kuala Lumpur
+			province_id = 1610			# Kuantan
+			province_id = 2221			# Muraleve
+			province_id = 1515			# Sumbawa
+			province_id = 1512		# Sumbawa
+			province_id = 1570			# Sumbawa
+			province_id = 1576		# Sumbawa
+		}
+			not = { trade_goods = iron }
+			CHI = {
+			not = {
+			check_variable = {
+       which = irons_dug
+       value = 5.01
+}}
+}
+		}
+		mean_time_to_happen = {
+		months = 1
+
+	}
+	immediate = {  
+CHI = {
+		 change_variable = {	
+	which = irons_dug
+	value = 1
+       }
+	   }
+	}
+	option = {
+		name = "EVTOPTA1100991"
+		trade_goods = iron
+		 
+	}
+		}
+
+# Event to Inherit
+country_event = {
+	id = 90901
+	title = "EVTNAME90900"
+	desc = "EVTDESC90901"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90901"
+		civilized = yes
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 10
+			 modifier = {
+				factor = 1000
+				relation = { who = FROM value = 100 }
+			} 
+		}
+	}
+
+	option = {
+		name = "EVTOPTB90100"
+		ai_chance = {
+			factor = 100
+		}
+		prestige = 10
+		relation = {
+			who = FROM
+			value = -200
+		}
+		civilized = yes
+		release_vassal = THIS
+		leave_alliance = CHI
+	}
+}
+
+# Event to reject
+country_event = {
+	id = 90902 #The Breakup of China
+	news = yes
+	news_desc_long = "EVTDESC90902_NEWS_LONG"
+	news_desc_medium = "EVTDESC90902_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90902_NEWS_SHORT"
+	
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		release_vassal = THIS
+		leave_alliance = CHI
+		civilized = yes
+	}
+}
+
+country_event = {
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	picture = "Celebration"
+
+	id = 90903
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = the_dragon_wakes }
+		OR = { 
+		tag = GXI
+		tag = MCK
+		tag = XIN
+		tag = YNN
+		tag = XBI
+		tag = MGL
+		}
+		}
+
+	option = {				
+		name = "EVTOPTA90902"
+		set_global_flag = the_dragon_wakes
+		release_vassal = THIS
+		leave_alliance = CHI
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+			country_event = { id=90902 days=0 }
+		}
+		CHI = {
+			country_event = { id=90904 days=0 }
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+country_event = {
+	id = 90904
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		civilized = yes
+	}
+}
+country_event = {
+	id = 909059
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	 trigger = {
+	 tag = CHI
+	 year = 1836		
+	not = {has_country_flag = helpchina}
+		}
+	option = {
+		name = "EVTOPTA909059"
+		money = 2000000
+		money = 2000000
+		money = 2000000
+		money = 2000000
+		money = 2000000
+		money = 2000000
+		set_country_flag = helpchina
+	}
+}

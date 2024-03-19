@@ -1,0 +1,147 @@
+country_event = {
+	id = 18900
+	title = "EVTNAME18900"
+	desc = "EVTDESC18900"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = sanction_on_yes
+		tag = JAP
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18900"
+		add_country_modifier = {
+			name = sanction_on_jap
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 18901
+	title = "EVTNAME18901"
+	desc = "EVTDESC18901"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		has_country_modifier = sanction_on_jap
+		tag = JAP
+			NOT = {
+				has_global_flag = sanction_on_yes
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18901"
+		remove_country_modifier = sanction_on_jap
+	}
+}
+country_event = {
+	id = 18902
+	title = "EVTNAME18902"
+	desc = "EVTDESC18902"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		year = 2055
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18902"
+		set_country_flag = russia_way
+		prestige = 5
+		1082 = { add_core = JAP	}
+			1083 = { add_core = JAP }
+			2617 = { add_core = JAP	}
+			1084 = { add_core = JAP }
+			1085 = { add_core = JAP	}
+			1086 = { add_core = JAP }
+			1087 = { add_core = JAP	}
+			1088 = { add_core = JAP }
+			1089 = { add_core = JAP	}
+	}
+	option = {
+		name = "EVTOPTB18902"
+		set_country_flag = sea_way
+		prestige = 5
+		1456 = { add_core = JAP	}
+			1455 = { add_core = JAP }
+			1457 = { add_core = JAP	}
+			1458 = { add_core = JAP }
+			1461 = { add_core = JAP	}
+			2565 = { add_core = JAP }
+			1460 = { add_core = JAP	}
+			1459 = { add_core = JAP }
+			1463 = { add_core = JAP	}
+			1462 = { add_core = JAP	}
+			1464 = { add_core = JAP	}
+	}
+}
+country_event = {
+	id = 18903
+	title = "EVTNAME18903"
+	desc = "EVTDESC18903"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		year = 2055
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18903"
+		set_country_flag = cont_sea
+		1393 = { add_core = JAP	}
+		1423 = { add_core = JAP }
+		1432 = { add_core = JAP	}
+		1384 = { add_core = JAP	}
+	}
+	option = {
+		name = "EVTOPTB18903"
+		set_country_flag = japanease_banzai
+		prestige = 5
+	}
+}
+country_event = {
+	id = 18904
+	title = "EVTNAME18904"
+	desc = "EVTDESC18904"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = japanease_banzai
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA18904"
+		prestige = 50
+		add_country_modifier = {
+			name = jap_banzai_end
+			duration = -1
+		}
+	}
+}

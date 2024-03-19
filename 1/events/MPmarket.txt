@@ -1,0 +1,850 @@
+#-------------------------------------------- 100 000 --------------------------------------------
+country_event = {
+	title = "EVTNAME3470333"
+	desc = "EVTDESC3470333"
+	picture = "greatpowers"
+	
+	id = 3470333
+	trigger = {
+ year = 2055
+ }
+
+	option = {
+		name = "EVTOPTA3470333"
+		THIS = {
+				country_event = { id=3470101 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTB3470333"
+		THIS = {
+				country_event = { id=3470201 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTC3470333"
+		THIS = {
+				country_event = { id=3470301 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTD3470333"
+		THIS = {
+				country_event = { id=3470401 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTE3470333"
+		money = 110000
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3470101
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTA3470001"
+		ENG = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTB3470001"
+		FRA = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTC3470001"
+		SPA = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTD3470001"
+		ITA = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTP3470001"
+		NET = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3470201
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTE3470001"
+		GER = {
+			money = 100000
+		}
+		PRU = {
+			money = 100000
+		}
+		NGF = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTF3470001"
+		KUK = {
+			money = 100000
+		}
+		AUS = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTG3470001"
+		RUS = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTT3470001"
+		SCA = {
+			money = 100000
+		}
+		SWE = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3470301
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTH3470001"
+		TUR = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTK3470001"
+		JAP = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTQ3470001"
+		EIC = {
+			money = 100000
+		}
+ HND = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTR3470001"
+		PER = {
+			money = 100000
+		}
+		IGM = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTN3470001"
+		EGY = {
+			money = 100000
+		}
+		ARA = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTN34700011"
+		SAF = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3470401
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTI3470001"
+		USA = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTJ3470001"
+		BRZ = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTL3470001"
+		MEX = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTM3470001"
+		CAN = {
+			money = 100000
+		}
+		#money = -100000
+		ai_chance = {	factor = 50	}
+	}
+}
+
+#----------------------------------------------------- 0.5 milion -------------------------------------------------
+country_event = {
+	title = "EVTNAME3470333"
+	desc = "EVTDESC3470333"
+	picture = "greatpowers"
+	
+	id = 3471333
+	trigger = {
+ year = 2055
+ }
+
+	option = {
+		name = "EVTOPTA3470333"
+		THIS = {
+				country_event = { id=3471101 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTB3470333"
+		THIS = {
+				country_event = { id=3471201 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTC3470333"
+		THIS = {
+				country_event = { id=3471301 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTD3470333"
+		THIS = {
+				country_event = { id=3471401 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTE3470333"
+		money = 510000
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3471101
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTA3470001"
+		ENG = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTB3470001"
+		FRA = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTC3470001"
+		SPA = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTD3470001"
+		ITA = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTP3470001"
+		NET = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3471201
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTE3470001"
+		GER = {
+			money = 500000
+		}
+		PRU = {
+			money = 500000
+		}
+		NGF = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTF3470001"
+		KUK = {
+			money = 500000
+		}
+		AUS = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTG3470001"
+		RUS = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTT3470001"
+		SCA = {
+			money = 500000
+		}
+		SWE = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3471301
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTH3470001"
+		TUR = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTK3470001"
+		JAP = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTQ3470001"
+		EIC = {
+			money = 500000
+		}
+ HND = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTR3470001"
+		PER = {
+			money = 500000
+		}
+		IGM = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTN3470001"
+		EGY = {
+			money = 500000
+		}
+		ARA = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+		
+	}
+	option = {
+		name = "EVTOPTN34700011"
+		SAF = {
+			money = 500000
+		}
+
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3471401
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTI3470001"
+		USA = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTJ3470001"
+		BRZ = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTL3470001"
+		MEX = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTM3470001"
+		CAN = {
+			money = 500000
+		}
+		#money = -500000
+		ai_chance = {	factor = 50	}
+	}
+}
+#-------------------------------------------------------- 2 milion --------------------------------------------
+country_event = {
+	title = "EVTNAME3470333"
+	desc = "EVTDESC3470333"
+	picture = "greatpowers"
+	
+	id = 3472333
+	trigger = {
+ year = 2055
+ }
+
+	option = {
+		name = "EVTOPTA3470333"
+		THIS = {
+				country_event = { id=3472101 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTB3470333"
+		THIS = {
+				country_event = { id=3472201 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTC3470333"
+		THIS = {
+				country_event = { id=3472301 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTD3470333"
+		THIS = {
+				country_event = { id=3472401 days=0 }
+			}
+		ai_chance = {
+ factor = 0
+ }
+	}
+	option = {
+		name = "EVTOPTE3470333"
+		money = 2000000
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472101
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTA3470001"
+		ENG = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTB3470001"
+		FRA = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTC3470001"
+		SPA = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTD3470001"
+		ITA = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTP3470001"
+		NET = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472201
+	trigger = {
+ year = 2055
+ }
+	
+	option = {
+		name = "EVTOPTE3470001"
+		GER = {
+			money = 2000000
+		}
+		PRU = {
+			money = 2000000
+		}
+		NGF = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTF3470001"
+		KUK = {
+			money = 2000000
+		}
+		AUS = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTG3470001"
+		RUS = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTT3470001"
+		SCA = {
+			money = 2000000
+		}
+		SWE = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472301
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTH3470001"
+		TUR = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTK3470001"
+		JAP = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTQ3470001"
+		EIC = {
+			money = 2000000
+		}
+ HND = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTR3470001"
+		PER = {
+			money = 2000000
+		}
+		IGM = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTN3470001"
+		EGY = {
+			money = 2000000
+		}
+		ARA = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTN34700011"
+		SAF = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472401
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTI3470001"
+		USA = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTJ3470001"
+		BRZ = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTL3470001"
+		MEX = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+	option = {
+		name = "EVTOPTM3470001"
+		CAN = {
+			money = 2000000
+		}
+		#money = -2000000
+		ai_chance = {	factor = 50	}
+	}
+}
+#---- 2 layma and 1 laym
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472399
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTI3470001"
+		THIS = {
+			money = -2000000
+		}
+		ai_chance = {	factor = 50	}
+	}
+}
+country_event = {
+	title = "EVTNAME3470001"
+	desc = "EVTDESC3470001"
+	picture = "greatpowers"
+
+	id = 3472389
+	trigger = {
+ year = 2055
+ }
+	option = {
+		name = "EVTOPTI3470001"
+		THIS = {
+			money = -1000000
+		}
+		ai_chance = {	factor = 50	}
+	}
+}

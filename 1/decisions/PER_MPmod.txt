@@ -1,0 +1,68 @@
+political_decisions = {
+	foreign_investiments_per = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = PER
+			is_greater_power = no
+			NOT = {
+				has_country_modifier = investiments_yes
+			}
+		}
+		
+		allow = {
+			prestige = 10
+			money = 120000
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = investiments_yes
+				duration = 1825
+			}
+			THIS = {
+				country_event = { id=18918 days=0 }
+			}
+		}
+	}
+
+	Graeter_Persia = {
+		picture = graet_eic
+		potential = {
+			tag = PER
+			NOT = {
+			has_global_flag = Graeter_Persia
+			}
+			
+		}
+		
+		allow = {
+			prestige = 10
+		    civilized = yes
+			
+			
+							owns = 1222
+							owns = 1221
+							owns = 1209
+							owns = 1214
+			
+		}
+		
+		effect = {
+			prestige = 25
+			1218 = {	add_core = PER }
+			1228 = {	add_core = PER }
+			1232 = {	add_core = PER }
+			1230 = {	add_core = PER }
+			1218 = {	add_core = PER }
+			1227 = {	add_core = PER }
+			1233 = {	add_core = PER }
+			1229 = {	add_core = PER }
+			1223 = {	add_core = PER }
+				1224 = {	add_core = PER }
+					1225 = {	add_core = PER }
+						1226 = {	add_core = PER }
+			set_global_flag = Graeter_Persia
+			add_accepted_culture = kashmiri
+		}
+	}
+}

@@ -1,0 +1,6 @@
+owner =  AWA # AWA
+controller =  AWA # AWA
+add_core = AWA
+
+trade_goods = timber
+life_rating = 35 

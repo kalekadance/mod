@@ -1,0 +1,5 @@
+owner =  TRA # MYS
+controller =  TRA # MYS
+add_core = TRA
+trade_goods = silk
+life_rating = 35 

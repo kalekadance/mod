@@ -1,0 +1,69 @@
+country_event = {
+	id = 221512251
+	title = "EVTNAME221512251"
+	desc = "EVTDESC221512251"
+	picture = "emigration"
+	
+	trigger = {
+		war = no
+		money = 5000000
+		year = 1860
+	}
+	
+	mean_time_to_happen = {	
+		months = 700
+		modifier = {
+			factor = 1.5
+			money = 10000000
+		}
+		modifier = {
+		money = 5000000
+			factor = 1.5
+
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA221512251"
+		money = -2000000
+		add_country_modifier = {
+                name = Investicii_v_region 
+				duration = 3650
+		}
+		random_state = {
+			limit = {
+				is_colonial = no
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = Investicii_v_region1
+					duration = 3650
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB221512251"
+		money = -1000000
+		add_country_modifier = {
+                name = poderzka_regiona
+				duration = 1825
+		}
+		random_state = {
+			limit = {
+				is_colonial = no
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = poderzka_regiona1
+					duration = 1825
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC221512251"
+	}
+}

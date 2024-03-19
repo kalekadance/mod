@@ -1,0 +1,175 @@
+country_event = { 
+	id = 145110
+	title = "FAQ1.T"
+	desc = "FAQ1.D"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "FAQ1A"
+	country_event = 145111
+	}
+	
+	option = { 
+	name = "FAQ1B"
+	country_event = 145114
+	}
+	
+	option = { 
+	name = "FAQ1C"
+	country_event = 145117
+	}
+	
+	option = { 
+	name = "FAQ1D"
+	country_event = 145120 
+	}
+	
+	option = { 
+	name = "FAQ1E"
+	}
+}
+country_event = {
+	id = 145111
+	title = "FAQ1A"
+	desc = "FAQstart1"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145112
+	}
+}
+country_event = {
+	id = 145112
+	title = "FAQ1A"
+	desc = "FAQstart2"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145113
+	}
+}
+country_event = {
+	id = 145113
+	title = "FAQ1A"
+	desc = "FAQstart3"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145110
+	}
+}
+country_event = {
+	id = 145114
+	title = "FAQ1B"
+	desc = "FAQbase1"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145115
+	}
+}
+country_event = {
+	id = 145115
+	title = "FAQ1B"
+	desc = "FAQbase2"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145116
+	}
+}
+country_event = {
+	id = 145116
+	title = "FAQ1B"
+	desc = "FAQbase3"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145110
+	}
+}
+country_event = {
+	id = 145117
+	title = "FAQ1C"
+	desc = "FAQprom1"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145118
+	}
+}
+country_event = {
+	id = 145118
+	title = "FAQ1C"
+	desc = "FAQprom2"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145119
+	}
+}
+country_event = {
+	id = 145119
+	title = "FAQ1C"
+	desc = "FAQprom3"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145110
+	}
+}
+country_event = {
+	id = 145120
+	title = "FAQ1D"
+	desc = "FAQtech1"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145121
+	}
+}
+country_event = {
+	id = 145121
+	title = "FAQ1D"
+	desc = "FAQtech2"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145122
+	}
+}
+country_event = {
+	id = 145122
+	title = "FAQ1D"
+	desc = "FAQtech3"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "OK"
+	country_event = 145110
+	}
+}

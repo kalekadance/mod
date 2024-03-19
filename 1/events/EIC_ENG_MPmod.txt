@@ -1,0 +1,292 @@
+country_event = {
+    id = 18946
+    title = "EVTNAME18946"
+    desc = "EVTDESC18946"
+    picture = "Upperhouse"
+    trigger = {
+    OR = {
+    tag = EIC
+    tag = MUG
+    }
+    year = 1836
+        NOT = {
+        has_country_flag = India
+        }
+    }
+    option = {
+    name = "EVTOPTB18946"
+    add_country_modifier = { 
+    name = India
+    duration = -1
+    }
+    set_country_flag = India
+    }
+}
+country_event = { 
+	id = 402003
+	title = "EVTNAME402003"
+	desc = "EVTDESC402003"
+	picture = "greatpowers"
+	trigger = {
+     OR = {
+	 tag = HND
+	 tag = EIC
+	 }
+	 year = 1838
+	 THIS = {
+	 in_sphere = ENG
+	 }
+	 NOT = {
+     has_country_modifier = Help_from_England
+	 has_country_flag = Help_from_England
+	 }
+	} 
+	option = {
+	name = "EVTOPTA402003"
+		THIS = {
+				add_country_modifier = { 
+				name = Help_from_England
+				duration = -1
+				}
+		}
+		any_country = {
+		limit = {
+		is_sphere_leader_of = THIS
+		tag = ENG
+		}	
+		add_country_modifier = { 
+	     name = Protectorate_over_India
+	     duration = -1
+	    }
+		}
+		set_country_flag = Help_from_England
+	}
+}
+country_event = { 
+	id = 402004
+	title = "EVTNAME402004"
+	desc = "EVTDESC402004"
+	picture = "greatpowers"
+	trigger = {
+OR = {
+     tag = EIC
+	 tag = HND
+	 }
+	 year = 1855
+	 THIS = {
+	 in_sphere = ENG
+	 has_country_flag = Help_from_England
+	 }
+	 NOT = {
+	 has_country_flag = Help_from_England2
+	 }
+	}
+option = {
+	name = "EVTOPTA402004"
+		THIS = {
+				add_country_modifier = { 
+				name = Help_from_England2
+				duration = -1
+				}
+		}
+		any_country = {
+		limit = {
+		is_sphere_leader_of = THIS
+		tag = ENG
+		}
+		remove_country_modifier = Protectorate_over_India		
+		add_country_modifier = { 
+	     name = Protectorate_over_India2
+	     duration = -1
+	    }
+		}
+		set_country_flag = Help_from_England2
+		remove_country_modifier = Help_from_England
+	}
+}
+country_event = { 
+	id = 4020066
+	title = "EVTNAME4020066"
+	desc = "EVTDESC4020066"
+	picture = "greatpowers"
+	trigger = {
+OR = {
+     tag = EIC
+	 tag = HND
+	 }
+	 year = 1845
+	 THIS = {
+	 in_sphere = ENG
+	 }
+	 1280 = {
+	 owned_by = THIS
+	 }
+	 1241 = {
+	 owned_by = THIS
+	 }
+	 1270 = {
+	 owned_by = THIS
+	 }
+	 1272 = {
+	 owned_by = THIS
+	 }
+	 1273 = {
+	 owned_by = THIS
+	 }
+     1275 = {
+	 owned_by = THIS
+	 }
+	 1276 = {
+	 owned_by = THIS
+	 }
+	 NOT = {
+	 has_country_flag = Paints
+	 }
+	}
+option = {
+	name = "EVTOPTA4020066"
+		any_country = {
+		limit = {
+		is_sphere_leader_of = THIS
+		tag = ENG
+		}	
+		add_country_modifier = { 
+	     name = Protectorate_over_India_Paints
+	     duration = -1
+	    }
+		}
+		set_country_flag = Paints
+	}
+}
+country_event = { 
+	id = 4020077
+	title = "EVTNAME4020077"
+	desc = "EVTDESC4020077"
+	picture = "greatpowers"
+	trigger = {
+OR = {
+     tag = EIC
+	 tag = HND
+	 }
+	 year = 1845
+	 THIS = {
+	 in_sphere = ENG
+	 }
+	 1283 = {
+	 owned_by = THIS
+	 }
+	 1286 = {
+	 owned_by = THIS
+	 }
+	 1287 = {
+	 owned_by = THIS
+	 }
+	 1271 = {
+	 owned_by = THIS
+	 }
+	 1269 = {
+	 owned_by = THIS
+	 }
+	 NOT = {
+	 has_country_flag = Hlopock
+	 }
+	}
+option = {
+	name = "EVTOPTA4020077"
+		any_country = {
+		limit = {
+		is_sphere_leader_of = THIS
+		tag = ENG
+		}	
+		add_country_modifier = { 
+	     name = Protectorate_over_India_Hlopock
+	     duration = -1
+	    }
+		}
+		set_country_flag = Hlopock
+	}
+}
+country_event = { 
+	id = 4020088
+	title = "EVTNAME4020088"
+	desc = "EVTDESC4020088"
+	picture = "greatpowers"
+	trigger = {
+OR = {
+     tag = EIC
+	 tag = HND
+	 }
+	 year = 1880
+	 THIS = {
+	 in_sphere = ENG
+	 }
+	 1283 = {
+	 owned_by = THIS
+	 trade_goods = rubber
+	 }
+	 NOT = {
+	 has_country_flag = rubber
+	 }
+	}
+option = {
+	name = "EVTOPTA4020088"
+		any_country = {
+		limit = {
+		is_sphere_leader_of = THIS
+		tag = ENG
+		}	
+		add_country_modifier = { 
+	     name = Protectorate_over_India_Rubber
+	     duration = -1
+	    }
+		}
+		set_country_flag = rubber
+	}
+}	
+country_event = { 
+	id = 402005
+	title = "EVTNAME402005"
+	desc = "EVTDESC402005"
+	picture = "greatpowers"
+	trigger = {
+	OR = {
+	tag = EIC
+	tag = HND
+	}
+OR = {
+		has_country_flag = Help_from_England
+		has_country_flag = Help_from_England2
+	}
+	NOT = {
+	in_sphere = ENG
+	}
+	}
+	option = {
+	name = "EVTOPTA402005"
+		any_country = {
+		limit = {
+	    tag = ENG
+		}	
+		clr_country_flag = inzeneri_eng_v_boic
+		remove_country_modifier = Protectorate_over_India
+		remove_country_modifier = Protectorate_over_India2
+		remove_country_modifier = Protectorate_over_India_Paints
+		remove_country_modifier = Protectorate_over_India_Hlopock
+		remove_country_modifier = Protectorate_over_India_Rubber
+	    }
+		remove_country_modifier = integratia_boic_v_eng
+		remove_country_modifier = inzeneri_eng_v_boic
+        remove_country_modifier = Help_from_England
+		remove_country_modifier = Help_from_England2
+		remove_country_modifier = opit_v_boic_ot_eng
+	    clr_country_flag = Help_from_England
+		clr_country_flag = Help_from_England2
+		clr_country_flag = Paints
+		clr_country_flag = Hlopock
+		clr_country_flag = rubber
+		clr_country_flag = opit_dla_Indii
+		clr_country_flag = integratia_boic_v_eng
+	}
+}
+
+	

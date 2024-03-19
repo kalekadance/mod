@@ -1,0 +1,201 @@
+political_decisions = {
+
+	 natsionalnoe_edinstvo = {
+        picture = bixby_letter
+        potential = {
+            tag = MEX
+            NOT = {
+                has_country_flag = you_did_try
+				has_country_modifier = natsionalnoe_edinstvo
+            }
+		}
+
+        allow = {
+		   
+            MEX_85 = {
+            owned_by = MEX
+            }
+            133 = {
+            owned_by = MEX
+            }
+			year = 1845
+            
+        }
+
+        effect = {
+			set_country_flag = natsionalnoe_edinstvo
+            add_country_modifier = { 
+			name = natsionalnoe_edinstvo
+			duration = -1
+            }
+
+        }
+      }
+	COR_CENTRAL_AMERICA = {
+	  picture = COR_CENTRAL_AMERICA
+        potential = {
+		OR = {
+            tag = MEX
+			tag = BRZ
+		}	
+            NOT = {
+                has_country_flag = Central_America
+            }
+		}
+		 allow = {
+		 ai = no
+		 year = 1837
+		  UCA_2186 = {
+		  owned_by = MEX
+		  }
+
+		  UCA_2191 = { 
+          owned_by = MEX
+		  }
+		  UCA_2197 = { 
+          owned_by = MEX
+		  }
+		  UCA_2201 = {
+		  owned_by = MEX
+		  }
+          
+        }
+		effect = {
+		add_accepted_culture = north_andean
+        CLM_2251 = {
+		add_core = MEX
+		}
+		CLM_2262 = {
+		add_core = BRZ
+		}
+		2288 = {add_core = THIS}
+		2287 = {add_core = THIS}
+		2289 = {add_core = THIS}
+		ECU_2279 = {
+		add_core = THIS
+		}
+		badboy = 5
+		set_country_flag = Central_America
+		 
+		}
+		
+}	 
+
+SPCA_sattelite = {
+	  picture = COR_CENTRAL_AMERICA
+        potential = {
+		 
+            tag = MEX
+		 
+	        exists = UCA
+            NOT = {
+                has_country_flag = UCA_sat
+            }
+		}
+		 allow = {
+		 ai = no
+		 war_with = TEX
+        }
+		effect = {
+		2186 = {
+		 secede_province = MEX
+		  }
+		 2187 = {
+		 secede_province = MEX
+		  }
+		   2188 = {
+		 secede_province = MEX
+		  }
+		   2189 = {
+		 secede_province = MEX
+		  }
+
+		  2191 = { 
+        secede_province = MEX
+		  }
+		   2192 = { 
+        secede_province = MEX
+		  }
+		   2193 = { 
+        secede_province = MEX
+		  }
+		   2194 = { 
+        secede_province = MEX
+		  }
+		   2195 = { 
+        secede_province = MEX
+		  }
+		   2196 = { 
+        secede_province = MEX
+		  }
+		  ENG = {
+		   country_event = 9991211
+		  }
+		badboy = 6
+		set_country_flag = UCA_sat
+		create_vassal = UCA
+		relation = {
+				who = USA
+				value = -200
+			}
+		}
+}
+
+Rejim_bez_migracii = {
+	  picture = COR_CENTRAL_AMERICA
+        potential = {
+		 
+            tag = MEX
+		 
+	 
+            NOT = {
+                has_country_modifier = cost_of_inv_5
+            }
+		}
+		 allow = {
+		 
+          year = 1840
+        }
+		effect = {
+		 political_reform = landed_voting
+			add_country_modifier = { 
+			name = mex_no_migracia
+			duration = 1830
+            }
+		 add_country_modifier = { 
+			name = cost_of_inv_5
+			duration = 1830
+            }
+		}
+}
+
+    Rejim_migracia = {
+	  picture = COR_CENTRAL_AMERICA
+        potential = {	
+	 
+            tag = MEX
+		 
+	 
+            NOT = {
+                has_country_modifier = cost_of_inv_5
+            }
+		}
+		 allow = {
+		  
+           year = 1840
+        }
+		effect = {
+		 political_reform = universal_voting
+		 
+		add_country_modifier = { 
+			name = mex_migracia
+			duration = 1830
+            }
+			add_country_modifier = { 
+			name = cost_of_inv_5
+			duration = 1830
+            }
+		}
+}			 
+}
+	

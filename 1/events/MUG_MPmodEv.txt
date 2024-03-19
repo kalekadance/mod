@@ -1,0 +1,25 @@
+ 
+country_event = {
+	id = 18945
+	title = "EVTNAME18945"
+	desc = "EVTDESC18945"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "EVTOPTA18945"
+		1240 = { trade_goods = grain }
+		remove_country_modifier = famine_war_third_step
+		add_country_modifier = {
+				name = famine_war_end
+				duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB18945"
+		remove_country_modifier = famine_war_third_step
+	}
+}

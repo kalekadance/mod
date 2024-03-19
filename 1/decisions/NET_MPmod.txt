@@ -1,0 +1,316 @@
+political_decisions = { 
+ manifesto11 = { 
+ picture = manifesto11
+ potential = {
+ tag = NET
+ NOT = {
+ has_country_flag = palais11
+ }
+ }
+ allow = {
+ medicine = 1
+ prestige = 20
+ }
+ effect = {
+ set_country_flag = palais11
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+		any_pop = {
+			limit = {
+			pop_type = bureaucrats
+			has_pop_culture = dutch
+				}
+			reduce_pop = 2
+			}
+ }
+	}
+ }
+ #--------------------------------------------------------------ДОПИСАТЬ, ВЫДЕЛИТЬ ЯВУ---------------------------------------------------------------------------------
+ manifesto12 = { 
+ picture = manifesto12 
+ potential = {
+ tag = NET
+ has_country_flag = palais11
+ NOT = {
+ has_country_flag = palais12
+ } 
+ }
+ allow = {
+ money = 200000
+ mechanical_production = 1
+ organized_factories = 1
+ }
+ 
+ effect = {
+  money = -200000
+ set_country_flag = palais12
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ } 
+ }
+ 
+ #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ manifesto13 = { 
+ picture = manifesto13 
+ potential = {
+ tag = NET
+ has_country_flag = palais12
+ NOT = {
+ has_country_flag = palais13
+ }
+ }
+ allow = {
+ OR = {
+ steamers = 1
+ battleship_column_doctrine = 1
+ }
+ prestige = 45
+ steamer_convoy = 2000
+ } 
+ effect = { 
+ set_country_flag = palais13
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ }
+ }
+ 
+ #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ manifesto14 = { 
+ picture = manifesto14 
+ potential = {
+ tag = NET
+ has_country_flag = palais13
+ NOT = {
+ has_country_flag = palais14
+ }
+ }
+ allow = {
+ industrial_score = 100
+ liquor = 500
+ wine = 500
+ grain = 500
+ fruit = 500
+ fish = 500
+ cattle = 500
+ wool = 500
+ }
+ effect = { 
+ set_country_flag = palais14
+ liquor = -500
+ wine = -500
+ grain = -500
+ fruit = -500
+ fish = -500
+ cattle = -500
+ wool = -500
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ }
+ }
+ #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ manifesto15 = { 
+ picture = manifesto15
+ potential = {
+ tag = NET
+ has_country_flag = palais14
+ NOT = {
+ has_country_flag = palais15
+ year = 1860
+ }
+ }
+ allow = {
+ OR = {
+ semi_automatization = 1
+ scientific_management = 1
+ }
+ industrial_score = 100
+ machine_parts = 1900
+ cement = 1900
+ steel = 1900
+ lumber = 1900
+ timber = 1900
+ iron = 1900
+ }
+ effect = { 
+ set_country_flag = palais15
+ machine_parts = -1900
+ cement = -1900
+ steel = -1900
+ lumber = -1900
+ timber = -1900
+ iron = -1900
+  1413 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+				 
+					
+				}
+			}
+			1413 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+			1413 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+			1413 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+ }
+ }
+ #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ #manifesto16 = { 
+ #picture = manifesto16
+ #potential = {
+ #tag = NET
+ #has_country_flag = palais15
+ #NOT = {
+ #has_country_flag = palais16
+ #}
+ #}
+ #allow = { }
+ #effect = { 
+ #set_country_flag = palais16
+ #}
+ #}
+}

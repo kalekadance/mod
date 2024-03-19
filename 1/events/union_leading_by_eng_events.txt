@@ -1,0 +1,1310 @@
+country_event = {
+
+	id = 101120 #бонус к строительству флота от канады
+	trigger = {
+		tag = ENG
+		is_sphere_leader_of = CAN
+		NOT = {
+        	has_country_modifier = navy_bonus_by_can1
+        }
+		CAN = {ai=no}
+	}
+	option = {
+		name = "EVTOPTA101120" 
+		add_country_modifier = {
+			name = navy_bonus_by_can1
+			duration = 37000
+		}
+		517 = {add_province_modifier = {
+				name = eng_exhaustion
+				duration = 37000
+			}}		
+		any_owned = {
+			limit = {
+				is_coastal = yes
+				port = yes
+			}
+			add_province_modifier = {
+				name = navy_bonus_by_can
+				duration = 37000
+			}
+			
+		}
+
+	}
+	title = "EVTNAME101120"
+	desc = "EVTDESC101120"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101121 #снятие бонуса от канады
+	trigger = {
+		tag = ENG
+		has_country_modifier = navy_bonus_by_can1
+        NOT = {
+        	is_sphere_leader_of = CAN
+        }
+	}
+	option = {
+		name = "EVTOPTA101121" 
+		remove_country_modifier = navy_bonus_by_can1
+	
+		any_owned = {
+			limit = {
+			is_coastal = yes
+			port = yes
+			}
+			remove_province_modifier  = navy_bonus_by_can
+						
+		}
+
+	}
+	title = "EVTNAME101121"
+	desc = "EVTDESC101121"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 101122 
+	trigger = {
+		tag = ENG
+		is_sphere_leader_of = SAF
+		NOT = {
+        	has_country_modifier = navy_bonus_by_saf1
+        }
+				SAF = {ai=no}
+	}
+	option = {
+		name = "EVTOPTA101122" 
+		add_country_modifier = {
+			name = navy_bonus_by_saf1
+			duration = 37000
+		}
+		any_owned = {
+			limit = {
+			is_coastal = yes
+			port = yes
+			}
+			add_province_modifier = {
+				name = navy_bonus_by_saf
+				duration = 37000
+			}
+			
+		}
+
+	}
+	title = "EVTNAME101122"
+	desc = "EVTDESC101122"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101123 
+	trigger = {
+		tag = ENG
+		has_country_modifier = navy_bonus_by_saf1
+        NOT = {
+        	is_sphere_leader_of = SAF
+        }
+	}
+	option = {
+		name = "EVTOPTA101123" 
+		remove_country_modifier = navy_bonus_by_saf1
+	
+		any_owned = {
+			limit = {
+			is_coastal = yes
+			port = yes
+			}
+			remove_province_modifier  = navy_bonus_by_saf
+						
+		}
+
+	}
+	title = "EVTNAME101123"
+	desc = "EVTDESC101123"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999999 #Бонус к железу
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA9999991" 
+		CAN = {
+				country_event = { id=1011251 days=0 }
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTA9999992" #Бонус к углю
+		CAN = {
+				country_event = { id=1011252 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999993" #Бонус к зерну
+		CAN = {
+				country_event = { id=1011253 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999994"  #Бонус к нефти
+		CAN = {
+				country_event = { id=1011254 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999995" #Бонус к фруктам
+		CAN = {
+				country_event = { id=1011255 days=0 }
+		}
+
+	}
+	option = {
+		name = "EVTOPTA9999996" #Бонус к древесине
+		CAN = {
+				country_event = { id=1011256 days=0 }
+		}
+
+	}
+	title = "EVTNAME999999"
+	desc = "EVTDESC999999"
+	picture = "Administration"
+	}
+
+
+
+country_event = {
+
+	id = 1011251 #Бонус к железу
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA1011251" 
+		any_owned = {
+			limit = {
+				trade_goods = iron
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+
+	}
+	title = "EVTNAME1011251"
+	desc = "EVTDESC1011251"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 1011252
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA1011252" #Бонус к углю
+		any_owned = {
+			limit = {
+				trade_goods = coal 
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+	}
+	title = "EVTNAME1011252"
+	desc = "EVTDESC1011252"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 1011253
+	is_triggered_only = yes
+	
+	option = {
+	name = "EVTOPTA1011253"
+		any_owned = {
+			limit = {
+				trade_goods = grain
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_farm
+				duration = 1825
+			}
+		}
+	}	
+	title = "EVTNAME1011253"
+	desc = "EVTDESC1011253"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 1011254
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA1011254"
+		any_owned = {
+			limit = {
+				trade_goods = oil
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME1011254"
+	desc = "EVTDESC1011254"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 1011255
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA1011255"
+		any_owned = {
+			limit = {
+				trade_goods = fruit
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_farm
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME1011255"
+	desc = "EVTDESC1011255"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 1011256
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA1011256" 
+		any_owned = {
+			limit = {
+				trade_goods = timber
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME1011256"
+	desc = "EVTDESC1011256"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 11111111 #Бонус к железу
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA9999991" 
+		SAF = {
+				country_event = { id=999985 days=0 }
+		}
+
+	}
+
+	option = {
+		name = "EVTOPTA9999992" #Бонус к углю
+		SAF = {
+				country_event = { id=999986 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999993" #Бонус к зерну
+		SAF = {
+				country_event = { id=999990 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999994"  #Бонус к нефти
+		SAF = {
+				country_event = { id=999989 days=0 }
+		}
+
+	}
+	option = {
+	name = "EVTOPTA9999995" #Бонус к фруктам
+		SAF = {
+				country_event = { id=999987 days=0 }
+		}
+
+	}
+	option = {
+		name = "EVTOPTA9999996" #Бонус к древесине
+		SAF = {
+				country_event = { id=999988 days=0 }
+		}
+
+	}
+	title = "EVTNAME11111111"
+	desc = "EVTDESC11111111"
+	picture = "Administration"
+	}
+
+
+
+country_event = {
+
+	id = 999985 #Бонус к железу
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999985" 
+		any_owned = {
+			limit = {
+				trade_goods = iron
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+
+	}
+	title = "EVTNAME999985"
+	desc = "EVTDESC999985"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999986
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999986" #Бонус к углю
+		any_owned = {
+			limit = {
+				trade_goods = coal 
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+
+	}
+	title = "EVTNAME999986"
+	desc = "EVTDESC999986"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999990
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999990"
+		any_owned = {
+			limit = {
+				trade_goods = grain
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_farm
+				duration = 1825
+			}
+		}
+	}		
+	title = "EVTNAME999990"
+	desc = "EVTDESC999990"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999989
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999989"
+		any_owned = {
+			limit = {
+				trade_goods = oil
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME999989"
+	desc = "EVTDESC999989"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999987
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999989"
+		any_owned = {
+			limit = {
+				trade_goods = fruit
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_farm
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME999987"
+	desc = "EVTDESC999987"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 999988
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA999988" #Бонус к древесине
+		any_owned = {
+			limit = {
+				trade_goods = timber
+			}
+			add_province_modifier = {
+				name = rgo_by_governor_general_mine
+				duration = 1825
+			}
+		}
+	}
+	
+	title = "EVTNAME999988"
+	desc = "EVTDESC999988"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 101125 
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA101125" 
+		add_country_modifier = {
+			name = british_helping_in_colonisation
+			duration = 1825
+		} 
+	
+	}
+	title = "EVTNAME101125"
+	desc = "EVTDESC101125"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 101126
+	fire_only_once = yes 
+	trigger = {
+		tag = SAF
+		owns = 2101
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101126" 
+		2102 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2103 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2101 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101126"
+	desc = "EVTDESC101126"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101127
+	fire_only_once = yes 
+	trigger = {
+		tag = SAF
+		owns = 2105
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101127" 
+		2107 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2106 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2109 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}		
+		2108 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2114 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2105 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2108 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2110 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101127"
+	desc = "EVTDESC101127"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101128 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2113
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101128" 
+		2113 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2112 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2111 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101128"
+	desc = "EVTDESC101128"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101131 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2101
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101131" 
+		2102 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2103 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2101 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101131"
+	desc = "EVTDESC101131"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101130 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2105
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101130" 
+		2107 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2106 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2109 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}		
+		2108 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2114 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2105 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2108 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101130"
+	desc = "EVTDESC101130"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101129 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2113
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101129" 
+		2113 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2112 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2111 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101129"
+	desc = "EVTDESC101129"
+	picture = "Administration"
+}
+
+
+country_event = {
+
+	id = 101134
+	trigger = {
+		tag = ENG
+		NOT = {
+        	has_country_modifier = uk_navy_tradition1
+        }
+	}
+	option = {
+		name = "EVTOPTA101134" 
+		add_country_modifier = {
+			name = uk_navy_tradition1
+			duration = -1
+		}
+		any_owned = {
+			limit = {
+				is_coastal = yes
+				port = yes
+			}
+			add_province_modifier = {
+				name = uk_navy_tradition
+				duration = -1
+			}
+			
+		}
+
+	}
+	title = "EVTNAME101134"
+	desc = "EVTDESC101134"
+	picture = "Administration"
+}
+
+country_event = {
+	id = 101135
+	trigger = {
+		NOT = {
+			has_country_modifier = a_nation_of_shopkeepers
+		}
+		tag = ENG
+	}
+	option = {
+		name = "EVTOPTA101135"
+		add_country_modifier = {
+				name = a_nation_of_shopkeepers
+				duration = 37000
+		}
+	}
+	title = "EVTNAME101135"
+	desc = "EVTDESC101135"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101136 
+	trigger = {
+		tag = CAN
+		in_sphere = ENG
+		NOT = {
+        	has_country_modifier = can_buff
+        }
+	}
+	option = {
+		name = "EVTOPTA101136" 
+		add_country_modifier = {
+			name = can_buff
+			duration = 37000
+		}
+	}
+	title = "EVTNAME101136"
+	desc = "EVTDESC101136"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101137
+	trigger = {
+		tag = SAF
+		in_sphere = ENG
+		NOT = {
+        	has_country_modifier = saf_buff
+        }
+	}
+	option = {
+		name = "EVTOPTA101137" 
+		add_country_modifier = {
+			name = saf_buff
+			duration = 37000
+		}
+	}
+	title = "EVTNAME101137"
+	desc = "EVTDESC101137"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101138
+	trigger = {
+	SAF = {
+	not = {
+	has_country_flag = agrresive_way
+	}
+	}
+		tag = ENG
+		is_sphere_leader_of = SAF
+		NOT = {
+			owns = 2108
+		}
+		SAF = {
+			owns = 2108
+		}
+	}
+	option = {
+		name = "EVTOPTA101138" 
+		2108 = { secede_province = ENG }
+	}
+	title = "EVTNAME101138"
+	desc = "EVTDESC101138"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 101139
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+	}
+	option = {
+		name = "EVTOPTA101139"
+		badboy = 22
+	}
+	title = "EVTNAME101139"
+	desc = "EVTDESC101139"
+	picture = "Administration"
+}
+country_event = {
+
+	id = 101140
+	fire_only_once = yes
+	trigger = {
+		tag = CAN
+	}
+	option = {
+		name = "EVTOPTA101140"
+		badboy = 22
+	}
+	title = "EVTNAME101140"
+	desc = "EVTDESC101140"
+	picture = "Administration"
+}
+country_event = {
+
+    id = 101141 
+    trigger = {
+        tag = CAN
+        has_country_modifier = can_buff
+        NOT = {
+            in_sphere = ENG
+        }
+    }
+    option = {
+        name = "EVTOPTA101141" 
+        remove_country_modifier = can_buff
+    }
+    title = "EVTNAME101141"
+    desc = "EVTDESC101141"
+    picture = "Administration"
+}	
+country_event = {
+
+    id = 101142
+    trigger = {
+        tag = SAF
+        has_country_modifier = saf_buff
+        NOT = {
+            in_sphere = ENG
+        }
+    }
+    option = {
+        name = "EVTOPTA101142" 
+        remove_country_modifier = saf_buff
+    }
+    title = "EVTNAME101142"
+    desc = "EVTDESC101142"
+    picture = "Administration"
+}
+country_event = {
+
+    id = 101143
+    fire_only_once = yes 
+    trigger = {
+    	year = 1838
+        tag = SAF
+      	has_country_modifier = peacefull_conquest
+        in_sphere = ENG
+    }
+    option = {
+    	name = "EVTOPTA101143" 
+        create_vassal = ZUL
+        create_vassal = TRN
+        create_vassal = ORA
+    }
+    title = "EVTNAME101143"
+    desc = "EVTDESC101143"
+    picture = "Administration"
+}
+country_event = {
+
+    id = 101144
+    fire_only_once = yes 
+    trigger = {
+    	year = 1842
+        tag = SAF
+      	has_country_modifier = peacefull_conquest
+        in_sphere = ENG
+        is_our_vassal = ZUL
+        is_our_vassal =	TRN
+        is_our_vassal =	ORA
+    }
+    option = {
+    	name = "EVTOPTA101144" 
+        inherit	= ORA
+		inherit	= ZUL
+		inherit	= TRN
+    }
+    title = "EVTNAME101144"
+    desc = "EVTDESC101144"
+    picture = "Administration"
+}
+country_event = {
+
+    id = 101145
+   	is_triggered_only = yes
+    option = {
+    	name = "EVTOPTA101145"
+    	add_country_modifier = {
+			name = CD_GG
+			duration = 365
+		}
+    	CAN = {
+    		ruling_party_ideology = conservative
+    	}
+    }
+    option = {
+    	name = "EVTOPTB101145"
+    	add_country_modifier = {
+			name = CD_GG
+			duration = 365
+		}
+    	CAN = {
+			ruling_party_ideology = reactionary
+		}
+    }
+    option = {
+    	name = "EVTOPTC101145"
+    	add_country_modifier = {
+			name = CD_GG
+			duration = 365
+		}
+    	CAN = {
+			ruling_party_ideology = liberal
+		}
+    }
+    title = "EVTNAME101145"
+    desc = "EVTDESC101145"
+    picture = "Administration"
+}
+country_event = {
+
+    id = 101146
+   	is_triggered_only = yes
+    option = {
+    	name = "EVTOPTA101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2088 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2087 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2089 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2090 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2091 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+    }
+    option = {
+    	name = "EVTOPTB101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2093 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2558 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2092 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2094 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2095 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+	}
+	option = {
+    	name = "EVTOPTC101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2096 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2097 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2098 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2099 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2100 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+    }
+    option = {
+    	name = "EVTOPTD101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2103 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2101 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2102 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2104 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		
+    }
+    option = {
+    	name = "EVTOPTE101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2111 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2112 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2113 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		
+    }
+    option = {
+    	name = "EVTOPTF101146"
+    	add_country_modifier = {
+			name = assimilation_cd
+			duration = 1095
+		}
+		2107 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2108 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2110 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2105 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2109 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2106 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+		2114 = {
+			add_province_modifier = {
+				name = assimilation_cd
+				duration = 1095
+			}
+		}
+    }
+    title = "EVTNAME101146"
+    desc = "EVTDESC101146"
+    picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101147 #снятие бонуса от канады для США
+	trigger = {
+		tag = USA
+		has_country_modifier = nafta_usa
+        NOT = {
+        	is_sphere_leader_of = CAN
+        }
+	}
+	option = {
+		name = "EVTOPTA101147" 
+		remove_country_modifier = nafta_usa
+		clr_country_flag = nafta1
+		CAN = {
+		clr_country_flag = nafta1
+			remove_country_modifier = nafta_can
+		}
+	}
+	title = "EVTNAME101147"
+	desc = "EVTDESC101147"
+	picture = "Administration"
+}
+
+
+

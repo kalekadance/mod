@@ -1,0 +1,26 @@
+country_event = {
+
+id = 19001
+title = "EVTNAME19001"
+desc = "EVTDESC19001"
+picture = "Upperhouse"
+
+is_triggered_only = yes
+
+
+option = {
+	name = "EVTOPTA19001"
+	1887 = { trade_goods = wool }
+	1888 = { trade_goods = wool }
+}
+option = {
+	name = "EVTOPTB19001"
+	1887 = { trade_goods = wool }
+	1888 = { trade_goods = dye }
+}
+option = {
+	name = "EVTOPTC19001"
+	1887 = { trade_goods = tea }
+	1888 = { trade_goods = tea }
+}
+}

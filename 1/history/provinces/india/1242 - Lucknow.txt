@@ -1,0 +1,6 @@
+owner =  MUG # AWA
+controller =  MUG # AWA
+add_core = MUG
+add_core = IGM
+trade_goods = grain
+life_rating = 35 

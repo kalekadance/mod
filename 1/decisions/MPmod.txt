@@ -1,0 +1,2101 @@
+political_decisions = {
+	# ------------------------------ Объединение стран для Бразилии --------------------------
+	restore_brz = {
+	picture = restore_brz
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = has_restore_brz
+			}
+		}
+		
+		allow = {
+			state_n_government = 1
+			2420 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2549 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2401 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2286 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			
+		}
+		
+		effect = {
+			prestige = 40
+			badboy = 7
+			government = democracy
+			add_accepted_culture = guarani
+			add_accepted_culture = platinean
+            add_accepted_culture = north_andean
+			CLM_2262 = {
+		    add_core = BRZ
+		     }
+			ECU_2279 = {
+		add_core = THIS
+		}
+			ENG_1979 = {
+				add_core = BRZ
+			}
+
+			PEU = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			#ECU = {
+			#	all_core = {
+			#		add_core = BRZ
+			#	}
+			#}
+			#VNZ = {
+			#	all_core = {
+			#		add_core = BRZ
+			#	}
+			#}
+			URU = {
+				all_core = {
+					add_core = BRZ
+				}
+			}			
+			PRG = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			BOL = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			ARG = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			CHL = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			inherit = PEU	#Перу
+			inherit = CHL	#Чили
+			#inherit = ECU	#Эквадор
+			inherit = ARG	#Аргентина
+			#inherit = URU	#Уругвай
+			inherit = PRG	#Парагвай
+			inherit = BOL	#Боливия
+			
+			2131={
+			remove_core = BRZ
+			}
+			set_country_flag = has_restore_brz
+
+		}
+	}
+	# ------------------------------ Объединение стран для Италии --------------------------
+	form_italy_min = {
+	picture = form_italy_min
+		potential = {
+			tag = SAR
+			NOT = {
+				exists = ITA
+				has_country_flag = form_italy_min
+			}
+			#ai = no
+		}
+		
+		allow = {			
+			prestige = 10
+			war = no			
+		}
+		
+		effect = {
+			prestige = 40
+			badboy = 5
+			inherit = TUS
+			inherit = PAR
+			inherit = LUC
+			inherit = MOD
+			inherit = LOM
+			726 = {	remove_core = ITA	}
+			727 = {	remove_core = ITA	}
+			728 = {	remove_core = ITA	}
+			create_vassal = SIC
+			set_country_flag = form_italy_min
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	# -------------------------------------- Присоединение Португалии ---------------------------
+	spa_convention = {
+        picture = annex_portugal
+ 		potential = {
+			tag = SPA
+			exists = POR
+			NOT = {
+				has_country_flag = spa_convention
+				war_with = POR
+			}
+			
+		}
+		
+		allow = {
+			is_sphere_leader_of = POR
+			is_greater_power = yes
+		}
+		
+		effect = {
+				
+			set_country_flag = spa_convention			
+			POR = {
+				country_event = { id=3471001 days=0 }
+			}
+			add_accepted_culture = portuguese
+			prestige = 30
+			badboy = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	spa_convention2 = {
+        picture = give_money
+ 		potential = {
+			tag = SPA
+			exists = MOR
+			NOT = {
+				has_country_flag = spa_convention2
+				war_with = MOR
+			}
+			
+		}
+		
+		allow = {
+		    has_country_flag = spa_convention
+		MOR = {
+		vassal_of = THIS
+		}
+		}
+		
+		effect = {
+				
+			set_country_flag = spa_convention2			
+	         inherit =MOR
+			prestige = 20
+			badboy = 16
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	restore_emp = {
+	picture = restore_brz
+	potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = has_restore_emp
+			}
+			}
+		allow =
+		{
+	        ai = no
+			year = 1850
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+		 THIS = {country_event = { id=37702 days=0 }}
+		 	set_country_flag = has_restore_emp
+		}
+	}
+	 
+	# ------------------------------------------------------------- Решения по займам --------------------------------------------------
+	diplomaty_mp = {
+	picture = give_money
+		potential = {
+			OR = { 
+			    tag = IGM
+				tag = ENG
+				tag = FRA
+				tag = RUS
+				tag = SPA
+				tag = TUR
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = USA
+				tag = AUS
+				tag = KUK
+				tag = ITA
+				tag = SCA
+				tag = SWE
+				tag = BRZ
+				tag = JAP
+				tag = PER
+				tag = HND
+				tag = NET
+				tag = EIC
+				tag = MEX
+				tag = CLM
+				tag = GCO
+				tag = EGY
+				tag = ARA
+				tag = MUG
+				tag = CAN
+				tag = SAF
+			}
+			prestige = 10
+			private_banks = 1
+			civilized = yes
+			NOT = {
+				has_country_flag = diplomaty_mp
+			}
+			
+		}
+		
+		allow = {
+			prestige = 10
+			private_banks = 1
+			#business_regulations = 1
+			money = 120000			
+		}
+		
+		effect = {
+			#set_country_flag = diplomaty_mp			
+			THIS = {
+				country_event = { id=3470333 days=0 }
+			}
+			money = -120000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	diplomaty_mp_m = {
+	picture = give_money_m
+		potential = {
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = RUS
+				tag = IGM
+				tag = SPA
+				tag = TUR
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = USA
+				tag = AUS
+				tag = KUK
+				tag = ITA
+				tag = SCA
+				tag = SWE
+				tag = BRZ
+				tag = JAP
+				tag = PER
+				tag = HND
+				tag = NET
+				tag = EIC
+				tag = MEX
+				tag = CLM
+				tag = GCO
+				tag = EGY
+				tag = ARA
+				tag = MUG
+				tag = CAN
+				tag = SAF
+			}
+			prestige = 10
+			private_banks = 1
+			civilized = yes
+			money = 520000	
+			NOT = {
+				has_country_flag = diplomaty_mp
+			}
+			
+		}
+		
+		allow = {
+			prestige = 10
+			private_banks = 1
+			#market_regulations = 1
+			money = 520000			
+		}
+		
+		effect = {
+			#set_country_flag = diplomaty_mp			
+			THIS = {
+				country_event = { id=3471333 days=0 }
+			}
+			money = -520000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	diplomaty_mp_sm = {
+	picture = give_money_s
+		potential = {
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = IGM
+				tag = RUS
+				tag = SPA
+				tag = TUR
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = USA
+				tag = AUS
+				tag = KUK
+				tag = ITA
+				tag = SCA
+				tag = SWE
+				tag = BRZ
+				tag = JAP
+				tag = PER
+				tag = HND
+				tag = NET
+				tag = EIC
+				tag = MEX
+				tag = CLM
+				tag = GCO
+				tag = EGY
+				tag = ARA
+				tag = MUG
+				tag = CAN
+				tag = SAF
+			}
+			prestige = 10
+			private_banks = 1
+			civilized = yes
+			money = 2010000	
+			NOT = {
+				has_country_flag = diplomaty_mp
+			}
+			
+		}
+		
+		allow = {
+			prestige = 10
+			private_banks = 1
+			#economic_responsibility = 1
+			money = 2010000			
+		}
+		
+		effect = {
+			#set_country_flag = diplomaty_mp			
+			THIS = {
+				country_event = { id=3472333 days=0 }
+			}
+			money = -2010000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# ------------------------------------------Великобритания---------------------------------------
+	diplomaty_eic = {
+	picture = diplomaty_eic
+		potential = {
+
+			tag = ENG
+			is_greater_power = yes
+			EIC = {
+				#civilized = yes
+				in_sphere = THIS
+				ai = yes
+			}
+			NOT = {
+				has_country_flag = diplomaty_eic
+			}
+			
+		}
+		
+		allow = {
+			prestige = 100
+			NOT = {
+					year = 1841
+				}
+			#nationalism_n_imperialism = 1
+		
+		}
+		
+		effect = {
+			set_country_flag = diplomaty_eic
+			#inherit = EIC
+			create_vassal = EIC
+
+			prestige = 30
+			badboy = 2
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# ---------------------------------------------------- БОИК -------------------------------------------------------------
+	#Razdel_penjaba = {
+	#picture = graet_eic
+	#	potential = {
+		#	tag = PER
+		#	NOT = {
+		#		has_country_flag = Razdel_penjaba
+		#	}		
+	#	}	
+		#allow = {
+		#IGM = {
+		#has_country_flag = Mogol_ambitions
+		#}	
+	#	}
+		#
+		#effect = {
+		#	set_country_flag = Razdel_penjaba
+		#	add_accepted_culture = pashtun
+	
+	#	}
+	#}
+	#Mogol_ambitions = {
+	#picture = graet_eic
+		#potential = {
+			#tag = IGM
+			#NOT = {
+			#	has_country_flag = Mogol_ambitions
+			#}		
+		#}	
+		#allow = {
+		#owns = 1277
+		#owns = 1271
+		#owns = 1275
+		#	prestige = 100
+		#	year = 1880
+			
+		#}
+		
+		#effect = {
+		#	set_country_flag = Mogol_ambitions
+		#	prestige = 85
+		#	add_accepted_culture = panjabi
+		#}
+		#ai_will_do = {
+		#	factor = 1
+		#}
+	#}
+	
+	Inian_ambitions = {
+	picture = graet_eic
+		potential = {
+			tag = HND
+			NOT = {
+				has_country_flag = Inian_ambitions
+			}		
+		}	
+		allow = {
+		owns = 1286
+		owns = 1245
+		owns = 1277
+		owns = 1300
+		owns = 1271
+		owns = 1275
+			prestige = 100
+			year = 1880
+			
+		}
+		
+		effect = {
+			set_country_flag = Inian_ambitions
+			prestige = 25
+			add_accepted_culture = kannada
+			add_accepted_culture = nepali
+				NAG_1277 = {remove_core = BHO
+				remove_core = NAG_1277
+				}
+				1245 = {remove_core = NAG}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	graet_eic = {
+	picture = graet_eic
+		potential = {
+			tag = EIC
+			NOT = {
+				has_country_flag = graet_eic
+			}		
+		}	
+		allow = {
+		owns = 1305
+		owns = 1286
+		owns = 1245
+		owns = 1277
+			prestige = 60
+			year = 1860
+			
+		}
+		
+		effect = {
+			set_country_flag = graet_eic
+			change_tag = HND
+			prestige = 20
+			add_accepted_culture = kanauji
+			add_accepted_culture = marathi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	graet_igm = {
+	picture = graet_eic
+		potential = {
+			tag = PER
+			NOT = {
+				has_country_flag = graet_igm
+			}	
+                   has_global_flag = Graeter_Persia			
+		}	
+		allow = {
+		
+			owns =1228
+			owns =1232
+			owns =1230
+			owns =1218
+			owns =1227 
+			owns =1233
+			owns =1229
+			owns =1223
+			prestige = 60
+			year = 1850
+		}
+		effect = {
+			set_country_flag = graet_igm
+			change_tag = IGM
+			prestige = 20
+			add_accepted_culture = rajput
+			add_accepted_culture = kurdish
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	obrazovanue_for_India1 = {
+	picture = obrazovanue_for_India
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India1
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 500000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India1
+	money = -500000
+	add_country_modifier = {
+	name = obrazovanue_for_India1
+	duration = -1
+	}
+}
+}	
+		obrazovanue_for_India2 = {
+	picture = obrazovanue_for_India
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	has_country_flag = obrazovanue_for_India1
+	NOT = {
+	has_country_flag = obrazovanue_for_India2
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 1500000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India2
+	money = -1500000
+	add_country_modifier = {
+	name = obrazovanue_for_India2
+	duration = -1
+	}
+}
+}	
+		obrazovanue_for_India3 = {
+	picture = obrazovanue_for_India
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	has_country_flag = obrazovanue_for_India2
+	NOT = {
+	has_country_flag = obrazovanue_for_India3
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India3
+	money = -2000000
+	add_country_modifier = {
+	name = obrazovanue_for_India3
+	duration = -1
+	}
+}
+}
+		obrazovanue_for_India4 = {
+	picture = obrazovanue_for_India
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_flag = obrazovanue_for_India3
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India4
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India4
+	money = -2000000
+	add_country_modifier = {
+	name = obrazovanue_for_India4
+	duration = -1
+	}
+}
+}
+	obrazovanue_for_India5 = {
+	picture = obrazovanue_for_India
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_flag = obrazovanue_for_India4
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India5
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India5
+	money = -2000000
+remove_country_modifier = obrazovanue_for_India1
+remove_country_modifier = obrazovanue_for_India2
+remove_country_modifier = obrazovanue_for_India3
+remove_country_modifier = obrazovanue_for_India4
+remove_country_modifier = India
+}
+}	
+	
+	
+	# --------------------------------------------------- Мед реформы ---------------------------------------------
+	dip_med = {
+	picture = dip_med
+		potential = {
+ civilized = yes
+			year = 1836
+			NOT = {
+				has_country_flag = dip_med
+			}
+		}
+		allow = {
+			money = 100000
+		}
+		
+		effect = {
+			set_country_flag = dip_med
+			add_country_modifier = {
+				name = med_ref_mp
+				duration = 100000
+			}
+			prestige = 5
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med1 = {
+	picture = dip_med
+		potential = {
+			year = 1841
+ has_country_flag = dip_med
+			NOT = {
+				has_country_flag = dip_med1
+			}
+		}
+		allow = {
+			money = 500000
+
+		}
+		
+		effect = {
+			set_country_flag = dip_med1
+			remove_country_modifier = med_ref_mp
+			add_country_modifier = {
+				name = med_ref_mp1
+				duration = 100000
+			}
+			prestige = 5
+			money = -500000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med2 = {
+	picture = dip_med
+		potential = {
+			year = 1845
+			prestige = 10
+ has_country_flag = dip_med1
+			NOT = {
+				has_country_flag = dip_med2
+			}
+		}
+		allow = {
+			money = 1000000
+		}
+		
+		effect = {
+			set_country_flag = dip_med2
+			remove_country_modifier = med_ref_mp1
+			add_country_modifier = {
+				name = med_ref_mp2
+				duration = 100000
+			}
+			prestige = 5
+			money = -1000000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med3 = {
+	picture = dip_med
+		potential = {
+			year = 1848
+			prestige = 10
+ has_country_flag = dip_med2
+			NOT = {
+				has_country_flag = dip_med3
+			}
+		}
+		allow = {
+			money = 2000000
+		}
+		effect = {
+			set_country_flag = dip_med3
+			remove_country_modifier = med_ref_mp2
+			add_country_modifier = {
+				name = med_ref_mp3
+				duration = 100000
+			}
+			prestige = 10
+			money = -2000000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med4 = {
+	picture = dip_med
+		potential = {
+			year = 1851
+			prestige = 15
+ has_country_flag = dip_med3
+			NOT = {
+				has_country_flag = dip_med4
+			}
+		}
+		allow = {
+			money = 4000000
+		}
+		effect = {
+			set_country_flag = dip_med4
+			remove_country_modifier = med_ref_mp3
+			add_country_modifier = {
+				name = med_ref_mp4
+				duration = 100000
+			}
+			prestige = 20
+			money = -2000000
+			money = -2000000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med5 = {
+	picture = dip_med
+		potential = {
+			year = 1900
+			prestige = 30
+has_country_flag = dip_med4
+			NOT = {
+				has_country_flag = dip_med5
+			}
+		}
+		allow = {
+			money = 20000000
+		}
+		
+		effect = {
+			set_country_flag = dip_med5
+			remove_country_modifier = med_ref_mp4
+			add_country_modifier = {		
+				name = med_ref_mp5
+				duration = 100000
+			}
+			prestige = 30
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	# ----------------------------------------------- Верфь для Австрии --------------------------------
+	aus_werft = {
+		picture = construct_germania_werft
+		potential = {
+			NOT = {
+				has_global_flag = aus_werft_has_been_built
+			}
+			has_global_flag = germania_werft_has_been_built
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			#owns = 736
+			owns = 2582
+			owns = 774
+		}
+		
+		allow = {
+			prestige = 00
+			steel_steamers = 1
+		}
+		
+		effect = {
+			set_global_flag = aus_werft_has_been_built
+			prestige = 30
+			#736 = {
+			#	add_province_modifier = {
+			#		name = germania_werft
+			#		duration = -1
+			#	}
+			#}
+			2582 = {
+				add_province_modifier = {
+					name = germania_werft
+					duration = -1
+				}
+			}
+			774 = {
+				add_province_modifier = {
+					name = germania_werft
+					duration = -1
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	# ---------------------------------------------------------- Решения для форм правления ---------------------------------------------------
+	form_republic_a = {
+		potential = {
+			year = 1890
+			government = democracy
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 10
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = republic_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	form_republic_b = {
+		potential = {
+			year = 1890
+			government = democracy
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = republic_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	form_comunist_a = {
+		potential = {
+			year = 1890
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = comunist_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_comunist_b = {
+		potential = {
+			year = 1890
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = comunist_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	form_fashist_a = {
+		potential = {
+			year = 1890
+			government = fascist_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = fashist_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_fashist_b = {
+		potential = {
+			year = 1890
+			government = fascist_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no
+			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = fashist_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	form_bourgeois_a = {
+		potential = {
+			year = 1890
+			OR = {
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			}
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = bourgeois_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_bourgeois_b = {
+		potential = {
+			year = 1890
+			OR = {
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			}
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		
+		allow = {			
+			prestige = 100
+			#war = no
+			
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = bourgeois_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# ------------------------------------- Решения на прирост населения для Скандинавии и Нидерландов
+	pop_up = {
+		potential = {
+				tag = SCA									
+			prestige = 10
+			medicine = 1
+			NOT = {
+				has_country_flag = pop_up
+			}
+			
+		}
+		
+		allow = {
+			cheap_steel = 1
+			prestige = 00
+			literacy = 0.65			
+		}
+		
+		effect = {
+			set_country_flag = pop_up
+			add_country_modifier = {
+				name = ruhr_boom
+				duration = 10950
+			}
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ 
+	 
+	# ------------------------------------------------------- Пролив Копенгаген -------------------------------------
+	srart_copenhagen = {
+		picture = bosfor_and_dar
+		potential = {
+			prestige = 0
+			owns = 372
+			#battleship_column_doctrine = 1
+
+			NOT = {
+				is_canal_enabled = 6
+				#has_global_flag = srart_copenhagen
+			}
+			
+		}
+		
+		allow = {
+			owns = 372			
+		}
+		
+		effect = {
+			#set_global_flag = srart_copenhagen
+			enable_canal = 6
+			add_country_modifier = {
+				name = kopengagen
+				duration = 100000
+			}
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#------Ассимиляция-----
+	assimilation_spread = { 
+		potential = {
+		year = 1890
+			prestige = 30
+			#collectivist_theory = 1
+			civilized = yes
+			NOT = {
+				has_country_flag = assimilation_spread
+			}
+		}
+		
+		allow = { 
+ invention = family_planning
+		}
+		
+		effect = {
+			set_country_flag = assimilation_spread
+			any_pop = {
+				militancy = 1
+ }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		# ---------------------------------------------------- Освобождение вассала ---------------------------------------------
+	release_vassal = {
+        picture = svoboda
+ alert = no
+
+		potential = {
+			num_of_vassals = 1
+ ai = no
+			}
+	allow = {
+		war = no 
+		}
+	effect = {
+		random_country = {
+			limit = {
+				is_vassal = yes
+				alliance_with = THIS
+ NOT = { 
+					tag = TIB
+ tag = CSA
+					}
+				}
+			country_event = { id=180180 days=0}
+			}
+ set_country_flag = politics_des_window
+		}
+	ai_will_do = {
+		factor = 0
+		}
+	}
+
+        # ---------------------------------------------------- Реформа образования  ---------------------------------------------
+    obrazovanue1 = {
+     picture = enact_the_homestead_act
+	potential = {
+	AI=NO
+    year = 1836
+	NOT = { 
+	 has_country_modifier = obrazovanue_cost
+	}
+	
+	}
+        allow = {
+            money = 1000000
+        }
+            effect = {
+				add_country_modifier = {
+                name = obrazovanue_cost
+                duration = 365
+                }
+				money = -1000000 
+				prestige = 5
+			}
+    }
+
+
+        #-------------------------------------------------- Повышение грамотности для индусов ------------------------------------------
+		reforma_v_Indii = {
+	picture = reforma_v_Indii
+		potential = {
+	   tag = EIC
+			NOT = {
+				has_country_flag = reforma_v_Indii
+			}
+		}
+		
+		allow = {
+			prestige = 25
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = 3
+				consciousness = 3
+				literacy = 0.05
+			}
+			prestige = 15
+			set_country_flag = reforma_v_Indii
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					average_militancy = 1
+				}
+			}
+		}
+	}
+	India_reforms = {
+			potential = {
+	   OR = {
+	   tag = EIC
+	   tag = MUG
+	   tag = IGM
+	   tag = HND
+	   }
+	   year = 1900
+	   has_country_modifier = India
+			NOT = {
+				has_country_flag = India_reforms
+			}
+		}
+			allow = {
+			prestige = 25
+		    }
+		effect = {
+			set_country_flag = India_reforms
+			remove_country_modifier = India
+			}
+			
+		}
+	
+	#-------------------------------------------------- Техшколы нецивилов ------------------------------------------
+	vibor_techshkol1 = {
+	 
+		potential = {
+	    civilized = yes
+		ai = no
+		 
+		 has_country_flag = tech_shkola1
+		   
+		 
+		}
+		
+		allow = {
+		 civilized = yes
+		}
+		
+		effect = {
+	 add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = commerce_tech_school
+		THIS = {
+		 
+		country_event = 101103 
+		clr_country_flag = tech_shkola1 }
+		 
+		 
+		 
+	  
+		}
+		
+		 
+	}
+
+vibor_techshkol2 = {
+	 
+		potential = {
+	    civilized = yes
+		ai = no
+		 
+		 
+		  has_country_flag = tech_shkola2
+		  
+		 
+		}
+		
+		allow = {
+		 civilized = yes
+		}
+		
+		effect = {
+		add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = culture_tech_school
+	 THIS = {
+		 
+		country_event = 101104 
+		clr_country_flag = tech_shkola2 }
+		 }
+		
+		 
+	}
+
+vibor_techshkol3 = {
+	 
+		potential = {
+	    civilized = yes
+		ai = no
+		 
+		 
+		   has_country_flag = tech_shkola3
+		 
+		}
+		
+		allow = {
+		 civilized = yes
+		}
+		
+		effect = { 
+		add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = army_tech_school
+		THIS = {
+		 
+		country_event = 101105 
+		clr_country_flag = tech_shkola3 }
+		}
+		
+		 
+	}
+	
+
+
+FAQ_dec = { 
+	alert = no 
+	
+	potential = { 
+	ai = no 
+		}
+	
+	allow = { 
+	year = 1836
+		}
+		
+	effect = { 
+	country_event = 145110
+		}
+	ai_will_do = {
+				factor = 0
+		}
+		
+	}
+	raskopka1 = { 
+	alert = no 
+	
+	potential = {
+	ai = no 
+  not = {has_country_flag = pora_kopat}	
+	 year = 1848
+		}
+	
+	allow = { 
+	year = 1848
+	money = 500000
+		}
+		
+	effect = {
+	set_country_flag = pora_kopat
+	money = -500000
+any_owned = {
+limit = {
+ 
+or = { 
+province_id = 1875
+province_id = 1463
+province_id = 1626
+province_id = 1621
+province_id = 888
+province_id = 893
+province_id = 1100
+province_id = 1098
+province_id = 1059
+province_id = 1060
+province_id = 1044
+province_id = 342
+province_id = 492
+province_id = 515
+province_id = 1709
+province_id = 739
+province_id = 563
+province_id = 592
+province_id = 392
+province_id = 407
+province_id = 427
+province_id = 286
+province_id = 44
+province_id = 75
+province_id = 177
+province_id = 158
+province_id = 2330
+province_id = 2327
+province_id = 2325
+province_id = 2324
+province_id = 2326
+province_id = 2323
+province_id = 2243
+province_id = 2169
+province_id = 100
+province_id = 13
+province_id = 562
+province_id = 627
+province_id = 616
+province_id = 774
+}
+not = { trade_goods = iron }
+}
+
+add_province_modifier = {
+			name = "raskopka"
+			duration = -1
+		}
+}	
+	 
+		}
+	ai_will_do = {
+				factor = 0
+		}
+		
+	}
+	raskopka2 = { 
+	alert = no 
+	
+	potential = { 
+	any_owned_province = {
+				has_province_modifier = raskopka
+			}
+			not = {has_country_flag = kopaem}
+		}
+	
+	allow = { 
+	year = 1850
+	money = 500000
+		}
+		
+	effect = { 
+	money = -500000
+	country_event = 1011016
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+		
+	}
+neft_kompania_form = { 
+	alert = yes
+	
+	potential = { 
+	not = {
+	 
+	has_country_flag = close_company
+	 }
+	any_owned_province = {
+				trade_goods = oil
+			}
+			or = {
+tag = IGM
+tag = PER
+tag = ARA
+}
+or = {
+ part_of_sphere = yes
+ is_greater_power = yes
+}		 
+		}
+	
+	allow = {
+	 money = 2000000
+ not = {
+	check_variable = {
+       which = company_level
+       value = 0.99
+}
+}
+	 
+	ai = no
+	year = 1880
+	 
+		}
+		
+	effect = { 
+	 money = -2000000
+	  country_event = 1011201
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+		
+	}
+	neft_kompania_1c = { 
+	alert = yes
+	
+	potential = { 
+	 has_country_flag = close_company	
+	 has_country_flag = invested_nc
+			or = {
+tag = IGM
+tag = PER
+tag = ARA
+}
+		 
+		}
+	
+	allow = {
+	not = {
+	check_variable = {
+       which = company_level
+       value = 2.01
+}
+}
+ 
+	 
+	ai = no
+	year = 1880
+	 
+		}
+		
+	effect = {
+clr_country_flag = invested_nc	
+	 change_variable = {	
+	which = company_level
+	value = 1
+       }
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+		
+	}
+  
+	neft_kompania6 = { 
+	alert = yes
+	
+	potential = {
+	 
+   is_greater_power = yes	
+	 		not = {
+			has_country_modifier = cost_of_inv_4
+			}
+			 or = {
+PER = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+	IGM = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+ARA = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+and = {
+tag = IGM
+is_greater_power = yes}  
+and = {
+tag = ARA
+is_greater_power = yes}
+}
+		}
+	
+	allow = {
+	is_greater_power = yes
+	 ai = no
+  or = {
+PER = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+	IGM = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+ARA = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+and = {
+tag = IGM
+is_greater_power = yes}  
+and = {
+tag = ARA
+is_greater_power = yes}
+}
+	 
+money = 5000000
+		}
+		
+	effect = { 
+	 money = -2000000
+	  money = -2000000
+	   money = -1000000
+	set_country_flag = invested_nc
+	add_country_modifier = {
+	  name = cost_of_inv_4
+	  duration = 700
+	  
+	  }
+	  any_country = {
+		limit = {
+		in_sphere = THIS
+		has_country_flag = close_company
+		}
+		set_country_flag = invested_nc
+		
+	  }
+	 
+		}
+	 
+		
+	}	
+	assim_corky = { 
+	 
+	
+	potential = {
+has_country_flag = assimilation_spread	
+	any_owned_province = {
+	    not = {has_province_modifier = assim_core}
+		}
+		}
+	
+	allow = {
+	 money = 2000000
+	any_owned_province = {
+	 not = {is_core = CHI}
+	units_in_province = 11
+	not = {units_in_province = 13}
+	is_colonial = no
+ is_accepted_culture = no
+ is_state_capital = no
+	}
+	 ai = no
+		}
+		
+	effect = {
+	 money = -2000000
+random_owned = {	
+limit = {
+is_state_capital = no
+not = {is_core = CHI}
+units_in_province = 11
+not = {units_in_province = 13}
+	is_colonial = no
+ is_accepted_culture = no
+}     
+  
+	 add_province_modifier = {
+	 name = assim_core
+	 duration = -1
+	 
+	 }
+	 }
+		} 
+	 
+		
+	}
+	tur_ulti = {
+	alert = yes 
+	potential = {
+	not = {
+	has_country_flag = ulti_sent_tur}
+	tag = IGM 
+	is_greater_power = yes 
+	year = 1890
+}
+allow = {
+check_variable = {
+       which = company_level
+       value = 3
+}
+}
+effect = {
+set_country_flag = ulti_sent_tur
+ARA = {
+country_event = 1011208
+}
+}
+	}
+war_push = {
+	alert = yes 
+	potential = {
+	or = {
+	has_country_modifier = republic_a
+	has_country_modifier = comunist_a
+	has_country_modifier = fashist_a
+	has_country_modifier = bourgeois_a
+	 }
+	 not = {has_country_flag = war_push_used}
+	 war_exhaustion = 50
+	 
+}
+allow = {
+money = 1000000
+   war_exhaustion = 50
+war = yes
+}
+effect = {
+money = -1000000
+set_country_flag = war_push_used
+ add_country_modifier = {
+name = war_test_attack
+duration = 100
+}
+}
+	}	
+	war_def = {
+	alert = yes 
+	potential = {
+	or = {
+	has_country_modifier = republic_b
+	has_country_modifier = comunist_b
+	has_country_modifier = fashist_b
+	has_country_modifier = bourgeois_b
+	 }
+	 not = {has_country_flag = war_def_used}
+	 war_exhaustion = 50
+}
+allow = {
+money = 1000000
+   war_exhaustion = 50
+war = yes
+}
+effect = {
+money = -1000000
+set_country_flag = war_def_used
+ add_country_modifier = {
+name = war_test_def
+duration = 100
+}
+}
+	}
+	sanatoriy = {
+	alert = yes 
+	potential = {
+	year = 1880
+	is_greater_power = no
+	 
+	 not = {has_country_flag = sanatoriy_used}
+	 
+}
+allow = {
+electric_gear = 10000
+money = 1000000
+  any_owned_province = {
+	 not = {total_pops = 300000}
+	units_in_province = 12
+	not = {units_in_province = 13}
+	is_colonial = no
+ 
+ 
+	}
+war = no
+}
+effect = {
+electric_gear = -10000
+money = -1000000
+set_country_flag = sanatoriy_used
+random_owned = {	
+limit = {
+ 
+  not = {total_pops = 300000}
+units_in_province = 12
+not = {units_in_province = 13}
+	 
+}     
+  
+	 add_province_modifier = {
+	 name = government_sanitarium2
+	 duration = -1
+	 
+	 }
+	 }
+  
+}
+	}
+ 
+ change_gov_type = {
+ picture = palais_garnier
+	alert = yes 
+	potential = {
+	year = 1880
+			NOT = {
+				year = 1905
+			}
+	 
+               }
+     allow = {
+	    year = 1885
+		literacy = 0.7
+		militancy = 2
+		consciousness = 3
+		NOT = {
+				has_country_modifier = gov_changed
+			}
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = gov_changed
+	 duration = 3652
+	 
+	                        }
+	 
+ country_event = { id=347105 days=0 }
+            }
+	                }
+					
+change_gov_type2 = {
+picture = palais_garnier
+	alert = yes 
+	potential = {
+	year = 1900
+               }
+     allow = {
+	    year = 1905
+		literacy = 0.8
+		militancy = 2
+		consciousness = 3
+		NOT = {
+				has_country_modifier = gov_changed
+			}
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = gov_changed
+	 duration = 3652
+	                        }
+ country_event = { id=347005 days=0 }
+  
+            }
+	                }
+					go_to_regular_focus = {
+picture = palais_garnier
+	alert = yes 
+	potential = {
+	year = 1870
+               }
+     allow = {
+	    year = 1870
+	 ai = no
+		NOT = {
+				has_country_flag = changed_army2
+			}
+			NOT = {
+				has_country_flag = changed_army
+			}
+			war = no
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = army_changed
+	 duration = -1
+	                        }
+  set_country_flag = changed_army
+  
+            }
+	                }
+					go_back_to_mobile = {
+picture = palais_garnier
+	alert = yes 
+	potential = {
+	year = 1870
+	has_country_flag = changed_army
+               }
+     allow = {
+	    year = 1870
+		 ai = no
+		NOT = {
+				has_country_modifier = army_changed2
+			}
+             }
+	effect = {
+	remove_country_modifier = army_changed
+	 add_country_modifier = {
+	 name = army_changed2		
+	 duration = 1825
+	                        }
+							set_country_flag = changed_army2
+ country_event = { id=99912115 days=1825 }
+  clr_country_flag = changed_army
+            }
+	                }
+}

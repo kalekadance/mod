@@ -1,0 +1,51 @@
+country_event = {
+	id = 18942
+	title = "EVTNAME18942"
+	desc = "EVTDESC18942"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+	year = 1870
+	OR = {
+	tag = EIC
+	tag = HND
+	}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18942"
+		add_country_modifier = {
+				name = famine_la_india
+				duration = -1
+		}
+	}
+}
+country_event = {
+	id = 18943
+	title = "EVTNAME18943"
+	desc = "EVTDESC18943"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+		
+	option = {
+		name = "EVTOPTA18943"
+		1280 = { trade_goods = grain }
+		remove_country_modifier = famine_war_third_step
+		add_country_modifier = {
+				name = famine_war_end
+				duration = -1
+		}
+	}
+	option = {
+		name = "EVTOPTB18943"
+		remove_country_modifier = famine_war_third_step
+	}
+}
