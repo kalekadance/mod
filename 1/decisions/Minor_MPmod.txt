@@ -357,30 +357,6 @@ own_Switzerland = {
 		}
 	
 }
-
-form_Franco_Iberia = {
-	picture = graet_eic
-		potential = {
-			tag = SPA
-			NOT = {
-				has_country_flag = form_Franco_Iberia
-			}		
-		}	
-		allow = {
-		owns = 300
-			
-		}
-		
-		effect = {
-			set_country_flag = form_Franco_Iberia
-			change_tag = A04
-			prestige = 20
-			ruling_party_ideology = conservative
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 #Решения Каталонии
 
