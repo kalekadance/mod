@@ -15,6 +15,12 @@ A07		= "countries/Intermarium.txt"
 A08		= "countries/GreatSibiria.txt"
 A09		= "countries/Tongan Empire.txt"
 A10		= "countries/United States of New York.txt"
+A11		= "countries/Pacific States of America.txt"
+A12		= "countries/Indonesia.txt"
+A13		= "countries/Maya Empire.txt"
+A14		= "countries/New Carthage.txt"
+A15		= "countries/GreatArmenia.txt"
+A16		= "countries/GreaterIsrael.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
