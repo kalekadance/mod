@@ -561,7 +561,6 @@ form_Intermarium = {
 		tag = PLC
 			AND = {
 				has_country_flag = graet_pol4
-				owns = 958
 				NOT = {
 					has_country_flag = form_Intermarium
 				}
@@ -576,7 +575,109 @@ form_Intermarium = {
 			set_country_flag = form_Intermarium
 			change_tag = A07
 			prestige = 20
+			add_core = 964
+			add_core = 967
+			add_core = 966
 			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+form_Intermarium1 = {
+	picture = graet_eic
+		potential = {
+		tag = A07
+			AND = {
+				has_country_flag = form_Intermarium
+				NOT = {
+					has_country_flag = form_Intermarium1
+					has_country_flag = form_Intermarium33
+				}
+			}			
+		}	
+		allow = {
+		tag = A07
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium1
+			add_core = 1045
+			add_core = 979
+			add_core = 1046
+			add_core = 1047
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+form_Intermarium33 = {
+	picture = graet_eic
+		potential = {
+		tag = A07
+			AND = {
+				has_country_flag = form_Intermarium
+				NOT = {
+					has_country_flag = form_Intermarium1
+					has_country_flag = form_Intermarium33
+				}
+			}			
+		}	
+		allow = {
+		tag = A07
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium33
+			add_core = 677
+			add_core = 676
+			add_core = 678
+			add_core = 671
+			add_core = 670
+			add_core = 673
+			add_core = 663
+			add_core = 672
+			add_accepted_culture = romanian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Intermarium2 = {
+	picture = graet_eic
+		potential = {
+			AND = {
+				has_country_flag = form_Intermarium1
+				NOT = {
+					has_country_flag = form_Intermarium2
+				}
+			}			
+		}	
+		allow = {
+		tag = A07
+		owns = 979
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium2
+			add_core = 1007
+			add_core = 943
+			add_core = 999
+			add_core = 1000
+			add_core = 1016
+			add_core = 1015
+			add_core = 1014
+			add_core = 1010
+			add_core = 1009
+			add_core = 977
+			add_core = 1017
+			add_core = 1018
+			add_core = 1019
+			add_accepted_culture = russian
 		}
 		ai_will_do = {
 			factor = 1
