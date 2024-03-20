@@ -610,7 +610,7 @@ form_Intermarium = {
 		}	
 		allow = {
 		tag = PLC
-			
+		owns = 958
 		}
 		
 		effect = {

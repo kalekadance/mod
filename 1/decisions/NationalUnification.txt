@@ -198,7 +198,7 @@ political_decisions = {
 			culture_has_union_tag = yes
 			NOT = {
 				OR = {
-					cultural_union = { exists = no }
+					cultural_union = { exists = yes }
 					is_culture_group = germanic
 					is_culture_group = scandinavian
 					is_culture_group = italian
@@ -209,6 +209,8 @@ political_decisions = {
 					tag = EIC
 					tag = MUG
 					tag = IGM
+					tag = A07
+					tag = PLC
 				}
 			}
 		}
