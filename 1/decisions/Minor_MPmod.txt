@@ -1,4 +1,6 @@
 political_decisions = {
+
+# Решения Коммуны
 form_anjou_kingdom = {
 	picture = graet_eic
 		potential = {
@@ -116,6 +118,8 @@ remove_irish_cores {
 		}
 }
 
+#Решения Люксембурга
+
 form_Lorraine = {
 	picture = graet_eic
 		potential = {
@@ -162,6 +166,9 @@ form_Lorraine = {
 			add_core = 383
 			add_core = 385
 			add_core = 387
+			any_owned = {
+				remove_core = LUX
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -303,6 +310,11 @@ form_Francia = {
 					add_core = A03
 				}
 			}
+			SWI = {
+				any_owned = {
+					add_core = A03
+				}
+			}
 			any_owned = {
 				remove_core = A02
 			}
@@ -312,6 +324,40 @@ form_Francia = {
 		}
 	}
 	
+own_Switzerland = {
+	picture = graet_eic
+	potential = {
+		tag = A03
+		NOT = {
+					has_country_flag = own_Switzerland
+				}
+	}
+	allow = {
+		owns = 607
+		owns = 606
+	}
+	effect = {
+			set_country_flag = own_Switzerland
+			prestige = 20
+			ruling_party_ideology = conservative
+			SAR = {
+				any_owned = {
+					add_core = A03
+				}
+			}
+			LOM = {
+				any_owned = {
+					add_core = A03
+				}
+			}
+			add_accepted_culture = north_italian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+}
+
 form_Franco_Iberia = {
 	picture = graet_eic
 		potential = {
@@ -330,6 +376,112 @@ form_Franco_Iberia = {
 			change_tag = A04
 			prestige = 20
 			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#Решения Каталонии
+
+form_Spain = {
+	picture = graet_eic
+		potential = {
+			tag = CAT
+			NOT = {
+				has_country_flag = form_Spain
+			}		
+		}	
+		allow = {
+		owns = 487
+		}
+		
+		effect = {
+			set_country_flag = form_Spain
+			change_tag = SPA
+			prestige = 20
+			ruling_party_ideology = conservative
+			inherit = D21
+			inherit = D20
+			POR = {
+				any_owned = {
+					add_core = SPA
+				}
+			}
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+agressive_annex = {
+	picture = graet_eic
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = agressive_annex
+			}		
+		}	
+		allow = {
+		owns = 521
+		}
+		
+		effect = {
+			set_country_flag = agressive_annex
+			add_accepted_culture = portuguese
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Franco_Iberia = {
+	picture = graet_eic
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = form_Franco_Iberia
+			}		
+		}	
+		allow = {
+			owns = 487
+			owns = 521
+			owns = 458
+			owns = 467
+		}
+		
+		effect = {
+			set_country_flag = form_Franco_Iberia
+			change_tag = A04
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = french
+			add_core = 460
+			add_core = 459
+			add_core = 458
+			add_core = 444
+			add_core = 442
+			add_core = 443
+			add_core = 446
+			add_core = 445
+			add_core = 447
+			add_core = 448
+			add_core = 449
+			add_core = 450
+			add_core = 467
+			add_core = 470
+			add_core = 468
+			add_core = 469
+			add_core = 471
+			add_core = 472
+			add_core = 454
+			add_core = 453
+			add_core = 452
+			add_core = 451
+			add_core = 466
+			add_core = 465
 		}
 		ai_will_do = {
 			factor = 1
@@ -432,6 +584,8 @@ form_GreatSibiria = {
 			factor = 1
 		}
 	}
+	
+#Решения Польши
 	
 graet_pol = {
 	picture = graet_eic
