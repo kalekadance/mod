@@ -135,6 +135,9 @@ form_Lorraine = {
 			change_tag = A02
 			prestige = 20
 			ruling_party_ideology = conservative
+			add_accepted_culture = flemish
+			add_accepted_culture = wallonian
+			add_accepted_culture = dutch
 			add_core = 396
 			add_core = 398
 			add_core = 392
@@ -182,6 +185,7 @@ Lorraine_first = {
 		
 		effect = {
 			set_country_flag = Lorraine_first
+			add_accepted_culture = north_german
 			prestige = 10
 			add_core = 581
 			add_core = 580
@@ -218,6 +222,7 @@ Lorraine_second = {
 		effect = {
 			set_country_flag = Lorraine_second
 			prestige = 10
+			add_accepted_culture = south_german
 			add_core = 569
 			add_core = 590
 			add_core = 589
@@ -287,6 +292,20 @@ form_Francia = {
 			change_tag = A03
 			prestige = 20
 			ruling_party_ideology = conservative
+			add_core = 445
+			add_core = 446
+			add_core = 447
+			add_core = 449
+			add_core = 450
+			add_core = 448
+			PAR = {
+				any_owned = {
+					add_core = A03
+				}
+			}
+			any_owned = {
+				remove_core = A02
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -364,7 +383,30 @@ form_RE = {
 			factor = 1
 		}
 	}
-	
+
+form_Intermarium = {
+	picture = graet_eic
+		potential = {
+			tag = PLC
+			NOT = {
+				has_country_flag = form_Intermarium
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium
+			change_tag = A07
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 form_GreatSibiria = {
 	picture = graet_eic
 		potential = {
@@ -568,7 +610,7 @@ form_Intermarium = {
 		}	
 		allow = {
 		tag = PLC
-			
+		owns = 958
 		}
 		
 		effect = {
