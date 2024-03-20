@@ -364,30 +364,7 @@ form_RE = {
 			factor = 1
 		}
 	}
-
-form_Intermarium = {
-	picture = graet_eic
-		potential = {
-			tag = PLC
-			NOT = {
-				has_country_flag = form_Intermarium
-			}		
-		}	
-		allow = {
-		owns = 300
-			
-		}
-		
-		effect = {
-			set_country_flag = form_Intermarium
-			change_tag = A07
-			prestige = 20
-			ruling_party_ideology = conservative
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	
 form_GreatSibiria = {
 	picture = graet_eic
 		potential = {
@@ -413,4 +390,196 @@ form_GreatSibiria = {
 			factor = 1
 		}
 	}
+	
+graet_pol = {
+	picture = graet_eic
+		potential = {
+		tag = POL
+			NOT = {
+				has_country_flag = graet_pol
+			}		
+		}	
+		allow = {
+		owns = 2584
+		owns = 714
+		owns = 704
+		owns = 705
+		owns = 702
+		owns = 951
+		owns = 952
+		owns = 953
+		owns = 662
+		}
+		
+		effect = {
+			set_country_flag = graet_pol
+			change_tag = PLC
+			add_core = 691
+			add_core = 690
+			add_core = 693
+			add_core = 694
+			add_core = 696
+			add_core = 695
+			add_core = 697
+			add_core = 698
+			add_core = 365
+			add_core = 364
+			add_core = 363
+			add_core = 362
+			add_core = 360
+			add_core = 361
+			add_accepted_culture = lithuanian
+			add_accepted_culture = ashkenazi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+graet_pol2 = {
+	picture = graet_eic
+		potential = {
+			tag = PLC
+			NOT = {
+				has_country_flag = graet_pol2
+			}		
+		}	
+		allow = {
+		owns = 698
+		owns = 690
+		owns = 360
+		}
+		
+		effect = {
+			set_country_flag = graet_pol2
+			add_core = 359
+			add_core = 358
+			add_core = 357
+			add_core = 356
+			add_core = 355
+			add_core = 354
+			add_core = 353
+			add_core = 352
+			add_core = 351
+			add_core = 350
+			add_core = 349
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+graet_pol3 = {
+	picture = graet_eic
+		potential = {
+			tag = PLC
+			AND = {
+				has_country_flag = graet_pol2
+				NOT = {
+					has_country_flag = graet_pol3
+				}
+			}		
+					
+		}	
+		allow = {
+		owns = 349
+		owns = 354
+		}
+		
+		effect = {
+			set_country_flag = graet_pol3
+			add_core = 947
+			add_core = 946
+			add_core = 945
+			add_core = 944
+			add_core = 948
+			add_core = 718
+			add_core = 938
+			add_core = 936
+			add_core = 719
+			add_core = 937
+			add_core = 940
+			add_core = 939
+			add_core = 941
+			add_core = 942
+			add_core = 949
+			add_core = 948	
+			add_accepted_culture = byelorussian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+graet_pol4 = {
+	picture = graet_eic
+		potential = {
+			AND = {
+				has_country_flag = graet_pol3
+				NOT = {
+					has_country_flag = graet_pol4
+				}
+			}	
+		}	
+		allow = {
+		owns = 718
+		}
+		
+		effect = {
+			set_country_flag = graet_pol4
+			add_core = 957
+			add_core = 956
+			add_core = 955
+			add_core = 954
+			add_core = 959
+			add_core = 960
+			add_core = 969
+			add_core = 968
+			add_core = 970
+			add_core = 965
+			add_core = 971
+			add_core = 961
+			add_core = 958
+			add_core = 962
+			add_core = 963
+			add_core = 972
+			add_core = 973
+			add_core = 974
+			add_core = 978
+			add_core = 980
+			add_core = 975
+			add_core = 976
+			add_accepted_culture = ukrainian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_Intermarium = {
+	picture = graet_eic
+		potential = {
+		tag = PLC
+			AND = {
+				has_country_flag = graet_pol4
+				owns = 958
+				NOT = {
+					has_country_flag = form_Intermarium
+				}
+			}			
+		}	
+		allow = {
+		tag = PLC
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium
+			change_tag = A07
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 }
