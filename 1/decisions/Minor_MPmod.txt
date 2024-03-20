@@ -1,0 +1,435 @@
+political_decisions = {
+form_anjou_kingdom = {
+	picture = graet_eic
+		potential = {
+			tag = D22
+			NOT = {
+				has_country_flag = form_anjou_kingdom
+			}		
+		}	
+		allow = {
+		owns = 300
+		owns = 269
+		owns = 418
+		owns = 435
+		}
+		
+		effect = {
+			set_country_flag = form_anjou_kingdom
+			change_tag = A01
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = french
+			add_core=418
+			add_core=415
+			add_core=417
+			add_core=416
+			add_core=435
+			add_core=434
+			add_core=437
+			add_core=423
+			add_core=424
+			add_core=418
+			add_core=422
+			add_core=421
+			add_core=420
+			add_core=443
+			add_core=442
+			add_core=444
+			add_core=458
+			add_core=459
+			add_core=460
+			add_core=254
+			add_core=256
+			add_core=263
+			add_core=255
+			add_core=257
+			add_core=259
+			add_core=264
+			add_core=265
+			add_core=262
+			add_core=258
+			add_core=261
+			add_core=260
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+remove_irish_cores {
+	picture = graet_eic
+	potential = {
+		tag = A01
+		has_country_flag = form_anjou_kingdom
+		NOT = {
+			has_country_flag = remove_irish_cores
+		}
+	}
+	allow = {
+		owns = 254
+		owns = 263
+		owns = 260
+		nationalism_n_imperialism = 1
+	}
+	effect = {
+		254 = {
+			remove_core = IRE
+		}
+		255 = {
+			remove_core = IRE
+		}
+		256 = {
+			remove_core = IRE
+		}
+		257 = {
+			remove_core = IRE
+		}
+		263 = {
+			remove_core = IRE
+		}
+		264 = {
+			remove_core = IRE
+		}
+		259 = {
+			remove_core = IRE
+		}
+		265 = {
+			remove_core = IRE
+		}
+		258 = {
+			remove_core = IRE
+		}
+		262 = {
+			remove_core = IRE
+		}
+		260 = {
+			remove_core = IRE
+		}
+		261 = {
+			remove_core = IRE
+		}
+		set_country_flag = remove_irish_cores
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+form_Lorraine = {
+	picture = graet_eic
+		potential = {
+			tag = LUX
+			NOT = {
+				has_country_flag = form_Lorraine
+			}		
+		}	
+		allow = {
+		owns = 407
+		owns = 576
+		owns = 398
+		}
+		
+		effect = {
+			set_country_flag = form_Lorraine
+			change_tag = A02
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = flemish
+			add_accepted_culture = wallonian
+			add_accepted_culture = dutch
+			add_core = 396
+			add_core = 398
+			add_core = 392
+			add_core = 395
+			add_core = 391
+			add_core = 397
+			add_core = 381
+			add_core = 379
+			add_core = 382
+			add_core = 394
+			add_core = 393
+			add_core = 388
+			add_core = 389
+			add_core = 378
+			add_core = 390
+			add_core = 380
+			add_core = 376
+			add_core = 377
+			add_core = 375
+			add_core = 384
+			add_core = 386
+			add_core = 383
+			add_core = 385
+			add_core = 387
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+Lorraine_first = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			NOT = {
+				has_country_flag = Lorraine_first
+			}		
+		}	
+		allow = {
+		owns = 375
+		owns = 388
+		owns = 379
+		owns = 385
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_first
+			add_accepted_culture = north_german
+			prestige = 10
+			add_core = 581
+			add_core = 580
+			add_core = 582
+			add_core = 585
+			add_core = 584
+			add_core = 583
+			add_core = 565
+			add_core = 567
+			add_core = 564
+			add_core = 2560
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+Lorraine_second = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_first
+				NOT = {
+					has_country_flag = Lorraine_second
+				}
+			}
+		}	
+		allow = {
+		owns = 2560
+		owns = 581
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_second
+			prestige = 10
+			add_accepted_culture = south_german
+			add_core = 569
+			add_core = 590
+			add_core = 589
+			add_core = 593
+			add_core = 588
+			add_core = 594
+			add_core = 591
+			add_core = 586
+			add_core = 587
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+Lorraine_third = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_second
+				NOT = {
+					has_country_flag = Lorraine_third
+				}
+			}		
+		}	
+		allow = {
+		owns = 587
+		owns = 589
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_third
+			prestige = 10
+			add_core = 425
+			add_core = 438
+			add_core = 427
+			add_core = 426
+			add_core = 439
+			add_core = 440
+			add_core = 441
+			add_core = 436
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_Francia = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_third
+				NOT = {
+					has_country_flag = form_Francia
+				}
+			}
+		}	
+		allow = {
+		owns = 425
+		owns = 438
+		}
+		
+		effect = {
+			set_country_flag = form_Francia
+			change_tag = A03
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_core = 445
+			add_core = 446
+			add_core = 447
+			add_core = 449
+			add_core = 450
+			add_core = 448
+			PAR = {
+				any_owned = {
+					add_core = A03
+				}
+			}
+			any_owned = {
+				remove_core = A02
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_Franco_Iberia = {
+	picture = graet_eic
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = form_Franco_Iberia
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Franco_Iberia
+			change_tag = A04
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+form_HRE = {
+	picture = graet_eic
+		potential = {
+			tag = CZH
+			NOT = {
+				has_country_flag = form_HRE
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_HRE
+			change_tag = A05
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_RE = {
+	picture = graet_eic
+		potential = {
+			tag = SIC
+			NOT = {
+				has_country_flag = form_RE
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_RE
+			change_tag = A06
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_Intermarium = {
+	picture = graet_eic
+		potential = {
+			tag = PLC
+			NOT = {
+				has_country_flag = form_Intermarium
+			}		
+		}	
+		allow = {
+		owns = 300
+			
+		}
+		
+		effect = {
+			set_country_flag = form_Intermarium
+			change_tag = A07
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+form_GreatSibiria = {
+	picture = graet_eic
+		potential = {
+			tag = MTC
+			NOT = {
+				has_country_flag = form_GreatSibiria
+			}		
+		}	
+		allow = {
+		owns = 1191
+		owns = 1198
+		owns = 1202
+			
+		}
+		
+		effect = {
+			set_country_flag = form_GreatSibiria
+			change_tag = A08
+			prestige = 20
+			ruling_party_ideology = conservative
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
