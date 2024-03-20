@@ -69,7 +69,7 @@ political_decisions = {
 			factor = 1
 			}
 	}
-	
+	}
 	NEN_annexation = {
 		picture = graet_eic
 			potential = {
