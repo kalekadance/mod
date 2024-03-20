@@ -50,6 +50,36 @@ A10 = {
 	color = { 33 102 15 }
 }
 
+#PSA
+A11 = {
+	color = { 188 255 5 }
+}
+
+#Indonesia
+A12 = {
+	color = { 229 229 229 }
+}
+
+#Maya Empire
+A13 = {
+	color = { 46 32 44 }
+}
+
+#New Carthage
+A14 = {
+	color = { 128 135 82 }
+}
+
+#GreatArmenia
+A15 = {
+	color = { 232 85 74}
+}
+
+#GreaterIsrael
+A16 = {
+	color = { 33 11 176}
+}
+
 
 # Sweden
 SWE = {
