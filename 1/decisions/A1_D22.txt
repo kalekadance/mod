@@ -1,0 +1,118 @@
+political_decisions = {
+form_anjou_kingdom = {
+	picture = graet_eic
+		potential = {
+			tag = D22
+			NOT = {
+				has_country_flag = form_anjou_kingdom
+			}		
+		}	
+		allow = {
+		owns = 300
+		owns = 269
+		owns = 418
+		owns = 435
+		}
+		
+		effect = {
+			set_country_flag = form_anjou_kingdom
+			change_tag = A01
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = french
+			add_core=418
+			add_core=415
+			add_core=417
+			add_core=416
+			add_core=435
+			add_core=434
+			add_core=437
+			add_core=423
+			add_core=424
+			add_core=418
+			add_core=422
+			add_core=421
+			add_core=420
+			add_core=443
+			add_core=442
+			add_core=444
+			add_core=458
+			add_core=459
+			add_core=460
+			add_core=254
+			add_core=256
+			add_core=263
+			add_core=255
+			add_core=257
+			add_core=259
+			add_core=264
+			add_core=265
+			add_core=262
+			add_core=258
+			add_core=261
+			add_core=260
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+remove_irish_cores {
+	picture = graet_eic
+	potential = {
+		tag = A01
+		has_country_flag = form_anjou_kingdom
+		NOT = {
+			has_country_flag = remove_irish_cores
+		}
+	}
+	allow = {
+		owns = 254
+		owns = 263
+		owns = 260
+		nationalism_n_imperialism = 1
+	}
+	effect = {
+		254 = {
+			remove_core = IRE
+		}
+		255 = {
+			remove_core = IRE
+		}
+		256 = {
+			remove_core = IRE
+		}
+		257 = {
+			remove_core = IRE
+		}
+		263 = {
+			remove_core = IRE
+		}
+		264 = {
+			remove_core = IRE
+		}
+		259 = {
+			remove_core = IRE
+		}
+		265 = {
+			remove_core = IRE
+		}
+		258 = {
+			remove_core = IRE
+		}
+		262 = {
+			remove_core = IRE
+		}
+		260 = {
+			remove_core = IRE
+		}
+		261 = {
+			remove_core = IRE
+		}
+		set_country_flag = remove_irish_cores
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+}

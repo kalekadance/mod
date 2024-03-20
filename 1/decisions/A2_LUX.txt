@@ -1,0 +1,197 @@
+political_decisions = {
+form_Lorraine = {
+	picture = graet_eic
+		potential = {
+			tag = LUX
+			NOT = {
+				has_country_flag = form_Lorraine
+			}		
+		}	
+		allow = {
+		owns = 407
+		owns = 576
+		owns = 398
+		}
+		
+		effect = {
+			set_country_flag = form_Lorraine
+			change_tag = A02
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = flemish
+			add_accepted_culture = wallonian
+			add_accepted_culture = dutch
+			add_core = 396
+			add_core = 398
+			add_core = 392
+			add_core = 395
+			add_core = 391
+			add_core = 397
+			add_core = 381
+			add_core = 379
+			add_core = 382
+			add_core = 394
+			add_core = 393
+			add_core = 388
+			add_core = 389
+			add_core = 378
+			add_core = 390
+			add_core = 380
+			add_core = 376
+			add_core = 377
+			add_core = 375
+			add_core = 384
+			add_core = 386
+			add_core = 383
+			add_core = 385
+			add_core = 387
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+Lorraine_first = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			NOT = {
+				has_country_flag = Lorraine_first
+			}		
+		}	
+		allow = {
+		owns = 375
+		owns = 388
+		owns = 379
+		owns = 385
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_first
+			add_accepted_culture = north_german
+			prestige = 10
+			add_core = 581
+			add_core = 580
+			add_core = 582
+			add_core = 585
+			add_core = 584
+			add_core = 583
+			add_core = 565
+			add_core = 567
+			add_core = 564
+			add_core = 2560
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+Lorraine_second = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_first
+				NOT = {
+					has_country_flag = Lorraine_second
+				}
+			}
+		}	
+		allow = {
+		owns = 2560
+		owns = 581
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_second
+			prestige = 10
+			add_accepted_culture = south_german
+			add_core = 569
+			add_core = 590
+			add_core = 589
+			add_core = 593
+			add_core = 588
+			add_core = 594
+			add_core = 591
+			add_core = 586
+			add_core = 587
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+Lorraine_third = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_second
+				NOT = {
+					has_country_flag = Lorraine_third
+				}
+			}		
+		}	
+		allow = {
+		owns = 587
+		owns = 589
+		}
+		
+		effect = {
+			set_country_flag = Lorraine_third
+			prestige = 10
+			add_core = 425
+			add_core = 438
+			add_core = 427
+			add_core = 426
+			add_core = 439
+			add_core = 440
+			add_core = 441
+			add_core = 436
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+form_Francia = {
+	picture = graet_eic
+		potential = {
+			tag = A02
+			AND = {
+				has_country_flag = Lorraine_third
+				NOT = {
+					has_country_flag = form_Francia
+				}
+			}
+		}	
+		allow = {
+		owns = 425
+		owns = 438
+		}
+		
+		effect = {
+			set_country_flag = form_Francia
+			change_tag = A03
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_core = 445
+			add_core = 446
+			add_core = 447
+			add_core = 449
+			add_core = 450
+			add_core = 448
+			PAR = {
+				any_owned = {
+					add_core = A03
+				}
+			}
+			any_owned = {
+				remove_core = A02
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
