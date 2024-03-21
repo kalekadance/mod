@@ -203,6 +203,7 @@ political_decisions = {
 					is_culture_group = scandinavian
 					is_culture_group = italian
 					is_culture_group = arab
+					is_culture_group = polish
 					tag = ECU
 					tag = CLM
 					tag = VNZ
@@ -210,6 +211,7 @@ political_decisions = {
 					tag = MUG
 					tag = IGM
 					tag = A07
+					tag = POL
 					tag = PLC
 				}
 			}
