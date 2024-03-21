@@ -463,18 +463,120 @@ form_Franco_Iberia = {
 			factor = 1
 		}
 	}
-	
+
+#Решения Богемии
+
+BOH_first = {
+	picture = graet_eic
+	potential = {
+		tag = BOH
+		NOT = {
+			has_country_flag = BOH_first
+		}
+	}
+	allow = {
+		owns = 703
+		owns = 682
+	}
+	effect = {
+		set_country_flag = BOH_first
+		prestige = 20
+		SLV = {
+				any_owned = {
+					add_core = BOH
+				}
+			}
+	}
+}
+
+CZH_form = {
+	picture = graet_eic
+	potential = {
+		tag = BOH
+		NOT = {
+			has_country_flag = CZH_form
+		}
+	}
+	allow = {
+		owns = 633
+	}
+	effect = {
+		set_country_flag = CZH_form
+		prestige = 20
+		change_tag = CZH
+		ruling_party_ideology = conservative
+		add_core = 596
+		add_core = 597
+		add_core = 598
+		add_core = 595
+		add_core = 602
+		add_core = 601
+		add_core = 592
+		add_core = 599
+		add_core = 600
+		add_core = 613
+		add_core = 615
+		add_core = 612
+		add_core = 735
+		add_core = 600
+		add_core = 614
+	}
+}
+
+
+CZH_claims = {
+	picture = graet_eic
+	potential = {
+		tag = CZH
+		AND = {
+			NOT = {
+				has_country_flag = CZH_claims
+			}
+		}
+	}
+	allow = {
+		owns = 599
+		owns = 595
+		owns = 613
+	}
+	effect = {
+		set_country_flag = CZH_claims
+		add_core = 687
+		add_core = 558
+		add_core = 559
+		add_core = 560
+		add_core = 561
+		add_core = 563
+		add_core = 562
+		add_core = 568
+		add_core = 566
+		add_core = 537
+		add_core = 536
+		add_core = 554
+		add_core = 553
+		add_core = 557
+		add_core = 556
+		add_core = 555
+		add_core = 552
+		add_core = 549
+		add_core = 550
+	}
+}
+
 form_HRE = {
 	picture = graet_eic
 		potential = {
 			tag = CZH
-			NOT = {
-				has_country_flag = form_HRE
-			}		
+			AND = {
+				has_country_flag = CZH_claims
+				NOT = {
+					has_country_flag = form_HRE
+				}
+			}
 		}	
 		allow = {
-		owns = 300
-			
+		owns = 549
+		owns = 559
 		}
 		
 		effect = {

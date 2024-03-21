@@ -185,40 +185,14 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	spa_convention2 = {
-        picture = give_money
- 		potential = {
-			tag = SPA
-			exists = MOR
-			NOT = {
-				has_country_flag = spa_convention2
-				war_with = MOR
-			}
-			
-		}
-		
-		allow = {
-		    has_country_flag = spa_convention
-		MOR = {
-		vassal_of = THIS
-		}
-		}
-		
-		effect = {
-				
-			set_country_flag = spa_convention2			
-	         inherit =MOR
-			prestige = 20
-			badboy = 16
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	
 	restore_emp = {
 	picture = restore_brz
 	potential = {
-			tag = SPA
+			OR = {
+				tag = SPA
+				tag = A04
+			}
 			NOT = {
 				has_country_flag = has_restore_emp
 			}
