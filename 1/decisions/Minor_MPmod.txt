@@ -713,6 +713,7 @@ graet_pol2 = {
 			}		
 		}	
 		allow = {
+		tag = PLC
 		owns = 698
 		owns = 690
 		owns = 360
@@ -751,6 +752,7 @@ graet_pol3 = {
 					
 		}	
 		allow = {
+		tag = PLC
 		owns = 349
 		owns = 354
 		}
@@ -790,7 +792,9 @@ graet_pol4 = {
 			}	
 		}	
 		allow = {
+		tag = PLC
 		owns = 718
+		
 		}
 		
 		effect = {
