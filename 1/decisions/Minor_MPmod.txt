@@ -511,30 +511,7 @@ form_RE = {
 			factor = 1
 		}
 	}
-
-form_Intermarium = {
-	picture = graet_eic
-		potential = {
-			tag = PLC
-			NOT = {
-				has_country_flag = form_Intermarium
-			}		
-		}	
-		allow = {
-		owns = 300
-			
-		}
-		
-		effect = {
-			set_country_flag = form_Intermarium
-			change_tag = A07
-			prestige = 20
-			ruling_party_ideology = conservative
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	
 form_GreatSibiria = {
 	picture = graet_eic
 		potential = {
@@ -568,7 +545,7 @@ graet_pol = {
 		potential = {
 		tag = POL
 			NOT = {
-				has_country_flag = graet_pol
+				has_global_flag = graet_pol
 			}		
 		}	
 		allow = {
@@ -584,7 +561,7 @@ graet_pol = {
 		}
 		
 		effect = {
-			set_country_flag = graet_pol
+			set_global_flag = graet_pol
 			change_tag = PLC
 			add_core = 691
 			add_core = 690
@@ -602,6 +579,8 @@ graet_pol = {
 			add_core = 361
 			add_accepted_culture = lithuanian
 			add_accepted_culture = ashkenazi
+			any_owned = {
+				remove_core = POL }
 		}
 		ai_will_do = {
 			factor = 1
@@ -612,7 +591,7 @@ graet_pol2 = {
 		potential = {
 			tag = PLC
 			NOT = {
-				has_country_flag = graet_pol2
+				has_global_flag = graet_pol2
 			}		
 		}	
 		allow = {
@@ -622,7 +601,7 @@ graet_pol2 = {
 		}
 		
 		effect = {
-			set_country_flag = graet_pol2
+			set_global_flag = graet_pol2
 			add_core = 359
 			add_core = 358
 			add_core = 357
@@ -646,9 +625,9 @@ graet_pol3 = {
 		potential = {
 			tag = PLC
 			AND = {
-				has_country_flag = graet_pol2
+				has_global_flag = graet_pol2
 				NOT = {
-					has_country_flag = graet_pol3
+					has_global_flag = graet_pol3
 				}
 			}		
 					
@@ -659,7 +638,7 @@ graet_pol3 = {
 		}
 		
 		effect = {
-			set_country_flag = graet_pol3
+			set_global_flag = graet_pol3
 			add_core = 947
 			add_core = 946
 			add_core = 945
@@ -686,9 +665,9 @@ graet_pol4 = {
 	picture = graet_eic
 		potential = {
 			AND = {
-				has_country_flag = graet_pol3
+				has_global_flag = graet_pol3
 				NOT = {
-					has_country_flag = graet_pol4
+					has_global_flag = graet_pol4
 				}
 			}	
 		}	
@@ -697,7 +676,7 @@ graet_pol4 = {
 		}
 		
 		effect = {
-			set_country_flag = graet_pol4
+			set_global_flag = graet_pol4
 			add_core = 957
 			add_core = 956
 			add_core = 955
@@ -730,27 +709,28 @@ graet_pol4 = {
 form_Intermarium = {
 	picture = graet_eic
 		potential = {
-		tag = PLC
-			AND = {
-				has_country_flag = graet_pol4
+		has_global_flag = graet_pol4
 				NOT = {
-					has_country_flag = form_Intermarium
+					has_global_flag = form_Intermarium
 				}
 			}			
-		}	
+			
 		allow = {
 		tag = PLC
 		owns = 958
 		}
 		
 		effect = {
-			set_country_flag = form_Intermarium
+			set_global_flag = form_Intermarium
 			change_tag = A07
 			prestige = 20
 			add_core = 964
 			add_core = 967
 			add_core = 966
 			ruling_party_ideology = conservative
+			add_accepted_culture = tatar
+			any_owned = {
+				remove_core = PLC }
 		}
 		ai_will_do = {
 			factor = 1
@@ -761,10 +741,10 @@ form_Intermarium1 = {
 		potential = {
 		tag = A07
 			AND = {
-				has_country_flag = form_Intermarium
+				has_global_flag = form_Intermarium
 				NOT = {
-					has_country_flag = form_Intermarium1
-					has_country_flag = form_Intermarium33
+					has_global_flag = form_Intermarium1
+					has_global_flag = form_Intermarium33
 				}
 			}			
 		}	
@@ -774,7 +754,7 @@ form_Intermarium1 = {
 		}
 		
 		effect = {
-			set_country_flag = form_Intermarium1
+			set_global_flag = form_Intermarium1
 			add_core = 1045
 			add_core = 979
 			add_core = 1046
@@ -789,10 +769,10 @@ form_Intermarium33 = {
 		potential = {
 		tag = A07
 			AND = {
-				has_country_flag = form_Intermarium
+				has_global_flag = form_Intermarium
 				NOT = {
-					has_country_flag = form_Intermarium1
-					has_country_flag = form_Intermarium33
+					has_global_flag = form_Intermarium1
+					has_global_flag = form_Intermarium33
 				}
 			}			
 		}	
@@ -802,7 +782,7 @@ form_Intermarium33 = {
 		}
 		
 		effect = {
-			set_country_flag = form_Intermarium33
+			set_global_flag = form_Intermarium33
 			add_core = 677
 			add_core = 676
 			add_core = 678
@@ -822,9 +802,9 @@ form_Intermarium2 = {
 	picture = graet_eic
 		potential = {
 			AND = {
-				has_country_flag = form_Intermarium1
+				has_global_flag = form_Intermarium1
 				NOT = {
-					has_country_flag = form_Intermarium2
+					has_global_flag = form_Intermarium2
 				}
 			}			
 		}	
@@ -835,7 +815,7 @@ form_Intermarium2 = {
 		}
 		
 		effect = {
-			set_country_flag = form_Intermarium2
+			set_global_flag = form_Intermarium2
 			add_core = 1007
 			add_core = 943
 			add_core = 999
