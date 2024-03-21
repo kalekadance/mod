@@ -510,7 +510,57 @@ CZH_form = {
 		set_country_flag = CZH_form
 		prestige = 20
 		change_tag = CZH
+		add_accepted_culture = slovak
 		ruling_party_ideology = conservative
+		AUS_623 = {
+			add_core = CZH
+		}
+		AUS_641 = {
+			add_core = CZH
+		}
+		AUS_647 = {
+			add_core = CZH
+		}
+		AUS_657 = {
+			add_core = CZH
+		}
+		AUS_777 = {
+			add_core = CZH
+		}
+		any_owned = {
+				remove_core = BOH
+			}
+	}
+}
+
+CZH_south_germany = {
+	picture = graet_eic
+	potential = {
+		tag = CZH
+		NOT = {
+			has_country_flag = czh_south_germany
+		}
+	}
+	allow = {
+		AUS_623 = {
+			owned_by = CZH
+		}
+		AUS_641 = {
+			owned_by = CZH
+		}
+		AUS_647 = {
+			owned_by = CZH
+		}
+		AUS_657 = {
+			owned_by = CZH
+		}
+		AUS_777 = {
+			owned_by = CZH
+		}
+	}
+	effect = {
+		set_country_flag = czh_south_germany
+		add_accepted_culture = hungarian
 		add_core = 596
 		add_core = 597
 		add_core = 598
@@ -526,9 +576,6 @@ CZH_form = {
 		add_core = 735
 		add_core = 600
 		add_core = 614
-		any_owned = {
-				remove_core = BOH
-			}
 	}
 }
 
@@ -550,6 +597,7 @@ CZH_claims = {
 	}
 	effect = {
 		set_country_flag = CZH_claims
+		add_accepted_culture = south_german
 		add_core = 687
 		add_core = 558
 		add_core = 559
@@ -590,6 +638,7 @@ form_HRE = {
 		
 		effect = {
 			set_country_flag = form_HRE
+			add_accepted_culture = north_german
 			change_tag = A05
 			prestige = 20
 			ruling_party_ideology = conservative
@@ -600,35 +649,286 @@ form_HRE = {
 			add_core = 679
 			add_core = 680
 			add_core = 546
+			add_core = 547
+			add_core = 548
+			add_core = 545
+			add_core = 544
+			add_core = 551
+			add_core = 534
+			add_core = 532
+			add_core = 535
+			add_core = 531
+			add_core = 528
+			add_core = 539
+			MEC_544 = {
+				add_core = A05
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	
+#Сицилия
+
+own_roma = {
+	picture = graet_eic
+	potential = {
+		tag = SIC
+		NOT = {
+			has_country_flag = own_roma
+		}
+	}
+	allow = {
+		PAP_752 = {
+			owned_by = SIC
+		}
+		PAP_741 = {
+			owned_by = SIC
+		}
+	}
+	effect = {
+		set_country_flag = own_roma
+		change_tag = ITA
+	}
+}
+
+italian_claims_on_lombardy = {
+	picture = graet_eic
+	potential = {
+		tag = ITA
+		NOT = {
+			has_country_flag = italian_claims_on_lombardy
+		}
+	}
+	allow = {
+		SAR_720 = {
+			owned_by = ITA
+		}
+	}
+	effect = {
+		set_country_flag = italian_claims_on_lombardy
+		AUS_726 = {
+				add_core = ITA
+			}
+		AUS_729 = {
+				add_core = ITA
+			}
+	}
+}
+
+italian_claims_on_greece = {
+	picture = graet_eic
+	potential = {
+		tag = ITA
+		AND = [
+			has_country_flag = italian_claims_on_lombardy
+			NOT = {
+				has_country_flag = italian_claims_on_greece
+			}
+		}
+	allow = {
+		AUS_726 = {
+				owned_by = ITA
+			}
+		AUS_729 = {
+				owned_by = ITA
+			}
+	}
+	effect = {
+		set_country_flag = italian_claims_on_greece
+		GRE_826 = {
+				add_core = ITA
+			}
+		GRE_837 = {
+				add_core = ITA
+			}
+		TUR_832 = {
+				add_core = ITA
+			}
+		TUR_806 = {
+				add_core = ITA
+			}
+		TUR_805 = {
+				add_core = ITA
+			}
+		TUR_860 = {
+				add_core = ITA
+			}
+		EGY_843 = {
+				add_core = ITA
+			}
+	}
+}
+
 
 form_RE = {
 	picture = graet_eic
 		potential = {
-			tag = SIC
-			NOT = {
-				has_country_flag = form_RE
-			}		
+			tag = ITA
+			AND = {
+				has_country_flag = italian_claims_on_greece
+				NOT = {
+					has_country_flag = form_RE
+				}
+			}
 		}	
 		allow = {
-		owns = 300
-			
+			GRE_826 = {
+				owned_by = ITA
+			}
+			GRE_837 = {
+				owned_by = ITA
+				}
+			TUR_832 = {
+				owned_by = ITA
+				}
+			TUR_806 = {
+				owned_by = ITA
+				}
+			TUR_805 = {
+				owned_by = ITA
+				}
+			TUR_860 = {
+				owned_by = ITA
+				}
+			EGY_843 = {
+				owned_by = ITA
+				}
 		}
 		
 		effect = {
 			set_country_flag = form_RE
 			change_tag = A06
+			add_accepted_culture = greek
 			prestige = 20
 			ruling_party_ideology = conservative
+			TUR_853 = {
+				add_core = A06
+			}
+			MON_2582 = {
+				add_core = A06
+			}
+			TUR_788 = {
+				add_core = A06
+			}
+			AUS_780 = {
+				add_core = A06
+			}
+			AUS_736 = {
+				add_core = A06
+			}
+			AUS_771 = {
+				add_core = A06
+			}
+			SER_794 = {
+				add_core = A06
+			}
+			TUR_803 = {
+				add_core = A06
+			}
+			TUR_810 = {
+				add_core = A06
+			}
+			TUR_674 = {
+				add_core = A06
+			}
+			add_core = 768
+			add_core = 767
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	
+romanian_balkans = {
+	picture = graet_eic
+	potential = {
+		tag = A06
+		AND = {
+			has_country_flag = form_RE
+			NOT = {
+				has_country_flag = romanian_balkans
+			}
+		}
+	}
+	allow = {
+		TUR_853 = {
+			owned_by = A06
+		}
+		MON_2582 = {
+			owned_by = A06
+		}
+		TUR_788 = {
+			owned_by = A06
+		}
+		AUS_780 = {
+			owned_by = A06
+		}
+		AUS_736 = {
+			owned_by = A06
+		}
+		AUS_771 = {
+			owned_by = A06
+		}
+		SER_794 = {
+			owned_by = A06
+		}
+		TUR_803 = {
+			owned_by = A06
+		}
+		TUR_810 = {
+			owned_by = A06
+		}
+		TUR_674 = {
+			owned_by = A06
+		}
+	}
+	effect = {
+		set_country_flag = romanian_balkans
+		add_accepted_culture = bulgarian
+		add_accepted_culture = serb
+		add_accepted_culture = croat
+		add_accepted_culture = albanian
+		TUR_869 = {
+			add_core = A06
+		}
+		TUR_863 = {
+			add_core = A06
+		}
+		TUR_873 = {
+			add_core = A06
+		}
+	}
+}
+
+romanian_turkey = {
+	picture = graet_eic
+	potential = {
+		tag = A06
+		AND = {
+			has_country_flag = romanian_balkans
+			NOT = {
+				has_country_flag = romanian_turkey
+			}
+		}
+	}
+	allow = {
+		TUR_869 = {
+			owned_by = A06
+		}
+		TUR_863 = {
+			owned_by = A06
+		}
+		TUR_873 = {
+			owned_by = A06
+		}
+	}
+	effect = {
+		set_country_flag = romanian_turkey
+		add_accepted_culture = turkish
+	}
+}
 	
 form_GreatSibiria = {
 	picture = graet_eic

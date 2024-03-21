@@ -206,6 +206,7 @@ political_decisions = {
 					is_culture_group = polish
 					is_culture_group = spanish
 					is_culture_group = czech
+					is_culture_group = italian
 					tag = ECU
 					tag = CLM
 					tag = VNZ
@@ -221,6 +222,9 @@ political_decisions = {
 					tag = BOH
 					tag = CZH
 					tag = A05
+					tag = SIC
+					tag = ITA
+					tag = A06
 				}
 			}
 		}
@@ -303,63 +307,6 @@ political_decisions = {
 						tag = AUS
 					}
 					in_sphere = THIS
-				}
-				country_event = { id=11101 days=0 }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	form_italy = {
-		picture = form_italy
-		news = yes
-		news_desc_long = "form_italy_NEWS_LONG"
-		news_desc_medium = "form_italy_NEWS_MEDIUM"
-		news_desc_short = "form_italy_NEWS_SHORT"
-		potential = {
-			is_culture_group = italian
-			
-			NOT = {
-				exists = ITA
-			}
-		}
-		
-		allow = {
-			#is_greater_power = yes
-			prestige = 45
-			war = no
-			ITA = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-							in_sphere = THIS
-							vassal_of = THIS
-							}
-						}
-						
-					}
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 20
-			change_tag = ITA
-			capital = 749
-			add_accepted_culture = maltese
-			726 = {	add_core = ITA	}
-			727 = {	add_core = ITA	}
-			728 = {	add_core = ITA	}
-			any_country = {
-				limit = {
-					is_culture_group = italian
-					OR = {
-						in_sphere = THIS
-						vassal_of = THIS
-					}
 				}
 				country_event = { id=11101 days=0 }
 			}
