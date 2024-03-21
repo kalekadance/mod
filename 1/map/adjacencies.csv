@@ -29,6 +29,8 @@
 # European Straits  ;;;;;
 #;;;;;
 254;271;sea;2737;0;Irish Strait
+263;304;sea;2737;0;Man Island Strait1
+276;304;sea;2737;0;Man Island Strait2
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;2779;0;"Öresund			#2711"
 335;374;sea;2710;0;Bornholmsfärjan
@@ -36,7 +38,11 @@
 353;349;sea;2709;0;Öselsund
 353;358;sea;2709;0;Strait of Riga
 372;373;sea;2779;0;"Fyn-Sjaelland	#2711"
-371;373;sea;2779;0;"Fyn-Jylland		#2711"
+371;373;sea;2779;0;"denmark1		#2711"
+2557;373;sea;2779;0;"denmark2		#2711"
+366;373;sea;2779;0;"denmark3	#2711"
+366;373;sea;2779;0;"denmark3	#2711"
+310;367;sea;2712;0;Denmark-Norway Strait
 375;385;sea;2722;0;Bay of Holland
 418;419;sea;2725;0;Channel Islands Strait
 473;766;sea;2751;0;Sassari Strait
@@ -138,3 +144,6 @@
 2782;2783;canal;1412;8;Aden
 2787;2788;canal;1168;9;Dubai
 2814;2801;canal;1384;10;Singapore
+2724;2723;canal;301;11;English Canal
+2737;2736;canal;254;12;Irish Canal
+2737;2738;canal;274;13;Irish Canal2
