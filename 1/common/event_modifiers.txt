@@ -1453,6 +1453,8 @@ mobilisation_size = -0.02
 army_changed2 = {
 mobilisation_size = -0.01
 }
+technical_school_UCA = {
+ commerce_tech_research_bonus = 0.40
 raskopka = {
 
 }				 
