@@ -385,6 +385,9 @@ form_Spain = {
 				}
 			}
 			badboy = 10
+			any_owned = {
+				remove_core = CAT
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -458,6 +461,9 @@ form_Franco_Iberia = {
 			add_core = 451
 			add_core = 466
 			add_core = 465
+			any_owned = {
+				remove_core = SPA
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -520,6 +526,9 @@ CZH_form = {
 		add_core = 735
 		add_core = 600
 		add_core = 614
+		any_owned = {
+				remove_core = BOH
+			}
 	}
 }
 
@@ -584,6 +593,13 @@ form_HRE = {
 			change_tag = A05
 			prestige = 20
 			ruling_party_ideology = conservative
+			any_owned = {
+				remove_core = CZH
+			}
+			add_core = 681
+			add_core = 679
+			add_core = 680
+			add_core = 546
 		}
 		ai_will_do = {
 			factor = 1
