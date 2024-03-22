@@ -700,7 +700,7 @@ UCA_south_claim = {
 			 
 		}
 	}
-test_form = {
+#test_form = {
 	picture = graet_eic
 		potential = {
 				tag = UCA
