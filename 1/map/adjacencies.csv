@@ -17,6 +17,22 @@
 2231;2409;sea;2975;0;Caribi7
 2233;2409;sea;2975;0;Caribi7
 2237;2238;sea;2975;0;Caribi8
+2237;2233;sea;2975;0;Caribi9
+2229;2231;sea;2975;0;Caribi10
+2237;2238;sea;2975;0;Caribi11
+2227;2236;sea;2976;0;Caribi12
+2226;2236;sea;2976;0;Caribi13
+2226;2223;sea;2976;0;Caribi14
+2226;2222;sea;2976;0;Caribi14
+2214;2222;sea;2974;0;Caribi15
+2214;2222;sea;2974;0;Caribi16
+2212;2215;sea;2969;0;Caribi17
+2212;2217;sea;2969;0;Caribi18
+2212;2218;sea;2971;0;Caribi19
+2212;2219;sea;2978;0;Caribi20
+2219;2220;sea;2977;0;Caribi21
+2209;2185;sea;2966;0;Caribi22
+2219;200;sea;2956;0;Caribi23
 ;;;;;
 #;;;;;
 # African Straits;;;;;
@@ -24,6 +40,10 @@
 2036;2048;sea;2901;0;Zanzibar Strait
 2123;2124;sea;2902;0;Comoros-Mayotte
 1772;1756;sea;2781;0;Suez strait
+1696;2136;sea;2924;0;Marocco
+2121;2124;sea;2902;0;Madagaskar1
+2123;2124;sea;2902;0;Madagaskar2
+2123;2063;sea;2902;0;Madagaskar3
 ;;;;;
 #;;;;;
 # European Straits  ;;;;;
@@ -34,6 +54,7 @@
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;2779;0;"Öresund			#2711"
 335;374;sea;2710;0;Bornholmsfärjan
+331;332;sea;2710;0;Bornholmsfärjan2
 348;345;sea;2706;0;Aland Strait #Aland to Turku 
 353;349;sea;2709;0;Öselsund
 353;358;sea;2709;0;Strait of Riga
@@ -56,6 +77,15 @@
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
 1687;517;sea;2746;0;Strait of Gibraltar
+505;502;sea;2748;0;Balearean Strait
+473;745;sea;2751;0;Sardinian Strait
+764;854;sea;2759;0;Malta Strait
+847;839;sea;2767;0;creta Strait
+848;846;sea;2771;0;creta Strait3
+845;843;sea;2772;0;creta Strait4
+822;844;sea;2772;0;creta Strait5
+844;869;sea;2772;0;creta Strait6
+895;857;sea;2772;0;cyprus Strait
 301;400;sea;2724;0;Calais-Canterbury
 844;865;sea;2772;0;Turkish iseles
 1436;1437;sea;2810;0;Molucca usekes
@@ -109,6 +139,43 @@
 2512;2516;sea;2876;0;Cook Strait #NZ
 2512;2516;sea;2881;0;Cook Strait #NZ
 2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
+2479;2482;sea;2867;0;Villan Strait2
+2509;2508;sea;2878;0;Villan Strait3
+2537;1531;sea;2858;0;Villan Strait4
+2508;1097;sea;2882;0;Villan Strait5
+2535;1097;sea;2884;0;Villan Strait6
+2535;2536;sea;2884;0;Villan Strait7
+2534;2539;sea;2884;0;Villan Strait8
+2534;2536;sea;2859;0;Villan Strait10
+2539;2537;sea;2858;0;Villan Strait11
+2530;2537;sea;2858;0;Villan Strait12
+1451;1454;sea;2862;0;Villan Strait13
+1450;1453;sea;2853;0;Villan Strait14
+1450;1449;sea;2853;0;Villan Strait15
+1448;1449;sea;2853;0;Villan Strait16
+1447;1449;sea;2852;0;Villan Strait17
+1447;1434;sea;2852;0;Villan Strait18
+1448;1433;sea;2852;0;Villan Strait19
+1433;1463;sea;2852;0;Villan Strait20
+1448;1463;sea;2853;0;Villan Strait21
+1459;1396;sea;2821;0;Villan Strait22
+1397;1464;sea;2851;0;Villan Strait23
+1446;1451;sea;2854;0;Villan Strait24
+2505;1451;sea;2861;0;Villan Strait25
+2505;1460;sea;2863;0;Villan Strait26
+1439;1430;sea;2810;0;Villan Strait27
+1404;1426;sea;2813;0;Villan Strait28
+1320;1405;sea;2802;0;Villan Strait29
+2576;1426;sea;2814;0;Villan Strait30
+2576;1375;sea;2814;0;Villan Strait31
+1376;1499;sea;2823;0;Villan Strait32
+1484;1485;sea;2825;0;Villan Strait33
+2562;1678;sea;2845;0;Villan Strait34
+1679;1678;sea;2845;0;Villan Strait35
+1679;1662;sea;2845;0;Villan Strait36
+1661;1637;sea;2829;0;Villan Strait37
+1635;1637;sea;2829;0;Villan Strait38
+1481;1569;sea;2828;0;Villan Strait39
 ;;;;;
 #;;;;;
 # Impassables;;;;;
