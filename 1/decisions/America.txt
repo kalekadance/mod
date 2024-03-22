@@ -701,23 +701,23 @@ UCA_south_claim = {
 		}
 	}
 #test_form = {
-	picture = graet_eic
-		potential = {
-				tag = UCA
-				NOT = {
-					has_country_flag = test_form
-					 }
-					}		
-		allow = {
-			tag = UCA
-			}
-		effect = {
-			set_country_flag = test_form
-			change_tag = A13
-			prestige = 20
-			primary_culture = mayan
-			any_owned = { limit = { is_core = THIS } assimilate = yes } 
-			}
-
-	}
+#	picture = graet_eic
+#		potential = {
+#				tag = UCA
+#				NOT = {
+#					has_country_flag = test_form
+#					 }
+#					}		
+#		allow = {
+#			tag = UCA
+#			}
+#		effect = {
+#			set_country_flag = test_form
+#			change_tag = A13
+#			prestige = 20
+#			primary_culture = mayan
+#			any_owned = { limit = { is_core = THIS } assimilate = yes } 
+#			}
+#
+#	}
 } 
