@@ -718,6 +718,5 @@ UCA_south_claim = {
 #			primary_culture = mayan
 #			any_owned = { limit = { is_core = THIS } assimilate = yes } 
 #			}
-#
 #	}
 } 
