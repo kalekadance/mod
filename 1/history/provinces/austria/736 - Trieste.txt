@@ -1,12 +1,7 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = TRE
+controller = TRE
 add_core = TRE
+add_core = YUG
 trade_goods = grain
-life_rating = 35 
-naval_base = 2
-#state_building = {
-#	level = 1
-#	building = liquor_distillery
-#	upgrade = yes
-#}
+life_rating = 35
+naval_base = 2 

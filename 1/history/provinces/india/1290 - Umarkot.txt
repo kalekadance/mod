@@ -1,7 +1,7 @@
-owner =  SIN # SIN
-controller =  SIN # SIN
-add_core = SIN
+owner = MAK
+controller = MAK
+add_core = MAK
 add_core = IGM
- 
-trade_goods = tea
-life_rating = 35 
+add_core = PER
+trade_goods = fruit
+life_rating = 35

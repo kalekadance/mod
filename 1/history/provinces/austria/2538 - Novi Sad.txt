@@ -1,9 +1,5 @@
-owner = AUS
-controller = AUS
-add_core = AUS
-add_core = SER
-add_core = HUN
-add_core = YUG
-trade_goods = wool
-life_rating = 35 
-
+owner = D08
+controller = D08
+add_core = D08
+trade_goods = fruit
+life_rating = 35

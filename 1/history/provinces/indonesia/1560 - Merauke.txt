@@ -1,5 +1,6 @@
-owner = NET
-controller = NET
-trade_goods = fish
-life_rating = 30 
-colonial = 2
+owner = MGL
+controller = MGL
+add_core = CHI
+add_core = MGL
+trade_goods = cattle
+life_rating = 32

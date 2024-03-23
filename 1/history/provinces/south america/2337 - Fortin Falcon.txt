@@ -1,6 +1,4 @@
-owner = BOL
-controller = BOL
-add_core = BOL
-add_core = PRG
-trade_goods = iron
-life_rating = 35 
+owner = ARA
+controller = ARA
+trade_goods = fish
+life_rating = 15

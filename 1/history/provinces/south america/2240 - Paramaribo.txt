@@ -1,5 +1,6 @@
-owner = NET
-controller = NET
+owner = D07
+controller = D07
+add_core = D07
+add_core = GCO
 trade_goods = grain
-life_rating = 35 
-colonial = 2
+life_rating = 35

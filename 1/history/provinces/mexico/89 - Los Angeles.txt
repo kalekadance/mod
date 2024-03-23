@@ -1,6 +1,7 @@
-owner = MEXcontroller = MEX
-add_core = MEX
+owner = CAL
+controller = CAL
+add_core = GCO
 add_core = DES
 add_core = CAL
 trade_goods = grain
-life_rating = 40 
+life_rating = 40

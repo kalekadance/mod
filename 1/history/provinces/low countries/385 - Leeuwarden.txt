@@ -1,10 +1,5 @@
-owner = NET
-controller = NET
+owner = OLD
+controller = OLD
 add_core = NET
 trade_goods = cattle
-life_rating = 45 
-#state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
-#}
+life_rating = 45

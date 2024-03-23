@@ -1,7 +1,6 @@
-owner = CLM
-controller = CLM
-add_core = CLM
+owner = PNM
+controller = PNM
 add_core = PNM
 add_core = GCO
 trade_goods = coffee
-life_rating = 35 
+life_rating = 35

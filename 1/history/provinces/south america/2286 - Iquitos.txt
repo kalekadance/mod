@@ -1,6 +1,5 @@
-owner = PEU
-controller = PEU
-add_core = PEU
-add_core = BRZ
+owner = GCO
+controller = GCO
+add_core = GCO
 trade_goods = timber
-life_rating = 35 
+life_rating = 35

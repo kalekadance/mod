@@ -1,6 +1,7 @@
-owner = XBI
-controller = XBI
-add_core = CHI
-add_core = XBI
-trade_goods = coal
-life_rating = 32 
+owner = ISR
+controller = ISR
+add_core = ISR
+add_core = EGY
+trade_goods = fruit
+life_rating = 35
+colonial = 2

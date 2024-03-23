@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = D12
+controller = D12
+add_core = GCO
 trade_goods = fruit
-life_rating = 35 
+life_rating = 35
 colonial = 2

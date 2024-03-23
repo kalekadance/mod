@@ -1,7 +1,5 @@
-owner = ENG
-controller = ENG
+owner = D22
+controller = D22
 add_core = ENG
 trade_goods = coal
-life_rating = 40 
-railroad = 1
-
+life_rating = 40

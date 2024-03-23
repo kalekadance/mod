@@ -1,7 +1,6 @@
-owner =  MUG # BUN
-controller =  MUG # BUN
+owner = MUG
+controller = MUG
 add_core = MUG
-
 add_core = HND
 trade_goods = dye
 life_rating = 33

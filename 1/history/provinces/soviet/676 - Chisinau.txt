@@ -1,7 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
-add_core = MOL
-add_core = ROM
-trade_goods = fruit
-life_rating = 35 
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = SCA
+add_core = NOR
+trade_goods = grain
+life_rating = 35

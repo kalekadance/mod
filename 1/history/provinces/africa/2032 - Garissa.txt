@@ -1,2 +1,4 @@
-trade_goods = coffee
-life_rating = 15 
+owner = ZAN
+controller = ZAN
+trade_goods = coal
+life_rating = 35

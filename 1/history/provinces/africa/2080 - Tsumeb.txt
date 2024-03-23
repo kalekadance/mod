@@ -1,5 +1,5 @@
-owner = NAM
-controller = NAM
-add_core = NAM
+owner = LEV
+controller = LEV
+add_core = LEV
 trade_goods = wool
-life_rating = 40 
+life_rating = 40

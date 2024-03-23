@@ -1,6 +1,7 @@
-owner = SPA
-controller = SPA
+owner = CAT
+controller = CAT
+add_core = CAT
 add_core = SPA
 trade_goods = iron
-life_rating = 35 
-naval_base = 1
+life_rating = 35
+naval_base = 1 

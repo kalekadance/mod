@@ -1,5 +1,6 @@
 owner = URU
 controller = URU
 add_core = URU
+add_core = GCO
 trade_goods = coal
 life_rating = 45

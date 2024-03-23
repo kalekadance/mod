@@ -1,2 +1,4 @@
+owner = LIB
+controller = LIB
 trade_goods = fruit
-life_rating = 15 
+life_rating = 35

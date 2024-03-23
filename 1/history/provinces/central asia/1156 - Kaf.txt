@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
-add_core = EGY
+owner = BAB
+controller = BAB
+add_core = ISR
 trade_goods = wool
-life_rating = 35 
+life_rating = 35

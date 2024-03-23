@@ -1,5 +1,6 @@
-owner = BRZ
-controller = BRZ
-add_core = BRZ
-trade_goods = grain
-life_rating = 35 
+owner = D12
+controller = D12
+add_core = D12
+add_core = GCO
+trade_goods = cotton
+life_rating = 35

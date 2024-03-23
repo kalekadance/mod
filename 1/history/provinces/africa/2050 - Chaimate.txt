@@ -1,5 +1,5 @@
-owner = POR
-controller = POR
+owner = D16
+controller = D16
+add_core = D16
 trade_goods = grain
-life_rating = 35 
-colonial = 2
+life_rating = 35
