@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
-trade_goods = cotton
-life_rating = 35 
-colonial = 2
+owner = D09
+controller = D09
+add_core = D09
+add_core = GCO
+trade_goods = fruit
+life_rating = 35

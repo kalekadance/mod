@@ -1,9 +1,6 @@
-owner = AUS
-controller = AUS
-add_core = AUS
-#add_core = RUT
-add_core = SLV
-add_core = HUN
-add_core = CZH
-trade_goods = coal
-life_rating = 35 
+owner = SER
+controller = SER
+add_core = SER
+add_core = YUG
+trade_goods = grain
+life_rating = 55

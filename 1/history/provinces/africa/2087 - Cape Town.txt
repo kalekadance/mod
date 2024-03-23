@@ -2,15 +2,5 @@ owner = SAF
 controller = SAF
 add_core = SAF
 trade_goods = fruit
-naval_base = 1
 life_rating = 45
-1836.1.2 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    }
-1836.1.3 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    }
+naval_base = 1 

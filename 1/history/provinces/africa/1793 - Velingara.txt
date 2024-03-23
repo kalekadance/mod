@@ -1,2 +1,6 @@
+owner = D01
+controller = D01
+add_core = D01
 trade_goods = fish
-life_rating = 15 
+life_rating = 35
+colonial = 2

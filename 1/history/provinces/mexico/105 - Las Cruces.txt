@@ -1,5 +1,5 @@
-owner = MEX
-controller = MEX
-add_core = MEX
+owner = CAL
+controller = CAL
+add_core = GCO
 trade_goods = cattle
-life_rating = 35 
+life_rating = 35

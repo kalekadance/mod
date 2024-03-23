@@ -719,4 +719,34 @@ UCA_south_claim = {
 #			any_owned = { limit = { is_core = THIS } assimilate = yes } 
 #			}
 #	}
+UCA_south_claim1 = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		has_global_flag = UCA_south_claim
+		NOT = {
+				has_country_flag = UCA_south_claim1
+					 }
+				}
+	allow = {  
+ 
+		      VNZ_2234  = {
+		      owned_by = UCA }
+			  CLM_2259  = {
+		      owned_by = UCA }
+		 
+			}
+	effect = { 
+			   set_country_flag = UCA_south_claim1
+			   CLM_2251 = {
+				remove_core = GCO }
+			   CLM_2259 = {
+				remove_core = GCO }
+			   VNZ_2234  = {
+		         remove_core = GCO	}
+			   add_country_modifier = { name = army_changed3
+									   duration = -1}
+			 
+		}
+	}
 } 

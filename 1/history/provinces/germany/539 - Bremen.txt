@@ -1,8 +1,6 @@
-owner = BRE
-controller = BRE
+owner = HAN
+controller = HAN
 add_core = BRE
 add_core = GER
 trade_goods = fish
-life_rating = 35 
-naval_base = 1
-
+life_rating = 35

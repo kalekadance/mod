@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = D10
+controller = D10
+add_core = GCO
 trade_goods = fruit
-life_rating = 35 
-colonial = 2
+life_rating = 35

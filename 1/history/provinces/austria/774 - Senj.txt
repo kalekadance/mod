@@ -1,10 +1,6 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = CRO
+controller = CRO
 add_core = CRO
-add_core = HUN
 add_core = YUG
 trade_goods = precious_metal
-life_rating = 35 
-#naval_base = 1
- 
+life_rating = 35

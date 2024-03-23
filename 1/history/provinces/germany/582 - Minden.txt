@@ -1,7 +1,6 @@
-owner = PRU
-controller = PRU
+owner = NAS
+controller = NAS
 add_core = PRU
 add_core = GER
 trade_goods = cattle
-life_rating = 35 
-
+life_rating = 35

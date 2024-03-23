@@ -1,18 +1,7 @@
-owner = CAN
-controller = CAN
-add_core = CAN
-add_core = QUE
-trade_goods = cattle
-life_rating = 35 
-1836.1.2 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    colonial = 2
-    }
-1836.1.3 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    colonial = 2
-    }
+owner = NOR
+controller = NOR
+add_core = NOR
+add_core = SCA
+trade_goods = fish
+life_rating = 35
+colonial = 2

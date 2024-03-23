@@ -1,7 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = ENG
-trade_goods = fish
-life_rating = 35 
-naval_base = 2
-terrain = plains
+owner = POR
+controller = POR
+add_core = POR
+trade_goods = fruit
+life_rating = 35
+naval_base = 1 

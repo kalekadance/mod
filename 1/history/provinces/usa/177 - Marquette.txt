@@ -1,6 +1,8 @@
-owner = USA
-controller = USA
+owner = D25
+controller = D25
+add_core = GCO
 add_core = USA
+add_core = QUE
 trade_goods = opium
-life_rating = 35  
-colony = 2
+life_rating = 35
+colonial = 2

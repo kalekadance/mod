@@ -1,7 +1,8 @@
-owner = ENG
-controller = ENG
+owner = NEW
+controller = NEW
+add_core = GCO
 add_core = NEW
 add_core = CAN
+add_core = QUE
 trade_goods = fish
-life_rating = 35 
-colonial = 2
+life_rating = 35

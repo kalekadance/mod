@@ -1455,6 +1455,12 @@ mobilisation_size = -0.01
 }
 technical_school_UCA = {
  commerce_tech_research_bonus = 0.40
+}
+
+army_changed3 = {
+leadership_modifier = 0.30
+}
+
 raskopka = {
 
 }				 

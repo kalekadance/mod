@@ -1,6 +1,5 @@
-owner = NET
-controller = NET
+owner = FLA
+controller = FLA
 add_core = NET
 trade_goods = fish
-life_rating = 45 
-terrain = marsh
+life_rating = 45

@@ -1,7 +1,8 @@
-owner = UCA
-controller = UCA
+owner = HON
+controller = HON
 add_core = UCA
 add_core = HON
-add_core = MEX
-trade_goods = fruit
-life_rating = 35 
+add_core = GUA
+add_core = GCO
+trade_goods = coal
+life_rating = 35

@@ -1,12 +1,7 @@
-owner = HES
-controller = HES
+owner = NAS
+controller = NAS
 add_core = HES
 add_core = GER
+add_core = SGF
+life_rating = 35
 trade_goods = fruit
-life_rating = 35 
-#state_building = {
-#	level = 1
-#	building = fabric_factory
-#	upgrade = yes
-#}
-

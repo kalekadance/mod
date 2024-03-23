@@ -1,8 +1,6 @@
-owner = LUB
-controller = LUB
+owner = HOL
+controller = HOL
 add_core = LUB
 add_core = GER
 trade_goods = fish
-life_rating = 35 
-naval_base = 1
-
+life_rating = 35

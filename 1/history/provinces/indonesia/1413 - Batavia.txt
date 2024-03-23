@@ -1,7 +1,5 @@
-owner = NET
-controller = NET
-add_core = NET
-trade_goods = coffee
+owner = YEM
+controller = YEM
+add_core = YEM
+trade_goods = fish
 life_rating = 35
-colonial = 2
-naval_base = 1

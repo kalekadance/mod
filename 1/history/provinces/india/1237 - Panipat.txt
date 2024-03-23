@@ -3,5 +3,5 @@ controller = KUT
 add_core = KUT
 add_core = IGM
 trade_goods = fruit
-life_rating = 35 
-#colonial = 2
+life_rating = 35
+colonial = 2

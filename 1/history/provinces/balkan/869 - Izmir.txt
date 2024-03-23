@@ -1,10 +1,4 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = CRE
+controller = CRE
 trade_goods = fish
-life_rating = 35 
-#state_building = {
-#	level = 1
-#	building = winery
-#	upgrade = yes
-#}
+life_rating = 35

@@ -1,3 +1,7 @@
-trade_goods = iron
-life_rating = 15  
-terrain = plains
+owner = SAX
+controller = SAX
+add_core = PRU
+add_core = GER
+add_core = SGF
+trade_goods = coal
+life_rating = 35

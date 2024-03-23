@@ -1,6 +1,6 @@
-owner =  JAI
-controller =  JAI
+owner = JAI
+controller = JAI
 add_core = JAI
 add_core = IGM
 trade_goods = tea
-life_rating = 35 
+life_rating = 35

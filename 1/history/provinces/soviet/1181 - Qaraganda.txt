@@ -1,3 +1,5 @@
+owner = AZB
+controller = AZB
+add_core = AZB
 trade_goods = coal
-add_core = RUS
-life_rating = 30 
+life_rating = 35

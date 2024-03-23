@@ -2,5 +2,4 @@ owner = EIC
 controller = EIC
 add_core = HND
 trade_goods = tea
-life_rating = 35 
-#colonial = 2
+life_rating = 35

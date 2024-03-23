@@ -1,7 +1,2 @@
-owner = ENG
-controller = ENG
-add_core = ARG
-trade_goods = wool
-life_rating = 35 
-naval_base = 2
-colonial = 2
+trade_goods = timber
+life_rating = 15

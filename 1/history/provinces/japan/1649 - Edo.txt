@@ -1,7 +1,7 @@
 owner = JAP
 controller = JAP
 add_core = JAP
+add_core = GER
 trade_goods = grain
 life_rating = 45
-fort = 1
-naval_base = 1
+naval_base = 1 

@@ -3,5 +3,4 @@ controller = JAI
 add_core = JAI
 add_core = IGM
 trade_goods = wool
-life_rating = 35 
-#colonial = 2
+life_rating = 35
