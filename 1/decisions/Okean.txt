@@ -1,0 +1,107 @@
+political_decisions = {
+
+D08_colonisation = {
+		picture = kanun_i_esasi
+		potential = { tag = D08	
+		
+			 
+			NOT = { has_country_flag = D08_colonisation
+				
+			}
+
+		}
+		allow = {
+			tag = D08
+			ai = no
+		}
+		effect = {
+			prestige = 2
+			SPA_2517 = { secede_province = D08 }
+			SPA_2517 = { life_rating = 20 }
+			set_country_flag = D08_colonisation
+			
+		}
+	}
+D08_colonisation1 = {
+		picture = kanun_i_esasi
+		potential = { tag = D08
+			
+			NOT = { has_country_flag = D08_colonisation1
+				
+			}
+
+		}
+		allow = {
+			tag = D08
+			ai = no
+		}
+		effect = {
+			set_country_flag = D08_colonisation1
+			prestige = 2
+			FRA_1097 = { secede_province = D08 }
+			FRA_1097 = { life_rating = 20 }
+		}
+	}
+
+D08_colonisation2 = {
+		picture = kanun_i_esasi
+		potential = { tag = D08
+			
+			NOT = { has_country_flag = D08_colonisation2
+				
+			}
+
+		}
+		allow = {
+			tag = D08
+			ai = no
+		}
+		effect = {
+			set_country_flag = D08_colonisation2
+			prestige = 2
+			AST_2454 = { secede_province = D08 }
+			AST_2454 = { life_rating = 20 }
+		}
+	}
+D08_colonisation3 = {
+		picture = kanun_i_esasi
+		potential = { tag = D08
+			
+			NOT = { has_country_flag = D08_colonisation3
+				
+			}
+
+		}
+		allow = {
+			tag = D08
+			ai = no
+		}
+		effect = {	
+			set_country_flag = D08_colonisation3
+			prestige = 2
+			AST_2427 = { secede_province = D08 }
+			AST_2427 = { life_rating = 20 }
+		}
+	}
+
+D08_colonisation4 = {
+		picture = kanun_i_esasi
+		potential = { tag = D08
+			
+			NOT = { has_country_flag = D08_colonisation4
+				
+			}
+
+		}
+		allow = {
+			tag = D08
+			ai = no
+		}
+		effect = {
+			set_country_flag = D08_colonisation4
+			prestige = 2
+			BRZ_2540 = { secede_province = D08 }
+			BRZ_2540 = { life_rating = 20 }
+		}
+	}
+}
