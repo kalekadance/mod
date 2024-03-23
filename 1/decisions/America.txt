@@ -749,4 +749,23 @@ UCA_south_claim1 = {
 			 
 		}
 	}
+delet_core = {
+	picture = graet_eic
+		potential = { 
+		OR = { tag = NZL
+		tag = D04
+		 }
+		NOT = {
+				
+					 }
+				}
+	allow = { 		
+		 
+			}
+	effect = { any_owned = {
+				remove_core = D08
+				remove_core = D05	}
+			 
+		}
+	}
 } 
