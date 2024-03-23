@@ -1,7 +1,6 @@
-owner = HOL
-controller = HOL
-add_core = HOL
-add_core = GER
-trade_goods = cattle
-life_rating = 35 
-naval_base = 2
+owner = TRI
+controller = TRI
+add_core = TRI
+add_core = EGY
+trade_goods = wool
+life_rating = 35

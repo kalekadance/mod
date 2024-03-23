@@ -1,5 +1,5 @@
-owner = NET
-controller = NET
+owner = D03
+controller = D03
+add_core = D03
 trade_goods = fish
-life_rating = 30 
-colonial = 2
+life_rating = 35

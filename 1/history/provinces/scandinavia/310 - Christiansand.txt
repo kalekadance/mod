@@ -1,7 +1,6 @@
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = SCA
+owner = NOR
+controller = NOR
 add_core = NOR
+add_core = SCA
 trade_goods = fish
-life_rating = 35 
+life_rating = 35

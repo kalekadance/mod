@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = D09
+controller = D09
+add_core = D09
+add_core = GCO
 trade_goods = tea
-life_rating = 35 
-colonial = 2
+life_rating = 35

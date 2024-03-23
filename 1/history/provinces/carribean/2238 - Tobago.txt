@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = D11
+controller = D11
+add_core = D11
+add_core = GCO
 trade_goods = cotton
-life_rating = 35 
-colonial = 2
+life_rating = 35

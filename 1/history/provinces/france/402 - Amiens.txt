@@ -1,7 +1,5 @@
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = FLA
+controller = FLA
 trade_goods = fish
-life_rating = 35 
-naval_base = 2
-
+life_rating = 35
+naval_base = 2 

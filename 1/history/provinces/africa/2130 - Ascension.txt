@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = GER
+controller = GER
 trade_goods = fish
-life_rating = 35 
+life_rating = 35
 colonial = 2

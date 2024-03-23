@@ -1,6 +1,7 @@
-owner = ENG
-controller = ENG
+owner = D01
+controller = D01
+add_core = D01
 trade_goods = fruit
-naval_base = 2
-life_rating = 30 
+life_rating = 35
 colonial = 2
+naval_base = 2 

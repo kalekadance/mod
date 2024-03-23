@@ -1,2 +1,6 @@
-trade_goods = timber
-life_rating = 15 
+owner = D09
+controller = D09
+add_core = D09
+add_core = GCO
+trade_goods = iron
+life_rating = 35

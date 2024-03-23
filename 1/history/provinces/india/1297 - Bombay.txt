@@ -1,7 +1,5 @@
-owner =  BIK # JOD
-controller =  BIK # JOD
+owner = BIK
+controller = BIK
 add_core = BIK
-
 trade_goods = cattle
-life_rating = 35 
-#colonial = 2
+life_rating = 35

@@ -1,6 +1,5 @@
-owner =  TRA
-controller =  TRA
+owner = TRA
+controller = TRA
 add_core = TRA
 trade_goods = fish
-life_rating = 35 
-#colonial = 1
+life_rating = 35

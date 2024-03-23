@@ -1,2 +1,4 @@
+owner = KTS
+controller = KTS
 trade_goods = cattle
-life_rating = 15 
+life_rating = 35

@@ -1,2 +1,4 @@
+owner = D15
+controller = D15
 trade_goods = timber
-life_rating = 15 
+life_rating = 15

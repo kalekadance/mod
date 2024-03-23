@@ -1,6 +1,5 @@
-owner = NET
-controller = NET
+owner = OLD
+controller = OLD
 add_core = NET
 trade_goods = grain
-life_rating = 45 
-
+life_rating = 45

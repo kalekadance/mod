@@ -2,5 +2,4 @@ owner = LUX
 controller = LUX
 add_core = LUX
 trade_goods = iron
-life_rating = 45 
-
+life_rating = 45

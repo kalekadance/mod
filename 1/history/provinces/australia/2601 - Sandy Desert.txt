@@ -1,3 +1,5 @@
-add_core = AST
-trade_goods = grain
-life_rating = 15 
+owner = SIA
+controller = SIA
+add_core = SIA
+trade_goods = opium
+life_rating = 30

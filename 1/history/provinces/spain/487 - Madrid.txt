@@ -1,16 +1,5 @@
-owner = SPA
-controller = SPA
+owner = D21
+controller = D21
 add_core = SPA
 trade_goods = cattle
-life_rating = 45 
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
-
+life_rating = 45

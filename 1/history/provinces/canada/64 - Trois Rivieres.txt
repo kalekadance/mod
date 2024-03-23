@@ -1,18 +1,6 @@
-owner = CAN
-controller = CAN
-add_core = CAN
+owner = QUE
+controller = QUE
+add_core = GCO
 add_core = QUE
 trade_goods = grain
-life_rating = 35 
-1836.1.2 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    colonial = 2
-    }
-1836.1.3 = {
-    owner = ENG
-    controller = ENG
-    add_core = ENG
-    colonial = 2
-    }
+life_rating = 35

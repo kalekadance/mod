@@ -1,2 +1,6 @@
-trade_goods = fruit
-life_rating = 15  
+owner = D08
+controller = D08
+add_core = D08
+trade_goods = tropical_wood
+life_rating = 35
+naval_base = 1 

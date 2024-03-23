@@ -1,8 +1,5 @@
-owner = HAM
-controller = HAM
-add_core = HAM
-add_core = GER
-trade_goods = fruit
-life_rating = 35 
-naval_base = 1
-
+owner = HOL
+controller = HOL
+add_core = SCH
+trade_goods = cattle
+life_rating = 35

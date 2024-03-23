@@ -1,22 +1,6 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = FLA
+controller = FLA
 add_core = NET
 add_core = WLL
 trade_goods = coal
-life_rating = 45 
-state_building = {
-	level = 1
-	building = steel_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = ammunition_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = small_arms_factory
-	upgrade = yes
-}
+life_rating = 45

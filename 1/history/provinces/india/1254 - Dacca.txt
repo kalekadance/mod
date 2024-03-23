@@ -2,6 +2,6 @@ owner = EIC
 controller = EIC
 add_core = EIC
 add_core = HND
+add_core = GER
 trade_goods = coal
 life_rating = 45
-#colonial = 2

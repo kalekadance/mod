@@ -3,10 +3,5 @@ controller = SIC
 add_core = SIC
 add_core = ITA
 trade_goods = iron
-life_rating = 45 
-naval_base = 1
-#state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
-#}
+life_rating = 45
+naval_base = 1 

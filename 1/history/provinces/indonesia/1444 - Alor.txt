@@ -1,2 +1,6 @@
-trade_goods = tropical_wood
-life_rating = 30 
+owner = D04
+controller = D04
+add_core = D04
+add_core = D05
+trade_goods = iron
+life_rating = 35

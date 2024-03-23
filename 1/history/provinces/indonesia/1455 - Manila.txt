@@ -1,8 +1,7 @@
-owner = SPA
-controller = SPA
+owner = PHI
+controller = PHI
 add_core = PHI
+add_core = D08
 trade_goods = fruit
-life_rating = 30 
-colonial = 2
-fort = 1
-naval_base = 1
+life_rating = 30
+naval_base = 1 

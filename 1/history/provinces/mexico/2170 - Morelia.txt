@@ -1,5 +1,6 @@
-owner = MEX
-controller = MEX
+owner = GUA
+controller = GUA
+add_core = GCO
 add_core = MEX
 trade_goods = wool
-life_rating = 35 
+life_rating = 35

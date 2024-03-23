@@ -1,5 +1,6 @@
-owner = FRA
-controller = FRA
-trade_goods = sulphur 
-life_rating = 35 
-colonial = 2
+owner = D02
+controller = D02
+add_core = D02
+add_core = GCO
+trade_goods = sulphur
+life_rating = 35

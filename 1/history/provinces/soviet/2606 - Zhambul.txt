@@ -1,3 +1,7 @@
-add_core = RUS
-trade_goods = coal
-life_rating = 30 
+owner = NOR
+controller = NOR
+add_core = NOR
+add_core = SCA
+trade_goods = fish
+life_rating = 35
+colonial = 2

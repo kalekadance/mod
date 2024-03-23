@@ -1,2 +1,4 @@
+owner = D16
+controller = D16
 trade_goods = tobacco
-life_rating = 15 
+life_rating = 15

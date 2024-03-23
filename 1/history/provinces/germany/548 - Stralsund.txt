@@ -1,6 +1,6 @@
-owner = PRU
-controller = PRU
+owner = MEC
+controller = MEC
 add_core = PRU
 add_core = GER
 trade_goods = fish
-life_rating = 40 
+life_rating = 40

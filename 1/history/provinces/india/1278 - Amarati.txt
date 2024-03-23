@@ -1,5 +1,5 @@
-owner =  BHO # HYD
-controller =  BHO # HYD
+owner = BHO
+controller = BHO
 add_core = BHO
 add_core = HND
 trade_goods = tea

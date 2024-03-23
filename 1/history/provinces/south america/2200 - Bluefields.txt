@@ -1,7 +1,8 @@
-owner = UCA
-controller = UCA
+owner = HON
+controller = HON
 add_core = UCA
 add_core = NIC
-add_core = MEX
+add_core = GUA
+add_core = GCO
 trade_goods = cattle
-life_rating = 35 
+life_rating = 35

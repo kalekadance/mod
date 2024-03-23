@@ -1,2 +1,4 @@
-trade_goods = precious_metal
-life_rating = 15 
+owner = KTS
+controller = KTS
+trade_goods = iron
+life_rating = 35

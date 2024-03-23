@@ -1,5 +1,5 @@
-owner = POR
-controller = POR
+owner = SPA
+controller = SPA
 add_core = POR
 trade_goods = tea
-life_rating = 32 
+life_rating = 32

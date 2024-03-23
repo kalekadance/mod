@@ -1,16 +1,8 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = D14
+controller = D14
+add_core = MTC
+add_core = UKR
+add_core = D14
+add_core = GER
 trade_goods = timber
-life_rating = 45 
-fort = 1
-#state_building = {
-#	level = 1
-#	building = steel_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = lumber_mill
-#	upgrade = yes
-#}
+life_rating = 45

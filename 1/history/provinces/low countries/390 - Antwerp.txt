@@ -1,9 +1,6 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = FLA
+controller = FLA
 add_core = NET
 add_core = FLA
 trade_goods = cattle
-life_rating = 45 
-railroad = 1
-
+life_rating = 45

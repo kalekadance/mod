@@ -1,5 +1,6 @@
-owner = YEM
-controller = YEM
-add_core = YEM
-trade_goods = fish
-life_rating = 35 
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = IGM
+trade_goods = tea
+life_rating = 35

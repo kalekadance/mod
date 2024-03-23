@@ -1,7 +1,6 @@
-owner = MAK
-controller = MAK
-add_core = MAK
-#add_core = HND
-add_core = IGM
-trade_goods = fruit
-life_rating = 35 
+owner = PAN
+controller = PAN
+add_core = PAN
+trade_goods = cotton
+life_rating = 35
+colonial = 2

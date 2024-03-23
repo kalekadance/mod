@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
+owner = AST
+controller = AST
 add_core = AST
+add_core = D08
 trade_goods = fruit
-life_rating = 30 
-colonial = 2
+life_rating = 35
