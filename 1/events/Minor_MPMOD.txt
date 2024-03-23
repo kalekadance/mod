@@ -1,0 +1,56 @@
+#Колонизация Африки
+
+#country_event = {
+#	id = 28903
+#	title = "EVTNAME28903"
+#	desc = "EVTDESC28903"
+#	picture = "greatpowers"
+#	fire_only_once = yes
+#
+#	trigger = {
+#		year = 2055
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA28903"
+#		set_country_flag = european_colonisation_of_africa
+#		1907 = {
+#			secede_province = THIS
+#		}
+#		FRA_1907 = {
+#			add_core = THIS
+#		}
+#		money = -200000
+#	}
+#	option = {
+#		name = "EVTOPTB28903"
+#		set_country_flag = european_colonisation_of_africa
+#		FRA_1931 = {
+#			secede_province = THIS
+#		}
+#		FRA_1931 = {
+#			add_core = THIS
+#		}
+#		FRA_1930 = {
+#			add_core = THIS
+#		}
+#		FRA_1923 = {
+#			add_core = THIS
+#		}
+#		FRA_1927 = {
+#			add_core = THIS
+#		}
+#		FRA_1939 = {
+#			add_core = THIS
+#		}
+#		FRA_1937 = {
+#			add_core = THIS
+#		}
+#		money = -1000000
+#	}
+#	
+#}
