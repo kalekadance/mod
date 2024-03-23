@@ -118,6 +118,70 @@ remove_irish_cores {
 		}
 }
 
+test_ships = {
+	picture = graet_eic
+	potential = {
+		NOT = {
+			has_country_flag = test_ships
+		}
+		OR = {
+			tag = D22
+			tag = A01
+		}
+		owns = 300
+	}
+	allow = {
+		ai = no
+		year = 1841
+	}
+	effect = {
+		set_country_flag = test_ships
+		any_owned = {
+			limit = {
+				has_building = naval_base
+				is_overseas = no
+				is_core = THIS
+			}
+			sub_unit = {
+					type = manowar
+					value = current
+				}
+		}
+	}
+}
+
+gibraltar_thief = {
+	picture = graet_eic
+	potential = {
+		NOT ={
+			has_country_flag = gibraltar_thief
+		}
+		FRA_458 = {
+			OR = {
+				owned_by = CAT
+				owned_by = SPA
+				owned_by = A04
+			}
+		}
+		FRA_442 = {
+			OR = {
+				owned_by = CAT
+				owned_by = SPA
+				owned_by = A04
+			}
+		}
+	}
+	allow = {
+		year = 1850
+	}
+	effect = {
+		set_country_flag = gibraltar_thief
+		517 = { 
+		secede_province = THIS
+		}
+	}
+}
+
 #Решения Люксембурга
 
 form_Lorraine = {
@@ -1257,4 +1321,162 @@ form_Intermarium2 = {
 			factor = 1
 		}
 	}	
+
+# Европейская колонизация Африки	
+	
+european_colonisation_of_gana = {
+	picture = graet_eic
+	potential = {
+		NOT = {
+			OR = {
+			has_global_flag = european_colonisation_of_gana
+			has_country_flag = european_colonisation_of_africa
+			}
+		}
+		year = 1870
+		capital_scope = {
+			continent = europe
+		}
+	}
+	allow = {
+		is_greater_power = yes
+		money = 1000000
+		raider_group_doctrine = 1
+	}
+	effect = {
+		set_country_flag = european_colonisation_of_africa
+		set_global_flag = european_colonisation_of_gana
+		1907 = {
+			secede_province = THIS
+		}
+		FRA_1907 = {
+			add_core = THIS
+		}
+		money = -200000
+	}
+}
+	
+european_colonisation_of_niger = {
+	picture = graet_eic
+	potential = {
+		NOT = {
+			OR = {
+			has_global_flag = european_colonisation_of_niger
+			has_country_flag = european_colonisation_of_africa
+			}
+		}
+		year = 1870
+		capital_scope = {
+			continent = europe
+		}
+	}
+	allow = {
+		is_greater_power = yes
+		money = 1000000
+		raider_group_doctrine = 1
+	}
+	effect = {
+		set_country_flag = european_colonisation_of_africa
+		set_global_flag = european_colonisation_of_niger
+		FRA_1931 = {
+			secede_province = THIS
+			add_core = THIS
+		}
+		FRA_1931 = {
+			add_core = THIS
+		}
+		FRA_1930 = {
+			add_core = THIS
+		}
+		FRA_1923 = {
+			add_core = THIS
+		}
+		FRA_1927 = {
+			add_core = THIS
+		}
+		FRA_1939 = {
+			add_core = THIS
+		}
+		FRA_1937 = {
+			add_core = THIS
+		}
+		money = -1000000
+	}
+}
+
+european_colonisation_of_gereroland = {
+	picture = graet_eic
+	potential = {
+		NOT = {
+			OR = {
+			has_global_flag = european_colonisation_of_gereroland
+			has_country_flag = european_colonisation_of_africa
+			}
+		}
+		year = 1870
+		capital_scope = {
+			continent = europe
+		}
+	}
+	allow = {
+		is_greater_power = yes
+		money = 1000000
+		raider_group_doctrine = 1
+	}
+	effect = {
+		set_country_flag = european_colonisation_of_africa
+		set_global_flag = european_colonisation_of_gereroland
+		ENG_2083 = {
+			secede_province = THIS
+			add_core = THIS
+		}
+		ENG_2078 = {
+			add_core = THIS
+		}
+		ENG_2074 = {
+			add_core = THIS
+		}
+		money = -200000
+	}
+}
+
+european_colonisation_of_zanzibar = {
+	picture = graet_eic
+	potential = {
+		NOT = {
+			OR = {
+			has_global_flag = european_colonisation_of_zanzibar
+			has_country_flag = european_colonisation_of_africa
+			}
+		}
+		year = 1870
+		capital_scope = {
+			continent = europe
+		}
+	}
+	allow = {
+		is_greater_power = yes
+		money = 1000000
+		raider_group_doctrine = 1
+	}
+	effect = {
+		set_country_flag = european_colonisation_of_africa
+		set_global_flag = european_colonisation_of_zanzibar
+		POR_2060 = {
+			secede_province = THIS
+			add_core = THIS
+		}
+		ENG_2039 = {
+			add_core = THIS
+		}
+		ENG_2029 = {
+			add_core = THIS
+		}
+		ENG_2034 = {
+			add_core = THIS
+		}
+		money = -200000
+	}
+}
+
 }
