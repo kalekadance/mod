@@ -210,6 +210,7 @@ A09_form = {
 		effect = {
 		change_tag = A09
 		add_accepted_culture = asian_minor
+		ruling_party_ideology = conservative
 		set_country_flag = A09_form
 			
 		}

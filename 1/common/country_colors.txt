@@ -80,6 +80,11 @@ A16 = {
 	color = { 33 11 176}
 }
 
+#Songhai
+A17 = {
+	color = { 87 81 74 }
+}
+
 
 # Sweden
 SWE = {

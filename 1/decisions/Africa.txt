@@ -1,0 +1,458 @@
+political_decisions = {
+#Новый Карфаген
+MOR_claim = {
+		picture = kanun_i_esasi
+		potential = {  tag = MOR
+		
+			 
+			NOT = { has_country_flag = MOR_claim
+				
+			}
+
+		}
+		allow = {
+			tag = MOR
+			owns = 1709
+			owns = 1705
+			owns = 1708
+			
+			
+		}
+		effect = {
+			FRA_1780 = { add_core = MOR }	
+			set_country_flag = MOR_claim
+			
+		}
+	}
+MOR_claim1 = {
+		picture = kanun_i_esasi
+		potential = {  tag = MOR
+		has_country_flag = MOR_claim
+			 
+			NOT = { has_country_flag = MOR_claim1
+				
+			}
+
+		}
+		allow = {
+			tag = MOR
+			owns = 1725
+			owns = 1719
+
+			
+			
+		}
+		effect = {
+			FRA_1803 = { add_core = MOR }	
+			set_country_flag = MOR_claim1
+			
+		}
+	}
+	
+A14_form = {
+picture = kanun_i_esasi
+		potential = {  tag = MOR
+		has_country_flag = MOR_claim1
+			 
+			NOT = { has_country_flag = A14_form
+				
+			}
+
+		}
+		allow = {
+			tag = MOR
+            nationalism_n_imperialism = 1
+
+			
+			
+		}
+		effect = {
+			add_accepted_culture = maltese
+			set_country_flag = A14_form
+			ruling_party_ideology = conservative
+			change_tag = A14
+			
+		}
+	}
+	
+A14_claim = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_country_flag = A14_form
+			 
+			NOT = { has_country_flag = A14_claim
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+            owns = 1782
+			owns = 1806
+
+			
+			
+		}
+		effect = {
+			add_accepted_culture = sephardic
+			set_country_flag = A14_claim
+			
+		}
+	}
+A14_claim1 = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_country_flag = A14_claim
+			 
+			NOT = { has_country_flag = A14_claim1
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+            owns = 1731
+			
+
+			
+			
+		}
+		effect = {
+			TRI_1743 = { add_core = A14 }
+			EGY_1754 = { add_core = A14 }
+			SPA_517 = { add_core = A14 }
+			set_country_flag = A14_claim1
+			add_accepted_culture = bedouin
+			
+		}
+	}
+
+A14_rim = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_country_flag = A14_form
+		date = 1855	 
+			NOT = { has_global_flag = A14_rim
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+            raider_group_doctrine = 1
+			
+
+			
+			
+		}
+		effect = {
+			SAR_765 = { add_core = A14 }
+			SIC_763 = { add_core = A14 }
+			FRA_1775 = { add_core = A14 }
+			set__global_flag = A14_rim
+			
+		}
+	}
+
+A14_egy = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_country_flag = A14_form
+		date = 1850
+			 
+			NOT = { has_global_flag = A14_egy
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+            iron_breech_loaded_artillery = 1
+			
+
+			
+			
+		}
+		effect = {
+			TRI_1739 = { add_core = A14 }
+			EGY_1753 = { add_core = A14 }
+			EGY_1758 = { add_core = A14 }
+			set__global_flag = A14_egy
+			
+		}
+	}
+A14_egy1 = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_country_flag = A14_egy
+
+			 
+			NOT = { has_global_flag = A14_egy1
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+			owns = 1738
+			owns = 1758
+			owns = 1752
+
+			
+			
+		}
+		effect = {
+			EGY_1746 = { add_core = A14 }
+			EGY_1762 = { add_core = A14 }
+			EGY_1750 = { add_core = A14 }
+			set__global_flag = A14_egy1
+			
+		}
+	}
+A14_spa = {
+picture = kanun_i_esasi
+		potential = {  tag = A14
+		has_global_flag = A14_rim
+		date = 1865	 
+			NOT = { has_global_flag = A14_spa
+				
+			}
+
+		}
+		allow = {
+			tag = A14
+            owns = 1779
+			
+
+			
+			
+		}
+		effect = {
+			SPA_512 = { add_core = A14 }
+			POR_525 = { add_core = A14 }
+			POR_521 = { add_core = A14 }
+			set__global_flag = A14_spa
+			
+		}
+	}
+#Сонгайск
+D01_claim = {
+		picture = kanun_i_esasi
+		potential = {  tag = D01
+		
+			 
+			NOT = { has_country_flag = D01_claim
+				
+			}
+
+		}
+		allow = {
+			tag = D01
+			
+			
+		}
+		effect = {
+			FRA_1801 = { add_core = D01 }
+			FRA_1879 = { add_core = D01 }	
+			set_country_flag = D01_claim
+			
+		}
+	}
+D01_FRA = {
+		picture = kanun_i_esasi
+		potential = { OR = { tag = D01 tag = A17 }
+		
+			 
+			NOT = { has_country_flag = D01_FRA
+				
+			}
+
+		}
+		allow = {
+			OR = { tag = D01 tag = A17 }
+		idealism = 1
+		market_structure = 1
+			
+			
+		}
+		effect = {
+			add_accepted_culture = 	french
+			add_accepted_culture = maltese
+			set_country_flag = D01_FRA 
+		}
+	}
+D01_claim1 = {
+		picture = kanun_i_esasi
+		potential = {  tag = D01
+		has_country_flag = D01_claim
+			 
+			NOT = { has_country_flag = D01_claim1
+				
+			}
+
+		}
+		allow = {
+			tag = D01
+			owns = 1881
+			owns = 1794
+			
+			
+		}
+		effect = {
+			YAR = {
+                any_owned = {
+                    add_core = D01 }
+                }
+			set_country_flag = D01_claim1
+			
+		}
+	}
+
+A17_form = {
+		picture = kanun_i_esasi
+		potential = {  tag = D01
+		has_country_flag = D01_claim1
+			 
+			NOT = { has_country_flag = A17_form
+				
+			}
+
+		}
+		allow = {
+			tag = D01
+			NOT = { exists = YAR }
+			
+			
+		}
+		effect = {
+			set_global_flag = form_A17
+			change_tag = A17
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = afro_american
+			add_accepted_culture = sephardic
+			set_country_flag = A17_form
+			
+		}
+	}
+A17_Mor = {
+		picture = kanun_i_esasi
+		potential = {  tag = A17
+			 
+			NOT = { has_country_flag = A17_Mor
+				
+			}
+
+		}
+		allow = {
+			owns = 1881
+			owns = 1794
+			
+			
+		}
+		effect = {
+			FRA_1780 = { add_core = A17 }
+			FRA_1803 = { add_core = A17 }
+			set_country_flag = A17_Mor
+			
+		}
+	}
+A17_Mor1 = {
+		picture = kanun_i_esasi
+		potential = {  tag = A17
+			 has_country_flag = A17_Mor 
+			NOT = { has_country_flag = A17_Mor1
+				
+			}
+
+		}
+		allow = {
+			owns = 1806
+			owns = 1781
+			
+			
+		}
+		effect = {
+			add_accepted_culture = bedouin
+			FRA_1783 = { add_core = A17 }
+			FRA_1775 = { add_core = A17 }
+			set_country_flag = A17_Mor1
+			
+		}
+	}
+	
+A17_claim = {
+		picture = kanun_i_esasi
+		potential = {  tag = A17
+
+			NOT = { has_country_flag = A17_claim
+				
+			}
+
+		}
+		allow = {
+			tag = A17
+			owns = 1912
+			biologism = 1
+			
+			
+		}
+		effect = {
+			ENG_1887 = { add_core = A17 }
+			FRA_1893 = { add_core = A17 }
+			FRA_1892 = { add_core = A17 }
+			set_country_flag = A17_claim
+			
+		}
+	}
+
+A17_claim1 = {
+		picture = kanun_i_esasi
+		potential = {  tag = A17
+		 has_country_flag = A17_claim
+			NOT = { has_country_flag = A17_claim1
+				
+			}
+
+		}
+		allow = {
+			tag = A17	
+			owns = 1888
+			
+			
+		}
+		effect = {
+			FRA_1937 = { add_core = A17 }
+			FRA_1927 = { add_core = A17 }
+			FRA_1937 = { add_core = A17 }
+			set_country_flag = A17_claim1
+			
+		}
+	}
+	
+A17_coloni = {
+		picture = kanun_i_esasi
+		potential = {  tag = A17
+			NOT = { has_country_flag = A17_coloni
+				
+			}
+
+		}
+		allow = {
+			tag = A17	
+			business_banks = 1
+			army_decision_making = 1
+			muzzle_loaded_rifles = 1
+			
+			
+		}
+		effect = {
+			ENG_1960 = { secede_province = A17 }
+			ENG_1960 = { any_pop = { literacy = 0.15 } }
+			ENG_1960 = { life_rating = 20 }
+			ENG_1960 = { add_core = A17 }
+			set_country_flag = A17_coloni
+			
+		}
+	}	
+}
