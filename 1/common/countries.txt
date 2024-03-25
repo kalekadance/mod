@@ -21,6 +21,7 @@ A13		= "countries/Maya Empire.txt"
 A14		= "countries/New Carthage.txt"
 A15		= "countries/GreatArmenia.txt"
 A16		= "countries/GreaterIsrael.txt"
+A17		= "countries/Songhai.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
