@@ -70,7 +70,7 @@ A14 = {
 	color = { 128 135 82 }
 }
 
-#GreatArmenia
+#Abyssinia
 A15 = {
 	color = { 232 85 74}
 }
