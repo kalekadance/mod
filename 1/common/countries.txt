@@ -19,7 +19,7 @@ A11		= "countries/Pacific States of America.txt"
 A12		= "countries/Indonesia.txt"
 A13		= "countries/Maya Empire.txt"
 A14		= "countries/New Carthage.txt"
-A15		= "countries/GreatArmenia.txt"
+A15		= "countries/Abyssinia.txt"
 A16		= "countries/GreaterIsrael.txt"
 A17		= "countries/Songhai.txt"
 
