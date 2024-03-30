@@ -627,9 +627,9 @@ A16_claim1 = { picture = kanun_i_esasi
 }
 A16_kavkaz = { picture = kanun_i_esasi
 		potential = {  tag = A16 
-			NOT = { has_country_flag = A16_kavkaz
-				
-			}}
+			NOT = { has_country_flag = A16_kavkaz }
+			
+			}
 		
 	allow = {
 			tag = A16
