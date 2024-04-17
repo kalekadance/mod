@@ -1,0 +1,8 @@
+owner = BUK
+controller = BUK
+add_core = BUK
+add_core = IGM
+add_core = AFG
+add_core = MTC
+trade_goods = grain
+life_rating = 35

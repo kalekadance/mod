@@ -1,6 +1,5 @@
-owner = SIN
-controller = SIN
-add_core = SIN
-add_core = IGM
-trade_goods = tea
+owner = YEM
+controller = YEM
+add_core = YEM
+trade_goods = grain
 life_rating = 35

@@ -1,6 +1,6 @@
-owner = D05
-controller = D05
-add_core = D05
-trade_goods = coffee
+owner = ISR
+controller = ISR
+add_core = ISR
+trade_goods = grain
 life_rating = 35
-naval_base = 1 
+colonial = 2
