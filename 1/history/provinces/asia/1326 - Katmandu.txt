@@ -1,6 +1,6 @@
-owner = NEP
-controller = NEP
-add_core = NEP
-trade_goods = tea
-life_rating = 35
-
+owner = ENG
+controller = ENG
+add_core = HND
+trade_goods = fruit
+life_rating = 33
+colonial = 2
