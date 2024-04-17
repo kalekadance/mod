@@ -1,5 +1,5 @@
-owner = MTC
-controller = MTC
-add_core = MTC
+owner = CNG
+controller = CNG
+add_core = CNG
 trade_goods = wool
 life_rating = 35
