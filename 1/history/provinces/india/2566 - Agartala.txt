@@ -1,5 +1,6 @@
-owner = ARA
-controller = ARA
-trade_goods = fish
+owner = EIC
+controller = EIC
+add_core = HND
+trade_goods = tea
 life_rating = 35
-colonial = 2
+
