@@ -1,6 +1,6 @@
-owner = D08
-controller = D08
-add_core = D08
-trade_goods = fish
+owner = XBI
+controller = XBI
+add_core = CHI
+add_core = XBI
+trade_goods = grain
 life_rating = 35
-naval_base = 1 

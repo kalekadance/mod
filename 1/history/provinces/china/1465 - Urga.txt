@@ -1,2 +1,5 @@
-trade_goods = fish
+owner = MTC
+controller = MTC
+add_core = MTC
+trade_goods = grain
 life_rating = 35
