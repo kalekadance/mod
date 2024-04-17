@@ -1,6 +1,5 @@
-owner = GEO
-controller = GEO
-add_core = GEO
-add_core = UKR
+owner = ARM
+controller = ARM
+add_core = ARM
 trade_goods = tea
 life_rating = 35
