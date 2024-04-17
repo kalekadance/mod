@@ -1,5 +1,6 @@
-owner = CNG
-controller = CNG
-add_core = CNG
+owner = D09
+controller = D09
+add_core = D09
+add_core = GCO
 trade_goods = iron
 life_rating = 35
