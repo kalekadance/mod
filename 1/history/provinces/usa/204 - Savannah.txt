@@ -1,6 +1,7 @@
-owner = TUR
-controller = TUR
+owner = CSA
+controller = CSA
+add_core = GCO
+add_core = USA
 trade_goods = fish
 life_rating = 35
-colonial = 2
 naval_base = 2 
