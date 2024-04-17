@@ -1,5 +1,2 @@
-owner = JOH
-controller = JOH
-add_core = JOH
 trade_goods = grain
 life_rating = 35
