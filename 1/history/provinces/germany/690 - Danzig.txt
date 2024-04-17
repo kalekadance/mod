@@ -1,6 +1,4 @@
-owner = BOH
-controller = BOH
-add_core = BOH
-add_core = CZH
+owner = DZG
+controller = DZG
 trade_goods = coal
 life_rating = 35

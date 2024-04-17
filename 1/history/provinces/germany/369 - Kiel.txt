@@ -1,6 +1,6 @@
-owner = TRI
-controller = TRI
-add_core = TRI
-add_core = EGY
+owner = HOL
+controller = HOL
+add_core = HOL
+add_core = GER
 trade_goods = wool
 life_rating = 35
