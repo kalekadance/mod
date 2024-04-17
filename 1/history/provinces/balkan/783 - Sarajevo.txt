@@ -1,6 +1,7 @@
-owner = ROM
-controller = ROM
-add_core = MOL
-add_core = ROM
+owner = BOS
+controller = BOS
+add_core = BOS
+add_core = YUG
+add_core = SER
 trade_goods = fruit
 life_rating = 35

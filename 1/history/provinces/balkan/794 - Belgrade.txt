@@ -1,2 +1,6 @@
-trade_goods = tobacco
-life_rating = 15
+owner = SER
+controller = SER
+add_core = SER
+add_core = YUG
+trade_goods = coal
+life_rating = 35

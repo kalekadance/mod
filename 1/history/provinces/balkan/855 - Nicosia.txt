@@ -1,7 +1,5 @@
-owner = ENG
-controller = ENG
-add_core = SIC
+owner = CYP
+controller = CYP
 trade_goods = iron
 life_rating = 35
-colonial = 2
 naval_base = 2 
