@@ -1,6 +1,5 @@
-owner = D07
-controller = D07
-add_core = D07
-add_core = GCO
+owner = D05
+controller = D05
+add_core = D05
 trade_goods = coal
 life_rating = 35
