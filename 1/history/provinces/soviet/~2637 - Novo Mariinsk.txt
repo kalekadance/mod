@@ -1,0 +1,4 @@
+owner = RHO
+controller = RHO
+trade_goods = grain
+life_rating = 15
