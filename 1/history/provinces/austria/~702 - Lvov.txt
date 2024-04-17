@@ -1,0 +1,6 @@
+owner = DZG
+controller = DZG
+add_core = DZG
+trade_goods = precious_metal
+life_rating = 35
+naval_base = 1 

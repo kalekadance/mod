@@ -1,6 +1,5 @@
-owner = POL
-controller = POL
-add_core = POL
-add_core = PLC
+owner = LOM
+controller = LOM
+add_core = LOM
 trade_goods = grain
 life_rating = 35

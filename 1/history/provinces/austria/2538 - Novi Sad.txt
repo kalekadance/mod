@@ -1,5 +1,7 @@
-owner = D08
-controller = D08
-add_core = D08
+owner = HUN
+controller = HUN
+add_core = SER
+add_core = HUN
+add_core = YUG
 trade_goods = fruit
 life_rating = 35

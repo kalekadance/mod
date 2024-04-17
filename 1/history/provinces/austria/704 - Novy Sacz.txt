@@ -1,6 +1,6 @@
-owner = KRA
-controller = KRA
-add_core = KRA
-add_core = BOH
+owner = RUT
+controller = RUT
+add_core = POL
+add_core = UKR
 trade_goods = coal
 life_rating = 35

@@ -1,6 +1,6 @@
-owner = TUS
-controller = TUS
-add_core = PAR
-add_core = ITA
+owner = CRO
+controller = CRO
+add_core = SLO
+add_core = YUG
 trade_goods = iron
 life_rating = 35
