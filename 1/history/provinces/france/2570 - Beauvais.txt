@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = FLA
+controller = FLA
+add_core = FLA
 trade_goods = grain
 life_rating = 35 
