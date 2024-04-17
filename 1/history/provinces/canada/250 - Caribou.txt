@@ -1,6 +1,6 @@
-owner = D13
-controller = D13
+owner = NEN
+controller = NEN
 add_core = GCO
-add_core = QUE
+add_core = NEN
 trade_goods = grain
 life_rating = 50

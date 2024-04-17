@@ -1,5 +1,6 @@
-owner = CAL
-controller = CAL
+owner = D13
+controller = D13
 add_core = GCO
+add_core = QUE
 trade_goods = fish
 life_rating = 35

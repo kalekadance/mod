@@ -1,7 +1,5 @@
-owner = QUE
-controller = QUE
+owner = CAL
+controller = CAL
 add_core = GCO
-add_core = QUE
 trade_goods = fish
 life_rating = 35
-

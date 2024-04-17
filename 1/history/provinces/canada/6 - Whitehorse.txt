@@ -1,5 +1,5 @@
-owner = QUE
-controller = QUE
+owner = D13
+controller = D13
 add_core = GCO
 add_core = QUE
 trade_goods = fish
