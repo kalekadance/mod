@@ -1,0 +1,6 @@
+owner = D07
+controller = D07
+add_core = D07
+add_core = GCO
+trade_goods = dye
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = CSA
+controller = CSA
+add_core = GCO
+add_core = USA
+trade_goods = fish
+life_rating = 35
+naval_base = 2 

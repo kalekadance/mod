@@ -1,0 +1,4 @@
+owner = CYP
+controller = CYP
+trade_goods = fish
+life_rating = 35 

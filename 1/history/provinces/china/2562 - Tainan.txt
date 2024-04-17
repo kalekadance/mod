@@ -1,5 +1,0 @@
-owner = D10
-controller = D10
-add_core = GCO
-trade_goods = cotton
-life_rating = 35

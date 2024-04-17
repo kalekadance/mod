@@ -1,4 +1,0 @@
-owner = KOR
-controller = KOR
-trade_goods = fish
-life_rating = 35

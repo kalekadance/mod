@@ -1,0 +1,7 @@
+owner = KAL
+controller = KAL
+add_core = KAL
+add_core = IGM
+add_core = PER
+trade_goods = tea
+life_rating = 35

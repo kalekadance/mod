@@ -1,7 +1,0 @@
-owner = NAS
-controller = NAS
-add_core = HES
-add_core = GER
-add_core = SGF
-trade_goods = fruit
-life_rating = 35

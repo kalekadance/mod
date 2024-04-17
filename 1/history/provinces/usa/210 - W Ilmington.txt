@@ -1,6 +1,0 @@
-owner = CSA
-controller = CSA
-add_core = GCO
-add_core = USA
-trade_goods = cotton
-life_rating = 35

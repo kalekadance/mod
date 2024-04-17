@@ -1,4 +1,0 @@
-owner = ARA
-controller = ARA
-trade_goods = fish
-life_rating = 15
