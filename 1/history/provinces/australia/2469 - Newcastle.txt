@@ -1,5 +1,6 @@
 owner = AST
 controller = AST
 add_core = AST
+add_core = D08
 trade_goods = coal
 life_rating = 35
