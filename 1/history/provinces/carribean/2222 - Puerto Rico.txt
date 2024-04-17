@@ -1,6 +1,5 @@
-owner = CHI
-controller = CHI
-add_core = CHI
-add_core = TPG
+owner = D10
+controller = D10
+add_core = GCO
 trade_goods = tea
-life_rating = 32
+life_rating = 35
