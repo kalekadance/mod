@@ -1,6 +1,6 @@
-owner = POR
-controller = POR
-add_core = POR
+owner = BAD
+controller = BAD
+add_core = FLA
 trade_goods = grain
 life_rating = 35
 naval_base = 2 
