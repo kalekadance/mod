@@ -1,7 +1,6 @@
-owner = AST
-controller = AST
-add_core = AST
-add_core = D08
+owner = GCO
+controller = GCO
+add_core = GCO
 trade_goods = grain
 life_rating = 35
-naval_base = 2 
+

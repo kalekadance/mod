@@ -1,6 +1,7 @@
-owner = D09
-controller = D09
-add_core = D09
+owner = CUB
+controller = CUB
+add_core = CUB
+add_core = GUA
 add_core = GCO
 trade_goods = tobacco
 life_rating = 35

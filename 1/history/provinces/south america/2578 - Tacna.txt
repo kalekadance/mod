@@ -1,6 +1,6 @@
-owner = CSA
-controller = CSA
+owner = PEU
+controller = PEU
+add_core = PEU
 add_core = GCO
-add_core = USA
 trade_goods = cotton
 life_rating = 35

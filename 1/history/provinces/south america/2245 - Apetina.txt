@@ -1,5 +1,6 @@
-owner = D05
-controller = D05
-add_core = D05
+owner = D07
+controller = D07
+add_core = D07
+add_core = GCO
 trade_goods = dye
 life_rating = 35

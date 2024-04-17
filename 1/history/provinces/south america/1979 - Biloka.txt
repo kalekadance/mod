@@ -1,5 +1,6 @@
-owner = TUN
-controller = TUN
-add_core = TUN
+owner = D09
+controller = D09
+add_core = D09
+add_core = GCO
 trade_goods = wool
 life_rating = 35

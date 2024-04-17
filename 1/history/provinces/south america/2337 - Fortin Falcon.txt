@@ -1,4 +1,7 @@
-owner = ARA
-controller = ARA
+owner = BOL
+controller = BOL
+add_core = BOL
+add_core = PRG
+add_core = GCO
 trade_goods = fish
-life_rating = 15
+life_rating = 35
