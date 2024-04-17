@@ -1,7 +1,5 @@
-owner = NOR
-controller = NOR
-add_core = NOR
-add_core = SCA
+owner = RHO
+controller = RHO
 trade_goods = fish
 life_rating = 35
-colonial = 2
+

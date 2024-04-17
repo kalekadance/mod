@@ -1,6 +1,6 @@
-owner = PNM
-controller = PNM
-add_core = PNM
-add_core = GCO
-trade_goods = fruit
+owner = TUN
+controller = TUN
+add_core = TUN
+trade_goods = wool
 life_rating = 35
+
