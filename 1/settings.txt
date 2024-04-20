@@ -32,7 +32,7 @@ text_height=500.000000
 sea_text_alpha=120
 details=0.000
 }
-lastplayer="Player"
+lastplayer="RPG"
 lasthost="217.10.41.213"
 serveradress="diplomacy.valkyrienet.com"
 debug_saves=0

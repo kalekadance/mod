@@ -22,6 +22,7 @@ A14		= "countries/New Carthage.txt"
 A15		= "countries/Abyssinia.txt"
 A16		= "countries/GreaterIsrael.txt"
 A17		= "countries/Songhai.txt"
+A18		= "countries/Pan-Indian Commonwealth.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"

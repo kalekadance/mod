@@ -201,16 +201,14 @@ political_decisions = {
 			}	
 			allow = {
 			tag = A10
-			owns = 73
+			owns = 74
 			}
 		
 			effect = {
 				set_country_flag = NEN_annexation2
-				QUE = {
-                any_owned = {
-                    add_core = A10 }
-                }
-				add_accepted_culture = cree
+				ENG_36 = {
+			    add_core = A10 }
+				add_accepted_culture = french_canadian
 			}
 			ai_will_do = {
 			factor = 1
@@ -237,7 +235,7 @@ political_decisions = {
 				set_global_flag = NEN_annexation3
 			ENG_36 = {
 			add_core = A10 }
-			ENG_43 = {
+			ENG_30 = {
 			add_core = A10 }
 			}
 			ai_will_do = {
@@ -271,10 +269,11 @@ political_decisions = {
 			add_core = A10 }
 				ENG_2228 = {
 			add_core = A10 }
+			add_accepted_culture = caribeno	}
 			ai_will_do = {
 			factor = 1
 			}
-		}
+		
 	}
 	
 	
@@ -299,7 +298,7 @@ CAL_action = {
                 any_owned = {
                     add_core = CAL }
                 }
-				add_accepted_culture = texan
+				add_accepted_culture = afro_american
 			}
 			ai_will_do = {
 			factor = 1
@@ -424,7 +423,7 @@ form_PSA = {
 			change_tag = A11
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = afro_american
+			add_accepted_culture = metis
 			any_owned = {
 				remove_core = TEX
 				remove_core = USA
@@ -443,6 +442,7 @@ CAL_action3 = {
 			}	
 			allow = { 
 			tag = A11
+			prestige = 550
 			}
 			effect = {
 			set_global_flag = CAL_action3
@@ -581,7 +581,7 @@ UCA_form = {
 			change_tag = UCA
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = central_american
+			add_accepted_culture = mexican
 			add_accepted_culture = caribeno
 			any_owned = {
 				remove_core = GUA
@@ -631,7 +631,7 @@ UCA_nord_claim11 = {
 		     MEX_2173  = {
 		      owned_by = UCA }
 			 MEX_2161  = {
-		      owned_by = UCA }
+		      owned_by = UCA } 
 			  }
 		 }  
 			}

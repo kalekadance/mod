@@ -1,4 +1,5 @@
 owner = D16
 controller = D16
+add_core = D16
 trade_goods = grain
-life_rating = 15
+life_rating = 35

@@ -1,6 +1,5 @@
 owner = PHI
 controller = PHI
 add_core = PHI
-add_core = D08
 trade_goods = fish
-life_rating = 30
+life_rating = 35

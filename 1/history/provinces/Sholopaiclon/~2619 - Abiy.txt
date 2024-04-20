@@ -1,0 +1,5 @@
+owner = MTC
+controller = MTC
+add_core = MTC
+trade_goods = timber
+life_rating = 30

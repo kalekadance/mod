@@ -101,7 +101,7 @@ promotion_chance =
 				is_slave = yes
 			}
 	}
-modifier = {
+	modifier = {
 		factor = -0.1
 		country = {
 			has_country_flag = serfdom_not_abolished
@@ -110,6 +110,12 @@ modifier = {
 	modifier = {
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
+	}
+	modifier = {
+		factor = 0.25
+		country = {
+			ai=yes
+		}
 	}
 	
 }

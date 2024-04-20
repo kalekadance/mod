@@ -3,4 +3,4 @@ controller = BUK
 add_core = BUK
 add_core = MTC
 trade_goods = opium
-life_rating = 30
+life_rating = 35

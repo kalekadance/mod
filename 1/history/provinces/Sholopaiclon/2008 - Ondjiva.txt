@@ -1,4 +1,5 @@
 owner = LEV
 controller = LEV
+add_core = LEV
 trade_goods = iron
-life_rating = 15
+life_rating = 35
