@@ -4,7 +4,7 @@ religion = orthodox
 government = presidential_dictatorship
 plurality = 25.1
 nationalvalue = nv_liberty
-literacy = 0.17
+literacy = 0.27
 civilized = yes
 
 # Political reforms

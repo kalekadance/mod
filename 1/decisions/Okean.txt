@@ -204,8 +204,10 @@ A09_form = {
 		}
 		allow = {
 			tag = D08 
-			NOT = { exists = BRU }
-			
+			OR = {
+				NOT = { exists = BRU }
+				year = 1855
+			}
 		}
 		effect = {
 		change_tag = A09
@@ -234,7 +236,6 @@ A09_claim = {
                 any_owned = {
                     add_core = A09 }
                 }
-		ruling_party_ideology = conservative
 		set_country_flag = A09_claim
 		any_owned = {
 		remove_core = D08 }
@@ -251,8 +252,10 @@ A09_filipin = {
 		}
 		allow = {
 			tag = A09
-			NOT = { exists = NZL }
-			
+			OR = {
+				NOT = { exists = NZL }
+				year = 1860
+			}
 		}
 		effect = {
 		PHI = {
@@ -432,8 +435,13 @@ A12_form = {
 		}
 		allow = {
 			tag = D05
-			NOT = { AND = { exists = BAL 
-						   exists = D04 } }
+			NOT = { 
+				OR = {
+						AND = { exists = BAL 
+						   exists = D04 } 
+						year = 1855
+						}
+				}
 			
 		}
 		effect = {

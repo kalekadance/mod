@@ -510,7 +510,7 @@ freedom_of_trade = {
 
 	activate_building = luxury_clothes_factory  
 
-	influence = 0.1
+	influence = -300
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
 	

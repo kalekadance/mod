@@ -1174,6 +1174,7 @@ graet_pol4 = {
 	picture = graet_eic
 		potential = {
 			AND = {
+				tag = PLC
 				has_global_flag = graet_pol3
 				NOT = {
 					has_global_flag = graet_pol4

@@ -1,5 +1,5 @@
 #capital = 
-primary_culture = british
+primary_culture = african_minor
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.1

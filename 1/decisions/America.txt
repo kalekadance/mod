@@ -283,7 +283,8 @@ political_decisions = {
 CAL_action = {
 	picture = graet_eic
 		potential = {
-			tag = CAL
+				OR = ( tag = CAL
+						tag = A11 }
 			NOT = {
 				has_country_flag = CAL_action
 					}		
@@ -387,6 +388,8 @@ CAL_action2 = {
 	picture = graet_eic
 		potential = {
 				has_global_flag_flag = CAL_action1
+				OR = ( tag = CAL
+						tag = A11 }
 				NOT = {
 					has_global_flag = CAL_action2
 					exists = TEX
@@ -412,7 +415,7 @@ form_PSA = {
 			}		
 		}	
 		allow = { 
-		OR { exists = A10
+		OR = { exists = A10
              NOT = {
 				exists = D13 }
 			}		
