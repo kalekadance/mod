@@ -1,0 +1,773 @@
+political_decisions = {
+	
+	#Решения для Новой Англии
+	NEN_rise = {
+		picture = graet_eic
+			potential = {
+				tag = NEN
+				NOT = {
+					has_country_flag = NEN_rise
+				}		
+			}	
+			allow = {
+			owns = 232
+			owns = 234
+			owns = 235
+			owns = 238
+			owns = 239
+			owns = 237
+			owns = 236
+			}
+		
+			effect = {
+				set_country_flag = NEN_rise
+				add_core = 224
+				add_core = 223
+				add_core = 226
+				add_core = 225
+				add_core = 228
+				add_core = 227
+				add_core = 222
+				add_core = 219
+				add_core = 220
+				add_core = 221	
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	NEN_rise1 = {
+		picture = graet_eic
+			potential = {
+				tag = NEN
+				AND = {
+				has_country_flag = NEN_rise
+				NOT = {
+					has_country_flag = NEN_rise1
+				}		
+			}}	
+			allow = {
+			225 = { controlled_by = NEN }
+			228 = { controlled_by = NEN }
+			223 = { controlled_by = NEN }
+			}
+		
+			effect = {
+				set_country_flag = NEN_rise1 
+			D25 = {
+                any_owned = {
+                    add_core = NEN }
+                }
+			CSA = {
+                any_owned = {
+                    add_core = NEN }
+                }
+            add_accepted_culture = dixie	
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	
+	}
+	
+	form_USNY = {
+	picture = graet_eic
+		potential = {
+			has_country_flag = NEN_rise1
+			NOT = { 
+			has_global_flag = form_USNY 
+			OR = {
+				exists = D25
+				exists = CSA
+				}
+			}	
+		}	
+		allow = {
+        tag = NEN
+			
+		}
+		
+		effect = {
+			set_global_flag = form_USNY 
+			change_tag = A10
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = afro_american
+			any_owned = {
+				remove_core = USA } 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	NEN_annexation = {
+		picture = graet_eic
+			potential = {
+				OR = {
+				tag = NEN
+				tag = A10
+			}
+				NOT = {
+					has_country_flag = NEN_annexation
+					}		
+			}	
+			allow = {
+			owns = 57
+			}
+		
+			effect = {
+				set_country_flag = NEN_annexation
+				add_core = 73
+				add_core = 72
+				add_core = 71
+				add_core = 70
+				add_core = 68
+				add_core = 69
+				add_accepted_culture = anglo_canadian
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	NSNY_claims = {
+		picture = graet_eic
+			potential = {
+				OR = {
+				tag = A10
+			}
+				NOT = {
+					has_global_flag = NSNY_claims
+					}		
+			}
+			allow = {
+			has_global_flag = CAL_action1
+			}
+			effect = { 
+            add_core = 188
+			add_core = 189
+			add_core = 190
+			add_core = 191
+			add_core = 195
+			add_core = 196
+			add_core = 197
+			add_core = 192
+			add_core = 193
+			add_core = 194
+			add_accepted_culture = texan
+			set_global_flag = NSNY_claims
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	NEN_annexation1 = {
+		picture = graet_eic
+			potential = {
+				has_country_flag = NEN_annexation
+				tag = A10
+				NOT = {
+					has_global_flag = NEN_annexation1
+					}		
+			}	
+			allow = {
+			tag = A10
+			owns = 73
+			}
+		
+			effect = {
+				set_global_flag = NEN_annexation1
+				QUE = {
+                any_owned = {
+                    add_core = A10 }
+                }
+				add_accepted_culture = cree
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	NEN_annexation2 = {
+		picture = graet_eic
+			potential = {
+				has_global_flag = NEN_annexation1
+				tag = A10
+				NOT = {
+					has_global_flag = NEN_annexation1
+					}		
+			}	
+			allow = {
+			tag = A10
+			owns = 74
+			}
+		
+			effect = {
+				set_country_flag = NEN_annexation2
+				ENG_36 = {
+			    add_core = A10 }
+				add_accepted_culture = french_canadian
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	
+	NEN_annexation3 = {
+		picture = graet_eic
+			potential = {
+				has_country_flag = NEN_annexation2
+				tag = A10
+				date = 1849
+				NOT = {
+					has_country_flag = NEN_annexation2
+					}		
+			}	
+			allow = {
+			tag = A10
+			date = 1855
+			prestige = 250
+			}
+		
+			effect = {
+				set_global_flag = NEN_annexation3
+			ENG_36 = {
+			add_core = A10 }
+			ENG_30 = {
+			add_core = A10 }
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	NEN_atlantic_claim = {
+		picture = graet_eic
+			potential = {
+				tag = A10
+				NOT = {
+					has_country_flag = NEN_atlantic_claim
+					}		
+			}	
+			allow = {
+			OR = {
+			tag = A10
+			exists = UCA 
+				  }
+			}
+		
+			effect = {
+				set_country_flag = NEN_atlantic_claim
+			SPA_2209 = {
+			add_core = A10 }
+			ENG_203 = {
+			add_core = A10 }
+				HAL_2213 = {
+			add_core = A10 }
+				ENG_2224 = {
+			add_core = A10 }
+				ENG_2228 = {
+			add_core = A10 }
+			add_accepted_culture = caribeno	}
+			ai_will_do = {
+			factor = 1
+			}
+		
+	}
+	
+	
+	
+    #Решения для Колифорнийской Республики
+	
+CAL_action = {
+	picture = graet_eic
+		potential = {
+				OR = ( tag = CAL
+						tag = A11 }
+			NOT = {
+				has_country_flag = CAL_action
+					}		
+			}	
+			allow = {
+
+			}
+		
+			effect = {
+				set_country_flag = CAL_action
+				TEX = {
+                any_owned = {
+                    add_core = CAL }
+                }
+				add_accepted_culture = afro_american
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+
+CAL_action1 = {
+	picture = graet_eic
+		potential = {
+				has_country_flag = CAL_action
+				NOT = {
+					has_global_flag = CAL_action1
+					exists = TEX
+					}		
+			}	
+			allow = {
+			tag = CAL
+			}
+			effect = {
+			set_global_flag = CAL_action1
+			any_owned = {
+				remove_core = TEX }
+					}	
+	}
+CAL_defens = {
+		picture = graet_eic
+			potential = {
+			has_global_flag = NSNY_claims
+				OR = {
+				tag = CAL
+				tag = A11
+			}
+				NOT = {
+					has_global_flag = CAL_defens
+					}		
+			}
+			allow = {
+			has_global_flag = NSNY_claims
+			}
+			effect = { 
+            add_core = 201
+			add_core = 202
+			add_core = 2555
+			add_core = 204
+			add_core = 206
+			add_core = 205
+			add_core = 2556
+			add_core = 209
+			add_core = 207
+			add_core = 208
+			add_core = 210
+			set_global_flag = CAL_defens
+			}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+CAL_mexican = {
+	picture = graet_eic
+		potential = {
+		     OR = {
+				tag = CAL
+				tag = A11 }
+				NOT = {
+					has_global_flag = CAL_mexican
+					
+					}		
+			}	
+			allow = {
+			 OR = {
+				tag = CAL
+				tag = A11 }
+			owns = 2141
+			owns = 2137
+			owns = 2140
+			owns = 2138
+			owns = 2139
+			
+			}
+			effect = {
+			set_global_flag = CAL_mexican
+			add_accepted_culture = mexican
+			}
+	}
+CAL_action2 = {
+	picture = graet_eic
+		potential = {
+				has_global_flag_flag = CAL_action1
+				OR = ( tag = CAL
+						tag = A11 }
+				NOT = {
+					has_global_flag = CAL_action2
+					exists = TEX
+					}		
+			}	
+			allow = {
+			tag = CAL
+			}
+			effect = {
+			set_global_flag = CAL_action2
+			D13 = {
+                any_owned = {
+                    add_core = CAL }
+                }
+	        }
+        }
+form_PSA = {
+	picture = graet_eic
+		potential = {
+			tag = CAL
+			NOT = {
+				has_global_flag = form_PSA
+			}		
+		}	
+		allow = { 
+		OR = { exists = A10
+             NOT = {
+				exists = D13 }
+			}		
+		}
+	
+	effect = {
+			set_global_flag = form_PSA
+			change_tag = A11
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = metis
+			any_owned = {
+				remove_core = TEX
+				remove_core = USA
+				} 
+			}
+	}
+			
+CAL_action3 = {
+	picture = graet_eic
+		potential = {
+				has_global_flag_flag = CAL_action2
+				NOT = {
+					has_global_flag = CAL_action3
+					exists = D13
+					}		
+			}	
+			allow = { 
+			tag = A11
+			prestige = 550
+			}
+			effect = {
+			set_global_flag = CAL_action3
+			add_accepted_culture = native_american_minor
+	        }
+        }
+CAL_mexican1 = {
+	picture = graet_eic
+		potential = {
+				tag = A11 
+				NOT = {
+					has_global_flag = CAL_mexican1
+					
+					}		
+			}	
+			allow = {
+			tag = A11 
+			owns = 2143
+			owns = 2142
+			owns = 2145
+			owns = 2144
+			owns = 2152
+			owns = 2147
+			}
+			effect = {
+			set_global_flag = CAL_mexican1
+			add_accepted_culture = mexican
+			}
+	}
+CAL_QUE_salvation = {
+	picture = graet_eic
+		potential = {
+				tag = A11
+				has_global_flag = NEN_annexation1
+				NOT = {
+					has_country_flag = QUE_salvation
+					
+					}		
+			}	
+			allow = {
+			tag = A11 
+			has_global_flag = NEN_annexation1
+			}
+			effect = {
+			set_country_flag = QUE_salvation
+			add_accepted_culture = cree
+			ENG_46 = {
+			add_core = A11 }
+			}
+	}
+CAL_QUE_salvation1 = {
+	picture = graet_eic
+		potential = {
+				tag = A11
+				has_global_flag = NEN_annexation3
+				NOT = {
+					has_global_flag = QUE_salvation
+					
+					}		
+			}	
+			allow = {
+			tag = A11 
+			has_global_flag = NEN_annexation3
+			}
+			effect = {
+			set_global_flag = QUE_salvation
+			USA_170 = {
+			add_core = A11 }
+			USA_185 = {
+			add_core = A11 }
+			}
+	}
+
+
+   #Решения для Гватемалы
+GUA_claim = {
+	picture = graet_eic
+		potential = {
+				tag = GUA
+				NOT = {
+					has_country_flag = GUA_claim
+					exists = HON
+					
+					}		
+			}	
+			allow = {
+			tag = GUA
+			NOT = { exists = HON }
+			
+			}
+			effect = {
+			set_country_flag = GUA_claim
+			COS = {
+                any_owned = {
+                    add_core = GUA }
+                }
+			}
+	}
+GUA_claim1 = {
+	picture = graet_eic
+		potential = {
+				tag = GUA
+				has_country_flag = GUA_claim
+				NOT = {
+					has_country_flag = GUA_claim1
+					
+					}		
+			}	
+			allow = {
+			tag = GUA
+			NOT = { exists = COS }
+			}
+			effect = {
+			set_country_flag = GUA_claim1
+			PNM = {
+                any_owned = {
+                    add_core = GUA }
+                }
+			}
+	}
+UCA_form = {
+	picture = graet_eic
+		potential = {
+				tag = GUA
+				has_country_flag = GUA_claim1
+				NOT = {
+					has_global_flag = UCA_form
+					 }
+					}		
+		allow = {
+			tag = GUA
+		NOT = {	exists = PNM }
+			}
+		effect = {
+			set_global_flag = UCA_USNY 
+			change_tag = UCA
+			prestige = 20
+			ruling_party_ideology = conservative
+			add_accepted_culture = mexican
+			add_accepted_culture = caribeno
+			any_owned = {
+				remove_core = GUA
+				remove_core = HON
+				remove_core = PNM
+                remove_core = ELS		
+				remove_core = NIC
+			}
+		}
+	}
+UCA_nord_claim = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		NOT = {
+				has_global_flag = UCA_nord_claim
+					 }
+				}
+	allow = {  
+	OR = { has_global_flag = CAL_mexican 
+		      MEX_2146  = {
+		      owned_by = UCA }
+		 }
+			}
+	effect = { MEX_2173 = {
+			add_core = UCA }
+				
+			  MEX_2161 = {
+			add_core = UCA } 
+	set_global_flag = UCA_nord_claim		 
+			 
+		}
+	}
+
+UCA_nord_claim11 = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		has_global_flag = UCA_nord_claim
+		NOT = {
+				has_global_flag = UCA_nord_claim1
+					 }
+				}
+	allow = {  
+	OR = { has_global_flag = CAL_mexican 
+	       AND {
+		     MEX_2173  = {
+		      owned_by = UCA }
+			 MEX_2161  = {
+		      owned_by = UCA } 
+			  }
+		 }  
+			}
+	effect = {
+	set_global_flag = UCA_nord_claim1
+				MEX = {
+                any_owned = {
+                    add_core = UCA }
+                }
+            add_accepted_culture = native_american_minor	
+			
+			ai_will_do = {
+			factor = 1 }
+			}
+        }	
+UCA_nord_claim3 = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		OR = { 
+		date = 1860
+		has_global_flag = UCA_nord_claim1 }
+		NOT = {
+				has_global_flag = UCA_nord_claim3
+					 }
+				}
+	allow = {  
+	OR = { date = 1865
+		     USA_200 = {
+		      owned_by = UCA }
+		 }  
+			}
+	effect = {
+	set_global_flag = UCA_nord_claim2
+				ENG_203 = {
+			add_core = UCA }
+				HAL_2213 = {
+			add_core = UCA }
+				ENG_2224 = {
+			add_core = UCA }
+				ENG_2228 = {
+			add_core = UCA }
+            	
+			ai_will_do = {
+			factor = 1 }
+			}
+        }
+UCA_south_claim = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		NOT = {
+				has_global_flag = UCA_south_claim
+					 }
+				}
+	allow = {  
+ 
+		      CLM_2251  = {
+		      owned_by = UCA }
+		 
+			}
+	effect = { add_accepted_culture = caribeno
+			   set_global_flag = UCA_south_claim
+			  add_country_modifier = { name = technical_school_UCA
+									   duration = 732}
+			 
+		}
+	}
+#test_form = {
+#	picture = graet_eic
+#		potential = {
+#				tag = UCA
+#				NOT = {
+#					has_country_flag = test_form
+#					 }
+#					}		
+#		allow = {
+#			tag = UCA
+#			}
+#		effect = {
+#			set_country_flag = test_form
+#			change_tag = A13
+#			prestige = 20
+#			primary_culture = mayan
+#			any_owned = { limit = { is_core = THIS } assimilate = yes } 
+#			}
+#	}
+UCA_south_claim1 = {
+	picture = graet_eic
+		potential = { 
+		tag = UCA
+		has_global_flag = UCA_south_claim
+		NOT = {
+				has_country_flag = UCA_south_claim1
+					 }
+				}
+	allow = {  
+ 
+		      VNZ_2234  = {
+		      owned_by = UCA }
+			  CLM_2259  = {
+		      owned_by = UCA }
+		 
+			}
+	effect = { 
+			   set_country_flag = UCA_south_claim1
+			   CLM_2251 = {
+				remove_core = GCO }
+			   CLM_2259 = {
+				remove_core = GCO }
+			   VNZ_2234  = {
+		         remove_core = GCO	}
+			   add_country_modifier = { name = army_changed3
+									   duration = -1}
+			 
+		}
+	}
+delet_core = {
+	picture = graet_eic
+		potential = { 
+		OR = { tag = NZL
+		tag = D04
+		 }
+		NOT = {
+				
+					 }
+				}
+	allow = { 		
+		 
+			}
+	effect = { any_owned = {
+				remove_core = D08
+				remove_core = D05	}
+			 
+		}
+	}
+} 
