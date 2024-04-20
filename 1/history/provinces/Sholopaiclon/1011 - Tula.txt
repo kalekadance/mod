@@ -1,7 +1,5 @@
 owner = D14
 controller = D14
-add_core = MTC
-add_core = UKR
 add_core = D14
 trade_goods = iron
 life_rating = 35

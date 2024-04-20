@@ -3,4 +3,4 @@ controller = BHO
 add_core = BHO
 add_core = HND
 trade_goods = tea
-life_rating = 33
+life_rating = 35

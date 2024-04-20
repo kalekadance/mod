@@ -2,33 +2,21 @@ political_decisions = {
 	abolish_serfdom = {
 		picture = abolish_serfdom
 		potential = {
+			OR = {
 			tag = RUS
-			has_country_flag = serfdom_not_abolished
+			tag = D14
+			tag = NOR }
 			#government = absolute_monarchy
+			NOT = { has_country_flag = Zunsi } 
 		}
 		allow = {
-			OR = {
-				AND = {
-					upper_house = {
-						ideology = liberal
-						value = 0.3
-					}
-					average_consciousness = 2
-				}	
-				AND = {
-					ruling_party_ideology = liberal
-					average_consciousness = 3
-				}
-				average_militancy = 1
-			}
-			money = 1200000
+			
 		}
 		effect = {
-		prestige = -40
-		money = -1200000
+		prestige = 40
 		add_country_modifier = {
 		name = krestianka_otmena
-		duration = 1825
+		duration = 2825
 		}
 			farmers = {
 				militancy = -2
@@ -41,6 +29,7 @@ political_decisions = {
 			badboy = -4
 			years_of_research = 0.05
 			clr_country_flag = serfdom_not_abolished
+			set_country_flag = Zunsi
 		}
 	}
 	establish_the_sovnarkom = {

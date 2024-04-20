@@ -140,7 +140,6 @@ political_decisions = {
 	the_meiji_restoration = {
 		picture = the_meiji_restoration 
 		potential = {
-			civilized = no
 			tag = JAP
 			not = { has_country_modifier = meiji_restoration_boost }
 		}
@@ -180,13 +179,8 @@ political_decisions = {
 				name = meiji_restoration_boost
 				duration = 7200
 			}
-			KOR = {
-				all_core = {
-					add_core = JAP
-				}
-			}
 			#add_accepted_culture = korean
-			#add_accepted_culture = manchu
+			add_accepted_culture = manchu
 			#economic_reform = yes_land_reform
 			any_pop = {
 				scaled_militancy = {

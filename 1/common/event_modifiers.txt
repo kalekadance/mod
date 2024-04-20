@@ -18,7 +18,7 @@ tax_efficiency = -0.05
 icon = 9
 }
 krestianka_otmena = {
-tax_efficiency = -0.05
+global_population_growth = 0.15
 icon = 9
 }
 Investicii_v_region1 = {
@@ -723,8 +723,8 @@ farm_RGO_size = 0.5
 mine_RGO_size = 0.5
 }
 germania_werft = {
-	local_repair = 0.5
-	local_ship_build = -0.2
+	local_repair = 0.8
+	local_ship_build = -0.4
 	icon = 15
 }
 
@@ -736,12 +736,27 @@ ruhr_boom = {
 }
 
 prussian_general_staff = {
-	org_regain = 0.1
-	land_organisation = 0.05
-	land_unit_start_experience = 5
-	supply_consumption = -0.05
+	org_regain = 0.5
+	land_organisation = 1
+	land_unit_start_experience = 20
+	leadership_modifier = 1.95
+	unit_recruitment_time = -0.20
+	supply_consumption = -0.1
+	research_points_modifier = 0.1
+	mobilisation_size = 0.02
 	icon = 15
 }
+prussian_general_staff2 = {
+    mobilisation_size = 0.05
+	supply_consumption = -0.1
+	org_regain = 1
+	land_organisation = 1
+	land_unit_start_experience = 50
+	unit_recruitment_time = -0.20
+	research_points_modifier = 0.1
+	icon = 15
+}
+
 
 ##### Boer War #####
 trek_boers = {

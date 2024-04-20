@@ -3,4 +3,4 @@ controller = BAS
 add_core = BAS
 add_core = HND
 trade_goods = cotton
-life_rating = 33
+life_rating = 35

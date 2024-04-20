@@ -85,6 +85,11 @@ A17 = {
 	color = { 87 81 74 }
 }
 
+#Pan-Indian Commonwealth
+A17 = {
+	color = { 222 154 118 }
+}
+
 
 # Sweden
 SWE = {

@@ -1,10 +1,10 @@
-capital = 994
+capital = 1059
 primary_culture = russian
 culture = byelorussian
 culture = ukrainian
 religion = orthodox
 government = absolute_monarchy
-plurality = 25
+plurality = 95
 nationalvalue = nv_equality
 literacy = 0.19
 non_state_culture_literacy = 0.10

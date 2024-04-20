@@ -3,10 +3,10 @@ primary_culture = japanese
 culture = ainu
 religion = orthodox
 government = absolute_monarchy
-plurality = 25.0
+plurality = 85.0
 nationalvalue = nv_order
-literacy = 0.15
-civilized = no
+literacy = 0.25
+civilized = yes
 
 prestige = 15
 
@@ -38,9 +38,12 @@ enlightenment_thought = 1
 introspectionism = 1
 private_banks = 1
 no_standard = 1
+early_classical_theory_and_critique = 1
 guild_based_production = 1
 water_wheel_power = 1
 publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
 
 
 

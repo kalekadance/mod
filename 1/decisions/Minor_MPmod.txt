@@ -1,5 +1,56 @@
 political_decisions = {
 
+#Решения для ботов
+izi_money = { 
+picture = graet_eic
+	potential = { ai=yes }
+	allow = { NOT = { money = 100000 }
+	year = 1836 
+	NOT = { year = 1845 }
+	}
+	effect = { money = 100000 }
+	}
+
+izi_money1 = { 
+picture = graet_eic
+	potential = { ai=yes }
+	allow = { NOT = { money = 100000 }
+	year = 1845 
+	NOT = { year = 1875 }
+	}
+	effect = { money = 500000 }
+	}
+
+izi_money1 = { 
+picture = graet_eic
+	potential = { ai=yes }
+	allow = { NOT = { money = 500000 }
+	year = 1875 
+	}
+	effect = { money = 1000000 }
+}
+ai_baff = { 
+picture = graet_eic
+	potential = { ai=yes
+	NOT = { has_country_flag = ai_baff }
+	}
+	allow = { year = 1836
+	}
+	effect = { set_country_flag = ai_baff
+	add_country_modifier = { name =  prussian_general_staff duration = -1}
+	}
+}
+ai_baff1 = { 
+picture = graet_eic
+	potential = { ai=yes
+	NOT = { has_country_flag = ai_baff1 }
+	}
+	allow = { year = 1850 
+	}
+	effect = { set_country_flag = ai_baff
+	add_country_modifier = { name =  prussian_general_staff2 duration = -1}
+	}
+}
 # Решения Коммуны
 form_anjou_kingdom = {
 	picture = graet_eic
@@ -993,32 +1044,6 @@ romanian_turkey = {
 		add_accepted_culture = turkish
 	}
 }
-	
-form_GreatSibiria = {
-	picture = graet_eic
-		potential = {
-			tag = MTC
-			NOT = {
-				has_country_flag = form_GreatSibiria
-			}		
-		}	
-		allow = {
-		owns = 1191
-		owns = 1198
-		owns = 1202
-			
-		}
-		
-		effect = {
-			set_country_flag = form_GreatSibiria
-			change_tag = A08
-			prestige = 20
-			ruling_party_ideology = conservative
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 #Решения Польши
 	

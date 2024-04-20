@@ -3,5 +3,5 @@ controller = EIC
 add_core = NAG
 add_core = HND
 trade_goods = fruit
-life_rating = 33
+life_rating = 35
 colonial = 2
