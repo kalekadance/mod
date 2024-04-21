@@ -1,5 +1,7 @@
 capital = 2087
 primary_culture = boer
+culture = amhara
+culture = african_minor
 religion = orthodox
 government = hms_government
 plurality = 18

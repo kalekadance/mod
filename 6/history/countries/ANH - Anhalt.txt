@@ -4,7 +4,8 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 45.0
 nationalvalue = nv_order
-literacy = 0.5
+literacy = 0.55
+non_state_culture_literacy = 0.45
 civilized = yes
 prestige = 1
 

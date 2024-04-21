@@ -1,56 +1,96 @@
 political_decisions = {
 
 #Решения для ботов
-izi_money = { 
-picture = graet_eic
-	potential = { ai=yes }
-	allow = { NOT = { money = 100000 }
-	year = 1836 
-	NOT = { year = 1845 }
-	}
-	effect = { money = 100000 }
-	}
-
-izi_money1 = { 
-picture = graet_eic
-	potential = { ai=yes }
-	allow = { NOT = { money = 100000 }
-	year = 1845 
-	NOT = { year = 1875 }
-	}
-	effect = { money = 500000 }
+	izi_money = { 
+		picture = graet_eic
+		potential = { ai=yes }
+		allow = { NOT = { money = 100000 }
+			year = 1836 
+			NOT = { year = 1845 }
+		}
+		effect = { money = 100000 }
 	}
 
-izi_money1 = { 
-picture = graet_eic
-	potential = { ai=yes }
-	allow = { NOT = { money = 500000 }
-	year = 1875 
+	izi_money1 = { 
+	picture = graet_eic
+		potential = { ai=yes }
+		allow = { NOT = { money = 100000 }
+			year = 1845 
+			NOT = { year = 1875 }
+		}
+		effect = { money = 500000 }
 	}
-	effect = { money = 1000000 }
-}
-ai_baff = { 
-picture = graet_eic
-	potential = { ai=yes
-	NOT = { has_country_flag = ai_baff }
+
+	izi_money1 = { 
+		picture = graet_eic
+		potential = { ai=yes }
+		allow = { NOT = { money = 500000 }
+			year = 1875 
+		}
+		effect = { money = 1000000 }
 	}
-	allow = { year = 1836
+	ai_baff = { 
+		picture = graet_eic
+		potential = { 
+			ai=yes
+			NOT = { has_country_flag = ai_baff }
+		}
+		allow = { year = 1836 }
+		effect = { set_country_flag = ai_baff
+			add_country_modifier = { 
+				name =  prussian_general_staff duration = -1
+			}
+		}
 	}
-	effect = { set_country_flag = ai_baff
-	add_country_modifier = { name =  prussian_general_staff duration = -1}
+	ai_baff1 = { 
+		picture = graet_eic
+		potential = { 
+			ai=yes
+			NOT = { has_country_flag = ai_baff1 }
+		}
+		allow = { year = 1850 }
+		effect = { 
+			set_country_flag = ai_baff
+			add_country_modifier = { 
+				name =  prussian_general_staff2 duration = -1
+			}
+		}
 	}
-}
-ai_baff1 = { 
-picture = graet_eic
-	potential = { ai=yes
-	NOT = { has_country_flag = ai_baff1 }
-	}
-	allow = { year = 1850 
-	}
-	effect = { set_country_flag = ai_baff
-	add_country_modifier = { name =  prussian_general_staff2 duration = -1}
-	}
-}
+	CHI_remove = {
+		picture = graet_eic
+		potential = { 
+			tag = CHI
+			NOT = { has_country_flag = CHI_remove }
+		}
+		allow = { tag = CHI }
+		effect = {
+			YNN = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			XBI = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			MGL = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			MCK = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			XIN = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			TIB = {
+               any_owned = {
+                   remove_core = CHI }
+            }
+			set_country_flag = CHI_remove
+		}
+	}		  
 # Решения Коммуны
 form_anjou_kingdom = {
 	picture = graet_eic
@@ -286,7 +326,7 @@ form_Lorraine = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -321,7 +361,7 @@ Lorraine_first = {
 			add_core = 2560
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -356,7 +396,7 @@ Lorraine_second = {
 			add_core = 587
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -389,7 +429,7 @@ Lorraine_third = {
 			add_core = 436
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -435,7 +475,7 @@ form_Francia = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -468,7 +508,7 @@ own_Switzerland = {
 			add_accepted_culture = north_italian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	
 }
@@ -505,7 +545,7 @@ form_Spain = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -527,7 +567,7 @@ agressive_annex = {
 			prestige = 20
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -581,7 +621,7 @@ form_Franco_Iberia = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -608,6 +648,9 @@ BOH_first = {
 				}
 			}
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 CZH_form = {
@@ -646,6 +689,9 @@ CZH_form = {
 				remove_core = BOH
 			}
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 CZH_south_germany = {
@@ -692,6 +738,9 @@ CZH_south_germany = {
 		add_core = 600
 		add_core = 614
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 
@@ -733,6 +782,9 @@ CZH_claims = {
 		add_core = 549
 		add_core = 550
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 form_HRE = {
@@ -782,6 +834,9 @@ form_HRE = {
 		ai_will_do = {
 			factor = 1
 		}
+				ai_will_do = {
+			factor = 10
+		}
 	}
 	
 #Сицилия
@@ -806,6 +861,9 @@ own_roma = {
 		set_country_flag = own_roma
 		change_tag = ITA
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 italian_claims_on_lombardy = {
@@ -830,6 +888,9 @@ italian_claims_on_lombardy = {
 				add_core = ITA
 			}
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 italian_claims_on_greece = {
@@ -874,6 +935,9 @@ italian_claims_on_greece = {
 				add_core = ITA
 			}
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 
@@ -952,7 +1016,7 @@ form_RE = {
 			add_core = 767
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -1015,6 +1079,9 @@ romanian_balkans = {
 			add_core = A06
 		}
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 
 romanian_turkey = {
@@ -1043,6 +1110,9 @@ romanian_turkey = {
 		set_country_flag = romanian_turkey
 		add_accepted_culture = turkish
 	}
+			ai_will_do = {
+			factor = 10
+		}
 }
 	
 #Решения Польши
@@ -1090,7 +1160,7 @@ graet_pol = {
 				remove_core = POL }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 graet_pol2 = {
@@ -1125,7 +1195,7 @@ graet_pol2 = {
 			add_accepted_culture = estonian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 graet_pol3 = {
@@ -1167,7 +1237,7 @@ graet_pol3 = {
 			add_accepted_culture = byelorussian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 graet_pol4 = {
@@ -1214,7 +1284,7 @@ graet_pol4 = {
 			add_accepted_culture = ukrainian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -1245,7 +1315,7 @@ form_Intermarium = {
 				remove_core = PLC }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 form_Intermarium1 = {
@@ -1273,7 +1343,7 @@ form_Intermarium1 = {
 			add_core = 1047
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 form_Intermarium33 = {
@@ -1306,7 +1376,7 @@ form_Intermarium33 = {
 			add_accepted_culture = romanian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	
@@ -1344,7 +1414,7 @@ form_Intermarium2 = {
 			add_accepted_culture = russian
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}	
 

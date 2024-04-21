@@ -18,6 +18,12 @@ personality = {
 	no_personality = {
 		attack = -3
 	}
+	Av213238 = {
+		attack = 4
+		defence = -1
+		experience = 0.15
+		reliability = 0.15
+	}
 	aggressive = {
 		attack = 4
 		experience = 0.10
@@ -307,6 +313,11 @@ personality = {
 		attack = -2
 		morale = -0.20
 	}
+	yo312_ = {
+		organisation = 0.20
+		attrition = -0.10
+		reliability = 0.02
+	}
 	unsound = {
 		morale = -0.10
 		reliability = -0.01
@@ -324,6 +335,9 @@ personality = {
 	able = {
 		reconnaissance = 2
 	}	
+	Korsar_sfx = {
+		attack = -4
+	}
 }
 
 background = {
@@ -333,8 +347,12 @@ background = {
 	manful = {
 		defence = 4
 		reliability = 0.10
-		organisation = 0.20
-		
+		organisation = 0.20	
+	}
+	RPG = {
+		defence = 3
+		morale = 0.1
+		experience = 0.10	
 	}
 	merciless = {
 		defence = 3
@@ -541,10 +559,19 @@ background = {
 	uncommonly_young = {
 		speed = 0.40
 	}
+	zunsi = {
+		speed = -0.10
+		morale = -0.10
+		attrition = -0.60
+	}
 	unqualified = {
 		speed = 0.20
 	}
 	pawn = {
 		speed = 0.50
+	}
+	KorsaR-sfx = {
+		defence = -4
+		speed = 0.40
 	}
 }

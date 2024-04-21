@@ -736,24 +736,28 @@ ruhr_boom = {
 }
 
 prussian_general_staff = {
-	org_regain = 0.5
-	land_organisation = 1
+	org_regain = 1
+	land_organisation = 0.5
 	land_unit_start_experience = 20
-	leadership_modifier = 1.95
+	leadership_modifier = 2
 	unit_recruitment_time = -0.20
 	supply_consumption = -0.1
-	research_points_modifier = 0.1
-	mobilisation_size = 0.02
+	research_points_modifier = 0.15
+	mobilisation_size = 0.01
+	global_population_growth = 0.001
+	global_pop_militancy_modifier = -0.01
 	icon = 15
 }
 prussian_general_staff2 = {
-    mobilisation_size = 0.05
+    mobilisation_size = 0.02
 	supply_consumption = -0.1
 	org_regain = 1
-	land_organisation = 1
-	land_unit_start_experience = 50
+	land_organisation = 0.5
+	land_unit_start_experience = 20
+	global_population_growth = 0.001
 	unit_recruitment_time = -0.20
-	research_points_modifier = 0.1
+	research_points_modifier = 0.15
+	global_pop_militancy_modifier = -0.01
 	icon = 15
 }
 
@@ -922,7 +926,7 @@ the_eiffel_tower = {
 signed_the_geneva_convention = {
 	war_exhaustion = -0.3
 	org_regain = 0.10
-	badboy = 0.01
+	badboy = -0.01
 	icon = 7
 }
 
@@ -1006,32 +1010,32 @@ liberian_research_boost = {
 
 med_ref_mp = {
  global_population_growth = 0.0016
- tax_efficiency = -0.02
+ tax_efficiency = -0.03
 	icon = 17
 }
 med_ref_mp1 = {
  global_population_growth = 0.0026
- tax_efficiency = -0.05
+ tax_efficiency = -0.06
 	icon = 17
 }
 med_ref_mp2 = {
  global_population_growth = 0.0034
- tax_efficiency = -0.10
+ tax_efficiency = -0.11
 	icon = 17
 }
 med_ref_mp3 = {
  global_population_growth = 0.0042
- tax_efficiency = -0.16
+ tax_efficiency = -0.17
 	icon = 17
 }
 med_ref_mp4 = {
  global_population_growth = 0.0052
-tax_efficiency = -0.20
+tax_efficiency = -0.22
 	icon = 17
 }
 med_ref_mp5 = {
  global_population_growth = 0.006
- tax_efficiency = -0.25
+ tax_efficiency = -0.27
 	icon = 17
 }
 
@@ -1096,20 +1100,22 @@ fashist_b = {
 # эти для буржуазной диктатуры
 bourgeois_a = {
      
-    badboy = -0.1
-    
+    badboy = -0.15
+    global_population_growth = -0.001
     farm_rgo_eff = -0.15
-     
-    factory_throughput = 0.1
+    global_pop_militancy_modifier = -0.04 
+    factory_throughput = 0.2
     war_exhaustion = -0.3
-    org_regain = 0.035
-    land_unit_start_experience = 15
+    org_regain = 0.065
+    land_unit_start_experience = 20
   
     icon = 2
 }
 bourgeois_b = {
     badboy = 0.08
     factory_input = -0.1
+	global_population_growth = 0.001
+	global_pop_militancy_modifier = -0.06
     factory_output = 0.1
     factory_throughput = 0.1
     mine_rgo_eff = 0.12

@@ -19,7 +19,7 @@ MOR_claim = {
 			
 		}
 		effect = {
-			FRA_1780 = { add_core = MOR }	
+			FRA_1780 = { add_core = THIS }	
 			set_country_flag = MOR_claim
 			
 		}
@@ -43,7 +43,7 @@ MOR_claim1 = {
 			
 		}
 		effect = {
-			FRA_1803 = { add_core = MOR }	
+			FRA_1803 = { add_core = THIS }	
 			set_country_flag = MOR_claim1
 			
 		}
@@ -67,7 +67,6 @@ picture = kanun_i_esasi
 			
 		}
 		effect = {
-			add_accepted_culture = maltese
 			set_country_flag = A14_form
 			ruling_party_ideology = conservative
 			change_tag = A14
@@ -94,7 +93,12 @@ picture = kanun_i_esasi
 			
 		}
 		effect = {
-			add_accepted_culture = sephardic
+			1774 = { secede_province = THIS }
+			1774 = { any_pop = { literacy = 0.15 } }
+			1774 = { life_rating = 20 }
+			1773 = { secede_province = THIS }
+			1773 = { any_pop = { literacy = 0.15 } }
+			1773 = { life_rating = 20 }
 			set_country_flag = A14_claim
 			
 		}
@@ -118,9 +122,9 @@ picture = kanun_i_esasi
 			
 		}
 		effect = {
-			TRI_1743 = { add_core = A14 }
-			EGY_1754 = { add_core = A14 }
-			SPA_517 = { add_core = A14 }
+			TRI_1743 = { add_core = THIS }
+			EGY_1754 = { add_core = THIS}
+			SPA_517 = { add_core = THIS }
 			set_country_flag = A14_claim1
 			add_accepted_culture = bedouin
 			
@@ -140,15 +144,12 @@ picture = kanun_i_esasi
 		allow = {
 			tag = A14
             raider_group_doctrine = 1
-			
-
-			
-			
+	
 		}
 		effect = {
-			SAR_765 = { add_core = A14 }
-			SIC_763 = { add_core = A14 }
-			FRA_1775 = { add_core = A14 }
+			SAR_765 = { add_core = THIS }
+			SIC_763 = { add_core = THIS }
+			FRA_1775 = { add_core = THIS }
 			set__global_flag = A14_rim
 			
 		}
@@ -174,9 +175,9 @@ picture = kanun_i_esasi
 			
 		}
 		effect = {
-			TRI_1739 = { add_core = A14 }
-			EGY_1753 = { add_core = A14 }
-			EGY_1758 = { add_core = A14 }
+			TRI_1739 = { add_core = THIS }
+			EGY_1753 = { add_core = THIS }
+			EGY_1758 = { add_core = THIS }
 			set__global_flag = A14_egy
 			
 		}
@@ -202,18 +203,20 @@ picture = kanun_i_esasi
 			
 		}
 		effect = {
-			EGY_1746 = { add_core = A14 }
-			EGY_1762 = { add_core = A14 }
-			EGY_1750 = { add_core = A14 }
+			EGY_1746 = { add_core = THIS }
+			EGY_1762 = { add_core = THIS }
+			EGY_1750 = { add_core = THIS }
+			add_accepted_culture = african_minor
 			set__global_flag = A14_egy1
 			
 		}
 	}
 A14_spa = {
 picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_global_flag = A14_rim
-		date = 1865	 
+		potential = {  
+			tag = A14
+			has_global_flag = A14_rim
+			date = 1865	 
 			NOT = { has_global_flag = A14_spa
 				
 			}
@@ -222,15 +225,12 @@ picture = kanun_i_esasi
 		allow = {
 			tag = A14
             owns = 1779
-			
-
-			
-			
 		}
 		effect = {
-			SPA_512 = { add_core = A14 }
-			POR_525 = { add_core = A14 }
-			POR_521 = { add_core = A14 }
+			SPA_512 = { add_core = THIS }
+			POR_525 = { add_core = THIS }
+			POR_521 = { add_core = THIS }
+			add_accepted_culture = portuguese
 			set__global_flag = A14_spa
 			
 		}
@@ -252,36 +252,32 @@ D01_claim = {
 			
 		}
 		effect = {
-			FRA_1801 = { add_core = D01 }
-			FRA_1879 = { add_core = D01 }	
+			FRA_1801 = { add_core = THIS }
+			FRA_1879 = { add_core = THIS }	
 			set_country_flag = D01_claim
 			
 		}
 	}
-D01_FRA = {
+	D01_FRA = {
 		picture = kanun_i_esasi
-		potential = { OR = { tag = D01 tag = A17 }
-		
-			 
-			NOT = { has_country_flag = D01_FRA
+		potential = { 
+			OR = { tag = D01 tag = A17 }
+			NOT = { has_global_flag = D01_FRA
 				
 			}
 
 		}
-		allow = {
+		allow = { 	
 			OR = { tag = D01 tag = A17 }
-		idealism = 1
-		market_structure = 1
-			
-			
+			idealism = 1
+			market_structure = 1 
 		}
 		effect = {
 			add_accepted_culture = 	french
-			add_accepted_culture = maltese
-			set_country_flag = D01_FRA 
+			set_global_flag = D01_FRA 
 		}
 	}
-D01_claim1 = {
+	D01_claim1 = {
 		picture = kanun_i_esasi
 		potential = {  tag = D01
 		has_country_flag = D01_claim
@@ -301,7 +297,7 @@ D01_claim1 = {
 		effect = {
 			YAR = {
                 any_owned = {
-                    add_core = D01 }
+                    add_core = THIS }
                 }
 			set_country_flag = D01_claim1
 			
@@ -329,8 +325,8 @@ A17_form = {
 			change_tag = A17
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = afro_american
-			add_accepted_culture = sephardic
+			add_accepted_culture = african_minor
+			add_accepted_culture = maghrebi
 			set_country_flag = A17_form
 			
 		}
@@ -351,8 +347,8 @@ A17_Mor = {
 			
 		}
 		effect = {
-			FRA_1780 = { add_core = A17 }
-			FRA_1803 = { add_core = A17 }
+			FRA_1780 = { add_core = THIS }
+			FRA_1803 = { add_core = THIS }
 			set_country_flag = A17_Mor
 			
 		}
@@ -374,8 +370,8 @@ A17_Mor1 = {
 		}
 		effect = {
 			add_accepted_culture = bedouin
-			FRA_1783 = { add_core = A17 }
-			FRA_1775 = { add_core = A17 }
+			FRA_1783 = { add_core = THIS }
+			FRA_1775 = { add_core = THIS }
 			set_country_flag = A17_Mor1
 			
 		}
@@ -398,9 +394,9 @@ A17_claim = {
 			
 		}
 		effect = {
-			ENG_1887 = { add_core = A17 }
-			FRA_1893 = { add_core = A17 }
-			FRA_1892 = { add_core = A17 }
+			ENG_1887 = { add_core = THIS }
+			FRA_1893 = { add_core = THIS }
+			FRA_1892 = { add_core = THIS }
 			set_country_flag = A17_claim
 			
 		}
@@ -422,9 +418,9 @@ A17_claim1 = {
 			
 		}
 		effect = {
-			FRA_1937 = { add_core = A17 }
-			FRA_1927 = { add_core = A17 }
-			FRA_1937 = { add_core = A17 }
+			FRA_1937 = { add_core = THIS }
+			FRA_1927 = { add_core = THIS }
+			FRA_1937 = { add_core = THIS }
 			set_country_flag = A17_claim1
 			
 		}
@@ -450,7 +446,7 @@ A17_coloni = {
 			ENG_1960 = { secede_province = A17 }
 			ENG_1960 = { any_pop = { literacy = 0.15 } }
 			ENG_1960 = { life_rating = 20 }
-			ENG_1960 = { add_core = A17 }
+			ENG_1960 = { add_core = THIS }
 			set_country_flag = A17_coloni
 			
 		}
@@ -477,7 +473,7 @@ ISR_claim = {
 		effect = {
 			IRQ = {
                 any_owned = {
-                    add_core = ISR }
+                    add_core = THIS }
                 }
 			add_accepted_culture = bedouin
 			set_country_flag = ISR_claim
@@ -505,7 +501,7 @@ ISR_claim1 = {
 		effect = {
 			NEJ = {
                 any_owned = {
-                    add_core = ISR }
+                    add_core = THIS }
                 }	
 			set_country_flag = ISR_claim1
 			
@@ -528,8 +524,8 @@ ISR_claim2 = {
 			
 		}
 		effect = {
-			ABU_1162 = { add_core = ISR }
-			OMA_1166 = { add_core = ISR }
+			ABU_1162 = { add_core = THIS }
+			OMA_1166 = { add_core = THIS }
 			set_country_flag = ISR_claim2
 			
 		}
@@ -554,8 +550,8 @@ ISR_claim3 = {
 			
 		}
 		effect = {
-			YEM_1173 = { add_core = A16 }
-			HDJ_1151 = { add_core = A16 }
+			YEM_1173 = { add_core = THIS }
+			HDJ_1151 = { add_core = THIS }
 			set_global_flag = ISR_claim3
 			
 		}
@@ -575,7 +571,8 @@ Form_A16 = { picture = kanun_i_esasi
 			owns = 1167
 			owns = 1157
 			scientific_management = 1	}
-	effect = { 	change_tag = A16
+	effect = { 	
+			change_tag = A16
 			prestige = 20
 			ruling_party_ideology = conservative
 			add_accepted_culture = turkish
@@ -596,10 +593,10 @@ A16_claim = { picture = kanun_i_esasi
 			NOT = { exists = ARM }
 
 				}
-	effect = { 	change_tag = A16
-			TUR_876 = { add_core = A16 }
-			TUR_873 = { add_core = A16 }
-			TUR_863 = { add_core = A16 }
+	effect = { 	
+			TUR_876 = { add_core = THIS }
+			TUR_873 = { add_core = THIS }
+			TUR_863 = { add_core = THIS }
 			set_global_flag = A16_claim }
 			
 }
@@ -617,10 +614,10 @@ A16_claim1 = { picture = kanun_i_esasi
 			point_defense_system = 1
 
 				}
-	effect = { 	change_tag = A16
-			TUR_869 = { add_core = A16 }
-			TUR_860 = { add_core = A16 }
-			EGY_843 = { add_core = A16 }
+	effect = { 
+			TUR_869 = { add_core = THIS }
+			TUR_860 = { add_core = THIS }
+			EGY_843 = { add_core = THIS }
 			add_accepted_culture = greek
 			set_global_flag = A16_claim1 }
 			
@@ -638,10 +635,10 @@ A16_kavkaz = { picture = kanun_i_esasi
 			NOT = { exists = CRE } }
 			date = 1865 }
 			time_saving_measures = 1 }
-	effect = { 	change_tag = A16
-			RUS_1098 = { add_core = A16 }
-			PER_1112 = { add_core = A16 }
-			TUR_885 = { add_core = A16 }
+	effect = { 	
+			RUS_1098 = { add_core = THIS }
+			PER_1112 = { add_core = THIS }
+			TUR_885 = { add_core = THIS }
 			add_accepted_culture = azerbaijani
 			set_country_flag = A16_kavkaz }
 			
@@ -657,7 +654,7 @@ A16_kavkaz1 = { picture = kanun_i_esasi
 			tag = A16
 			owns = 1121
             	}
-	effect = { 	change_tag = A16
+	effect = { 	
 			add_accepted_culture = persian
 			set_country_flag = A16_kavkaz }
 			

@@ -1,2 +1,5 @@
+owner = CNG
+controller = CNG
+add_core = CNG
 trade_goods = coffee
 life_rating = 35

@@ -1,384 +1,392 @@
-#Trarza-Brakna Region (276000) 
-#uncolonized in 1836/ruled by Emir of Trarza
-#Nouakchott (92000/23000 POPS) 
+#Nouakchott
 1775 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 450
+    }
 
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 20
-	}
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 20
+    }
 
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 5
-	}
+    officers = {
+        culture = african_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 225
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 225
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 925
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 925
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 181250
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 181250
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 30000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 30000
+    }
+
 }
-#Rosso (72000/18000 POPS) 
+
+#Rosso
 1776 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 350
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 175
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 9000
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 9000
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 175
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 114000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 114000
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 50000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 50000
+    }
+
 }
-#uncolonized in 1836/ruled by Emir of Brakna 
-#Aleg (84000/21000 POPS) 
+
+#Aleg
 1777 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 390
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 390
+    }
 
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 10
-	}
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 10
+    }
 
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 5
-	}
+    officers = {
+        culture = african_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 850
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 850
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 220
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 220
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 103250
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 103250
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 50000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 50000
+    }
+
 }
-#Maghama (28000/7000 POPS) 
+
+#Maghama
 1778 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 800
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2750
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 1500
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 64750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 64750
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 40000
+    }
+
 }
-#Adrar-Hodh Region (52000) 
-#uncolonized in 1836/ruled by Emirs of Adrar
-#Shingit (12000/3000 POPS) 
+
+#Shingit
 1779 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 400
+    }
 
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 30
-	}
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 30
+    }
 
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 70
-	}
+    officers = {
+        culture = african_minor
+        religion = orthodox
+        size = 70
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 750
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 1500
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 187000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 187000
+    }
+
 }
-#Tichit (12000/3000 POPS) 
+
+#Tishit
 1780 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 180000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 180000
+    }
+
 }
-#Walata (28000/7000 POPS) 
+
+#Walata
 1781 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 127000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 127000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 36750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 36750
+    }
+
 }
-#Rio de Oro Region (16000) #see West Sahara.txt for balance of region
-#uncolonized in 1836 
-#Bir Maghrein (16000/4000 POPS) #now part of Mauritania 
+
+#Bir Murghayn
 1782 = {
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = bedouin
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = bedouin
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = bedouin
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = bedouin
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 9000
-	}
+    farmers = {
+        culture = bedouin
+        religion = orthodox
+        size = 9000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 127000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 127000
+    }
 
 }
+

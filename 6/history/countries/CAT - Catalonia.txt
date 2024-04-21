@@ -5,7 +5,8 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.05
 nationalvalue = nv_order
-literacy = 0.23
+literacy = 0.55
+non_state_culture_literacy = 0.45
 civilized = yes
 
 # Political reforms
@@ -51,6 +52,8 @@ water_wheel_power = 1
 publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
+
+oob = "CAT_oob.txt"
 
 ruling_party = CAT_conservative
 upper_house = {

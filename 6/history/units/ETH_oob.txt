@@ -1,9 +1,9 @@
 leader = {
- name = "Теводерос Каса"
+ name = "Антон Зунсевич"
  type = land
  date = 1836.1.1
- background = gifted_administrator
- personality = bold 
+ background = zunsi
+ personality = Av213238 
 }
 
 army = {
@@ -11,19 +11,19 @@ army = {
 	location = 1854
 	regiment = {
 		name= "1-я бригада"
-		type = irregular
+		type = hussar
 		home = 1852
 	}
 
 	regiment = {
 		name= "2-я бригада"
-		type = irregular
+		type = hussar
 		home = 1853
 	}
 
 	regiment = {
 		name= "3-я бригада"
-		type = irregular
+		type = hussar
 		home = 1854
 	}
 
@@ -34,19 +34,19 @@ army = {
 	location = 1855
 	regiment = {
 		name= "4-я бригада"
-		type = irregular
+		type = hussar
 		home = 1856
 	}
 
 	regiment = {
 		name= "5-я бригада"
-		type = irregular
+		type = hussar
 		home = 1857
 	}
 
 	regiment = {
 		name= "6-я бригада"
-		type = irregular
+		type = hussar
 		home = 1855
 	}
 
@@ -57,19 +57,19 @@ army = {
 	location = 1861
 	regiment = {
 		name= "7-я бригада"
-		type = irregular
+		type = hussar
 		home = 1859
 	}
 
 	regiment = {
 		name= "8-я бригада"
-		type = irregular
+		type = hussar
 		home = 1859
 	}
 
 	regiment = {
 		name= "9-я бригада"
-		type = irregular
+		type = hussar
 		home = 1860
 	}
 

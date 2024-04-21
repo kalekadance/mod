@@ -1,0 +1,56 @@
+army = {
+	name = "Армия Люксембурга"
+	location = 412
+	regiment = {
+		name= "Драгуны Люксембурга1"
+		type = dragoon
+		home = 412
+	}
+
+	regiment = {
+		name= "Драгуны Люксембурга2"
+		type = dragoon
+		home = 571
+	}
+
+	regiment = {
+		name= "Драгуны Люксембурга3"
+		type = dragoon
+		home = 413
+	}
+	regiment = {
+		name= "Драгуны Люксембурга4"
+		type = dragoon
+		home = 411
+	}
+
+	regiment = {
+		name= "Драгуны Люксембурга5"
+		type = dragoon
+		home = 414
+	}
+	regiment = {
+		name= "Драгуны Люксембурга7"
+		type = dragoon
+		home = 410
+	}
+
+	regiment = {
+		name= "Драгуны Люксембурга8"
+		type = dragoon
+		home = 574
+	}
+
+	regiment = {
+		name= "Драгуны Люксембурга9"
+		type = dragoon
+		home = 571
+	}
+	regiment = {
+		name= "Драгуны Люксембурга10"
+		type = dragoon
+		home = 572
+	}
+	
+
+}

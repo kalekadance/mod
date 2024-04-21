@@ -1,6 +1,2 @@
-owner = NZL
-controller = NZL
-add_core = NZL
-add_core = D08
 trade_goods = cattle
-life_rating = 35
+life_rating = 15

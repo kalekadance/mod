@@ -119,7 +119,8 @@ war_exhaustion = {
 
 
 badboy = {
-	global_pop_consciousness_modifier = 0.001
+	cb_generation_speed_modifier = -0.002
+	leadership = -0.002
 }
 
 
