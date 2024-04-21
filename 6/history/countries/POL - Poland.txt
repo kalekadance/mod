@@ -5,6 +5,7 @@ government = absolute_monarchy
 plurality = 0.2
 nationalvalue = nv_order
 literacy = 0.3
+non_state_culture_literacy = 0.25
 civilized = yes
 
 
@@ -51,6 +52,8 @@ water_wheel_power = 1
 publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
+
+oob = "POL_oob.txt"
 
 ruling_party = POL_conservative
 upper_house = {

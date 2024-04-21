@@ -1,6 +1,5 @@
 capital = 917
-primary_culture = bedouin
-culture = mashriqi
+primary_culture = mashriqi
 religion = orthodox
 government = democracy
 plurality = 0.15

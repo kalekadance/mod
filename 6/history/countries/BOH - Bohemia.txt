@@ -5,7 +5,8 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.3
+literacy = 0.4
+non_state_culture_literacy = 0.25
 civilized = yes
 
 # Political reforms
@@ -51,6 +52,8 @@ water_wheel_power = 1
 publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
+
+oob = "BOH_oob.txt"
 
 ruling_party = BOH_conservative
 upper_house = {

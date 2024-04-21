@@ -261,7 +261,7 @@
     clergymen = {
         culture = amhara
         religion = orthodox
-        size = 1250
+        size = 5250
     }
 
     artisans = {

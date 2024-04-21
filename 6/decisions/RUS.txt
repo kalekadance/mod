@@ -4,7 +4,7 @@ political_decisions = {
 		potential = {
 			OR = {
 			tag = RUS
-			tag = D14
+			tag = EGY
 			tag = NOR }
 			#government = absolute_monarchy
 			NOT = { has_country_flag = Zunsi } 

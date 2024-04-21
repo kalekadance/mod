@@ -1,0 +1,56 @@
+army = {
+	name = "Армия Польши"
+	location = 706
+	regiment = {
+		name= "Драгуны Польши1"
+		type = dragoon
+		home = 692
+	}
+
+	regiment = {
+		name= "Драгуны Польши2"
+		type = dragoon
+		home = 710
+	}
+
+	regiment = {
+		name= "Драгуны Польши3"
+		type = dragoon
+		home = 708
+	}
+	regiment = {
+		name= "Драгуны Польши4"
+		type = dragoon
+		home = 706
+	}
+
+	regiment = {
+		name= "Драгуны Польши5"
+		type = dragoon
+		home = 713
+	}
+	regiment = {
+		name= "Драгуны Польши7"
+		type = dragoon
+		home = 717
+	}
+
+	regiment = {
+		name= "Драгуны Польши8"
+		type = dragoon
+		home = 709
+	}
+
+	regiment = {
+		name= "Драгуны Польши9"
+		type = dragoon
+		home = 707
+	}
+	regiment = {
+		name= "Драгуны Польши10"
+		type = dragoon
+		home = 711
+	}
+	
+
+}

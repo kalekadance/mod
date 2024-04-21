@@ -1,3 +1,6 @@
+owner = D16
+controller = D16
+add_core = D16
 trade_goods = coal
 life_rating = 35
 

@@ -6,5 +6,10 @@ army = {
 		type = irregular
 		home = 1167
 	}
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1167
+	}
 }
 

@@ -1,2 +1,5 @@
+owner = D16
+controller = D16
+add_core = D16
 trade_goods = tobacco
 life_rating = 35

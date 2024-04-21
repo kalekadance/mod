@@ -1,5 +1,5 @@
-owner = D01
-controller = D01
-add_core = D01
+owner = C01
+controller = C01
+add_core = C01
 trade_goods = cattle
 life_rating = 35

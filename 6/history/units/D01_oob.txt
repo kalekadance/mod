@@ -1,0 +1,46 @@
+leader = {
+	name = "Савиан Гукович"
+	type = land
+	date = 1836.1.1
+	personality = adventurer
+	background = old_school
+}
+
+
+
+army = {
+	name = "Армия Рабочего Союза"
+	location = 1778
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1778
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 1789
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 1791
+	}
+	
+		regiment = {
+		name= "1-я кавалерийская бригада"
+		type = hussar
+		home = 1793
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = hussar
+		home = 1792
+	}
+	
+	
+
+}
