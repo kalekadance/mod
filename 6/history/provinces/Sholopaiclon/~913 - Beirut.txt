@@ -2,6 +2,4 @@ owner = ISR
 controller = ISR
 add_core = ISR
 trade_goods = fruit
-life_rating = 35
-naval_base = 2 
-
+life_rating = 35 
