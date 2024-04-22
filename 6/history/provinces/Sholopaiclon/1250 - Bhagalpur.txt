@@ -1,6 +1,5 @@
-owner = EIC
-controller = EIC
-add_core = EIC
-add_core = HND
+owner = AWA
+controller = AWA
+add_core = AWA
 trade_goods = iron
 life_rating = 35

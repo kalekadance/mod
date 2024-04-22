@@ -1,4 +1,5 @@
 owner = RHO
 controller = RHO
+core = RHO
 trade_goods = sulphur
 life_rating = 35

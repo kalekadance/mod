@@ -622,30 +622,30 @@ A16_claim1 = { picture = kanun_i_esasi
 			set_global_flag = A16_claim1 }
 			
 }
-A16_kavkaz = { picture = kanun_i_esasi
+	A16_kavkaz = { picture = kanun_i_esasi
 		potential = {  tag = A16 
 			NOT = { has_country_flag = A16_kavkaz }
 			
 			}
 		
-	allow = {
+		allow = {
 			tag = A16
 			OR = { AND = {
 			NOT = { exists = CYP }
 			NOT = { exists = CRE } }
 			date = 1865 }
 			time_saving_measures = 1 }
-	effect = { 	
+		effect = { 	
 			RUS_1098 = { add_core = THIS }
 			PER_1112 = { add_core = THIS }
 			TUR_885 = { add_core = THIS }
 			add_accepted_culture = azerbaijani
 			set_country_flag = A16_kavkaz }
 			
-}
+	}
 
-A16_kavkaz1 = { picture = kanun_i_esasi
-		potential = {  tag = A16 
+	A16_kavkaz1 = { picture = kanun_i_esasi
+	potential = {  tag = A16 
 			NOT = { has_country_flag = A16_kavkaz
 				
 			}}
@@ -658,5 +658,184 @@ A16_kavkaz1 = { picture = kanun_i_esasi
 			add_accepted_culture = persian
 			set_country_flag = A16_kavkaz }
 			
-}
+	}
+	#-------------------------------------------------- Южная Родезия --------------------------------------------------
+	adopt_die_stem = {
+	picture = adopt_die_stem
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_flag = has_die_stem
+			}
+		}
+		
+		allow = {
+			mass_culture_n_the_avant_garde = 1
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = has_die_stem
+		}
+	}
+	RHO_claim = {
+	picture = form_arabia
+		potential = {
+			tag = RHO
+			NOT = {
+				has_country_flag = RHO_claim
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			POR_2053 = { add_core = THIS }
+			POR_2060 = { add_core = THIS }
+			prestige = 5
+			set_country_flag = RHO_claim
+		}
+	}
+	RHO_claim1 = {
+	picture = form_arabia
+		potential = {
+			tag = RHO
+			has_country_flag = RHO_claim
+			NOT = {
+				has_country_flag = RHO_claim1
+			}
+		}
+		
+		allow = {
+			steamers = 1
+		}
+		
+		effect = {
+			TRN_2108 = { add_core = THIS }
+			POR_2049 = { add_core = THIS }
+			prestige = 5
+			set_country_flag = RHO_claim1
+		}
+	}
+	form_SAF = {
+	picture = form_arabia
+		potential = {
+			tag = RHO
+			NOT = {
+				has_country_flag = form_SAF
+			}
+		}
+		
+		allow = {
+			OR = { 
+				AND = {
+					steamers = 1
+					has_country_flag = RHO_claim1
+				}
+				year = 1855 
+			}
+			
+		}
+		
+		effect = {
+			change_tag = SAF
+			add_accepted_culture = boer
+			add_accepted_culture = zulu
+			prestige = 5
+			set_country_flag = form_SAF
+		}
+	}
+	SAF_claim = {
+	picture = form_arabia
+		potential = {
+			tag = SAF
+			has_country_flag = form_SAF
+			NOT = {
+				has_country_flag = SAF_claim
+			}
+		}
+		
+		allow = {
+			owns = 2101
+			owns = 2116
+			owns = 2050
+			
+			
+		}
+		
+		effect = {
+			prestige = 5
+			ENG_2039 = { add_core = THIS }
+			ENG_2029 = { add_core = THIS }
+			set_country_flag = SAF_claim
+		}
+	}
+	#-------------------------------------------------- Львумбия --------------------------------------------------
+	#-------------------------------------------------- Эфиопия ---------------------------------------------------
+	ETH_claim = {
+	picture = form_arabia
+		potential = {
+			tag = ETH
+			NOT = {
+				has_country_flag = ETH_claim
+			}
+		}
+		
+		allow = {
+			owns = 1868
+		}
+		
+		effect = {
+			C01 = { 
+				any_owned = { add_core = ETH }
+			}
+			prestige = 5
+			set_country_flag = ETH_claim1
+		}
+	}
+	ETH_claim2 = {
+	picture = form_arabia
+		potential = {
+			tag = ETH
+			NOT = {
+				has_country_flag = ETH_claim1
+			}
+		}
+		
+		allow = {
+			owns = 1868
+		}
+		
+		effect = {
+			C01 = { 
+				any_owned = { add_core = ETH }
+			}
+			prestige = 5
+			set_country_flag = RHO_claim1
+		}
+	}
+	ETH_claim1 = {
+	picture = form_arabia
+		potential = {
+			tag = ETH
+			NOT = {
+				has_country_flag = ETH_claim1
+			}
+		}
+		
+		allow = {
+			owns = 1868
+		}
+		
+		effect = {
+			C01 = { 
+				any_owned = { add_core = ETH }
+			}
+			prestige = 5
+			set_country_flag = RHO_claim1
+		}
+	}
+	
 }
