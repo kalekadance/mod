@@ -72,10 +72,6 @@ political_decisions = {
                any_owned = {
                    remove_core = CHI }
             }
-			MGL = {
-               any_owned = {
-                   remove_core = CHI }
-            }
 			MCK = {
                any_owned = {
                    remove_core = CHI }

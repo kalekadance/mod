@@ -1,4 +1,2 @@
-owner = AUS
-controller = AUS
 trade_goods = coffee
 life_rating = 35

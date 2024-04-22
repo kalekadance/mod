@@ -9,13 +9,10 @@ categories =  {
 	}
 
 	arctic = {
-		movement_cost = 1.0
+		movement_cost = 1.2
 		color = { 235 235 235 }
-		farm_rgo_size = -0.5
-		farm_rgo_eff = -0.2
-		mine_rgo_size = -0.0
-		mine_rgo_eff = -0.2
-		min_build_railroad = 1
+		supply_limit = 5
+		combat_width = -0.10
 	}
 
 	farmlands = {
@@ -27,6 +24,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 13
+		combat_width = 0.10
 	}
 	
 	forest = {
@@ -56,7 +54,7 @@ categories =  {
 	}
 	
 	woods = {
-		movement_cost = 1.1
+		movement_cost = 1.2
 		defence = 1
 		color = { 165 205 108 }
 		farm_rgo_size = 0.0
@@ -84,28 +82,30 @@ categories =  {
 
 
 	steppe = {
-		movement_cost = 1.0
+		movement_cost = 0.9
 		color = { 211 201 184 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 11
+		combat_width = 0.10
 
 	}
 	plains = {
-		movement_cost = 1.0
+		movement_cost = 0.9
 		color = { 241 221 184 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 13
+		combat_width = 0.10
 
 	}
 
 	jungle = {
-		movement_cost = 1.2
+		movement_cost = 1.4
 		defence = 2
 		color = { 32 151 0 }
 		farm_rgo_size = 0.0
@@ -132,7 +132,7 @@ categories =  {
 	}
 	
 	desert = {
-		movement_cost = 1.5
+		movement_cost = 1.3
 		color = { 218 195 0 }
 	
 		farm_rgo_size = -0.5
@@ -140,10 +140,11 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		supply_limit = 5
+		combat_width = 0.10
 	}
 	
 	coastal_desert = {
-		movement_cost = 1.0
+		movement_cost = 1.3
 		color = { 208 155 0 }
 		farm_rgo_size = -0.25
 		farm_rgo_eff = 0.0
