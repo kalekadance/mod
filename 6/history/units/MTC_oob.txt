@@ -18,39 +18,6 @@ army = {
 		type = dragoon
 		home = 1063
 	}
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 4"
-		type = dragoon
-		home = 2648
-	}
-
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 5"
-		type = dragoon
-		home = 1039
-	
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 5"
-		type = dragoon
-		home = 1040
-	}
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 7"
-		type = dragoon
-		home = 1035
-	}
-
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 8"
-		type = dragoon
-		home = 1060
-	}
-
-	regiment = {
-		name= "Драгуны Метисской Конфедирации 9"
-		type = dragoon
-		home = 1044
-	}
 
 	
 

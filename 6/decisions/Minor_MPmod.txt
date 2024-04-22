@@ -623,167 +623,164 @@ form_Franco_Iberia = {
 
 #Решения Богемии
 
-BOH_first = {
-	picture = graet_eic
-	potential = {
-		tag = BOH
-		NOT = {
-			has_country_flag = BOH_first
+	BOH_first = {
+		picture = graet_eic
+		potential = {
+			tag = BOH
+			NOT = {
+				has_country_flag = BOH_first
+			}
+		}
+		allow = {
+			owns = 682
+		}
+		effect = {
+			set_country_flag = BOH_first
+			prestige = 10
+			SLV = {
+					any_owned = {
+						add_core = BOH
+					}
+				}
+		}
+		ai_will_do = {
+		factor = 10
 		}
 	}
-	allow = {
-		owns = 703
-		owns = 682
+
+	CZH_form = {
+		picture = graet_eic
+		potential = {
+			tag = BOH
+			NOT = {
+				has_country_flag = CZH_form
+			}
+		}
+		allow = {
+			owns = 633
+		}
+		effect = {
+			set_country_flag = CZH_form
+			change_tag = CZH
+			add_accepted_culture = slovak
+			ruling_party_ideology = conservative
+			AUS_623 = {
+				add_core = CZH
+			}
+			AUS_641 = {
+				add_core = CZH
+			}
+			AUS_647 = {
+				add_core = CZH
+			}
+			AUS_657 = {
+				add_core = CZH
+			}
+			AUS_777 = {
+				add_core = CZH
+			}
+			any_owned = {
+					remove_core = BOH
+				}
+		}
+			ai_will_do = {
+			factor = 10
+			}
 	}
-	effect = {
-		set_country_flag = BOH_first
-		prestige = 20
-		SLV = {
-				any_owned = {
-					add_core = BOH
+
+	CZH_south_germany = {
+		picture = graet_eic
+		potential = {
+			tag = CZH
+			NOT = {
+				has_country_flag = czh_south_germany
+			}
+		}
+		allow = {
+			AUS_623 = {
+				owned_by = CZH
+			}
+			AUS_641 = {
+				owned_by = CZH
+			}
+			AUS_647 = {
+				owned_by = CZH
+			}
+			AUS_657 = {
+				owned_by = CZH
+			}
+			AUS_777 = {
+				owned_by = CZH
+			}
+		}
+		effect = {
+			set_country_flag = czh_south_germany
+			add_accepted_culture = hungarian
+			add_core = 596
+			add_core = 597
+			add_core = 598
+			add_core = 595
+			add_core = 602
+			add_core = 601
+			add_core = 592
+			add_core = 599
+			add_core = 600
+			add_core = 613
+			add_core = 615
+			add_core = 612
+			add_core = 735
+			add_core = 600
+			add_core = 614
+		}
+			ai_will_do = {
+			factor = 10
+		}
+	}
+
+
+	CZH_claims = {
+		picture = graet_eic
+		potential = {
+			tag = CZH
+			AND = {
+				NOT = {
+					has_country_flag = CZH_claims
 				}
 			}
-	}
-			ai_will_do = {
+		}
+		allow = {
+			owns = 595
+			owns = 613
+		}
+		effect = {
+			set_country_flag = CZH_claims
+			add_accepted_culture = south_german
+			add_core = 687
+			add_core = 558
+			add_core = 559
+			add_core = 560
+			add_core = 561
+			add_core = 563
+			add_core = 562
+			add_core = 568
+			add_core = 566
+			add_core = 537
+			add_core = 536
+			add_core = 554
+			add_core = 553
+			add_core = 557
+			add_core = 556
+			add_core = 555
+			add_core = 552
+			add_core = 549
+			add_core = 550
+		}
+		ai_will_do = {
 			factor = 10
 		}
-}
+	}
 
-CZH_form = {
-	picture = graet_eic
-	potential = {
-		tag = BOH
-		NOT = {
-			has_country_flag = CZH_form
-		}
-	}
-	allow = {
-		owns = 633
-	}
-	effect = {
-		set_country_flag = CZH_form
-		prestige = 20
-		change_tag = CZH
-		add_accepted_culture = slovak
-		ruling_party_ideology = conservative
-		AUS_623 = {
-			add_core = CZH
-		}
-		AUS_641 = {
-			add_core = CZH
-		}
-		AUS_647 = {
-			add_core = CZH
-		}
-		AUS_657 = {
-			add_core = CZH
-		}
-		AUS_777 = {
-			add_core = CZH
-		}
-		any_owned = {
-				remove_core = BOH
-			}
-	}
-			ai_will_do = {
-			factor = 10
-		}
-}
-
-CZH_south_germany = {
-	picture = graet_eic
-	potential = {
-		tag = CZH
-		NOT = {
-			has_country_flag = czh_south_germany
-		}
-	}
-	allow = {
-		AUS_623 = {
-			owned_by = CZH
-		}
-		AUS_641 = {
-			owned_by = CZH
-		}
-		AUS_647 = {
-			owned_by = CZH
-		}
-		AUS_657 = {
-			owned_by = CZH
-		}
-		AUS_777 = {
-			owned_by = CZH
-		}
-	}
-	effect = {
-		set_country_flag = czh_south_germany
-		add_accepted_culture = hungarian
-		add_core = 596
-		add_core = 597
-		add_core = 598
-		add_core = 595
-		add_core = 602
-		add_core = 601
-		add_core = 592
-		add_core = 599
-		add_core = 600
-		add_core = 613
-		add_core = 615
-		add_core = 612
-		add_core = 735
-		add_core = 600
-		add_core = 614
-	}
-			ai_will_do = {
-			factor = 10
-		}
-}
-
-
-CZH_claims = {
-	picture = graet_eic
-	potential = {
-		tag = CZH
-		AND = {
-			NOT = {
-				has_country_flag = CZH_claims
-			}
-		}
-	}
-	allow = {
-		owns = 599
-		owns = 595
-		owns = 613
-	}
-	effect = {
-		set_country_flag = CZH_claims
-		add_accepted_culture = south_german
-		add_core = 687
-		add_core = 558
-		add_core = 559
-		add_core = 560
-		add_core = 561
-		add_core = 563
-		add_core = 562
-		add_core = 568
-		add_core = 566
-		add_core = 537
-		add_core = 536
-		add_core = 554
-		add_core = 553
-		add_core = 557
-		add_core = 556
-		add_core = 555
-		add_core = 552
-		add_core = 549
-		add_core = 550
-	}
-			ai_will_do = {
-			factor = 10
-		}
-}
-
-form_HRE = {
+	form_HRE = {
 	picture = graet_eic
 		potential = {
 			tag = CZH
@@ -830,11 +827,172 @@ form_HRE = {
 		ai_will_do = {
 			factor = 1
 		}
-				ai_will_do = {
-			factor = 10
+	
+	}
+	HRE_raise = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			NOT = {
+					has_country_flag = HRE_raise
+			}
+		}	
+		allow = {
+			owns = 657
+			owns = 794
+			iron_breech_loaded_artillery = 1
+		}
+		
+		effect = {
+			add_accepted_culture = romanian
+			add_accepted_culture = serb	
+			SER_794 = { add_core = THIS }
+			TUR_803 = { add_core = THIS }
+			MON_2582 = { add_core = THIS }
+			set_country_flag = HRE_raise
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	HRE_raise1 = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_country_flag = HRE_raise
+			NOT = {
+					has_country_flag = HRE_raise1
+			}
+		}	
+		allow = {
+			owns = 812
+			owns = 674
+		}
+		
+		effect = {
+			add_accepted_culture = bulgarian
+			set_country_flag = HRE_raise1
+			TUR_810 = { add_core = THIS }
+			TUR_805 = { add_core = THIS }
+			TUR_860 = { add_core = THIS }
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
-	
+	HRE_nord = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_country_flag = HRE_raise
+			NOT = {
+					has_global_flag = HRE_nord	
+			}
+		}	
+		allow = {
+			NOT = { exists = HOL }
+		}
+		
+		effect = {
+			add_accepted_culture = danish
+			DEN_251 = { add_core = THIS }
+			set_global_flag = HRE_nord	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	HRE_nord1 = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_global_flag = HRE_nord
+			NOT = {
+					has_global_flag = HRE_nord1
+			}
+		}	
+		allow = {
+		army_decision_making = 1	
+		}
+		
+		effect = {
+			add_accepted_culture = swedish
+			set_global_flag = HRE_nord1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	HRE_nord2 = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_global_flag = HRE_nord1
+			NOT = {
+					has_global_flag = HRE_nord2
+			}
+		}	
+		allow = {
+			owns = 322
+		}
+		
+		effect = {
+			RUS_340 = { add_core = THIS }
+			RUS_336 = { add_core = THIS }
+			RUS_339 = { add_core = THIS }
+			SWE_318 = { add_core = THIS }
+			SWE_308 = { add_core = THIS }
+			add_accepted_culture = finnish
+			set_global_flag = HRE_nord2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	HRE_Inter = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_global_flag = form_Intermarium33
+			NOT = {
+					has_global_flag = HRE_Inter
+			}
+		}	
+		allow = {
+			owns = 657
+			has_global_flag = form_Intermarium33
+		}
+		
+		effect = {
+			WAL_665 = { add_core = THIS }
+			MOL_673 = { add_core = THIS }
+			RUS_676 = { add_core = THIS }
+			set_global_flag = HRE_Inter	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	HRE_Inter1 = {
+	picture = graet_eic
+		potential = {
+			tag = HRE
+			has_global_flag = HRE_Inter
+			NOT = {
+					has_global_flag = HRE_Inter1
+			}
+		}	
+		allow = {
+			owns = 967
+		}
+		
+		effect = {
+			add_accepted_culture = ukrainian
+			set_global_flag = HRE_Inter1	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 #Сицилия
 
 own_roma = {
@@ -1284,7 +1442,7 @@ graet_pol4 = {
 		}
 	}
 
-form_Intermarium = {
+	form_Intermarium = {
 	picture = graet_eic
 		potential = {
 		has_global_flag = graet_pol4
@@ -1314,35 +1472,8 @@ form_Intermarium = {
 			factor = 10
 		}
 	}
-form_Intermarium1 = {
-	picture = graet_eic
-		potential = {
-		tag = A07
-			AND = {
-				has_global_flag = form_Intermarium
-				NOT = {
-					has_global_flag = form_Intermarium1
-					has_global_flag = form_Intermarium33
-				}
-			}			
-		}	
-		allow = {
-		tag = A07
-			
-		}
-		
-		effect = {
-			set_global_flag = form_Intermarium1
-			add_core = 1045
-			add_core = 979
-			add_core = 1046
-			add_core = 1047
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-form_Intermarium33 = {
+	#Западное решение
+	form_Intermarium33 = {
 	picture = graet_eic
 		potential = {
 		tag = A07
@@ -1375,16 +1506,97 @@ form_Intermarium33 = {
 			factor = 10
 		}
 	}
-	
-form_Intermarium2 = {
+	raise_Intermarium33 = {
 	picture = graet_eic
 		potential = {
-			AND = {
-				has_global_flag = form_Intermarium1
+		tag = A07
+		has_global_flag = form_Intermarium33
 				NOT = {
-					has_global_flag = form_Intermarium2
+					has_country_flag = raise_Intermarium33
 				}
 			}			
+		}	
+		allow = {
+		tag = A07
+		owns = 667	
+		}
+		
+		effect = {
+			set_country_flag = raise_Intermarium33
+			TUR_674 = { add_core = THIS }
+			TUR_810 = { add_core = THIS }
+			add_accepted_culture = bulgarian
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	raise_Intermarium34 = {
+	picture = graet_eic
+		potential = {
+		tag = A07
+		has_country_flag = raise_Intermarium33
+				NOT = {
+					has_country_flag = raise_Intermarium34
+				}
+			}			
+		}	
+		allow = {
+		tag = A07
+		owns = 823
+		owns = 858
+		owns = 865			
+		}
+		
+		effect = {
+			set_country_flag = raise_Intermarium34
+			TUR_863 = { add_core = THIS }
+			TUR_881 = { add_core = THIS }
+			TUR_884 = { add_core = THIS }
+			TUR_885 = { add_core = THIS }
+			add_accepted_culture = turkish
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Восточное решение
+	form_Intermarium1 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = form_Intermarium
+			NOT = {
+				has_global_flag = form_Intermarium1
+				has_global_flag = form_Intermarium33
+			}
+						
+		}	
+		allow = {
+		tag = A07
+			
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium1
+			add_core = 1045
+			add_core = 979
+			add_core = 1046
+			add_core = 1047
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	form_Intermarium2 = {
+	picture = graet_eic
+		potential = {
+			has_global_flag = form_Intermarium1
+			tag = A07
+			NOT = {
+				has_global_flag = form_Intermarium2
+			}
+					
 		}	
 		allow = {
 		tag = A07
@@ -1412,7 +1624,131 @@ form_Intermarium2 = {
 		ai_will_do = {
 			factor = 10
 		}
-	}	
+	}
+	form_Intermarium3 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = form_Intermarium2
+			NOT = {
+				has_global_flag = form_Intermarium3
+			}
+						
+		}	
+		allow = {
+		tag = A07
+		owns = 1037
+		owns = 1039
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium3
+			RUS_1020 = { add_core = THIS }
+			RUS_1037 = { add_core = THIS }
+			RUS_1041 = { add_core = THIS }	
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	nord_Intermarium = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			year = 1845
+			NOT = {
+				has_global_flag = nord_Intermarium
+			}
+						
+		}	
+		allow = {
+		raider_group_doctrine = 1
+		}
+		
+		effect = {
+			set_global_flag = nord_Intermarium
+			RUS_994 = { add_core = THIS }
+			RUS_339 = { add_core = THIS }
+			RUS_336 = { add_core = THIS }
+			RUS_340 = { add_core = THIS }	
+			add_accepted_culture = finnish
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	nord_Intermarium1 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = nord_Intermarium
+			NOT = {
+				has_global_flag = nord_Intermarium1
+			}
+						
+		}	
+		allow = {
+		prestige = 500
+		industrial_score = 1000
+		}
+		
+		effect = {
+			set_global_flag = nord_Intermarium1
+			RUS_1003 = { add_core = THIS }
+			RUS_998 = { add_core = THIS }
+			RUS_990 = { add_core = THIS }
+			RUS_2589 = { add_core = THIS }			
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	SCA_Intermarium = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			year = 1865
+			NOT = {
+				has_global_flag = SCA_Intermarium
+			}
+						
+		}	
+		allow = {
+		owns = 372
+		owns = 331
+		}
+		
+		effect = {
+			set_global_flag = SCA_Intermarium
+			add_accepted_culture = swedish
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	SCA_Intermarium1 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = SCA_Intermarium
+			NOT = {
+				has_global_flag = SCA_Intermarium1
+			}
+						
+		}	
+		allow = {
+		NOT = { exists = SCA }
+		}
+		
+		effect = {
+			set_global_flag = SCA_Intermarium1
+			add_accepted_culture = danish
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+		
 
 # Европейская колонизация Африки	
 	
