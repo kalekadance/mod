@@ -854,6 +854,7 @@ form_Franco_Iberia = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
 	HRE_raise1 = {
 	picture = graet_eic
 		potential = {
@@ -1514,8 +1515,8 @@ graet_pol4 = {
 				NOT = {
 					has_country_flag = raise_Intermarium33
 				}
-			}			
-		}	
+		}			
+			
 		allow = {
 		tag = A07
 		owns = 667	
@@ -1539,8 +1540,8 @@ graet_pol4 = {
 				NOT = {
 					has_country_flag = raise_Intermarium34
 				}
-			}			
-		}	
+		}			
+			
 		allow = {
 		tag = A07
 		owns = 823

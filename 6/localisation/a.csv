@@ -1,6 +1,65 @@
 Захват;Нами было мобилизовано менее §Y$VAL$§W% потенциальных новобранцев.\n;X;X;X;X;X;X
 RECRUITED_PERCENTAGE_MORE_THAN;Нами было мобилизовано более §Y$VAL$§W% потенциальных новобранцев.\n;X;X;X;X;X;X
 SEPARATISM_TECH;Сепаратизм;X;X;X;X;X;X
+CUSTOM_TOOLTIP_57052;§GЭто решение открывает ивент, в котором можно запросить деньги или припасы, а также настроить уведомления о запросах других стран.§!;X;X;X;X;X;X
+Grant_Requested_EvtOptArms200;Отправить 200 винтовок;X;X;X;X;X;X
+Grant_Requested_EvtOptArms500;Отправить 500 винтовок;X;X;X;X;X;X
+Grant_Requested_EvtOptArms1000;Отправить 1000 винтовок;X;X;X;X;X;X
+Grant_Requested_EvtOptArms2000;Отправить 2000 винтовок;X;X;X;X;X;X
+Grant_Requested_EvtOptAmmo200;Отправить 200 амуниции;X;X;X;X;X;X
+Grant_Requested_EvtOptAmmo500;Отправить 500 амуниции;X;X;X;X;X;X
+Grant_Requested_EvtOptAmmo1000;Отправить 1000 амуниции;X;X;X;X;X;X
+Grant_Requested_EvtOptAmmo2000;Отправить 2000 амуниции;X;X;X;X;X;X
+Grant_Requested_EvtOptArt200;Отправить 200 артиллерии;X;X;X;X;X;X
+Grant_Requested_EvtOptArt500;Отправить 500 артиллерии;X;X;X;X;X;X
+Grant_Requested_EvtArt1000;Отправить 1000 артиллерии;X;X;X;X;X;X
+Grant_Requested_EvtOptArt2000;Отправить 2000 артиллерии;X;X;X;X;X;X
+exchange_disallow_flag;Выключены уведомления о запросах;X;X;X;X;X;X
+war_shipbuilding_modifier;Кораблестроение военного времени;X;X;X;X;X;X
+War_Shipbuilding_EvtName;Кораблестроение военного времени;X;X;X;X;X;X
+War_Shipbuilding_EvtDesc;Во время войны производить корабли стало намного труднее. У нас же ведь есть готовый флот, которым можно дать отпор, да?;X;X;X;X;X;X
+War_Shipbuilding_End_EvtDesc;Война закончилась, и мы снова можем строить корабли в прежнем темпе.;X;X;X;X;X;X
+War_Shipbuilding_End_EvtOptA;У меня страна в руинах блять;X;X;X;X;X;X
+War_Shipbuilding_EvtOptA;Они заряжают пушку! Зачем?;X;X;X;X;X;X
+Arty_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и отослала нам артиллерию.;X;X;X;X;X;X
+Arms_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и отослала нам винтовки.;X;X;X;X;X;X
+Ammo_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и отослала нам амуницию.;X;X;X;X;X;X
+50K_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 50.000 фунтов.;X;X;X;X;X;X
+100K_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 100.000 фунтов.;X;X;X;X;X;X
+250K_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 250.000 фунтов.;X;X;X;X;X;X
+500K_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 500.000 фунтов.;X;X;X;X;X;X
+1M_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 1.000.000 фунтов.;X;X;X;X;X;X
+2M_came_EvtDesc;Страна $FROMCOUNTRY$ откликнулась и прислала нам 2.000.000 фунтов.;X;X;X;X;X;X
+Grant_Requested_EvtOpt50;Отправить им 50.000;X;X;X;X;X;X
+Grant_Requested_EvtOpt100;Отправить им 100.000;X;X;X;X;X;X
+Grant_Requested_EvtOpt250;Отправить им 250.000;X;X;X;X;X;X
+Grant_Requested_EvtOpt500;Отправить им 500.000;X;X;X;X;X;X
+Grant_Requested_EvtOpt1M;Отправить им 1.000.000;X;X;X;X;X;X
+Grant_Requested_EvtOpt2M;Отправить им 2.000.000;X;X;X;X;X;X
+aid_came_EvtName;Помощь $FROMCOUNTRY$;X;X;X;X;X;X
+money_came_EvtOptA;Спасибо!;X;X;X;X;X;X
+Insufficient_Stuff_EvtName;Помощь: Провал;X;X;X;X;X;X
+Insufficient_Stuff_EvtDesc;Назначенная экономическая помощь не была отправлена по причине того, что у нас недостаточно денег/товаров на складе.;X;X;X;X;X;X
+Insufficient_Stuff_EvtOptA;Может, оно и к лучшему?;X;X;X;X;X;X
+Something_Requested_EvtOptDecline;Ничем не можем помочь.;X;X;X;X;X;X
+Something_Requested_EvtName;Иностранный запрос;X;X;X;X;X;X
+Grant_Requested_EvtDesc;Страна §L$FROMCOUNTRY$§! запрашивает экономическую помощь. Отправим ли мы им деньги?;X;X;X;X;X;X
+Arms_Requested_EvtDesc;Страна §L$FROMCOUNTRY$§! запрашивает винтовки. Отправим ли мы им ленд-лиз?;X;X;X;X;X;X
+Ammo_Requested_EvtDesc;Страна §L$FROMCOUNTRY$§! запрашивает амуницию. Отправим ли мы им ленд-лиз?;X;X;X;X;X;X
+Arty_Requested_EvtDesc;Страна §L$FROMCOUNTRY$§! запрашивает артиллерию. Отправим ли мы им ленд-лиз?;X;X;X;X;X;X
+Exchange_EvtOptEnable;§G+++§! Включить уведомления;X;X;X;X;X;X
+Exchange_EvtOptRequest;Запрос денег;X;X;X;X;X;X
+Exchange_EvtOptRequestArty;Запрос артиллерии;X;X;X;X;X;X
+Exchange_EvtOptRequestArms;Запрос винтовок;X;X;X;X;X;X
+Exchange_EvtOptRequestAmmo;Запрос амуниции;X;X;X;X;X;X
+CUSTOM_TOOLTIP_A_57052;§GМы будем получать уведомления о запросах денег или припасов другими странами.§!;X;X;X;X;X;X
+CUSTOM_TOOLTIP_C_57052;§GВсем странам со включенными уведомлениями придёт событие, позволяющее отправить нам помощь.§!;X;X;X;X;X;X
+Exchange_EvtOptDisable;§R---§! Выключить уведомления;X;X;X;X;X;X
+CUSTOM_TOOLTIP_B_57052;§RМы не будем получать уведомления о запросах денег или припасов другими странами.§!;X;X;X;X;X;X
+Exchange_EvtName;Передача;X;X;X;X;X;X
+Exchange_EvtDesc;Настройте уведомления о запросах денег или ленд-лиза. Помните, что для того, чтобы предоставлять ленд-лиз, необходимо выкрутить закупки и закупить необходимые припасы.;X;X;X;X;X;X
+exchange_settings_dec_title; Передача денег §R/ §!Ленд-лиз;X;X;X;X;X;X
+exchange_settings_dec_desc; ;X;X;X;X;X;X
 INC_RES_TECH;Очки исследования;X;X;X;X;X;X
 TOTAL_POPS_NOT_TR;Меньше чем §Y$VAL$§W населения в $WHERE$.\n;X;X;X;X;X;X
 TOTAL_POPS_TR;По крайней мере §Y$VAL$§W населения в $WHERE$.\n;X;X;X;X;X;X

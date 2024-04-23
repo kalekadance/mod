@@ -23,5 +23,6 @@
     },
     "files.associations": {
         "*.txt": "bg3txt"
-    }
+    },
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": true
 }
