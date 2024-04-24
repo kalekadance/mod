@@ -169,10 +169,10 @@ political_decisions = {
 	NEN_annexation2 = {
 		picture = graet_eic
 		potential = {
-			has_global_flag = NEN_annexation1
+			has_country__flag = NEN_annexation1
 			tag = A10
 			NOT = {
-				has_global_flag = NEN_annexation1
+				has_country__flag = NEN_annexation2
 				}		
 		}	
 		allow = {
@@ -196,7 +196,7 @@ political_decisions = {
 			has_country_flag = NEN_annexation2
 			tag = A10
 			date = 1849
-			NOT = { has_country_flag = NEN_annexation2}		
+			NOT = { has_country_flag = NEN_annexation3 }		
 		}	
 		allow = {
 			tag = A10
@@ -205,7 +205,7 @@ political_decisions = {
 		}
 	
 		effect = {
-			set_global_flag = NEN_annexation3
+			set_country__flag = NEN_annexation3
 			ENG_36 = { add_core = THIS }
 			ENG_30 = { add_core = THIS }
 		}
@@ -221,6 +221,7 @@ political_decisions = {
 		}	
 		allow = {
 			OR = { tag = A10 exists = UCA }
+			owns = 203
 		}
 	
 		effect = {
@@ -246,7 +247,7 @@ political_decisions = {
 		}	
 		allow = {
 			OR = { tag = A10 exists = UCA }
-			owns = 203
+			owns = 2222
 		}
 	
 		effect = {
@@ -265,6 +266,7 @@ political_decisions = {
 		}
 	
 	}
+
 	NEN_atlantic_claim2 = {
 		picture = graet_eic
 		potential = {
@@ -274,35 +276,7 @@ political_decisions = {
 		}	
 		allow = {
 			OR = { tag = A10 exists = UCA }
-			owns = 203
-		}
-	
-		effect = {
-			set_country_flag = NEN_atlantic_claim2
-			DEN_251 = { add_core = THIS }
-			POR_2134 = { add_core = THIS }
-			ENG_2132 = { add_core = THIS }
-			add_core = 2136
-			add_core = 1955
-			add_core = 1954
-			add_core = 2133
-			add_core = 2131
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	
-	}
-	NEN_atlantic_claim2 = {
-		picture = graet_eic
-		potential = {
-			tag = A10
-			has_country_flag = NEN_atlantic_claim1
-			NOT = { has_country_flag = NEN_atlantic_claim2 }		
-		}	
-		allow = {
-			OR = { tag = A10 exists = UCA }
-			owns = 203
+			owns = 2132
 		}
 	
 		effect = {
@@ -342,7 +316,6 @@ political_decisions = {
                 any_owned = {
                     add_core = CAL }
                 }
-				add_accepted_culture = afro_american
 			}
 			ai_will_do = {
 			factor = 1
@@ -355,14 +328,15 @@ political_decisions = {
 			has_country_flag = CAL_action
 			NOT = {
 				has_global_flag = CAL_action1
-				exists = TEX
 			}		
 		}	
 		allow = {
 			tag = CAL
+			NOT = { exists = TEX }
 		}
 		effect = {
 			set_global_flag = CAL_action1
+			add_accepted_culture = texan
 			any_owned = { remove_core = TEX }
 		}	
 	}
@@ -388,6 +362,7 @@ political_decisions = {
 			add_core = 207
 			add_core = 208
 			add_core = 210
+			add_accepted_culture = afro_american
 			set_global_flag = CAL_defens
 		}
 		ai_will_do = {
