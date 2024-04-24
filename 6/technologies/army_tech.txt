@@ -106,7 +106,7 @@ point_defense_system = {
 	cost = 10800
 	unciv_military = yes
 	 engineer = {
-		support = 0.25
+		support = 0.35
 	} 
 	army_base = {
 		supply_consumption = 0.25
@@ -161,10 +161,10 @@ deep_defense_system = {
 	cost = 14400
 	unciv_military = yes
 	 engineer = {
-		support = 0.25
+		support = 0.35
 	} 
 	army_base = {
-		supply_consumption = 0.40
+		supply_consumption = 0.30
 	} 
 	max_fort = 1
 	dig_in_cap = 1
@@ -217,10 +217,10 @@ infiltration = {
 	unciv_military = yes
 		
 	army_base = {
-		supply_consumption = 0.50
+		supply_consumption = 0.30
 	} 
 	engineer = {
-		support = 0.5
+		support = 0.75
 	} 
 	max_fort = 1
 	dig_in_cap = 2

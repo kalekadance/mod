@@ -3,20 +3,22 @@ political_decisions = {
  #Великая Сибирь
 	form_GreatSibiria = {
 		picture = graet_eic
-		potential = { tag = MTC	}	
+		potential = { 
+			tag = MTC
+			NOT = {
+					has_country_flag = form_GreatSibiria
+				}	
+		}	
 		allow = {
 			NOT = { 
-				owns = 1672
-				owns = 1533
-				owns = 1600 
 				exists = KOR 
 			}
 		}
 		
 		effect = {
 			set_global_flag = form_GreatSibiria
-			add_accepted_culture = manchu
 			add_accepted_culture = korean
+			add_accepted_culture = japanese
 			change_tag = A08
 			prestige = 20
 			ruling_party_ideology = conservative
@@ -26,8 +28,10 @@ political_decisions = {
 	MTC_rise = {
 		picture = graet_eic
 			potential = {
-				OR = { tag = A08
-				tag = MTC }
+				OR = { 
+					tag = A08
+					tag = MTC 
+				}
 				NOT = {
 					has_country_flag = MTC_rise
 				}		
@@ -42,6 +46,7 @@ political_decisions = {
 			add_accepted_culture = uzbek
 			add_accepted_culture = tajik
 			set_country_flag = MTC_rise
+			add_core = 1069
 			}
 			ai_will_do = {
 			factor = 1
@@ -66,6 +71,7 @@ political_decisions = {
 			add_accepted_culture = north_caucasian
 			add_accepted_culture = azerbaijani
 			set_country_flag = MTC_rise1
+			add_core = 1070
 			}
 			ai_will_do = {
 			factor = 1
@@ -160,24 +166,20 @@ political_decisions = {
 	A08_intermarium = {
 			picture = graet_eic
 			potential = {
-				OR = { tag = A08
-				tag = MTC }
+				tag = A08
 				has_global_flag = form_Intermarium1
 				NOT = {
-					has_global_flag = A08_intermarium 
+					has_country_flag = A08_intermarium 
 				}
 			}	
-				allow = { exists = A07 }
-				effect = {
-			RUS_980 = { add_core = MTC 
-						 add_core = A08 }
-			RUS_964 = { add_core = MTC 
-						 add_core = A08 }
-									   
-			RUS_1018 = { add_core = MTC 
-						 add_core = A08 }
-									   
-			set_global_flag = A08_intermarium 					   
+			allow = { 
+				exists = A07 
+			}
+			effect = {
+				RUS_980 = { add_core = A08 }
+				RUS_964 = { add_core = A08 }
+				RUS_1018 = { add_core = A08 }
+				has_country_flag = A08_intermarium 					   
 			}
 	}			
 	
@@ -191,10 +193,7 @@ political_decisions = {
 				}		
 			}	
 			allow = {
-			NOT = { 
-		    owns = 1672
-		    owns = 1533
-		    owns = 1600 }
+				muzzle_loaded_rifles = 1
 			}
 		
 			effect = {
@@ -220,11 +219,8 @@ political_decisions = {
 				}		
 			}	
 			allow = {
-			NOT = { 
-		    owns = 1672
-		    owns = 1533
-		    owns = 1600
-			exists = RUS }
+				NOT = { 
+				exists = RUS }
 			}
 		
 			effect = {
@@ -248,21 +244,128 @@ political_decisions = {
 				}		
 			}	
 			allow = {
-			NOT = { 
-		    owns = 1672
-		    owns = 1533
-		    owns = 1600 }
+				owns = 967
 			}
 		
 			effect = {
-			D14 = {
-                any_owned = {
-                    add_core = A08 } }
-			set_country_flag = A08_D14 }						   
+				RUS_1008 = { add_core = A08 }
+				RUS_1009 = { add_core = A08 }
+				RUS_977 = { add_core = A08 }
+				set_country_flag = A08_D14 }						   
 			ai_will_do = {
-			factor = 1
+				factor = 1
 			}
 		
 		
+	}
+	A08_rise1 = {
+		picture = graet_eic
+			potential = {
+				tag = A08
+				has_country_flag = MTC_rise2
+				NOT = {
+					has_country_flag = A08_rise1
+				}		
+			}	
+			allow = {
+				NOT = { 
+				exists = RUS
+				}
+			owns = 2580
+			point_defense_system = 1
+			}
+		
+			effect = {
+			add_accepted_culture = ukrainian
+			add_accepted_culture = finnish
+			RUS_340 = { add_core = THIS }
+			RUS_336 = { add_core = THIS }
+			RUS_339 = { add_core = THIS }
+			set_country_flag = A08_rise1
+			
+		}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	A08_rise2 = {
+		picture = graet_eic
+			potential = {
+				tag = A08
+				has_country_flag = MTC_rise2
+				NOT = {
+					has_country_flag = A08_rise1
+				}		
+			}	
+			allow = {
+				NOT = { 
+				exists = FIN
+				}
+			iron_steamers = 1
+			}
+		
+			effect = {
+			add_accepted_culture = swedish
+			SWE_318 = { add_core = THIS }
+			SWE_308 = { add_core = THIS }
+			SWE_322 = { add_core = THIS }
+			set_country_flag = A08_rise2
+			
+		}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	A08_asia = {
+		picture = graet_eic
+			potential = {
+				tag = A08
+				year = 1875
+				NOT = {
+					has_country_flag = A08_asia
+				}		
+			}	
+			allow = {
+				NOT = { 
+				exists = MGL
+				exists = XIN
+				exists = AFG
+				}
+			exists = MCK
+			}
+		
+			effect = {
+			add_accepted_culture = pashtun
+			add_core = 1205
+			AFG_1217 = { add_core = THIS }
+			AFG_1214 = { add_core = THIS }
+			set_country_flag = A08_asia
+			
+		}
+			ai_will_do = {
+			factor = 1
+			}
+	}
+	A08_asia1 = {
+		picture = graet_eic
+			potential = {
+				tag = A08
+				has_country_flag = A08_asia
+				NOT = {
+					has_country_flag = A08_asia1
+				}		
+			}	
+			allow = {
+			owns = 1219
+			}
+		
+			effect = {
+			add_accepted_culture = persian
+			set_country_flag = A08_asia1
+			
+		}
+			ai_will_do = {
+			factor = 1
+			}
 	}
 }

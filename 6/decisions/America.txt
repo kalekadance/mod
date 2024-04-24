@@ -169,10 +169,10 @@ political_decisions = {
 	NEN_annexation2 = {
 		picture = graet_eic
 		potential = {
-			has_global_flag = NEN_annexation1
+			has_country__flag = NEN_annexation1
 			tag = A10
 			NOT = {
-				has_global_flag = NEN_annexation1
+				has_country__flag = NEN_annexation2
 				}		
 		}	
 		allow = {
@@ -196,7 +196,7 @@ political_decisions = {
 			has_country_flag = NEN_annexation2
 			tag = A10
 			date = 1849
-			NOT = { has_country_flag = NEN_annexation2}		
+			NOT = { has_country_flag = NEN_annexation3 }		
 		}	
 		allow = {
 			tag = A10
@@ -205,12 +205,12 @@ political_decisions = {
 		}
 	
 		effect = {
-			set_global_flag = NEN_annexation3
+			set_country__flag = NEN_annexation3
 			ENG_36 = { add_core = THIS }
 			ENG_30 = { add_core = THIS }
 		}
 		ai_will_do = {
-		factor = 1
+			factor = 1
 		}
 	}
 	NEN_atlantic_claim = {
@@ -221,6 +221,7 @@ political_decisions = {
 		}	
 		allow = {
 			OR = { tag = A10 exists = UCA }
+			owns = 203
 		}
 	
 		effect = {
@@ -233,10 +234,68 @@ political_decisions = {
 			add_accepted_culture = caribeno	
 		}
 		ai_will_do = {
-		factor = 1
+			factor = 1
 		}
 	
 	}
+	NEN_atlantic_claim1 = {
+		picture = graet_eic
+		potential = {
+			tag = A10
+			has_country_flag = NEN_atlantic_claim
+			NOT = { has_country_flag = NEN_atlantic_claim1 }		
+		}	
+		allow = {
+			OR = { tag = A10 exists = UCA }
+			owns = 2222
+		}
+	
+		effect = {
+			set_country_flag = NEN_atlantic_claim1
+			DEN_251 = { add_core = THIS }
+			POR_2134 = { add_core = THIS }
+			ENG_2132 = { add_core = THIS }
+			add_core = 2136
+			add_core = 1955
+			add_core = 1954
+			add_core = 2133
+			add_core = 2131
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+
+	NEN_atlantic_claim2 = {
+		picture = graet_eic
+		potential = {
+			tag = A10
+			has_country_flag = NEN_atlantic_claim1
+			NOT = { has_country_flag = NEN_atlantic_claim2 }		
+		}	
+		allow = {
+			OR = { tag = A10 exists = UCA }
+			owns = 2132
+		}
+	
+		effect = {
+			set_country_flag = NEN_atlantic_claim2
+			MAD_2121 = { add_core = THIS }
+			MAD_2117 = { add_core = THIS }
+			ENG_2125 = { add_core = THIS }
+			ENG_1321 = { add_core = THIS }
+			AST_2244 = { add_core = THIS }
+			add_core = 1320
+			add_core = 1177
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+
 	
 	
 	
@@ -257,7 +316,6 @@ political_decisions = {
                 any_owned = {
                     add_core = CAL }
                 }
-				add_accepted_culture = afro_american
 			}
 			ai_will_do = {
 			factor = 1
@@ -270,14 +328,15 @@ political_decisions = {
 			has_country_flag = CAL_action
 			NOT = {
 				has_global_flag = CAL_action1
-				exists = TEX
 			}		
 		}	
 		allow = {
 			tag = CAL
+			NOT = { exists = TEX }
 		}
 		effect = {
 			set_global_flag = CAL_action1
+			add_accepted_culture = texan
 			any_owned = { remove_core = TEX }
 		}	
 	}
@@ -303,6 +362,7 @@ political_decisions = {
 			add_core = 207
 			add_core = 208
 			add_core = 210
+			add_accepted_culture = afro_american
 			set_global_flag = CAL_defens
 		}
 		ai_will_do = {
@@ -389,6 +449,65 @@ political_decisions = {
 			set_global_flag = CAL_action3
 			remove_core = CAL
 			add_accepted_culture = native_american_minor
+	    }
+    }
+	CAL_action4 = {
+		picture = graet_eic
+		potential = {
+			has_global_flag_flag = CAL_action3
+			tag = A11
+			NOT = {
+				has_global_flag = CAL_action4
+				exists = D13
+			}		
+		}	
+		allow = { 
+			raider_group_doctrine = 1
+		}
+		effect = {
+			set_global_flag = CAL_action4
+			HAW_658 = { add_core = A11 }
+	    }
+    }
+	CAL_action5 = {
+		picture = graet_eic
+		potential = {
+			has_global_flag_flag = CAL_action4
+			tag = A11
+			NOT = {
+				has_global_flag = CAL_action5
+				exists = D13
+			}		
+		}	
+		allow = { 
+			owns = 658
+		}
+		effect = {
+			set_global_flag = CAL_action5
+			FRA_1097 = { add_core = A11 }
+			AST_2527 = { add_core = A11 }
+			BRZ_2540 = { add_core = A11 }
+			add_accepted_culture = aborigine
+	    }
+    }
+	CAL_action6 = {
+		picture = graet_eic
+		potential = {
+			has_global_flag_flag = CAL_action5
+			tag = A11
+			NOT = {
+				has_global_flag = CAL_action6
+				exists = D13
+			}		
+		}	
+		allow = { 
+			owns = 2543
+		}
+		effect = {
+			set_global_flag = CAL_action6
+			ENG_2509 = { add_core = A11 }
+			ENG_2515 = { add_core = A11 }
+			CHI_2562 = { add_core = A11 }
 	    }
     }
 	CAL_mexican1 = {

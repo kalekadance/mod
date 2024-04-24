@@ -1,0 +1,18 @@
+political_decisions = {
+	exchange_settings_dec = {
+		alert = no
+		potential = {
+			NOT = { has_country_flag = hide_all_decs_flag }
+			ai = no
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = grant_request_cooldown_modifier
+			}
+		}
+		effect = {
+			country_event = 57052
+			CUSTOM_TOOLTIP_57052 = { }
+		}
+	}
+}
