@@ -1,4 +1,120 @@
 political_decisions = {
+	#Решения для ИИ
+	AI_GUA = {
+		potential = { 
+			ai = yes
+			tag = GUA
+			NOT = { has_country__flag = AI_GUA }
+		}
+		allow { ai = yes }
+		effect = { 
+			MEX_2162 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			MEX_2170 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			add_accepted_culture = mexican
+			set_country__flag = AI_GUA
+		}
+	}
+	AI_CAL = {
+		potential = { 
+			ai = yes
+			tag = CAL
+			NOT = { has_country__flag = AI_CAL }
+		}
+		allow { ai = yes }
+		effect = { 
+			MEX_85 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			TEX_132 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			set_country__flag = AI_CAL
+		}
+	}
+	AI_CAL1 = {
+		potential = { 
+			ai = yes
+			tag = CAL
+			NOT = { has_country__flag = AI_CAL1 }
+		}
+		allow { 
+			ai = yes
+			year = 1841	
+		}
+		effect = { 
+			USA_81 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			USA_78 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			MEX_94 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			set_country__flag = AI_CAL1
+		}
+	}
+	AI_NEN = {
+		potential = { 
+			ai = yes
+			tag = NEN
+			NOT = { has_country__flag = AI_NEN }
+		}
+		allow { ai = yes }
+		effect = { 
+			USA_247 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			USA_243 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			set_country__flag = AI_NEN
+		}
+	}
+	AI_NEN1 = {
+		potential = { 
+			ai = yes
+			OR = {
+				tag = NEN
+				tag = A10
+			}
+			NOT = { has_country__flag = AI_NEN1 }
+		}
+		allow { 
+			ai = yes
+			year = 1845
+		}
+		effect = { 
+			USA_232 = { add_province_modifier =  { name = baby_boom
+									   duration = 2825 }
+			}
+			set_country__flag = AI_NEN1
+		}
+	}
+	AI_NEN2 = {
+		potential = { 
+			ai = yes
+			OR = {
+				tag = NEN
+				tag = A10
+			}
+			NOT = { has_country__flag = AI_NEN2 }
+		}
+		allow { 
+			ai = yes
+			year = 1838
+		}
+		effect = { 
+			ENG_46 = { add_core = THIS }
+			add_core = 73
+			add_core = 74
+			set_country__flag = AI_NEN2
+		}
+	}
 	
 	#Решения для Новой Англии
 	NEN_rise = {
@@ -8,13 +124,13 @@ political_decisions = {
 				NOT = { has_country_flag = NEN_rise }		
 			}	
 			allow = {
-				owns = 232
-				owns = 234
-				owns = 235
-				owns = 238
-				owns = 239
-				owns = 237
-				owns = 236
+				OR = {
+					owns = 232
+					AND = { 
+						ai = yes
+						date = 1838 }
+				}
+				
 			}
 		
 			effect = {
@@ -43,9 +159,15 @@ political_decisions = {
 			NOT = { has_country_flag = NEN_rise1 }		
 		}	
 		allow = {
-			225 = { controlled_by = NEN }
-			228 = { controlled_by = NEN }
-			223 = { controlled_by = NEN }
+			OR = {
+				225 = { controlled_by = NEN }
+				228 = { controlled_by = NEN }
+				223 = { controlled_by = NEN }
+				AND = { 
+						ai = yes
+						date = 1841 }
+				
+			}
 		}
 	
 		effect = {
@@ -76,7 +198,12 @@ political_decisions = {
 			}	
 		}	
 		allow = {
-        tag = NEN	
+			OR = {
+				tag = NEN
+				AND = { 
+						ai = yes
+						date = 1843 }
+			}
 		}
 		
 		effect = {
@@ -121,7 +248,7 @@ political_decisions = {
 			tag = A10
 			NOT = { has_global_flag = NSNY_claims}		
 		}
-		allow = { has_global_flag = CAL_action1 
+		allow = { has_global_flag = CAL_action1
 		}
 		effect = { 
             add_core = 188
@@ -246,8 +373,15 @@ political_decisions = {
 			NOT = { has_country_flag = NEN_atlantic_claim1 }		
 		}	
 		allow = {
-			OR = { tag = A10 exists = UCA }
-			owns = 2222
+			OR = {
+				AND = {
+					OR = { tag = A10 exists = UCA }
+					owns = 2222
+				}
+				OR = { 
+					ai = yes
+					year = 1850 }
+			}
 		}
 	
 		effect = {
@@ -275,8 +409,16 @@ political_decisions = {
 			NOT = { has_country_flag = NEN_atlantic_claim2 }		
 		}	
 		allow = {
-			OR = { tag = A10 exists = UCA }
-			owns = 2132
+			OR = {
+				AND = {
+					OR = { tag = A10 exists = UCA }
+					owns = 2132
+				}
+				OR = { 
+					ai = yes
+					year = 1855
+				}
+			}
 		}
 	
 		effect = {
@@ -376,16 +518,21 @@ political_decisions = {
 			NOT = { has_global_flag = CAL_mexican }		
 		}	
 			allow = {
-				OR = { tag = CAL tag = A11 }
-				owns = 2141
-				owns = 2137
-				owns = 2140
-				owns = 2138
-				owns = 2139
+				OR = {
+					AND = {
+						OR = { tag = CAL tag = A11 }
+						owns = 2141
+					}
+					OR = { 
+						ai = yes
+						year = 1839
+					}
+				}
 			}
 			effect = {
 				set_global_flag = CAL_mexican
-				add_accepted_culture = mexican
+				MEX_2142 = { add_core = THIS }
+				MEX_2138 = { add_core = THIS }
 			}
 	}
 	CAL_action2 = {
@@ -393,7 +540,7 @@ political_decisions = {
 		potential = {
 			has_global_flag_flag = CAL_action1
 			OR = { tag = CAL tag = A11 }
-			NOT = { has_global_flag = CAL_action2 exists = TEX }		
+			NOT = { has_global_flag = CAL_action2 }		
 		}	
 		allow = {
 			tag = CAL
@@ -442,8 +589,13 @@ political_decisions = {
 			}		
 		}	
 		allow = { 
-			tag = A11
-			prestige = 550
+			OR = { 
+				AND = {
+				tag = A11
+				prestige = 200
+				}
+				ai = yes
+			}
 		}
 		effect = {
 			set_global_flag = CAL_action3
@@ -479,8 +631,11 @@ political_decisions = {
 				exists = D13
 			}		
 		}	
-		allow = { 
-			owns = 658
+		allow = {
+			OR = { 
+				ai = yes
+				owns = 658
+			}
 		}
 		effect = {
 			set_global_flag = CAL_action5
@@ -501,7 +656,10 @@ political_decisions = {
 			}		
 		}	
 		allow = { 
-			owns = 2543
+			OR = { 
+				ai = yes
+				owns = 2543
+			}
 		}
 		effect = {
 			set_global_flag = CAL_action6
@@ -518,16 +676,13 @@ political_decisions = {
 		}	
 		allow = {
 			tag = A11 
-			owns = 2143
-			owns = 2142
-			owns = 2145
-			owns = 2144
-			owns = 2152
-			owns = 2147
+			exists = UCA
 		}
 			effect = {
 			set_global_flag = CAL_mexican1
 			add_accepted_culture = mexican
+			MEX = {
+				any_owned = { add_core = A11 }
 		}
 	}
 	CAL_QUE_salvation = {
@@ -574,8 +729,13 @@ political_decisions = {
 			NOT = { has_country_flag = GUA_claim exists = HON }		
 		}	
 		allow = {
-			tag = GUA
-			NOT = { exists = HON }
+			OR = {
+				AND = {
+					tag = GUA
+					NOT = { exists = HON }
+				}
+			ai = yes
+			}
 		}
 		effect = {
 			set_country_flag = GUA_claim
@@ -621,7 +781,6 @@ political_decisions = {
 			add_accepted_culture = mexican
 			add_accepted_culture = caribeno
 			any_owned = {
-				remove_core = GUA
 				remove_core = HON
 				remove_core = PNM
                 remove_core = ELS		
@@ -637,17 +796,64 @@ political_decisions = {
 		}
 		allow = {  
 			OR = { 
-				has_global_flag = CAL_mexican 
-		    	MEX_2146  = { owned_by = THIS }
+				AND = {
+					has_global_flag = CAL_mexican 
+					MEX_2146  = { owned_by = THIS }
+				}
+				ai = yes
 		    }
 		}
-		effect = { 
+		effect = {
+			any_owned = {
+				remove_core = GUA
+			}
 			MEX_2173 = { add_core = THIS }
 			MEX_2161 = { add_core = THIS } 
 			set_global_flag = UCA_nord_claim
 		}
 	}
-
+	
+	UCA_atlantic_claim = {
+	picture = graet_eic
+		potential = { 
+			tag = UCA
+			NOT = { has_country_flag = UCA_atlantic_claim }
+		}
+		allow = {  
+			OR = { 
+				battleship_column_doctrine = 2
+				ai = yes
+		    }
+		}
+		effect = {
+			SPA_2209 = { add_core = THIS }
+			ENG_2224 = { add_core = THIS }
+			ENG_2228 = { add_core = THIS }
+			HAI_2213 = { add_core = THIS } 
+			set_country_flag = UCA_atlantic_claim
+		}
+	}
+	
+	UCA_atlantic_claim1 = {
+	picture = graet_eic
+		potential = { 
+			tag = UCA
+			NOT = { has_country_flag = UCA_atlantic_claim1 }
+		}
+		allow = {  
+			OR = { 
+				battleship_column_doctrine = 4
+				ai = yes
+		    }
+		}
+		effect = {
+			MOR_1696 = { add_core = THIS }
+			FRA_1775 = { add_core = THIS }
+			FRA_1780 = { add_core = THIS }
+			set_country_flag = UCA_atlantic_claim1
+		}
+	}
+	
 	UCA_nord_claim11 = {
 	picture = graet_eic
 		potential = { 
@@ -656,11 +862,12 @@ political_decisions = {
 			NOT = { has_global_flag = UCA_nord_claim1 }
 		}
 		allow = {  
-			OR = { has_global_flag = CAL_mexican 
+			OR = {  
 	      	    AND {
 		     		MEX_2173 = { owned_by = THIS }
 			 		MEX_2161 = { owned_by = THIS } 
 			    }
+				ai = yes
 			}  
 		}
 		effect = {
@@ -672,27 +879,33 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
     }	
-	UCA_nord_claim3 = {
+	UCA_nord_claim2 = {
 		picture = graet_eic
 		potential = { 
 			tag = UCA
 			OR = { 
-				date = 1860
 				has_global_flag = UCA_nord_claim1 
 			}
 			NOT = { has_global_flag = UCA_nord_claim3 }
 		}
 		allow = {  
-			OR = { date = 1865
-		    USA_200 = { owned_by = UCA }
+			OR = {
+				AND = {
+					date = 1865
+					USA_200 = { owned_by = UCA }
+				}
+				AND = {
+					date = 1865
+					ai = yes
+				}
 			}  
 		}
 		effect = {
 			set_global_flag = UCA_nord_claim2
 			ENG_203 = { add_core = UCA }
-			HAL_2213 = { add_core = UCA } 
-			ENG_2224 = { add_core = UCA }
-			ENG_2228 = { add_core = UCA }
+			TEX_132 = { add_core = UCA } 
+			USA_201 = { add_core = UCA }
+			MEX_2146 = { add_core = UCA }
         }    	
 		ai_will_do = { factor = 1 }
 		
@@ -703,11 +916,14 @@ political_decisions = {
 			tag = UCA
 			NOT = { has_global_flag = UCA_south_claim }
 		}
-		allow = {  
- 			 CLM_2251 = { owned_by = UCA }
+		allow = { 
+			OR = {
+				CLM_2251 = { owned_by = UCA }
+				ai = yes
+			}
 		}
 		effect = { 
-			add_accepted_culture = caribeno
+			add_accepted_culture = north_andean
 			set_global_flag = UCA_south_claim
 			add_country_modifier = { name = technical_school_UCA duration = 732}	 
 		}
@@ -738,9 +954,17 @@ political_decisions = {
 			has_global_flag = UCA_south_claim
 			NOT = { has_country_flag = UCA_south_claim1 }
 		}
-		allow = {  
-			VNZ_2234  = { owned_by = UCA }
-			CLM_2259  = { owned_by = UCA }
+		allow = { 
+			OR = {
+				AND = {
+					VNZ_2234  = { owned_by = UCA }
+					CLM_2259  = { owned_by = UCA }
+				}
+				AND = {
+					ai = yes
+					year = 1845
+				}
+			}
 		}
 		effect = { 
 			set_country_flag = UCA_south_claim1
@@ -748,6 +972,83 @@ political_decisions = {
 			CLM_2259 = { remove_core = GCO }
 			VNZ_2234 = { remove_core = GCO	}
 			add_country_modifier = { name = army_changed3 duration = -1}
+		}
+	}
+	UCA_south_claim2 = {
+	picture = graet_eic
+		potential = { 
+			tag = UCA
+			has_country_flag = UCA_south_claim1
+			NOT = { has_country_flag = UCA_south_claim2 }
+		}
+		allow = { 
+			OR = {
+				VNZ = exists
+				AND = {
+					ai = yes
+					year = 1848
+				}
+			}
+		}
+		effect = { 
+			set_country_flag = UCA_south_claim2
+			ENG_1980 = { add_core = THIS }
+			ENG_1979 = { add_core = THIS }
+			ECU_2279 = { add_core = THIS }
+		}
+	}
+	UCA_south_claim3 = {
+	picture = graet_eic
+		potential = { 
+			tag = UCA
+			has_country_flag = UCA_south_claim2
+			NOT = { has_country_flag = UCA_south_claim3 }
+		}
+		allow = { 
+			OR = {
+				AND = {
+					VNZ = exists
+					ECU = exists
+				}
+				AND = {
+					ai = yes
+					year = 1852
+				}
+			}
+		}
+		effect = { 
+			set_country_flag = UCA_south_claim3
+			BRZ_2401 = { add_core = THIS }
+			PEU_2291 = { add_core = THIS }
+			PEU_2300 = { add_core = THIS }
+		}
+	}
+	UCA_south_claim4 = {
+	picture = graet_eic
+		potential = { 
+			tag = UCA
+			has_country_flag = UCA_south_claim3
+			NOT = { has_country_flag = UCA_south_claim4 }
+		}
+		allow = { 
+			OR = {
+				AND = {
+					VNZ = exists
+					ECU = exists
+					URU = exists
+					CHL = exists
+				}
+				AND = {
+					ai = yes
+					year = 1858
+				}
+			}
+		}
+		effect = { 
+			set_country_flag = UCA_south_claim4
+			BOL_2321 = { add_core = THIS }
+			PEU_2297 = { add_core = THIS }
+			BOL_2305 = { add_core = THIS }
 		}
 	}
 #	delet_core = {
