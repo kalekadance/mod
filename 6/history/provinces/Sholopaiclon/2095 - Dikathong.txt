@@ -1,6 +1,5 @@
 owner = ORA
 controller = ORA
 add_core = ORA
-add_core = SAF
 trade_goods = cattle
 life_rating = 35

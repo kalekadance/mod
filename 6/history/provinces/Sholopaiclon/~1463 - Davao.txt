@@ -1,6 +1,0 @@
-owner = PHI
-controller = PHI
-add_core = PHI
-add_core = D08
-trade_goods = timber
-life_rating = 30

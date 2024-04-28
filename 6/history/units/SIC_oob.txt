@@ -19,8 +19,8 @@ leader = {
 	name = "Korsaro Geniys"
 	date = 1830.1.1
 	type = land
-	personality = Korsar_sfx
-	background = KorsaR-sfx
+	personality = korsar_sfx
+	background = karsar-sfx
 	prestige = 1
 }
 

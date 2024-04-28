@@ -1,4 +1,0 @@
-owner = KUK
-controller = KUK
-trade_goods = fish
-life_rating = 30

@@ -3,91 +3,96 @@
 #Anjouan Kingdom
 A01 = {
 	color1 = { 151 60 200 }
+	color2 = { 151 60 200 }
+	color3 = { 151 60 200 }
 }
 
 #Lorraine
 A02 = {
-	color = { 240 183 38 }
+	color1 = { 240 183 38 }
+	color2 = { 240 183 38 }
+	color3 = { 240 183 38 }
 }
 
 #Francia
 A03 = {
-	color = { 130 195 255 }
+	color1 = { 130 195 255 }
+	
 }
 
 #Franco-Iberia
 A04 = {
-	color = { 255 93 0 }
+	color1 = { 255 93 0 }
 }
 
 #HRE
 A05 = {
-	color = { 156 132 118 }
+	color1 = { 156 132 118 }
 }
 
 #RE
 A06 = {
-	color = { 196 8 8 }
+	color1 = { 196 8 8 }
 }
 
 #Intermarum
 A07 = {
-	color = { 143 98 217 }
+	color1 = { 143 98 217 }
 }
 
 #GreatSibiria
 A08 = {
-	color = { 42 143 217 }
+	color1 = { 42 143 217 }
 }
 
 #Tongan Empire
 A09 = {
-	color = { 53 38 77 }
+	color1 = { 53 38 77 }
 }
 
 #USNY
 A10 = {
-	color = { 33 102 15 }
+	color1 = { 33 102 15 }
 }
 
 #PSA
 A11 = {
-	color = { 188 255 5 }
+	color1 = { 188 255 5 }
 }
 
 #Indonesia
 A12 = {
-	color = { 229 229 229 }
+	color1 = { 229 229 229 }
 }
 
 #Maya Empire
 A13 = {
-	color = { 46 32 44 }
+	color1 = { 46 32 44 }
 }
 
 #New Carthage
 A14 = {
-	color = { 128 135 82 }
+	color1 = { 128 135 82 }
 }
 
 #Abyssinia
 A15 = {
-	color = { 232 85 74}
+	color1 = { 232 85 74 }
 }
 
 #GreaterIsrael
 A16 = {
-	color = { 33 11 176}
+	color1 = { 33 11 176 }
 }
 
 #Songhai
 A17 = {
-	color = { 87 81 74 }
+	color1 = { 87 81 74 }
 }
 
 #Pan-Indian Commonwealth
-A17 = {
-	color = { 222 154 118 }
+A18 = {
+	color1 = { 222 154 118 }
 }
 
 

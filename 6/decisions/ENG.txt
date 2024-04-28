@@ -9,9 +9,7 @@ singapur_state = {
 		}
 		
 		allow = {
-			OR = {
-		      is_sphere_leader_of = JOH
-			}
+			is_sphere_leader_of = JOH
 			nationalism_n_imperialism = 1
 		}
 		effect = {

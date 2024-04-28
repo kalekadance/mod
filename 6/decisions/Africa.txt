@@ -135,7 +135,7 @@ A14_rim = {
 picture = kanun_i_esasi
 		potential = {  tag = A14
 		has_country_flag = A14_form
-		date = 1855	 
+		year = 1855	 
 			NOT = { has_global_flag = A14_rim
 				
 			}
@@ -150,7 +150,7 @@ picture = kanun_i_esasi
 			SAR_765 = { add_core = THIS }
 			SIC_763 = { add_core = THIS }
 			FRA_1775 = { add_core = THIS }
-			set__global_flag = A14_rim
+			set_global_flag = A14_rim
 			
 		}
 	}
@@ -159,7 +159,7 @@ A14_egy = {
 picture = kanun_i_esasi
 		potential = {  tag = A14
 		has_country_flag = A14_form
-		date = 1850
+		year = 1850
 			 
 			NOT = { has_global_flag = A14_egy
 				
@@ -178,7 +178,7 @@ picture = kanun_i_esasi
 			TRI_1739 = { add_core = THIS }
 			EGY_1753 = { add_core = THIS }
 			EGY_1758 = { add_core = THIS }
-			set__global_flag = A14_egy
+			set_global_flag = A14_egy
 			
 		}
 	}
@@ -207,7 +207,7 @@ picture = kanun_i_esasi
 			EGY_1762 = { add_core = THIS }
 			EGY_1750 = { add_core = THIS }
 			add_accepted_culture = african_minor
-			set__global_flag = A14_egy1
+			set_global_flag = A14_egy1
 			
 		}
 	}
@@ -216,7 +216,7 @@ picture = kanun_i_esasi
 		potential = {  
 			tag = A14
 			has_global_flag = A14_rim
-			date = 1865	 
+			year = 1865	 
 			NOT = { has_global_flag = A14_spa
 				
 			}
@@ -231,7 +231,7 @@ picture = kanun_i_esasi
 			POR_525 = { add_core = THIS }
 			POR_521 = { add_core = THIS }
 			add_accepted_culture = portuguese
-			set__global_flag = A14_spa
+			set_global_flag = A14_spa
 			
 		}
 	}
@@ -565,7 +565,7 @@ Form_A16 = { picture = kanun_i_esasi
 		
 	allow = {
 			tag = ISR
-			date = 1845
+			year = 1845
 			owns = 896
 			owns = 926
 			owns = 1167
@@ -610,7 +610,7 @@ A16_claim1 = { picture = kanun_i_esasi
 	allow = {
 			tag = A16
 			OR = { exists = A06
-			date = 1860 }	
+			year = 1860 }	
 			point_defense_system = 1
 
 				}
@@ -633,7 +633,7 @@ A16_claim1 = { picture = kanun_i_esasi
 			OR = { AND = {
 			NOT = { exists = CYP }
 			NOT = { exists = CRE } }
-			date = 1865 }
+			year = 1865 }
 			time_saving_measures = 1 }
 		effect = { 	
 			RUS_1098 = { add_core = THIS }
@@ -792,34 +792,14 @@ A16_claim1 = { picture = kanun_i_esasi
 				any_owned = { add_core = ETH }
 			}
 			prestige = 5
-			set_country_flag = ETH_claim1
-		}
-	}
-	ETH_claim2 = {
-	picture = form_arabia
-		potential = {
-			tag = ETH
-			NOT = {
-				has_country_flag = ETH_claim1
-			}
-		}
-		
-		allow = {
-			owns = 1868
-		}
-		
-		effect = {
-			C01 = { 
-				any_owned = { add_core = ETH }
-			}
-			prestige = 5
-			set_country_flag = RHO_claim1
+			set_country_flag = ETH_claim
 		}
 	}
 	ETH_claim1 = {
 	picture = form_arabia
 		potential = {
 			tag = ETH
+			has_country_flag = ETH_claim
 			NOT = {
 				has_country_flag = ETH_claim1
 			}
@@ -834,8 +814,9 @@ A16_claim1 = { picture = kanun_i_esasi
 				any_owned = { add_core = ETH }
 			}
 			prestige = 5
-			set_country_flag = RHO_claim1
+			set_country_flag = ETH_claim1
 		}
 	}
+	
 	
 }

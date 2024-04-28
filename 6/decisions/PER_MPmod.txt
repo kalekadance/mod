@@ -1,29 +1,4 @@
 political_decisions = {
-	foreign_investiments_per = {
-		picture = expand_motala_verkstad
-		potential = {
-			tag = PER
-			is_greater_power = no
-			NOT = {
-				has_country_modifier = investiments_yes
-			}
-		}
-		
-		allow = {
-			prestige = 10
-			money = 120000
-		}
-		
-		effect = {
-			add_country_modifier = {
-				name = investiments_yes
-				duration = 1825
-			}
-			THIS = {
-				country_event = { id=18918 days=0 }
-			}
-		}
-	}
 
 	Graeter_Persia = {
 		picture = graet_eic

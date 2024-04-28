@@ -4,7 +4,7 @@ country_event = {
 	picture = "Celebration"
 
 	id = 90900
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC90900_NEWS_LONG"
 	news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC90900_NEWS_SHORT"
@@ -65,7 +65,8 @@ country_event = {
 province_event = {
 	
 	id = 1100992
-
+	title = "EVTNAME1100992"
+	desc = "EVTDESC1100992"
 	trigger = {
 		year = 1859
 		not = {has_global_flag = the_dragon_wakes}
@@ -186,7 +187,7 @@ country_event = {
 # Event to reject
 country_event = {
 	id = 90902 #The Breakup of China
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC90902_NEWS_LONG"
 	news_desc_medium = "EVTDESC90902_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC90902_NEWS_SHORT"

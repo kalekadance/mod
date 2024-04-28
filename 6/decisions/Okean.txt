@@ -61,9 +61,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = A09_colonisation2
 			prestige = 2
-			AST_2454 = { secede_province = THIS }
-			AST_2454 = { any_pop = { literacy = 0.15 } }
-			AST_2454 = { life_rating = 20 }
+			AST_2527 = { secede_province = THIS }
+			AST_2527 = { any_pop = { literacy = 0.15 } }
+			AST_2527 = { life_rating = 20 }
 		}
 	}
 	A09_colonisation3 = {
@@ -81,9 +81,9 @@ political_decisions = {
 		effect = {	
 			set_country_flag = A09_colonisation3
 			prestige = 2
-			AST_2427 = { secede_province = THIS }
-			AST_2427 = { any_pop = { literacy = 0.15 } }
-			AST_2427 = { life_rating = 20 }
+			AST_2454 = { secede_province = THIS }
+			AST_2454 = { any_pop = { literacy = 0.15 } }
+			AST_2454 = { life_rating = 20 }
 		}
 	}
 
@@ -176,9 +176,7 @@ political_decisions = {
 		}
 		allow = {
 			tag = D08 
-			OR = {
-				NOT = { exists = BRU }
-			}
+			NOT = { exists = BRU }
 		}
 		effect = {
 			change_tag = A09

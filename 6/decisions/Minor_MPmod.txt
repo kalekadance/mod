@@ -21,7 +21,7 @@ political_decisions = {
 		effect = { money = 500000 }
 	}
 
-	izi_money1 = { 
+	izi_money2 = { 
 		picture = graet_eic
 		potential = { ai=yes }
 		allow = { NOT = { money = 500000 }
@@ -35,7 +35,7 @@ political_decisions = {
 			ai=yes
 			NOT = { has_country_flag = ai_baff }
 		}
-		allow = { year = 1836 }
+		allow = { ai=yes }
 		effect = { set_country_flag = ai_baff
 			add_country_modifier = { 
 				name =  prussian_general_staff duration = -1
@@ -48,11 +48,14 @@ political_decisions = {
 			ai=yes
 			NOT = { has_country_flag = ai_baff1 }
 		}
-		allow = { year = 1850 }
+		allow = { 
+			ai=yes
+			year = 1850
+		}
 		effect = { 
-			set_country_flag = ai_baff
+			set_country_flag = ai_baff1
 			add_country_modifier = { 
-				name =  prussian_general_staff2 duration = -1
+				name = prussian_general_staff2 duration = -1
 			}
 		}
 	}
@@ -109,7 +112,6 @@ form_anjou_kingdom = {
 			prestige = 20
 			ruling_party_ideology = conservative
 			add_accepted_culture = french
-			add_core=418
 			add_core=415
 			add_core=417
 			add_core=416
@@ -146,7 +148,7 @@ form_anjou_kingdom = {
 		}
 	}
 
-remove_irish_cores {
+remove_irish_cores = {
 	picture = graet_eic
 	potential = {
 		tag = A01
@@ -205,7 +207,7 @@ remove_irish_cores {
 		}
 }
 
-test_ships = {
+	test_ships = {
 	picture = graet_eic
 	potential = {
 		NOT = {
@@ -729,7 +731,6 @@ form_Franco_Iberia = {
 			add_core = 615
 			add_core = 612
 			add_core = 735
-			add_core = 600
 			add_core = 614
 		}
 			ai_will_do = {
@@ -780,14 +781,14 @@ form_Franco_Iberia = {
 		}
 	}
 
-	form_HRE = {
+	form_A05 = {
 	picture = graet_eic
 		potential = {
 			tag = CZH
 			AND = {
 				has_country_flag = CZH_claims
 				NOT = {
-					has_country_flag = form_HRE
+					has_country_flag = form_A05
 				}
 			}
 		}	
@@ -797,7 +798,7 @@ form_Franco_Iberia = {
 		}
 		
 		effect = {
-			set_country_flag = form_HRE
+			set_country_flag = form_A05
 			add_accepted_culture = north_german
 			change_tag = A05
 			prestige = 20
@@ -829,12 +830,12 @@ form_Franco_Iberia = {
 		}
 	
 	}
-	HRE_raise = {
+	A05_raise = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
+			tag = A05
 			NOT = {
-					has_country_flag = HRE_raise
+					has_country_flag = A05_raise
 			}
 		}	
 		allow = {
@@ -849,19 +850,19 @@ form_Franco_Iberia = {
 			SER_794 = { add_core = THIS }
 			TUR_803 = { add_core = THIS }
 			MON_2582 = { add_core = THIS }
-			set_country_flag = HRE_raise
+			set_country_flag = A05_raise
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	HRE_raise1 = {
+	A05_raise1 = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
-			has_country_flag = HRE_raise
+			tag = A05
+			has_country_flag = A05_raise
 			NOT = {
-					has_country_flag = HRE_raise1
+					has_country_flag = A05_raise1
 			}
 		}	
 		allow = {
@@ -871,7 +872,7 @@ form_Franco_Iberia = {
 		
 		effect = {
 			add_accepted_culture = bulgarian
-			set_country_flag = HRE_raise1
+			set_country_flag = A05_raise1
 			TUR_810 = { add_core = THIS }
 			TUR_805 = { add_core = THIS }
 			TUR_860 = { add_core = THIS }
@@ -880,13 +881,13 @@ form_Franco_Iberia = {
 			factor = 1
 		}
 	}
-	HRE_nord = {
+	A05_nord = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
-			has_country_flag = HRE_raise
+			tag = A05
+			has_country_flag = A05_raise
 			NOT = {
-					has_global_flag = HRE_nord	
+					has_global_flag = A05_nord	
 			}
 		}	
 		allow = {
@@ -896,19 +897,19 @@ form_Franco_Iberia = {
 		effect = {
 			add_accepted_culture = danish
 			DEN_251 = { add_core = THIS }
-			set_global_flag = HRE_nord	
+			set_global_flag = A05_nord	
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	HRE_nord1 = {
+	A05_nord1 = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
-			has_global_flag = HRE_nord
+			tag = A05
+			has_global_flag = A05_nord
 			NOT = {
-					has_global_flag = HRE_nord1
+					has_global_flag = A05_nord1
 			}
 		}	
 		allow = {
@@ -917,19 +918,19 @@ form_Franco_Iberia = {
 		
 		effect = {
 			add_accepted_culture = swedish
-			set_global_flag = HRE_nord1
+			set_global_flag = A05_nord1
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	HRE_nord2 = {
+	A05_nord2 = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
-			has_global_flag = HRE_nord1
+			tag = A05
+			has_global_flag = A05_nord1
 			NOT = {
-					has_global_flag = HRE_nord2
+					has_global_flag = A05_nord2
 			}
 		}	
 		allow = {
@@ -943,19 +944,19 @@ form_Franco_Iberia = {
 			SWE_318 = { add_core = THIS }
 			SWE_308 = { add_core = THIS }
 			add_accepted_culture = finnish
-			set_global_flag = HRE_nord2
+			set_global_flag = A05_nord2
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}	
-	HRE_Inter = {
+	A05_Inter = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
+			tag = A05
 			has_global_flag = form_Intermarium33
 			NOT = {
-					has_global_flag = HRE_Inter
+					has_global_flag = A05_Inter
 			}
 		}	
 		allow = {
@@ -967,19 +968,19 @@ form_Franco_Iberia = {
 			WAL_665 = { add_core = THIS }
 			MOL_673 = { add_core = THIS }
 			RUS_676 = { add_core = THIS }
-			set_global_flag = HRE_Inter	
+			set_global_flag = A05_Inter	
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	HRE_Inter1 = {
+	A05_Inter1 = {
 	picture = graet_eic
 		potential = {
-			tag = HRE
-			has_global_flag = HRE_Inter
+			tag = A05
+			has_global_flag = A05_Inter
 			NOT = {
-					has_global_flag = HRE_Inter1
+					has_global_flag = A05_Inter1
 			}
 		}	
 		allow = {
@@ -988,7 +989,7 @@ form_Franco_Iberia = {
 		
 		effect = {
 			add_accepted_culture = ukrainian
-			set_global_flag = HRE_Inter1	
+			set_global_flag = A05_Inter1	
 		}
 		ai_will_do = {
 			factor = 1
@@ -1377,7 +1378,6 @@ graet_pol3 = {
 			add_core = 946
 			add_core = 945
 			add_core = 944
-			add_core = 948
 			add_core = 718
 			add_core = 938
 			add_core = 936

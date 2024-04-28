@@ -395,45 +395,45 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	# ------------------------------------------Великобритания---------------------------------------
-	diplomaty_eic = {
-	picture = diplomaty_eic
-		potential = {
-
-			tag = ENG
-			is_greater_power = yes
-			EIC = {
-				#civilized = yes
-				in_sphere = THIS
-				ai = yes
-			}
-			NOT = {
-				has_country_flag = diplomaty_eic
-			}
-			
-		}
-		
-		allow = {
-			prestige = 100
-			NOT = {
-					year = 1841
-				}
-			#nationalism_n_imperialism = 1
-		
-		}
-		
-		effect = {
-			set_country_flag = diplomaty_eic
-			#inherit = EIC
-			create_vassal = EIC
-
-			prestige = 30
-			badboy = 2
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	#------------------------------------------Великобритания---------------------------------------
+	#	diplomaty_eic = {
+	#	icture = diplomaty_eic
+	#		potential = {
+	#
+	#			tag = ENG
+	#			is_greater_power = yes
+	#			EIC = {
+	#				#civilized = yes
+	#				in_sphere = THIS
+	#				ai = yes
+	#			}
+	#			NOT = {
+	#				has_country_flag = diplomaty_eic
+	#			}
+	#			
+	#		}
+	#		
+	#		allow = {
+	#			prestige = 100
+	#			NOT = {
+	#					year = 1841
+	#				}
+	#			#nationalism_n_imperialism = 1
+	#		
+	#		}
+	#		
+	#		effect = {
+	#			set_country_flag = diplomaty_eic
+	#			#inherit = EIC
+	#			create_vassal = EIC
+	#
+	#			prestige = 30
+	#			badboy = 2
+	#		}
+	#		ai_will_do = {
+	#			factor = 0
+	#		}
+	#	
 	# ---------------------------------------------------- БОИК -------------------------------------------------------------
 	#Razdel_penjaba = {
 	#picture = graet_eic
@@ -508,7 +508,7 @@ political_decisions = {
 			add_accepted_culture = kannada
 			add_accepted_culture = nepali
 				NAG_1277 = {remove_core = BHO
-				remove_core = NAG_1277
+				remove_core = NAG
 				}
 				1245 = {remove_core = NAG}
 		}
