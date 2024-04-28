@@ -24,7 +24,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 13
-		combat_width = 0.10
 	}
 	
 	forest = {
@@ -89,8 +88,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 11
-		combat_width = 0.10
-
 	}
 	plains = {
 		movement_cost = 0.9
@@ -140,7 +137,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		supply_limit = 5
-		combat_width = 0.10
 	}
 	
 	coastal_desert = {

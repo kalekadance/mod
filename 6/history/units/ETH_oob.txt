@@ -3,7 +3,7 @@ leader = {
  type = land
  date = 1836.1.1
  background = zunsi
- personality = Av213238 
+ personality = av213238
 }
 
 army = {

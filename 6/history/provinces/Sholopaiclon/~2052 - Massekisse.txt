@@ -1,4 +1,0 @@
-owner = D16
-controller = D16
-trade_goods = grain
-life_rating = 15

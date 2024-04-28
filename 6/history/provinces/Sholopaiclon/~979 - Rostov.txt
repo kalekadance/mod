@@ -1,8 +1,0 @@
-owner = D14
-controller = D14
-add_core = MTC
-add_core = UKR
-add_core = D14
-trade_goods = coal
-life_rating = 35
-naval_base = 1 

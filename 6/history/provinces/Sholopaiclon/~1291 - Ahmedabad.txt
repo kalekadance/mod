@@ -1,6 +1,0 @@
-owner = JOD
-controller = JOD
-add_core = JOD
-add_core = IGM
-trade_goods = tobacco
-life_rating = 35

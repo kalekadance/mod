@@ -1,4 +1,0 @@
-owner = D15
-controller = D15
-trade_goods = sulphur
-life_rating = 15

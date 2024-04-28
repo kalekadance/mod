@@ -1,7 +1,0 @@
-owner = CUB
-controller = CUB
-add_core = CUB
-add_core = GCO
-add_core = GUA
-trade_goods = tobacco
-life_rating = 35

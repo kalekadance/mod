@@ -1,5 +1,5 @@
 color = { 130 195 255 }
-graphical_culture = GermanGC
+graphical_culture = EuropeanGC
 
 
 party = {

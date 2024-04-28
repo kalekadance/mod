@@ -6,6 +6,7 @@ political_decisions = {
 			ai = no
 		}
 		allow = {
+			ai = no
 			NOT = {
 				has_country_modifier = grant_request_cooldown_modifier
 			}

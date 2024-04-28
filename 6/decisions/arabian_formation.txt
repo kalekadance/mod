@@ -279,39 +279,26 @@ political_decisions = {
 	picture = brazzas_expedition
 
 		potential = {
-		NOT = {
-				has_country_flag = sasai_kudasai
-			}
-		OR =
-		{ tag = EGY
-			tag = ARA }
+			NOT = { has_country_flag = sasai_kudasai }
+			OR = { tag = EGY tag = ARA }
 		}
 		
 		allow = {
-		OR = {
-		AND = {
-			 owns = 1151
+			owns = 1151
 			owns = 1178
 			owns = 1166
 			owns = 1167
 			owns = 1160
 			owns = 1157
-			owns = 1156]
+			owns = 1156
 			year = 1870
-			 }
 		}
-		}
+		
+		
 		effect = {
 			prestige = 35
-			 research_points = 8000
-			 set_country_flag = sasai_kudasai
-			 EGY_915  = {
-			 add_core = ARA
-			 }
-			 
-			 
-			 
-			
+			research_points = 8000
+			set_country_flag = sasai_kudasai
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,6 +1,6 @@
 owner = RHO
 controller = RHO
-core = RHO
+add_core = RHO
 trade_goods = fish
 life_rating = 35
 

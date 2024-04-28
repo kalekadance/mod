@@ -1,8 +1,0 @@
-owner = NEW
-controller = NEW
-add_core = GCO
-add_core = NEW
-add_core = CAN
-add_core = QUE
-trade_goods = fish
-life_rating = 35

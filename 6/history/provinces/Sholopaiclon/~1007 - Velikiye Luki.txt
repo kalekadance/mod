@@ -1,8 +1,0 @@
-owner = D14
-controller = D14
-add_core = MTC
-add_core = UKR
-add_core = D14
-add_core = FIN
-trade_goods = grain
-life_rating = 35

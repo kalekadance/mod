@@ -178,8 +178,8 @@ political_decisions = {
 			effect = {
 				RUS_980 = { add_core = A08 }
 				RUS_964 = { add_core = A08 }
-				RUS_1018 = { add_core = A08 }
-				has_country_flag = A08_intermarium 					   
+				RUS_977 = { add_core = A08 }
+				set_country_flag = A08_intermarium 					   
 			}
 	}			
 	

@@ -1,5 +1,0 @@
-owner = MTC
-controller = MTC
-add_core = MTC
-trade_goods = fish
-life_rating = 30

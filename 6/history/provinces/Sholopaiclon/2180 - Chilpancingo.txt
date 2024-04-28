@@ -1,6 +1,5 @@
 owner = GUA
 controller = GUA
 add_core = GCO
-add_core = MEX
 trade_goods = cattle
 life_rating = 35
