@@ -18,6 +18,15 @@ personality = {
 	no_personality = {
 		attack = -3
 	}
+	sergo = {
+		attack = 2
+		organisation = -0.10
+		morale = 0.1
+	}
+	kaleka = {
+		reconnaissance = 2
+		morale = -1
+	}
 	av213238 = {
 		attack = 4
 		experience = 0.15
@@ -343,10 +352,22 @@ background = {
 	no_background = {
 		defence = -3
 	}
+	pekora = {
+		reliability = 0.01
+		speed = 0.10
+		defence = 1
+		experience = -0.10
+	}
 	manful = {
 		defence = 4
 		reliability = 0.10
 		organisation = 0.20	
+	}
+	lev = {
+		defence = 3
+		speed = -0.10
+		organisation = 0.30
+		attrition = -0.20		
 	}
 	rpg = {
 		defence = 3

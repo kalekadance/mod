@@ -1,3438 +1,3558 @@
-#Yukon Region - 12000
-#uncolonized in 1836
-#Whitehorse (4000/1000 POPS)
+#Whitehorse
 6 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Dawson (4000/1000 POPS)
+
+#Dawson
 7 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Ross River (4000/1000 POPS)
+
+#Ross River
 8 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
 
 }
-#Northwest Territories & Keewatin Regions - 28000
-#uncolonized in 1836
-#Fort Simpson (2400/600 POPS)
+
+#Fort Simpson
 9 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 30
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 30
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 520
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 520
+    }
+
 }
-#Inuvik (4000/1000 POPS)
+
+#Inuvik
 10 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Echo Bay (4000/1000 POPS)
+
+#Echo Bay
 11 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Reliance (2000/500 POPS)
+
+#Reliance
 12 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 450
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 450
+    }
+
 }
-#Fort Resolution (2000/500 POPS)
+
+#Fort Resolution
 2596 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 450
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 450
+    }
+
 }
-#Fort Liard (1600/400 POPS)
+
+#Fort Liard
 2598 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 360
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 360
+    }
+
 }
-#Arviat (3200/800 POPS)
+
+#Arviat
 43 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 40
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 40
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 725
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 725
+    }
+
 }
-#Baker Lake (2000/500 POPS)
+
+#Echo Bay
 44 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 450
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 450
+    }
+
 }
-#Baffin Island (4000/1000 POPS)
+
+#Baffin Island
 45 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 900
+    }
 
 }
-#Whale Cove (2800/700 POPS)
+
+#Nunavut
 2595 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 35
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 35
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 630
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 630
+    }
 
 }
-#British Columbia Region : 64000
-#uncolonized in 1836
-#Vancouver (12000/3000 POPS)
+
+#Vancouver
 13 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 8624
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 8624
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 6000
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 6000
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 204345
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 204345
+    }
 
 }
-#Vancouver Island (8000/2000 POPS)
+
+#Vancouver Island
 14 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
+
 }
-#Prince Rupert (8000/2000 POPS)
+
+#Prince Rupert
 15 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 4000
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 4000
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2500
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2500
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 75462
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 75462
+    }
+
 }
-#Glenora (4000/1000 POPS)
+
+#Glenora
 16 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Atlin (4000/1000 POPS)
+
+#Atlin
 17 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Fort St John (2400/600 POPS)
+
+#Fort Saint John
 18 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 30
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 30
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 520
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 520
+    }
+
 }
-#Prince George (8000/2000 POPS)
+
+#Prince George
 19 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
+
 }
-#Kelowna (8000/2000 POPS)
+
+#Kelowna
 20 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
+
 }
-#Vernon (8000/2000 POPS)
+
+#Vernon
 21 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
 
 }
-#Fort Nelson (1600/400 POPS)
+
+#Beatton River
 2629 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 2000
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 2000
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 180000
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 180000
+    }
+
 }
-#Alberta Region: 64000
-#uncolonized in 1836
-#Edmonton (16000/4000 POPS)
+
+#Edmonton
 22 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
+
 }
-#Athabaska Landing (4800/1200 POPS)
+
+#Athabaska Landing
 23 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 20
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 60
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 60
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1080
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1080
+    }
+
 }
-#Jasper (4000/1000 POPS)
+
+#Jasper
 24 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Banff (4000/1000 POPS)
+
+#Banff
 25 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 202467
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 202467
+    }
+
 }
-#Calgary (8000/2000 POPS)
+
+#Calgary
 26 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
+
 }
-#Denwood (8000/2000 POPS)
+
+#Denwood
 27 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 96462
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 96462
+    }
+
 }
-#Fort MacLeod (8000/2000 POPS)
+
+#Fort MacLeod
 28 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 3543
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 3543
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 5012
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 5012
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 131260
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 131260
+    }
+
 }
-#Medicine Hat (8000/2000 POPS)
+
+#Medicine Hat
 29 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 3247
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 3247
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 86452
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 86452
+    }
 
 }
-#Fort Vermillion (3200/800 POPS)
+
+#Fort Vermilion
 2597 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 20
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 40
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 40
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 715
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 90715
+    }
+
 }
-#Saskatchewan Region : 44000
-#uncolonized in 1836
-#Regina (12000/3000 POPS)
+
+#Regina
 30 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1750
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
+
 }
-#Stanley (4000/1000 POPS)
+
+#Stanley
 31 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 120000
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 120000
+    }
+
 }
-#Prince Albert (8000/2000 POPS)
+
+#Prince Albert
 32 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 9000
+    }
+
 }
-#Asquith (8000/2000 POPS)
+
+#Asquith
 33 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 9000
+    }
+
 }
-#Saskatoon (8000/2000 POPS)
+
+#Saskatoon
 34 = {
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 9000
+    }
+
 }
-#Maple Creek (4000/1000 POPS)
+
+#Maple Creek
 35 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 9000
+    }
 
 }
-#Manitoba Region : 52000
-#uncolonized in 1836
-#Winnipeg (12000/3000 POPS)
+
+#Winnipeg
 36 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 90100
+    }
+
 }
-#Churchill (4000/1000 POPS)
+
+#Churchill
 37 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 90900
+    }
+
 }
-#Indian Lakes (4000/1000 POPS)
+
+#Indian Lakes
 38 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 54235
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 94235
+    }
+
 }
-#Norway House (8000/2000 POPS)
+
+#Norway House
 39 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 48564
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 98564
+    }
+
 }
-#Dauphin (8000/2000 POPS)
+
+#Dauphin
 40 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 91000
+    }
+
 }
-#Brandon (8000/2000 POPS)
+
+#Brandon
 41 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 90100
+    }
+
 }
-#Pembina (8000/2000 POPS)
+
+#Pembina
 42 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 90100
+    }
 
 }
-#Ontario Region : 448000
-#uncolonized in 1836
-#Fort Severn (2800/700 POPS)
+
+#Fort Severn
 47 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 35
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 35
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 630
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 20630
+    }
+
 }
-#Fort Albany (6400/1600 POPS)
+
+#Fort Albany
 48 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 35
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 35
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 80
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 80
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 20
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 20
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 1440
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 1440
+    }
+
 }
-#Dryden (12000/3000 POPS)
+
+#Dryden
 49 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 32750
+    }
 
-	clergymen = {
-		culture = metis
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = metis
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = metis
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = metis
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = metis
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = metis
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = metis
-		religion = orthodox
-		size = 910
-	}
+    farmers = {
+        culture = metis
+        religion = orthodox
+        size = 910
+    }
+
 }
-#Thunder Bay (8000/2000 POPS)
+
+#Thunder Bay
 50 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1750
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 31750
+    }
+
 }
-#Sault Ste Marie (8000/2000 POPS)
+
+#Sault Ste Marie
 51 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 30900
+    }
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10900
+    }
+
 }
-#Sudbury (8000/2000 POPS)
+
+#Sudbury
 52 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 6000
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 6000
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 6945
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 6945
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 175000
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 175000
+    }
+
 }
-#Barrie (4000/1000 POPS)
+
+#Barrie
 53 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
 
 }
-#Pickle Lake (1200/3000 POPS)
+
+#Pickle
 2594 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 265
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 20265
+    }
 
 }
-#Attawapiskat (5600/1600 POPS)
+
+#Attawapiskat
 2628 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 35
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 35
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 80
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 80
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 1445
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 21445
+    }
 
 }
-#ruled by Britain in 1836
-#Toronto (172000/43000 POPS)
+
+#Toronto
 46 = {
-	bureaucrats = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 250
-	}
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2500
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2500
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 1100
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 1100
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 39000
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 39000
+    }
+
 }
-#Windsor (36000/9000 POPS)
+
+#Windsor
 54 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 500
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 500
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	labourers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 8350
-	}
+    labourers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 8350
+    }
+
 }
-#Hamilton (68000/17000 POPS)
+
+#Hamilton
 55 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 1100
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 1100
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 200
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 15700
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 15700
+    }
+
 }
-#Kingston (72000/18000 POPS)
+
+#Kingston
 56 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 1750
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 1750
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 175
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 175
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 13925
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 13925
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 250
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1700
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1700
+    }
+
 }
-#Ottawa (44000/11000 POPS)
+
+#Ottawa
 57 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2000
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2000
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 300
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 300
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 3124
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 3124
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 55450
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 255450
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1000
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1000
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 200
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 200
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 3700
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 3700
+    }
 
 }
-#Quebec Region : 676000
-#uncolonized in 1836
-#Nitchequon (2800/700 POPS)
+
+#Nitchequon
 59 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 35
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 35
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 630
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 630
+    }
 
 }
-#Erik Cove (2400/600 POPS)
+
+#Ungava
 2592 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 360
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 360
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 2
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 2
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 3
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 3
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 180
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 180
+    }
 
 }
-#Port Harrison (2400/600 POPS)
+
+#Port Harrison
 2626 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 2
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 2
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 3
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 3
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 180
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 180
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 360
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 360
+    }
+
 }
-#Fort Chimo (2400/600 POPS)
+
+#Fort Chimo
 2627 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 360
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 360
+    }
 
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 2
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 2
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 3
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 3
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 180
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 180
+    }
+
 }
-#Fort Rupert (2400/600 POPS)
+
+#Charles Fort
 60 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 30
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 30
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 520
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 520
+    }
+
 }
-#Fort George (1600/400 POPS)
+
+#Fort George
 2593 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 20
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 20
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 360
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 360
+    }
+
 }
-#ruled by Britain in 1836
-#58 - Montreal (248000/62000 POPS)
+
+#Montreal
 58 = {
-	bureaucrats = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 200
-	}
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 200
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 5341
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 5341
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 5000
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 5000
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 9000
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 9000
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 134250
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 134250
+    }
 
-	bureaucrats = {
-		culture = french_canadian
-		religion = orthodox
-		size = 100
-	}
+    bureaucrats = {
+        culture = french_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 6000
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 6000
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 400
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 400
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 36000
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 36000
+    }
+
 }
-#Chicoutimi (11200/2800 POPS)
+
+#Chicoutimi
 61 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 20
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 20
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 40
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 40
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 715
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 715
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1825
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1825
+    }
+
 }
-#Sept-Iles (8000/2000 POPS)
+
+#Sept-Iles
 62 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 15
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 900
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 900
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 915
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 915
+    }
+
 }
-#Temiscaming (16000/4000 POPS)
+
+#Temiscaming
 63 = {
-	aristocrats = {
-		culture = cree
-		religion = orthodox
-		size = 10
-	}
+    aristocrats = {
+        culture = cree
+        religion = orthodox
+        size = 10
+    }
 
-	clergymen = {
-		culture = cree
-		religion = orthodox
-		size = 5243
-	}
+    clergymen = {
+        culture = cree
+        religion = orthodox
+        size = 5243
+    }
 
-	artisans = {
-		culture = cree
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = cree
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = cree
-		religion = orthodox
-		size = 7000
-	}
+    soldiers = {
+        culture = cree
+        religion = orthodox
+        size = 7000
+    }
 
-	farmers = {
-		culture = cree
-		religion = orthodox
-		size = 1000
-	}
+    farmers = {
+        culture = cree
+        religion = orthodox
+        size = 1000
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 127050
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 127050
+    }
+
 }
-#Trois-Rivieres (68000/17000 POPS)
+
+#Trois Rivieres
 64 = {
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 175
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1100
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1100
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	labourers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 15675
-	}
+    labourers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 105675
+    }
+
 }
-#Quebec City (188000/47000 POPS)
+
+#Quebec City
 65 = {
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 3854
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 3854
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 3000
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 3000
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 500
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 500
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 51000
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 51000
+    }
+
 }
-#Sherbrooke (68000/17000 POPS)
+
+#Sherbrooke
 66 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 400
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 400
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 4450
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 4450
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 700
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 700
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 10900
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 10900
+    }
+
 }
-#Riviere du Loup (56000/14000 POPS)
+
+#Rimouski
 67 = {
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 750
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	labourers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 12950
-	}
+    labourers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 12950
+    }
 
 }
-#New Brunswick Region : 148000
-#Ruled by Britain 1836
-#Fredericton (84000/21000 POPS)
+
+#Fredericton
 68 = {
-	bureaucrats = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 75
-	}
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 6504
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 6504
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 750
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 3000
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 3000
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50750
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50750
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 350
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 350
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 6400
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 6400
+    }
+
 }
-#Bathurst (64000/16000 POPS)
+
+#Bathurst
 69 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 600
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 600
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 150
+    }
 
-	labourers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 11175
-	}
+    labourers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 11175
+    }
 
-	clergymen = {
-		culture = french_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = french_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = french_canadian
-		religion = orthodox
-		size = 200
-	}
+    artisans = {
+        culture = french_canadian
+        religion = orthodox
+        size = 200
+    }
 
-	soldiers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 3725
-	}
+    farmers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 3725
+    }
 
 }
-#Prince Edward Island Region : 32000
-#Ruled by Britain 1836
-#Prince Edward Island (32000/8000 POPS)
+
+#Prince Edward Island
 70 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 1500
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 1500
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 6350
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 6350
+    }
+
 }
-#Canada - Nova Scotia Region : 147000
-#Ruled by Britain 1836
-#Halifax (83000/20750 POPS)
+
+#Halifax
 71 = {
-	bureaucrats = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 4000
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 4000
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 200
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 14600
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 14600
+    }
 
-	labourers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1100
-	}
+    labourers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1100
+    }
 
-	labourers = {
-		culture = afro_american
-		religion = orthodox
-		size = 750
-	}
+    labourers = {
+        culture = afro_american
+        religion = orthodox
+        size = 750
+    }
+
 }
-#Truro (44000/11000 POPS)
+
+#Truro
 72 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 750
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2000
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2000
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 21040
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 21040
+    }
 
-	labourers = {
-		culture = french_canadian
-		religion = orthodox
-		size = 1100
-	}
+    labourers = {
+        culture = french_canadian
+        religion = orthodox
+        size = 1100
+    }
+
 }
-#Cape Breton Island (20000/5000 POPS)
+
+#Cape Breton Island
 73 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 250
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 4650
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 4650
+    }
 
 }
-#Newfoundland Region - 84000
-#Ruled by Britain in 1836
-#Saint John's (52000/13000 POPS)
+
+#Saint Johns
 74 = {
-	bureaucrats = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2000
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 2825
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 2825
+    }
 
-	clergymen = {
-		culture = irish
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = irish
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = irish
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 2000
+    }
 
-	farmers = {
-		culture = irish
-		religion = orthodox
-		size = 6900
-	}
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 6900
+    }
+
 }
-#Millertown (24000/6000 POPS)
+
+#Millertown
 75 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 250
-	}
+    artisans = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 250
+    }
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = anglo_canadian
-		religion = orthodox
-		size = 4625
-	}
+    farmers = {
+        culture = anglo_canadian
+        religion = orthodox
+        size = 4625
+    }
 
-	clergymen = {
-		culture = irish
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = irish
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = irish
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = irish
-		religion = orthodox
-		size = 800
-	}
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 800
+    }
+
 }
-#Hopedale (2000/500 POPS)
+
+#Hopedale
 76 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 10
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 10
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 5
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 5
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 450
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 450
+    }
 
 }
-#Cartwright (6000/1500 POPS)
+
+#Port Hope Simpson
 2625 = {
-	aristocrats = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = inuit
-		religion = orthodox
-		size = 75
-	}
+    artisans = {
+        culture = inuit
+        religion = orthodox
+        size = 75
+    }
 
-	soldiers = {
-		culture = inuit
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = inuit
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = inuit
-		religion = orthodox
-		size = 1350
-	}
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 1350
+    }
 
 }
-#St Pierre & Miquelon (2000)
-#Ruled by France 1836
-#Saint Pierre (2000/500 POPS)
+
+#St Pierre & Miquelon
 77 = {
-	bureaucrats = {
-		culture = french
-		religion = orthodox
-		size = 1
-	}
+    bureaucrats = {
+        culture = french
+        religion = orthodox
+        size = 1
+    }
 
-	clergymen = {
-		culture = french
-		religion = orthodox
-		size = 4
-	}
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 4
+    }
 
-	artisans = {
-		culture = french
-		religion = orthodox
-		size = 45
-	}
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 45
+    }
 
-	labourers = {
-		culture = french
-		religion = orthodox
-		size = 450
-	}
+    labourers = {
+        culture = french
+        religion = orthodox
+        size = 450
+    }
 
 }
+

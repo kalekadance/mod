@@ -1,7 +1,7 @@
 country_event = {
 
 	id = 32500
-	news = no
+	news = yes
 	news_desc_long = "EVTDESC32500_NEWS_LONG"
 	news_desc_medium = "EVTDESC32500_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC32500_NEWS_SHORT"
@@ -171,7 +171,7 @@ country_event = {
 country_event = {
 
 	id = 32505
-	news = no
+	news = yes
 	news_desc_long = "EVTDESC32505_NEWS_LONG"
 	news_desc_medium = "EVTDESC32505_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC32505_NEWS_SHORT"

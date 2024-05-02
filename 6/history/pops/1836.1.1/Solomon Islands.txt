@@ -1,66 +1,68 @@
-#Central Melanesia (54000) 
-#uncolonized in 1836
-#Solomon Islands (48000/12000 POPS) 
+#Solomon Islands
 2534 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 225
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 225
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 125
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3125
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 2600
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 12600
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 112
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3112
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 180925
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 180925
+    }
+
 }
-#Santa Cruz Islands (6000/1500 POPS) 
+
+#Santa Cruz Islands
 2536 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 250
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 350
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 350
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 750
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 111
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 111
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 130350
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 130350
+    }
+
 }
+

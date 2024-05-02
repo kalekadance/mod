@@ -1,0 +1,485 @@
+political_decisions = {
+	native_american_minor = {
+		picture = manifesto14 
+		potential = {
+			tag = CAN
+			NOT = {
+				accepted_culture = native_american_minor
+			}
+				
+
+		}
+		allow = {
+			money = 100000
+			positivism = 1
+			upper_house = {
+				ideology = liberal
+				value = 0.15
+			}
+		}
+		effect = {
+			money = -100000
+			add_accepted_culture = native_american_minor
+			prestige = 10
+			any_pop = {
+				militancy = -1
+			}
+		}
+	}
+
+	SA_Governor_Generals_rights = {
+		picture = REFORMA_V_INDII
+		potential = {
+			tag = ENG
+			 
+			is_sphere_leader_of = SAF
+			exists = SAF
+		}
+		allow = {
+			NOT = {
+			has_country_modifier = cd_sa_governor_generals_rights
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cd_sa_governor_generals_rights
+				duration = 1825
+			}
+			ENG = {
+				country_event = { id=11111111 days=0 }
+			}
+		}
+			
+	}
+	
+
+	Canadian_Governor_Generals_rights = {
+		picture = form_italy_min
+		potential = {
+			tag = ENG
+			exists = SAF
+			is_sphere_leader_of = CAN
+			exists = CAN
+		}
+		allow = {
+			NOT = {
+			has_country_modifier = cd_canadian_governor_generals_rights
+			}
+		} 
+		effect = {
+			add_country_modifier = {
+				name = cd_canadian_governor_generals_rights
+				duration = 1825
+			}
+			ENG = {
+				country_event = { id=999999 days=0 }
+			}
+		}
+	}
+
+	Mantiba_colonisation = {
+		picture = kanun_i_esasi
+		potential = {
+			tag = CAN
+			NOT = {
+				owns = 38
+			}
+			USA = {
+				NOT = {
+					owns = 38
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 38
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 38
+				}
+			}
+
+		}
+		allow = {
+			prestige = 10
+			has_country_modifier = british_helping_in_colonisation
+			iron = 5000
+			timber = 5000
+		}
+		effect = {
+			prestige = 2
+			remove_country_modifier = british_helping_in_colonisation
+			38= { secede_province = CAN }
+            39= { secede_province = CAN }
+            40= { secede_province = CAN }
+            iron = -5000
+			timber = -5000
+			
+		}
+	}
+	Saskachevan_colonisation = {
+		picture = kansas_nebraska_act
+		potential = {
+			tag = CAN
+			NOT = {
+				owns = 34
+			}
+			USA = {
+				NOT = {
+					owns = 34
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 34
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 34
+				}
+			}
+							
+		}
+		allow = {
+			prestige = 10
+			has_country_modifier = british_helping_in_colonisation
+			regular_clothes = 5000
+			coal = 5000
+					}
+		effect = {
+			prestige = 2
+			remove_country_modifier = british_helping_in_colonisation
+			33= { secede_province = CAN }
+            34= { secede_province = CAN }
+            32= { secede_province = CAN }
+            31= { secede_province = CAN }
+			regular_clothes = -5000
+			coal = -5000
+		}
+	}
+	
+	Alberta_colonisation = {
+		picture = manifesto12
+		potential = {
+			tag = CAN
+			NOT = {
+				owns = 22
+			}
+			USA = {
+				NOT = {
+					owns = 22
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 22
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 22
+				}
+			}
+		}
+		allow = {
+			prestige = 10
+			has_country_modifier = british_helping_in_colonisation
+			furniture = 5000
+			tobacco = 10000
+			wine = 1000
+			opium = 100
+			fish = 2000
+			fruit= 3000
+			canned_food = 5000
+			paper = 5000
+		}
+		effect = {
+			prestige = 2
+			remove_country_modifier = british_helping_in_colonisation
+			23= { secede_province = CAN }
+            2597 = { secede_province = CAN }
+			27 = { secede_province = CAN }
+			2597= { secede_province = CAN }
+			26 = { secede_province = CAN }
+			25 = { secede_province = CAN }
+			24 = { secede_province = CAN }
+			22 = { secede_province = CAN }
+			furniture = -5000
+			tobacco = -10000
+			wine = -1000
+			opium = -100
+			fish = -2000
+			fruit= -3000
+			canned_food = -5000
+			paper = -5000
+		}
+	}
+	
+	Colambia_colonisation = {
+		picture = manifesto13
+		potential = {
+			tag = CAN
+			NOT = {
+				owns = 18
+			}
+			USA = {
+				NOT = {
+					owns = 18
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 18
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 18
+				}
+			}
+			
+		}
+		allow = {
+			has_country_modifier = british_helping_in_colonisation
+			prestige = 10
+			grain = 10000
+		}
+		effect = {
+			prestige = 2
+			remove_country_modifier = british_helping_in_colonisation
+			19= { secede_province = CAN }
+            18= { secede_province = CAN }
+			2629= { secede_province = CAN }
+			grain = -10000
+		}
+	}
+
+	british_colonial_exp_for_can = {
+		picture = rhodesia_charter
+		potential = {
+			tag = ENG
+			exists = CAN
+			CAN = {
+				NOT = {
+					has_country_modifier = british_helping_in_colonisation
+				}
+			}
+			OR = {
+				CAN = {
+					NOT = {
+						owns = 18
+					}
+				}	
+				CAN = {
+					NOT = {
+						owns = 22
+					}
+				}
+				CAN = {
+					NOT = {
+						owns = 34
+					}
+				}
+				CAN = {
+					NOT = {
+						owns = 38
+					}
+				}
+			}	
+			
+		}
+		allow = {
+			is_sphere_leader_of = CAN
+			money = 21000
+		}
+		effect = {
+			money = -20000
+			CAN = {
+				country_event = { id=101125 days=0 }
+			}
+		}
+	}
+
+	the_greate_reconstruction = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+		}
+		allow = {
+			steel = 12000
+			lumber = 12000
+			coal = 12000
+			timber = 12000
+			machine_parts = 12000
+			money = 500000
+		}
+		effect = {
+			steel = -12000
+			lumber = -12000
+			coal = -12000
+			timber = -12000
+			machine_parts = -12000
+			money = -500000
+			set_country_flag = extreme_home_makeover
+			38 = {
+				life_rating = 33
+			}
+			39 = {
+				life_rating = 33
+			}
+			40 = {
+				life_rating = 15
+			}
+			43 = {
+				life_rating = 15
+			}
+			45 = {
+				life_rating = 15
+			}
+			31 = {
+				life_rating = 15
+			}
+			32 = {
+				life_rating = 15
+			}
+			33 = {
+				life_rating = 15
+			}
+			34 = {
+				life_rating = 15
+			}
+			23 = {
+				life_rating = 15
+			}
+			2597 = {
+				life_rating = 15
+			}
+			24 = {
+				life_rating = 15
+			}
+			22 = {
+				life_rating = 15
+			}
+			25 = {
+				life_rating = 15
+			}
+			26 = {
+				life_rating = 15
+			}
+			27 = {
+				life_rating = 15
+			}
+			2629 = {
+				life_rating = 15
+			}
+			18 = {
+				life_rating = 15
+			}
+			19 = {
+				life_rating = 15
+			}
+			17 = {
+				life_rating = 5
+			}
+			16 = {
+				life_rating = 5
+			}
+		}
+	}
+	new_england_will_be_ours = {
+		picture = an_elephant_for_america
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = new_england_will_be_ours
+			}
+		}
+		allow = {
+			year = 1881
+		}
+		effect = {
+		set_country_flag = new_england_will_be_ours
+			250 = {
+				add_core = CAN
+				remove_core = NEN
+			}
+			248 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			247 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			246 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			249 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+
+		}
+	}
+	Change_canadian_general-governer = {
+		picture = an_elephant_for_america
+		potential = {
+			tag = ENG
+			exists = CAN
+			CAN = {
+				NOT = {
+					has_country_modifier = CD_GG
+				}
+			}
+			ai = no
+			is_sphere_leader_of = CAN
+		}
+		allow = {
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = CD_GG
+				duration = 365
+			}
+			ENG = {
+				country_event = { id=101145 days=0 }
+			}
+
+		}
+	}
+	
+NAFTA = {
+		picture = manifesto14 
+		potential = {
+			tag = CAN
+			not = {
+			has_country_flag = nafta1
+			}
+		}
+		allow = {
+			in_sphere = USA
+			ai = no
+		}
+		effect = {
+		set_country_flag = nafta1
+			add_country_modifier = {
+				name = nafta_can
+				duration = 37650
+			}
+			USA = {
+			set_country_flag = nafta1
+				add_country_modifier = {
+					name = nafta_usa
+					duration = 37650
+				}
+			}
+		}
+	}		  
+}

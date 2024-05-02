@@ -3,3 +3,8 @@ controller = D23
 add_core = D23
 trade_goods = coal
 life_rating = 35
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}

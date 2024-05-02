@@ -3,3 +3,8 @@ controller = LUX
 add_core = GER
 trade_goods = precious_metal
 life_rating = 35
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

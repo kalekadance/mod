@@ -1,7 +1,5 @@
 owner = BRA
 controller = BRA
-add_core = PRU
-add_core = GER
 add_core = SGF
 trade_goods = iron
 life_rating = 45

@@ -3,3 +3,8 @@ controller = D08
 add_core = D08
 trade_goods = cattle
 life_rating = 35
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}

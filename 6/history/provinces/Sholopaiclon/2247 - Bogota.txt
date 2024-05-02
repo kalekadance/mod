@@ -3,3 +3,13 @@ controller = GCO
 add_core = GCO
 trade_goods = cattle
 life_rating = 45
+state_building = {
+	level = 2
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

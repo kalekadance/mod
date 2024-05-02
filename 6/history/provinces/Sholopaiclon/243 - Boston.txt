@@ -5,3 +5,8 @@ add_core = NEN
 trade_goods = grain
 life_rating = 45
 naval_base = 2 
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}

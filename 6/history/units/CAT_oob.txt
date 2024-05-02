@@ -1,0 +1,59 @@
+army = {	
+	name = "Armia Cataloni"
+	location = 503
+	regiment = {
+		name= "1-я инженерная бригада"
+		type = engineer
+		home = 501
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = dragoon
+		home = 504
+	}
+
+	regiment = {
+		name= "Летучая Бригада"
+		type = dragoon
+		home = 495
+	}
+
+	regiment = {
+		name= "Бригада драгунов" 
+		type = dragoon
+		home = 505
+	}
+
+	regiment = {
+		name= "2-я инженерная бригада"
+		type = engineer
+		home = 508
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = engineer
+		home = 499
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = engineer
+		home = 499
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = engineer
+		home = 500
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = engineer
+		home = 496
+	}
+
+}
+
+

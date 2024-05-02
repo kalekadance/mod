@@ -1,91 +1,92 @@
-#The Bahamas Region - 23000
-#Ruled by Britain 1836
-#The Bahamas (20000/5000 POPS)
+#Bahamas
 2219 = {
-	clergymen = {
-		culture = caribeno
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = caribeno
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = caribeno
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = caribeno
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = caribeno
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 4050
-	}
+    farmers = {
+        culture = caribeno
+        religion = orthodox
+        size = 64050
+    }
 
-	aristocrats = {
-		culture = british
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 15
+    }
 
-	bureaucrats = {
-		culture = british
-		religion = orthodox
-		size = 5
-	}
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 5
+    }
 
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = british
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 540
-	}
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 540
+    }
+
 }
-#Turks & Caicos Islands (3000/750 POPS) #still a British colony
+
+#Turks And Caicos
 2220 = {
-	clergymen = {
-		culture = caribeno
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = caribeno
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = caribeno
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = caribeno
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = caribeno
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 550
-	}
+    farmers = {
+        culture = caribeno
+        religion = orthodox
+        size = 66550
+    }
 
 }
+

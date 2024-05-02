@@ -1,0 +1,54 @@
+leader = {
+	name = "Antono"
+	date = 1836.1.1
+	type = land
+	personality = av213238
+	background = lev
+}
+
+army = {
+	name = "Метисская армия"
+	location = 1182
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = dragoon
+		home = 1036
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = dragoon
+		home = 1040
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = dragoon
+		home = 1039
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 1041
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cuirassier
+		home = 1034
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cuirassier
+		home = 1035
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cuirassier
+		home = 1042
+	}
+
+}

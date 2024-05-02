@@ -155,52 +155,37 @@ picture = kanun_i_esasi
 		}
 	}
 
-A14_egy = {
-picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_country_flag = A14_form
-		year = 1850
-			 
-			NOT = { has_global_flag = A14_egy
-				
-			}
-
+	A14_egy = {
+	picture = kanun_i_esasi
+		potential = {  
+			tag = A14
+			has_country_flag = A14_form
+			year = 1850
+			NOT = { has_global_flag = A14_egy }
 		}
 		allow = {
 			tag = A14
             iron_breech_loaded_artillery = 1
-			
-
-			
-			
 		}
 		effect = {
 			TRI_1739 = { add_core = THIS }
 			EGY_1753 = { add_core = THIS }
 			EGY_1758 = { add_core = THIS }
 			set_global_flag = A14_egy
-			
 		}
 	}
-A14_egy1 = {
-picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_country_flag = A14_egy
-
-			 
-			NOT = { has_global_flag = A14_egy1
-				
-			}
-
+	A14_egy1 = {
+	picture = kanun_i_esasi
+		potential = {  
+			tag = A14
+			has_country_flag = A14_egy
+			NOT = { has_global_flag = A14_egy1 }
 		}
 		allow = {
 			tag = A14
 			owns = 1738
 			owns = 1758
 			owns = 1752
-
-			
-			
 		}
 		effect = {
 			EGY_1746 = { add_core = THIS }
@@ -208,19 +193,15 @@ picture = kanun_i_esasi
 			EGY_1750 = { add_core = THIS }
 			add_accepted_culture = african_minor
 			set_global_flag = A14_egy1
-			
 		}
 	}
-A14_spa = {
-picture = kanun_i_esasi
+	A14_spa = {
+	picture = kanun_i_esasi
 		potential = {  
 			tag = A14
 			has_global_flag = A14_rim
 			year = 1865	 
-			NOT = { has_global_flag = A14_spa
-				
-			}
-
+			NOT = { has_global_flag = A14_spa }
 		}
 		allow = {
 			tag = A14
@@ -235,37 +216,30 @@ picture = kanun_i_esasi
 			
 		}
 	}
-#Сонгайск
-D01_claim = {
+	#Сонгайск
+	D01_claim = {
 		picture = kanun_i_esasi
-		potential = {  tag = D01
-		
-			 
-			NOT = { has_country_flag = D01_claim
-				
-			}
-
+		potential = {  
+			tag = D01
+			NOT = { has_country_flag = D01_claim }
 		}
 		allow = {
 			tag = D01
-			
-			
 		}
 		effect = {
 			FRA_1801 = { add_core = THIS }
 			FRA_1879 = { add_core = THIS }	
-			set_country_flag = D01_claim
-			
+			set_country_flag = D01_claim	
 		}
 	}
 	D01_FRA = {
 		picture = kanun_i_esasi
 		potential = { 
-			OR = { tag = D01 tag = A17 }
-			NOT = { has_global_flag = D01_FRA
-				
+			OR = { 
+				tag = D01 
+				tag = A17 
 			}
-
+			NOT = { has_global_flag = D01_FRA }
 		}
 		allow = { 	
 			OR = { tag = D01 tag = A17 }
@@ -279,20 +253,15 @@ D01_claim = {
 	}
 	D01_claim1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = D01
-		has_country_flag = D01_claim
-			 
-			NOT = { has_country_flag = D01_claim1
-				
-			}
-
+		potential = {  
+			tag = D01
+			has_country_flag = D01_claim
+			NOT = { has_country_flag = D01_claim1 }
 		}
 		allow = {
 			tag = D01
 			owns = 1881
-			owns = 1794
-			
-			
+			owns = 1794	
 		}
 		effect = {
 			YAR = {
@@ -300,25 +269,19 @@ D01_claim = {
                     add_core = THIS }
                 }
 			set_country_flag = D01_claim1
-			
 		}
 	}
 
-A17_form = {
+	A17_form = {
 		picture = kanun_i_esasi
-		potential = {  tag = D01
-		has_country_flag = D01_claim1
-			 
-			NOT = { has_country_flag = A17_form
-				
-			}
-
+		potential = {  
+			tag = D01
+			has_country_flag = D01_claim1
+			NOT = { has_country_flag = A17_form }
 		}
 		allow = {
 			tag = D01
 			NOT = { exists = YAR }
-			
-			
 		}
 		effect = {
 			set_global_flag = form_A17
@@ -331,102 +294,80 @@ A17_form = {
 			
 		}
 	}
-A17_Mor = {
+	A17_Mor = {
 		picture = kanun_i_esasi
-		potential = {  tag = A17
-			 
-			NOT = { has_country_flag = A17_Mor
-				
-			}
-
+		potential = {  
+			tag = A17
+			NOT = { has_country_flag = A17_Mor }
 		}
 		allow = {
 			owns = 1881
 			owns = 1794
-			
-			
 		}
 		effect = {
 			FRA_1780 = { add_core = THIS }
 			FRA_1803 = { add_core = THIS }
 			set_country_flag = A17_Mor
-			
 		}
 	}
-A17_Mor1 = {
+	A17_Mor1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = A17
-			 has_country_flag = A17_Mor 
-			NOT = { has_country_flag = A17_Mor1
-				
-			}
-
+		potential = {  
+			tag = A17
+			has_country_flag = A17_Mor 
+			NOT = { has_country_flag = A17_Mor1 }
 		}
 		allow = {
 			owns = 1806
 			owns = 1781
-			
-			
 		}
 		effect = {
 			add_accepted_culture = bedouin
 			FRA_1783 = { add_core = THIS }
 			FRA_1775 = { add_core = THIS }
-			set_country_flag = A17_Mor1
-			
+			set_country_flag = A17_Mor1	
 		}
 	}
 	
-A17_claim = {
+	A17_claim = {
 		picture = kanun_i_esasi
-		potential = {  tag = A17
-
-			NOT = { has_country_flag = A17_claim
-				
-			}
-
+		potential = {  
+			tag = A17
+			NOT = { has_country_flag = A17_claim }
 		}
 		allow = {
 			tag = A17
 			owns = 1912
 			biologism = 1
-			
-			
 		}
 		effect = {
 			ENG_1887 = { add_core = THIS }
 			FRA_1893 = { add_core = THIS }
 			FRA_1892 = { add_core = THIS }
 			set_country_flag = A17_claim
-			
 		}
 	}
 
-A17_claim1 = {
+	A17_claim1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = A17
-		 has_country_flag = A17_claim
-			NOT = { has_country_flag = A17_claim1
-				
-			}
-
+		potential = {  
+			tag = A17
+			has_country_flag = A17_claim
+			NOT = { has_country_flag = A17_claim1 }
 		}
 		allow = {
 			tag = A17	
 			owns = 1888
-			
-			
 		}
 		effect = {
 			FRA_1937 = { add_core = THIS }
 			FRA_1927 = { add_core = THIS }
 			FRA_1937 = { add_core = THIS }
 			set_country_flag = A17_claim1
-			
 		}
 	}
 	
-A17_coloni = {
+	A17_coloni = {
 		picture = kanun_i_esasi
 		potential = {  tag = A17
 			NOT = { has_country_flag = A17_coloni
@@ -453,22 +394,21 @@ A17_coloni = {
 	}
 
 #Израиль
-ISR_claim = {
+	ISR_claim = {
 		picture = kanun_i_esasi
-		potential = {  OR = { tag = ISR
-			tag = A16 }
-		
-			 
-			NOT = { has_country_flag = ISR_claim
-				
+		potential = {  
+			OR = { 
+				tag = ISR
+				tag = A16 
 			}
-
+			NOT = { has_country_flag = ISR_claim }
 		}
 		allow = {
-			OR = { tag = ISR
-			tag = A16 }
+			OR = { 
+				tag = ISR
+				tag = A16 
+			}
 			owns = 911
-			
 		}
 		effect = {
 			IRQ = {
@@ -477,156 +417,153 @@ ISR_claim = {
                 }
 			add_accepted_culture = bedouin
 			set_country_flag = ISR_claim
-			
 		}
 	}
 
-ISR_claim1 = {
+	ISR_claim1 = {
 		picture = kanun_i_esasi
-		potential = { OR = { tag = ISR
-			tag = A16 }
-		has_country_flag = ISR_claim
-			 
-			NOT = { has_country_flag = ISR_claim1
-				
+		potential = { 
+			OR = { 
+				tag = ISR
+				tag = A16 
 			}
-
+			has_country_flag = ISR_claim
+			NOT = { has_country_flag = ISR_claim1 }
 		}
 		allow = {
-			OR = { tag = ISR
-			tag = A16 }
+			OR = { 
+				tag = ISR
+				tag = A16 
+			}
 			NOT = { exists = IRQ }
-			
 		}
 		effect = {
 			NEJ = {
-                any_owned = {
-                    add_core = THIS }
-                }	
-			set_country_flag = ISR_claim1
-			
+                any_owned = { add_core = THIS }
+            }	
+			set_country_flag = ISR_claim1	
 		}
 	}
-ISR_claim2 = {
+	ISR_claim2 = {
 		picture = kanun_i_esasi
-		potential = { OR = { tag = ISR
-			tag = A16 }
-		has_country_flag = ISR_claim1
-			 
-			NOT = { has_country_flag = ISR_claim2
-				
+		potential = { 
+			OR = { 
+				tag = ISR
+				tag = A16 
 			}
-
+			has_country_flag = ISR_claim1
+			NOT = { has_country_flag = ISR_claim2 }
 		}
 		allow = {
 			tag = ISR
-			owns = 1163
-			
+			owns = 1163	
 		}
 		effect = {
 			ABU_1162 = { add_core = THIS }
 			OMA_1166 = { add_core = THIS }
-			set_country_flag = ISR_claim2
-			
+			set_country_flag = ISR_claim2	
 		}
 	}
 	
-ISR_claim3 = {
+	ISR_claim3 = {
 		picture = kanun_i_esasi
-		potential = {  OR = { tag = ISR
-			tag = A16 }
-		has_country_flag = ISR_claim2
-			 
-			NOT = { has_global_flag = ISR_claim3
-				
+		potential = {  
+			OR = { 
+				tag = ISR
+				tag = A16 
 			}
-
+			has_country_flag = ISR_claim2
+			NOT = { has_global_flag = ISR_claim3 }
 		}
 		allow = {
-			OR = { tag = ISR
-			tag = A16 }
+			OR = { 
+				tag = ISR
+				tag = A16 
+			}
 			owns = 1167
 			owns = 1171
-			
 		}
 		effect = {
 			YEM_1173 = { add_core = THIS }
 			HDJ_1151 = { add_core = THIS }
 			set_global_flag = ISR_claim3
-			
 		}
 	}
 
-Form_A16 = { picture = kanun_i_esasi
-		potential = {  tag = ISR 
-			NOT = { has_global_flag = Form_A16
-				
-			}}
-		
-	allow = {
+	Form_A16 = { 
+		picture = kanun_i_esasi
+		potential = {  
+			tag = ISR 
+			NOT = { has_global_flag = Form_A16 }
+		}
+		allow = {
 			tag = ISR
 			year = 1845
 			owns = 896
 			owns = 926
 			owns = 1167
 			owns = 1157
-			scientific_management = 1	}
-	effect = { 	
+			scientific_management = 1	
+		}
+		effect = { 	
 			change_tag = A16
 			prestige = 20
 			ruling_party_ideology = conservative
 			add_accepted_culture = turkish
 			add_accepted_culture = armenian
 			add_accepted_culture = kurdish
-			set_global_flag = Form_A16 }
-			
-}
+			set_global_flag = Form_A16 
+		}
+	}
 
-A16_claim = { picture = kanun_i_esasi
-		potential = {  tag = A16 
-			NOT = { has_global_flag = A16_claim
-				
-			}}
+	A16_claim = { 
+		picture = kanun_i_esasi
+		potential = {  
+			tag = A16 
+			NOT = { has_global_flag = A16_claim }
+		}
 		
-	allow = {
+		allow = {
 			tag = A16
 			NOT = { exists = ARM }
-
-				}
-	effect = { 	
+		}
+		effect = { 	
 			TUR_876 = { add_core = THIS }
 			TUR_873 = { add_core = THIS }
 			TUR_863 = { add_core = THIS }
-			set_global_flag = A16_claim }
-			
-}
+			set_global_flag = A16_claim 
+		}
+	}
 
-A16_claim1 = { picture = kanun_i_esasi
-		potential = {  tag = A16 has_global_flag = A16_claim
-			NOT = { has_global_flag = A16_claim1
+	A16_claim1 = { 
+		picture = kanun_i_esasi
+		potential = {  
+			tag = A16 
+			has_global_flag = A16_claim
+			NOT = { has_global_flag = A16_claim1 }
+		}
+		allow = {
+				tag = A16
+				OR = { 
+					exists = A06
+					year = 1860 
+				}	
+				point_defense_system = 1
+		}
+		effect = { 
+				TUR_869 = { add_core = THIS }
+				TUR_860 = { add_core = THIS }
+				EGY_843 = { add_core = THIS }
+				add_accepted_culture = greek
+				set_global_flag = A16_claim1 
+		}
 				
-			}}
-		
-	allow = {
-			tag = A16
-			OR = { exists = A06
-			year = 1860 }	
-			point_defense_system = 1
-
-				}
-	effect = { 
-			TUR_869 = { add_core = THIS }
-			TUR_860 = { add_core = THIS }
-			EGY_843 = { add_core = THIS }
-			add_accepted_culture = greek
-			set_global_flag = A16_claim1 }
-			
-}
+	}
 	A16_kavkaz = { picture = kanun_i_esasi
-		potential = {  tag = A16 
+		potential = {  
+			tag = A16 
 			NOT = { has_country_flag = A16_kavkaz }
-			
-			}
+		}
 		
 		allow = {
 			tag = A16
@@ -644,24 +581,25 @@ A16_claim1 = { picture = kanun_i_esasi
 			
 	}
 
-	A16_kavkaz1 = { picture = kanun_i_esasi
-	potential = {  tag = A16 
-			NOT = { has_country_flag = A16_kavkaz
-				
-			}}
-		
-	allow = {
+	A16_kavkaz1 = { 
+		picture = kanun_i_esasi
+		potential = {  
+			tag = A16 
+			NOT = { has_country_flag = A16_kavkaz }
+		}
+		allow = {
 			tag = A16
 			owns = 1121
-            	}
-	effect = { 	
+        }
+		effect = { 	
 			add_accepted_culture = persian
-			set_country_flag = A16_kavkaz }
+			set_country_flag = A16_kavkaz 
+		}
 			
 	}
 	#-------------------------------------------------- Южная Родезия --------------------------------------------------
 	adopt_die_stem = {
-	picture = adopt_die_stem
+		picture = adopt_die_stem
 		potential = {
 			tag = SAF
 			NOT = {
@@ -674,12 +612,16 @@ A16_claim1 = { picture = kanun_i_esasi
 		}
 		
 		effect = {
-			prestige = 5
+			prestige = 85
 			set_country_flag = has_die_stem
+			add_country_modifier = { 
+				name = podsos2 
+				duration = -1
+			}
 		}
 	}
 	RHO_claim = {
-	picture = form_arabia
+		picture = form_arabia
 		potential = {
 			tag = RHO
 			NOT = {
@@ -699,7 +641,7 @@ A16_claim1 = { picture = kanun_i_esasi
 		}
 	}
 	RHO_claim1 = {
-	picture = form_arabia
+		picture = form_arabia
 		potential = {
 			tag = RHO
 			has_country_flag = RHO_claim
@@ -720,7 +662,7 @@ A16_claim1 = { picture = kanun_i_esasi
 		}
 	}
 	form_SAF = {
-	picture = form_arabia
+		picture = form_arabia
 		potential = {
 			tag = RHO
 			NOT = {
@@ -731,7 +673,7 @@ A16_claim1 = { picture = kanun_i_esasi
 		allow = {
 			OR = { 
 				AND = {
-					steamers = 1
+					nationalism_n_imperialism = 1
 					has_country_flag = RHO_claim1
 				}
 				year = 1855 
@@ -748,7 +690,7 @@ A16_claim1 = { picture = kanun_i_esasi
 		}
 	}
 	SAF_claim = {
-	picture = form_arabia
+		picture = form_arabia
 		potential = {
 			tag = SAF
 			has_country_flag = form_SAF
@@ -772,51 +714,185 @@ A16_claim1 = { picture = kanun_i_esasi
 			set_country_flag = SAF_claim
 		}
 	}
-	#-------------------------------------------------- Львумбия --------------------------------------------------
-	#-------------------------------------------------- Эфиопия ---------------------------------------------------
-	ETH_claim = {
-	picture = form_arabia
+	SAF_claim1 = {
+		picture = form_arabia
 		potential = {
-			tag = ETH
+			tag = SAF
+			has_country_flag = SAF_claim
 			NOT = {
-				has_country_flag = ETH_claim
+				has_country_flag = SAF_claim1
 			}
 		}
 		
 		allow = {
-			owns = 1868
+			empiricism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			ORA_2103 = { add_core = THIS }
+			ZUL_2113 = { add_core = THIS }
+			ENG_2096 = { add_core = THIS }
+			ENG_2092 = { add_core = THIS }
+			set_country_flag = SAF_claim1
+		}
+	}
+	SAF_claim2 = {
+		picture = form_arabia
+		potential = {
+			tag = SAF
+			has_country_flag = SAF_claim1
+			NOT = {
+				has_country_flag = SAF_claim2
+			}
+		}
+		
+		allow = {
+			experimental_psychology = 1
+		}
+		
+		effect = {
+			prestige = 5
+			ENG_2087 = { add_core = THIS }
+			MAD_2121 = { add_core = THIS }
+			MAD_2117 = { add_core = THIS }
+			set_country_flag = SAF_claim2
+		}
+	}
+	#-------------------------------------------------- Львумбия --------------------------------------------------
+	#-------------------------------------------------- Эфиопия ---------------------------------------------------
+	ETH_claim = {
+		picture = form_arabia
+		potential = {
+			OR = {
+				tag = ETH
+				tag = A15
+			}
+			NOT = { has_country_flag = ETH_claim }
+		}
+		
+		allow = {
+			owns = 2031
 		}
 		
 		effect = {
 			C01 = { 
-				any_owned = { add_core = ETH }
+				any_owned = { add_core = ZAN }
 			}
 			prestige = 5
 			set_country_flag = ETH_claim
 		}
 	}
 	ETH_claim1 = {
-	picture = form_arabia
+		picture = form_arabia
 		potential = {
-			tag = ETH
-			has_country_flag = ETH_claim
-			NOT = {
-				has_country_flag = ETH_claim1
+			OR = {
+				tag = ETH
+				tag = A15
 			}
+			has_country_flag = ETH_claim
+			NOT = { has_country_flag = ETH_claim1 }
 		}
 		
 		allow = {
-			owns = 1868
+			state_n_government = 1
 		}
 		
 		effect = {
-			C01 = { 
+			ZAN = { 
 				any_owned = { add_core = ETH }
 			}
 			prestige = 5
 			set_country_flag = ETH_claim1
 		}
 	}
-	
+	ETH_claim2 = {
+		picture = form_arabia
+		potential = {
+			OR = {
+				tag = ETH
+				tag = A15
+			}
+			has_country_flag = ETH_claim1
+			NOT = { has_country_flag = ETH_claim2 }
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			CNG = { 
+				any_owned = { add_core = ETH }
+			}
+			prestige = 5
+			set_country_flag = ETH_claim2
+		}
+	}
+	ETH_raise = {
+		picture = form_arabia
+		potential = {
+			OR = {
+				tag = ETH
+				tag = A15
+			}
+			NOT = { has_country_flag = ETH_raise }
+		}
+		
+		allow = {
+			owns = 1180
+		}
+		
+		effect = {
+			HDJ_1151 = { add_core = THIS }
+			prestige = 5
+			set_country_flag = ETH_raise
+		}
+	}
+	Form_A15 = {
+		picture = form_arabia
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = Form_A15 }
+		}
+		
+		allow = {
+			OR = {
+				NOT = { 
+					exists = C01
+					exists = CNG
+					exists = ZAN 
+				}
+				year = 1860
+			}
+		}
+		
+		effect = {
+			change_tag = A15
+			add_accepted_culture = african_minor
+			add_accepted_culture = bedouin
+			set_country_flag = Form_A15
+		}
+	}
+	A15_raise = {
+		picture = form_arabia
+		potential = {
+			OR = {
+				tag = ETH
+				tag = A15
+			}
+			NOT = { has_country_flag = A15_raise }
+		}
+		
+		allow = {
+			owns = 1848
+		}
+		
+		effect = {
+			EGY_1827 = { add_core = THIS }
+			EGY_1838 = { add_core = THIS }
+			set_country_flag = A15_raise
+		}
+	}
 	
 }

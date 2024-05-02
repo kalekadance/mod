@@ -162,8 +162,8 @@ unit_recruitment_time = -0.25
 }
 podsos2 = {
 mobilisation_size = 0.015
-	farm_RGO_eff = 0.4
-	mine_RGO_eff = 0.4
+farm_RGO_eff = 0.2
+mine_RGO_eff = 0.2
 education_efficiency_modifier = 0.05	
 }
 podsos3 = {

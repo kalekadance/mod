@@ -53,6 +53,8 @@ publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
 
+oob = "D22_oob.txt"
+
 ruling_party = dominion_conservative
 upper_house = { # inherit
 	fascist = 0

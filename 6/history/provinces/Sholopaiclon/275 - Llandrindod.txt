@@ -3,3 +3,8 @@ controller = D22
 add_core = D22
 trade_goods = sulphur
 life_rating = 35
+state_building = {
+	level = 2
+	building = machine_parts_factory
+	upgrade = yes
+}
