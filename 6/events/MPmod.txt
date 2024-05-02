@@ -2075,7 +2075,7 @@ country_event = {
 	id = 99912112
 
 	trigger = {
-	tag = CRE
+	tag = TUR
 	NOT = {has_country_flag = bosfordone}
 	}
 	
@@ -2091,7 +2091,7 @@ country_event = {
 				name = stambul
 				duration = 100000
 			}
-
+			prestige = 20
 	 
 	  set_country_flag = bosfordone
 	}

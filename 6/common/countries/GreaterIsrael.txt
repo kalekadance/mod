@@ -3,7 +3,7 @@ graphical_culture = MiddleEasternGC
 
 
 party = {
-	name = "А16_liberal"
+	name = "A16_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "А16_conservative"
+	name = "A16_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -32,7 +32,7 @@ party = {
 
 
 party = {
-	name = "А16_socialist"
+	name = "A16_socialist"
 	start_date = 1860.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 
 
 party = {
-	name = "А16_reactionary"
+	name = "A16_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -63,7 +63,7 @@ party = {
 
 
 party = {
-	name = "А16_anarcho_liberal"
+	name = "A16_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "А16_communist"
+	name = "A16_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -91,7 +91,7 @@ party = {
 }
 
 party = {
-	name = "А16_fascist"
+	name = "A16_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

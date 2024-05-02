@@ -1,0 +1,184 @@
+leader = {
+	name = "Carlo Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = harsh
+	background = pekora
+	prestige = 0.2
+}
+
+leader = {
+	name = "Sergo de Cosa"
+	date = 1836.1.1
+	type = sea
+	personality = sergo
+	background = doughty
+}
+
+leader = {
+	name = "Korsaro Geniys"
+	date = 1830.1.1
+	type = land
+	personality = korsar_sfx
+	background = karsar-sfx
+	prestige = 1.3
+}
+
+leader = {
+	name = "Kaleko di Borbone"
+	date = 1809.1.1
+	type = land
+	personality = kaleka
+	background = aristocrat
+	prestige = 0.3
+}
+
+leader = {
+	name = "Paolo Ruffo"
+	date = 1836.1.1
+	type = land
+	personality = strange
+	background = generals_aide
+}
+
+leader = {
+	name = "Artemo II"
+	date = 1820.1.1
+	type = land
+	personality = yo312
+	background = gifted_administrator
+	prestige = 0.5
+}
+
+army = {
+	name = "Армия Комуны"
+	location = 278
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = dragoon
+		home = 279
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = dragoon
+		home = 277
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = dragoon
+		home = 285
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 284
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cuirassier
+		home = 276
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cuirassier
+		home = 286
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cuirassier
+		home = 275
+	}
+
+}
+
+army = {
+	name = "Вторая амрия Комуны"
+	location = 296
+	regiment = {
+		name= "1-я гвардейская бригада"
+		type = dragoon
+		home = 297
+	}
+
+	regiment = {
+		name= "2-я гвардейская бригада"
+		type = dragoon
+		home = 298
+	}
+
+	regiment = {
+		name= "3-я гвардейская бригада"
+		type = dragoon
+		home = 296
+	}
+
+	regiment = {
+		name= "1-я комунская бригада"
+		type = dragoon
+		home = 299
+	}
+
+	regiment = {
+		name= "2-я комунская бригада"
+		type = dragoon
+		home = 287
+	}
+
+}
+
+navy = {
+	name = "Флот Комуны"
+	location = 273
+	ship = {
+		name= "Пекорино II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Антоновский"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "РПГешный"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Калековый"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Корсарный"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Артемовый"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Львиный"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Сергошный"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Дегольский"
+		type = clipper_transport
+	}
+
+}
+

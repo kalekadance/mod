@@ -5,3 +5,13 @@ add_core = ITA
 trade_goods = iron
 life_rating = 45
 naval_base = 1 
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

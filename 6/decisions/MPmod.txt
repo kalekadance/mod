@@ -185,29 +185,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-	restore_emp = {
-	picture = restore_brz
-	potential = {
-			OR = {
-				tag = SPA
-				tag = A04
-			}
-			NOT = {
-				has_country_flag = has_restore_emp
-			}
-			}
-		allow =
-		{
-	        ai = no
-			year = 1850
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-		 THIS = {country_event = { id=37702 days=0 }}
-		 	set_country_flag = has_restore_emp
-		}
-	}
 	 
 	# ------------------------------------------------------------- Решения по займам --------------------------------------------------
 	diplomaty_mp = {

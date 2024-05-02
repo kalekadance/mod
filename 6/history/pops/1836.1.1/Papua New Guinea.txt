@@ -1,228 +1,244 @@
-#East Papua (892000) 
-#uncolonized in 1836
-#Port Moresby (212000/53000 POPS) 
+#Port Moresby
 2528 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 1025
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 1025
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 525
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 525
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 2650
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 32650
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 255
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 255
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 178350
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 178350
+    }
+
+    bureaucrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 4000
+    }
+
 }
-#Kerema (116000/29000 POPS) 
+
+#Kerema
 2529 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 550
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 550
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 300
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3000
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 1450
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 14500
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 230
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3230
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 156400
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 156400
+    }
+
 }
-#Lae (264000/66000 POPS) 
+
+#Lae
 2530 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 1300
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 1300
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 650
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3650
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 3300
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 33000
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 267
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3267
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 120075
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 120075
+    }
+
 }
-#Madang (300000/75000 POPS) 
+
+#Madang
 2531 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 2475
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 2475
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 1750
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 4750
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 5750
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 57500
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 275
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3275
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 238375
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 238375
+    }
+
 }
-#Northern Melanesia (226000) 
-#uncolonized in 1836}
-#New Ireland (104000/POPS) 
+
+#New Ireland
 1531 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 500
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 500
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3250
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 3000
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 3000
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 127
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3127
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 163675
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 163675
+    }
+
 }
-#New Britain (144000/POPS) 
+
+#New Britain
 2537 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 700
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 700
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 350
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3350
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 1800
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 1800
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 137
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3137
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 192775
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 192775
+    }
+
 }
-#Bougainville (56000/POPS) 
+
+#Bougainville
 2539 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 250
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3150
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 700
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 700
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 3150
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 120750
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 120750
+    }
+
 }
+

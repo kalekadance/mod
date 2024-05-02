@@ -1,7 +1,7 @@
 country_event = {
 
 	id = 37700
-	news = no
+	news = yes
 	news_desc_long = "EVTDESC37700_NEWS_LONG"
 	news_desc_medium = "EVTDESC37700_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC37700_NEWS_SHORT"
@@ -118,7 +118,7 @@ country_event = {
 country_event = {
 
 	id = 37701
-	news = no
+	news = yes
 	news_desc_long = "EVTDESC37701_NEWS_LONG"
 	news_desc_medium = "EVTDESC37701_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC37701_NEWS_SHORT"
@@ -161,109 +161,52 @@ country_event = {
 
 }
 
-country_event = {
-
-	id = 37702
-
-	  is_triggered_only = yes
-	
- 
-	 
-
-	title = "EVTNAME37702"
-	desc = "EVTDESC37702"
-	picture = "Cubanrebels"
-
-	option = {
-		name = "EVTOPTA37702"
-		set_country_flag = perfect_within
-		 VNZ_2278 = {	add_core = SPA }
-		VNZ_2265 = {	add_core = SPA }
-		VNZ_2234 = {	add_core = SPA }
-		CLM_2251 = {	add_core = SPA }
-		CLM_2262 = {	add_core = SPA }
-		CLM_2247 = {	add_core = SPA }
-		CLM_2259 = {	add_core = SPA }
-		ECU_2279 = {	add_core = SPA }
-		CLM_1723 = {	add_core = SPA }
-		PEU_2289 = {	add_core = SPA }
-		UCA_2201 = {	add_core = SPA }
-		2532 = {	add_core = SPA }
-		2401 = {	add_core = SPA }
-	 
-		badboy = 18
+	country_event = {
+		id = 37702
+		is_triggered_only = yes
+		title = "EVTNAME37702"
+		desc = "EVTDESC37702"
+		picture = "Cubanrebels"
+		option = {
+			name = "EVTOPTB37702"
+			set_global_flag = perfect_within1
+			SPA_1455={ add_core = SPA }
+			SPA_2209={ add_core = SPA }
+			SPA_1459={ add_core = SPA }
+			SPA_1463={ add_core = SPA }
+			HAI_2213 = { add_core = SPA }
+			2222 = { add_core = SPA }
+		}	
 	}
-	option = {
-		name = "EVTOPTB37702"
-		badboy = 10
-		set_country_flag = perfect_within2
-		SPA_1455={add_core = SPA remove_core = PHI life_rating = 5 any_pop = {
-		limit = {
-		pop_type = bureaucrats
-		has_pop_culture = spanish
+	country_event = { 
+		id = 377033
+		is_triggered_only = yes
+		title = "EVTNAME377033"
+		desc = "EVTDESC377033"
+		picture = "Cubanrebels"
+		option = {
+			name = "EVTOPTA377033"
+			set_global_flag = perfect_within
+			VNZ_2278 = { add_core = SPA }
+			VNZ_2265 = { add_core = SPA }
+			VNZ_2234 = { add_core = SPA }
+			CLM_2251 = { add_core = SPA }
+			CLM_2262 = { add_core = SPA }
+			CLM_2247 = { add_core = SPA }
+			CLM_2259 = { add_core = SPA }
+			ECU_2279 = { add_core = SPA }
+			CLM_1723 = { add_core = SPA }
+			PEU_2289 = { add_core = SPA }
+			UCA_2201 = { add_core = SPA }
+			2532 = { add_core = SPA }
+			2401 = { add_core = SPA }
 		}
-		reduce_pop = 3
-	}}
-		SPA_2209={add_core = SPA remove_core = CUB any_pop = {
-		limit = {
-		pop_type = bureaucrats
-		has_pop_culture = spanish
-		}
-		reduce_pop = 3
-	}}
-		SPA_1459={add_core = SPA remove_core = PHI life_rating = 5 any_pop = {
-		limit = {
-		pop_type = bureaucrats
-		has_pop_culture = spanish
-		}
-		reduce_pop = 3
-	}}
-		SPA_1463={add_core = SPA remove_core = PHI life_rating = 5 any_pop = {
-		limit = {
-		pop_type = bureaucrats
-		has_pop_culture = spanish
-		}
-		reduce_pop = 3
-	}}
-		HAI_2213 = {add_core = SPA}
-		2222 = {add_core = SPA}
-		relation = { who = USA value = -200 }
-		1458 = { add_province_modifier = {
-	 name = gold_rush_fra
-	 duration = -1}}
-		1458 = { add_province_modifier = {
-	 name = government_sanitarium2
-	 duration = -1}}
-		 1458 = {trade_goods = coal
-		 }
-		random_list = {
-	50 = {
-	 2209={trade_goods = iron
-	 add_province_modifier = {
-	 name = baby_boom
-	 duration = 1826}
-	 }
-	 }
-	 50 = {
-      SPA_2209={
-	   add_province_modifier = {
-	 name = baby_boom
-	 duration = 1826}
-	  }	 
-	 }
-	 }
-		}
-		
-	option = {
-		name = "EVTOPTC37702"
-		 
-	}	
-}
-
+	
+	}
 country_event = {
 
 	id = 37706
-	news = no
+	news = yes
 	news_desc_long = "EVTDESC37706_NEWS_LONG"
 	news_desc_medium = "EVTDESC37706_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC37706_NEWS_SHORT"

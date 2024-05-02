@@ -1,133 +1,134 @@
-#French Antilles (319200)
-#Ruled by France 1836
-#Martinique (190800/27450 POPS)
+#Martinique
 2228 = {
-	aristocrats = {
-		culture = french
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 750
+    }
 
-	bureaucrats = {
-		culture = french
-		religion = orthodox
-		size = 100
-	}
+    bureaucrats = {
+        culture = french
+        religion = orthodox
+        size = 100
+    }
 
-	clergymen = {
-		culture = french
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = french
-		religion = orthodox
-		size = 900
-	}
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 900
+    }
 
-	soldiers = {
-		culture = french
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = french
-		religion = orthodox
-		size = 400
-	}
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 400
+    }
 
-	clergymen = {
-		culture = caribeno
-		religion = orthodox
-		size = 125
-	}
+    clergymen = {
+        culture = caribeno
+        religion = orthodox
+        size = 125
+    }
 
-	artisans = {
-		culture = caribeno
-		religion = orthodox
-		size = 1250
-	}
+    artisans = {
+        culture = caribeno
+        religion = orthodox
+        size = 1250
+    }
 
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = caribeno
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 3400
-	}
+    farmers = {
+        culture = caribeno
+        religion = orthodox
+        size = 93400
+    }
 
-	slaves = {
-		culture = caribeno
-		religion = orthodox
-		size = 20000
-	}
+    slaves = {
+        culture = caribeno
+        religion = orthodox
+        size = 20000
+    }
+
 }
-#Guadeloupe (128400/32100 POPS)
+
+#Guadeloupe
 2230 = {
-	aristocrats = {
-		culture = french
-		religion = orthodox
-		size = 850
-	}
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 850
+    }
 
-	clergymen = {
-		culture = french
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = french
-		religion = orthodox
-		size = 1300
-	}
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 1300
+    }
 
-	soldiers = {
-		culture = french
-		religion = orthodox
-		size = 300
-	}
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 300
+    }
 
-	farmers = {
-		culture = french
-		religion = orthodox
-		size = 600
-	}
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 600
+    }
 
-	clergymen = {
-		culture = caribeno
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = caribeno
+        religion = orthodox
+        size = 150
+    }
 
-	artisans = {
-		culture = caribeno
-		religion = orthodox
-		size = 1500
-	}
+    artisans = {
+        culture = caribeno
+        religion = orthodox
+        size = 1500
+    }
 
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 300
-	}
+    soldiers = {
+        culture = caribeno
+        religion = orthodox
+        size = 300
+    }
 
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 3050
-	}
+    farmers = {
+        culture = caribeno
+        religion = orthodox
+        size = 93050
+    }
 
-	slaves = {
-		culture = caribeno
-		religion = orthodox
-		size = 24000
-	}
+    slaves = {
+        culture = caribeno
+        religion = orthodox
+        size = 24000
+    }
 
 }
+

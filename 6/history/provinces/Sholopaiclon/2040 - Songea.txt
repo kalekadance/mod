@@ -1,5 +1,6 @@
-owner = C01
-controller = C01
-add_core = C01
+owner = ZAN
+controller = ZAN
+add_core = OMA
+add_core = ZAN
 trade_goods = grain
 life_rating = 35

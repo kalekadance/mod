@@ -9,6 +9,57 @@
 # Difficulty Modifiers
 ##########################################################################
 
+very_easy_player = {
+	supply_consumption = -0.5
+	research_points_modifier = 0.5
+	war_exhaustion = -0.1
+	leadership_modifier = 0.5
+}
+
+easy_player = {
+	supply_consumption = -0.25
+	research_points_modifier = 0.25
+	leadership_modifier = 0.25
+}
+
+hard_player = {
+}
+
+very_hard_player = {
+}
+
+
+very_easy_ai = {
+	land_organisation = -0.25
+	naval_organisation = -0.25
+
+}
+
+easy_ai = {
+}
+
+
+hard_ai = {tax_efficiency = 0.25
+	badboy = -0.02
+	research_points_modifier = 0.5
+	land_organisation = 0.25
+	naval_organisation = 0.25
+	leadership_modifier = 0.5
+	global_pop_militancy_modifier = -0.02
+}
+
+very_hard_ai = {
+	tax_efficiency = 0.2
+	badboy = -0.1
+	research_points_modifier = 1.5
+	land_organisation = 1.2
+	naval_organisation = 1
+	leadership_modifier = 3.0
+	global_pop_militancy_modifier = -0.04
+	cb_generation_speed_modifier = 0.8
+	mobilisation_size = 0.04
+	supply_consumption = -1
+}
 
 
 

@@ -908,36 +908,36 @@ country_event = {
 	desc = "EVTDESC101138"
 	picture = "Administration"
 }
-country_event = {
-
-	id = 101139
-	fire_only_once = yes
-	trigger = {
-		tag = SAF
-	}
-	option = {
-		name = "EVTOPTA101139"
-		badboy = 22
-	}
-	title = "EVTNAME101139"
-	desc = "EVTDESC101139"
-	picture = "Administration"
-}
-country_event = {
-
-	id = 101140
-	fire_only_once = yes
-	trigger = {
-		tag = CAN
-	}
-	option = {
-		name = "EVTOPTA101140"
-		badboy = 22
-	}
-	title = "EVTNAME101140"
-	desc = "EVTDESC101140"
-	picture = "Administration"
-}
+#country_event = {
+#
+#	id = 101139
+#	fire_only_once = yes
+#	trigger = {
+#		tag = SAF
+#	}
+#	option = {
+#		name = "EVTOPTA101139"
+#		badboy = 22
+#	}
+#	title = "EVTNAME101139"
+#	desc = "EVTDESC101139"
+#	picture = "Administration"
+#}
+#country_event = {
+#
+#	id = 101140
+#	fire_only_once = yes
+#	trigger = {
+#		tag = CAN
+#	}
+#	option = {
+#		name = "EVTOPTA101140"
+#		badboy = 22
+#	}
+#	title = "EVTNAME101140"
+#	desc = "EVTDESC101140"
+#	picture = "Administration"
+#}
 country_event = {
 
     id = 101141 

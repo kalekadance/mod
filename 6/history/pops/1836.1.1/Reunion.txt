@@ -1,71 +1,70 @@
-#Reunion (98000)
-#Ruled by France 1836
-#Reunion (98000/24500 POPS)
+#Bourbon
 2126 = {
-	aristocrats = {
-		culture = french
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 750
+    }
 
-	bureaucrats = {
-		culture = french
-		religion = orthodox
-		size = 50
-	}
+    bureaucrats = {
+        culture = french
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = french
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = french
-		religion = orthodox
-		size = 500
-	}
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 500
+    }
 
-	soldiers = {
-		culture = french
-		religion = orthodox
-		size = 300
-	}
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 300
+    }
 
-	farmers = {
-		culture = french
-		religion = orthodox
-		size = 5825
-	}
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 5825
+    }
 
-	clergymen = {
-		culture = caribeno
-		religion = orthodox
-		size = 125
-	}
+    clergymen = {
+        culture = caribeno
+        religion = orthodox
+        size = 125
+    }
 
-	artisans = {
-		culture = caribeno
-		religion = orthodox
-		size = 850
-	}
+    artisans = {
+        culture = caribeno
+        religion = orthodox
+        size = 850
+    }
 
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = caribeno
+        religion = orthodox
+        size = 200
+    }
 
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 1825
-	}
+    farmers = {
+        culture = caribeno
+        religion = orthodox
+        size = 51825
+    }
 
-	slaves = {
-		culture = caribeno
-		religion = orthodox
-		size = 14000
-	}
+    slaves = {
+        culture = caribeno
+        religion = orthodox
+        size = 14000
+    }
 
 }
+

@@ -30,24 +30,24 @@ army = {
 		home = 414
 	}
 	regiment = {
-		name= "Драгуны Люксембурга7"
+		name= "Драгуны Люксембурга6"
 		type = dragoon
 		home = 410
 	}
 
 	regiment = {
-		name= "Драгуны Люксембурга8"
+		name= "Драгуны Люксембурга7"
 		type = dragoon
 		home = 574
 	}
 
 	regiment = {
-		name= "Драгуны Люксембурга9"
+		name= "Драгуны Люксембурга8"
 		type = dragoon
-		home = 571
+		home = 570
 	}
 	regiment = {
-		name= "Драгуны Люксембурга10"
+		name= "Драгуны Люксембурга9"
 		type = dragoon
 		home = 572
 	}

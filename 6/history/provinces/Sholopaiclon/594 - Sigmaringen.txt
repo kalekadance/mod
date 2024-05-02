@@ -1,8 +1,6 @@
 owner = SGF
 controller = SGF
-add_core = PRU
 add_core = SIG
-add_core = GER
 add_core = SGF
 trade_goods = grain
 life_rating = 35

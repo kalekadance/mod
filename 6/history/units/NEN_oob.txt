@@ -1,0 +1,54 @@
+leader = {
+	name = "Antono"
+	date = 1836.1.1
+	type = land
+	personality = av213238
+	background = lev
+}
+
+army = {
+	name = "Армия Новой Англии"
+	location = 241
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = dragoon
+		home = 245
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = dragoon
+		home = 246
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = dragoon
+		home = 247
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 248
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cuirassier
+		home = 244
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cuirassier
+		home = 249
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cuirassier
+		home = 250
+	}
+
+}

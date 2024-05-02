@@ -1,6 +1,5 @@
 owner = BEL
 controller = BEL
-add_core = PRU
 add_core = LUX
 trade_goods = timber
 life_rating = 35
