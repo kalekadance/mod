@@ -148,7 +148,7 @@ political_decisions = {
 			part_of_sphere = yes
 		}
 		effect = {
-			years_of_research = 3
+			year_of_research = 3
 			prestige = 10
 			add_country_modifier = {
 				name = meiji_restoration_boost
@@ -172,7 +172,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			years_of_research = 1
+			year_of_research = 1
 			prestige = 10
 			badboy = 10 
 			add_country_modifier = {

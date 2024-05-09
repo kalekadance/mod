@@ -20,9 +20,9 @@ categories =  {
 	}
 
 	farmlands = {
-		movement_cost = 1.2
+		movement_cost = 1.0
+		defence = -1
 		color = { 137 104 165  }
-		
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
@@ -74,8 +74,8 @@ categories =  {
 		color = { 117 108 119 }
 		farm_rgo_size = 0
 		farm_rgo_eff = -0.25
-		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_size = 0.10
+		mine_rgo_eff = 0.10
 		supply_limit = 5
 		
 		combat_width = -0.5
@@ -85,9 +85,10 @@ categories =  {
 
 
 	steppe = {
-		movement_cost = 1.0
+		movement_cost = 0.8
+		defence = -1
 		color = { 211 201 184 }
-		farm_rgo_size = 0.0
+		farm_rgo_size = 0.1
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
@@ -95,7 +96,8 @@ categories =  {
 
 	}
 	plains = {
-		movement_cost = 1.0
+		movement_cost = 0.8
+		defence = -1
 		color = { 241 221 184 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -112,7 +114,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
-		mine_rgo_eff = -0.2
+		mine_rgo_eff = 0.0
 		supply_limit = 5
 		min_build_railroad = 2
 		combat_width = -0.25
@@ -133,6 +135,7 @@ categories =  {
 	}
 	
 	desert = {
+		defence = -1
 		movement_cost = 1.5
 		color = { 218 195 0 }
 	

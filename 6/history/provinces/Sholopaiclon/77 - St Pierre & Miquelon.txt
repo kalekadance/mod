@@ -1,4 +1,8 @@
-owner = FRA
-controller = FRA
+owner = QUE
+controller = QUE
+add_core = GCO
+add_core = CAN
+add_core = NEW
+add_core = DEN
 trade_goods = fish
 life_rating = 35

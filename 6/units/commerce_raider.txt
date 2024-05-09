@@ -21,11 +21,12 @@ commerce_raider = {
 
 
 	#Building Costs
-	build_time = 980
+	build_time = 580
 	build_cost = {
-		steamer_convoy = 100
-		artillery = 60
-		canned_food = 40
+		steamer_convoy = 350
+		artillery = 80
+		canned_food = 120
+		explosives = 100
 	}
 	min_port_level = 2
 	limit_per_port = -1
@@ -33,10 +34,11 @@ commerce_raider = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.5				#70	=	14
-		artillery = 0.25						#60	=	6.0
-		canned_food = 0.9					#20	=	8
-		coal = 4.0							#2.3=	4.6
+		steamer_convoy = 0.04				#70	=	14
+		artillery = 0.03					#60	=	6.0
+		canned_food = 0.3					#20	=	8
+		coal = 2.0							#2.3=	4.6
+		explosives = 0.03
 	}										#32.6
 	
 	#Naval Abilties

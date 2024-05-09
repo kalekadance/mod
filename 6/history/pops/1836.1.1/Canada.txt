@@ -111,7 +111,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -129,7 +129,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 520
+        size = 30000
     }
 
 }
@@ -179,7 +179,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1200
     }
 
     artisans = {
@@ -197,7 +197,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 30000
     }
 
 }
@@ -213,7 +213,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 15
+        size = 1000
     }
 
     artisans = {
@@ -231,7 +231,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 450
+        size = 40000
     }
 
 }
@@ -247,7 +247,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 10
+        size = 1000
     }
 
     artisans = {
@@ -265,7 +265,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 450
+        size = 40000
     }
 
 }
@@ -307,33 +307,33 @@
 #Arviat
 43 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 15
+        size = 3500
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 40
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 10
+        size = 1000
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 725
+        size = 170025
     }
 
 }
@@ -341,33 +341,33 @@
 #Echo Bay
 44 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 10
+        size = 2300
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 25
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 450
+        size = 80000
     }
 
 }
@@ -375,33 +375,33 @@
 #Baffin Island
 45 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 25
+        size = 2500
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 900
+        size = 90000
     }
 
 }
@@ -409,33 +409,33 @@
 #Nunavut
 2595 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 15
+        size = 3000
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 35
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 630
+        size = 150000
     }
 
 }
@@ -529,7 +529,7 @@
     }
 
     soldiers = {
-        culture = anglo_canadian
+        culture = native_american_minor
         religion = orthodox
         size = 2500
     }
@@ -553,7 +553,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -571,7 +571,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 28000
     }
 
 }
@@ -587,7 +587,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1500
     }
 
     artisans = {
@@ -605,7 +605,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 25000
     }
 
 }
@@ -621,7 +621,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1200
     }
 
     artisans = {
@@ -639,7 +639,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 520
+        size = 28000
     }
 
 }
@@ -785,7 +785,7 @@
     clergymen = {
         culture = metis
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -803,7 +803,7 @@
     farmers = {
         culture = metis
         religion = orthodox
-        size = 910
+        size = 33910
     }
 
     aristocrats = {
@@ -879,7 +879,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 5000
     }
 
     artisans = {
@@ -891,13 +891,13 @@
     soldiers = {
         culture = native_american_minor
         religion = orthodox
-        size = 15
+        size = 3000
     }
 
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 1080
+        size = 301080
     }
 
 }
@@ -913,7 +913,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -931,7 +931,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 900
+        size = 39900
     }
 
 }
@@ -993,7 +993,7 @@
     farmers = {
         culture = metis
         religion = orthodox
-        size = 910
+        size = 30910
     }
 
     aristocrats = {
@@ -1051,7 +1051,7 @@
     farmers = {
         culture = metis
         religion = orthodox
-        size = 910
+        size = 30910
     }
 
     aristocrats = {
@@ -1189,7 +1189,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 20
+        size = 3000
     }
 
     artisans = {
@@ -1247,7 +1247,7 @@
     clergymen = {
         culture = metis
         religion = orthodox
-        size = 25
+        size = 1200
     }
 
     artisans = {
@@ -1265,7 +1265,7 @@
     farmers = {
         culture = metis
         religion = orthodox
-        size = 910
+        size = 40000
     }
 
 }
@@ -1281,7 +1281,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 3500
     }
 
     artisans = {
@@ -1309,7 +1309,7 @@
     clergymen = {
         culture = metis
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -1327,7 +1327,7 @@
     farmers = {
         culture = metis
         religion = orthodox
-        size = 910
+        size = 20000
     }
 
     aristocrats = {
@@ -1339,7 +1339,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 2000
     }
 
     artisans = {
@@ -1357,7 +1357,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 9000
+        size = 40000
     }
 
 }
@@ -1605,7 +1605,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 1500
     }
 
     artisans = {
@@ -1639,7 +1639,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 2500
     }
 
     artisans = {
@@ -1697,7 +1697,7 @@
     clergymen = {
         culture = metis
         religion = orthodox
-        size = 25
+        size = 1500
     }
 
     artisans = {
@@ -1755,7 +1755,7 @@
     clergymen = {
         culture = metis
         religion = orthodox
-        size = 25
+        size = 1500
     }
 
     artisans = {
@@ -2485,33 +2485,33 @@
 #Ungava
 2592 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 20
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 360
+        size = 35000
     }
 
     aristocrats = {
@@ -2549,33 +2549,33 @@
 #Port Harrison
 2626 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 2
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 3
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 180
+        size = 35000
     }
 
     aristocrats = {
@@ -2613,33 +2613,33 @@
 #Fort Chimo
 2627 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 20
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 360
+        size = 35360
     }
 
     aristocrats = {
@@ -2859,7 +2859,7 @@
     farmers = {
         culture = french_canadian
         religion = orthodox
-        size = 1825
+        size = 10825
     }
 
 }
@@ -3395,21 +3395,21 @@
     }
 
     clergymen = {
-        culture = irish
+        culture = danish
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = irish
+        culture = danish
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = irish
+        culture = danish
         religion = orthodox
-        size = 6900
+        size = 60900
     }
 
 }
@@ -3441,21 +3441,21 @@
     }
 
     clergymen = {
-        culture = irish
+        culture = danish
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = irish
+        culture = danish
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = irish
+        culture = danish
         religion = orthodox
-        size = 800
+        size = 36000
     }
 
 }
@@ -3463,33 +3463,33 @@
 #Hopedale
 76 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 25
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 450
+        size = 25450
     }
 
 }
@@ -3497,33 +3497,33 @@
 #Port Hope Simpson
 2625 = {
     aristocrats = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 75
     }
 
     soldiers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = inuit
+        culture = danish
         religion = orthodox
-        size = 1350
+        size = 31350
     }
 
 }
@@ -3531,27 +3531,27 @@
 #St Pierre & Miquelon
 77 = {
     bureaucrats = {
-        culture = french
+        culture = danish
         religion = orthodox
-        size = 1
+        size = 200
     }
 
     clergymen = {
-        culture = french
+        culture = danish
         religion = orthodox
         size = 4
     }
 
     artisans = {
-        culture = french
+        culture = danish
         religion = orthodox
         size = 45
     }
 
     labourers = {
-        culture = french
+        culture = danish
         religion = orthodox
-        size = 450
+        size = 75000
     }
 
 }

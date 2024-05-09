@@ -824,13 +824,17 @@ country_event = {
 		NOT = {
 			has_country_modifier = a_nation_of_shopkeepers
 		}
-		tag = ENG
+		OR = {
+			tag = CHI
+			tag = HND
+			tag = PER
+		}
 	}
 	option = {
 		name = "EVTOPTA101135"
 		add_country_modifier = {
 				name = a_nation_of_shopkeepers
-				duration = 37000
+				duration = -1
 		}
 	}
 	title = "EVTNAME101135"

@@ -1,4 +1,22 @@
 #post_napoleonic_thought 1836
+AI_baff = { 
+	limit = { 
+		civilized = yes
+		post_napoleonic_thought = 1 
+		has_country_flag = CHI_baff
+	}
+	chance = {
+		base = 90
+	}
+	effect = {
+		infantry =  { 
+			support = 1 
+			defence = 5
+			maneuver = 2
+			attack = 5			
+		}
+	}
+}
 post_napoleonic_army_doctrine = {
 	limit = { post_napoleonic_thought = 1 }
 	chance = {
@@ -704,6 +722,16 @@ human_wave_vs_spearhead = {
 	}
 }
 #flintlock_rifles 1836
+
+infantry_army = { 
+	limit = { 
+		flintlock_rifles = 1
+		NOT = { has_country_flag = ISR_baff }
+	}
+	chance = { base = 100 }
+	effect = { activate_unit = infantry }
+}
+
 flintlock_rifle_armament = {
 	limit = { flintlock_rifles = 1 }
 	chance = {
@@ -737,6 +765,31 @@ flintlock_rifle_armament = {
 		}
 		irregular = {
 			attack = 1.0
+			supply_consumption = 0.50
+		}
+	}
+}
+MOR_baff = {
+	limit = { 
+		flintlock_rifles = 1 
+		has_country_flag = MOR_bedouin
+	}
+	chance = {
+		base = 90
+	}
+	effect = { 
+			cavalry = {
+			attack = 3
+			defence = 3
+			support = 0.75
+			discipline = 0.2
+			forest = {movement = 0.2}
+			mountain = {movement = 0.2}
+			hills = {movement = 0.2}
+			woods = {movement = 0.2}
+			farmlands = {movement = 0.2}
+			steppe = {movement = 0.2}
+			plains = {movement = 0.2}
 			supply_consumption = 0.50
 		}
 	}
@@ -776,6 +829,56 @@ muzzle_loaded_rifle_armament = {
 		}
 	}
 }
+Sibir_baff = { 
+	limit = { 
+		civilized = yes
+		muzzle_loaded_rifles 1836 = 1 
+		has_country_flag = MTC_rise
+	}
+	chance = {
+		base = 90
+	}
+	effect = {
+		hussar = {
+			attack = 1
+			defence = 1
+			support = 1
+			forest = {movement = 0.3}
+			mountain = {movement = 0.2}
+			hills = {movement = 0.2}
+			woods = {movement = 0.3}
+			jungle = {movement = 0.6} 
+			marsh  = {movement = 0.6}   
+			supply_consumption = 0.20
+		}
+		dragoon = {
+			defence = 4
+			discipline = 0.25
+			forest = {movement = 0.3}
+			mountain = {movement = 0.25}
+			hills = {movement = 0.25}
+			woods = {movement = 0.3}
+			jungle = {movement = 0.65} 
+			marsh  = {movement = 0.65}  
+			supply_consumption = 0.20
+		}
+		cuirassier = {
+			attack = 3
+			discipline = 0.25
+			forest = {movement = 0.2}
+			mountain = {movement = 0.3}
+			hills = {movement = 0.2}
+			woods = {movement = 0.2}
+			farmlands = {movement = 0.1}
+			steppe = {movement = 0.1}
+			plains = {movement = 0.1}
+			jungle = {movement = 0.6} 
+			marsh  = {movement = 0.6}   
+			desert	= {movement = 0.1}
+			supply_consumption = 0.20
+		}
+	}
+}	
 
 #breech_loaded_rifles 1850
 breech_loaded_rifle_armament = {
@@ -1527,6 +1630,25 @@ strategic_destruction_doctrine = {
 		plane = {
 			reconnaissance = 2
 			default_organisation = 5
+		}
+	}
+}
+#army_command_principle 1836
+ISR_baff = {
+	limit = { 
+		army_command_principle = 1
+		has_country_flag = ISR_baff
+	}
+	chance = {
+		base = 100
+	}
+	effect = { 
+			irregular = {
+			attack = 2
+			defence = 2
+			discipline = 0.2
+			maneuver = 1
+			maximum_speed = 1
 		}
 	}
 }

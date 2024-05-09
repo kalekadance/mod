@@ -4,7 +4,7 @@ military_goods = {
 	ammunition = { 
 		cost = 18.00
 		color = { 208 202 127 }
-overseas_penalty = yes		
+		overseas_penalty = yes		
 		available_from_start = no
 	}
 	small_arms = { 

@@ -19,8 +19,9 @@ frigate = {
 	#Building Costs
 	build_time = 880
 	build_cost = {
-		clipper_convoy = 50
-		artillery = 30
+		clipper_convoy = 220
+		artillery = 60
+		lumber = 500
 	}
 	min_port_level = 0
 	limit_per_port = -1
@@ -28,10 +29,10 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.2		#45	=	4.5
-		artillery = 0.10 #0.08		#60	=	3.0
-		lumber = 3.0				#1	=	2.0
-		tropical_wood = 0.5
+		clipper_convoy = 0.05		#45	=	4.5
+		artillery = 0.03 #0.08		#60	=	3.0
+		lumber = 5.0	
+
 	}								#9.5
 	
 	#Naval Abilties

@@ -173,7 +173,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 2500
     }
 
     farmers = {
@@ -203,7 +203,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 2500
+        size = 110
     }
 
     farmers = {
@@ -365,7 +365,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 3000
     }
 
     farmers = {
@@ -517,7 +517,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 2100
     }
 
     farmers = {
@@ -581,7 +581,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 2100
     }
 
     farmers = {
@@ -642,10 +642,10 @@
         size = 1100
     }
 
-    soldiers = {
+    artisans = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 10000
     }
 
     farmers = {
@@ -867,7 +867,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 3000
     }
 
     farmers = {
@@ -897,7 +897,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 3000
+        size = 100
     }
 
     farmers = {
@@ -1071,7 +1071,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 110
+        size = 3500
     }
 
     farmers = {
@@ -1101,7 +1101,7 @@
     soldiers = {
         culture = maghrebi
         religion = orthodox
-        size = 3500
+        size = 100
     }
 
     farmers = {

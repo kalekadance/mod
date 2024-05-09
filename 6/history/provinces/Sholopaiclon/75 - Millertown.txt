@@ -3,5 +3,6 @@ controller = QUE
 add_core = GCO
 add_core = CAN
 add_core = NEW
+add_core = DEN
 trade_goods = cattle
 life_rating = 35

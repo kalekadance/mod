@@ -1,5 +1,0 @@
-owner = RHO
-controller = RHO
-add_core = RHO
-trade_goods = coffee
-life_rating = 35

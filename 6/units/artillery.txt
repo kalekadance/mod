@@ -18,7 +18,7 @@ artillery = {
 	#Building Costs
 	build_time = 150
 	build_cost = {
-		artillery = 60				#60		=	3600
+		artillery = 90				#60		=	3600
 		canned_food = 20			#20		=	400
 		liquor = 20					#6.4	=	128
 		wine = 20					#9.7	=	194
@@ -26,10 +26,10 @@ artillery = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		artillery = 0.08 	
-		ammunition = 0.2	
-		explosives = 0.08
-	    canned_food = 0.1
+		artillery = 0.07 	
+		ammunition = 0.4	
+		explosives = 0.03
+	    canned_food = 0.03
 	}						#17.2	/	9.9
 	
 
@@ -37,8 +37,13 @@ artillery = {
 	reconnaissance = 0
 	attack = 1.5
 	defence = 2.5
-	discipline = 0.7
+	discipline = 0.8
 	support = 2
 	maneuver = 1
-
+	forest = {movement = -0.1}
+	mountain = {movement = -0.2}
+	hills = {movement = -0.1}
+	woods = {movement = -0.1}
+	jungle = {movement = -0.4} 
+	marsh  = {movement = -0.2}   
 }

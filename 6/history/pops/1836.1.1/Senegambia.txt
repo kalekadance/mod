@@ -21,7 +21,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 250
+        size = 2250
     }
 
     farmers = {
@@ -55,7 +55,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 275
+        size = 2275
     }
 
     farmers = {
@@ -95,7 +95,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 125
+        size = 2125
     }
 
     farmers = {
@@ -135,7 +135,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     farmers = {
@@ -163,7 +163,7 @@
     bureaucrats = {
         culture = african_minor
         religion = orthodox
-        size = 25
+        size = 4025
     }
 
     officers = {
@@ -187,7 +187,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     farmers = {
@@ -215,7 +215,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 575
+        size = 1575
     }
 
     artisans = {
@@ -227,7 +227,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 1025
+        size = 3025
     }
 
     farmers = {
@@ -251,7 +251,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 575
+        size = 1575
     }
 
     artisans = {
@@ -285,7 +285,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 200
+        size = 3200
     }
 
     artisans = {
@@ -297,7 +297,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 100
+        size = 2100
     }
 
     farmers = {
@@ -349,7 +349,7 @@
     bureaucrats = {
         culture = african_minor
         religion = orthodox
-        size = 725
+        size = 3725
     }
 
     officers = {
@@ -361,7 +361,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
@@ -373,7 +373,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 1000
+        size = 2000
     }
 
     farmers = {
@@ -413,7 +413,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 175
+        size = 2175
     }
 
     farmers = {
@@ -441,7 +441,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 3300
     }
 
     artisans = {
@@ -453,7 +453,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 100
+        size = 2100
     }
 
     farmers = {
@@ -505,7 +505,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 3300
     }
 
     artisans = {
@@ -517,7 +517,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     farmers = {
@@ -545,7 +545,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 1250
+        size = 3250
     }
 
     artisans = {
@@ -557,7 +557,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 275
+        size = 2275
     }
 
     farmers = {

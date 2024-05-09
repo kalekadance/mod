@@ -37,7 +37,7 @@ political_decisions = {
 			ruling_party_ideology = conservative
 		}
 		effect = {
-			years_of_research = 0.2
+			year_of_research = 0.2
 			set_country_flag = 1420_passed
 		}
 	}		

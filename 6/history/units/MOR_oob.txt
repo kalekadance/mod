@@ -12,24 +12,32 @@ leader = {
 	prestige = 1
 }
 
+leader = {
+	name = "”ги Ќадор"
+	type = land
+	date = 1836.1.1
+	personality = adventurer
+	background = rpg
+}
+
 army = {
 	name = "јрми€ —ултана"
 	location = 1681
 	regiment = {
 		name= "1-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1680
 	}
 
 	regiment = {
 		name= "2-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1681
 	}
 
 	regiment = {
 		name= "3-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1682
 	}
 
@@ -40,19 +48,19 @@ army = {
 	location = 1684
 	regiment = {
 		name= "4-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1683
 	}
 
 	regiment = {
 		name= "5-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1688
 	}
 
 	regiment = {
 		name= "6-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1694
 	}
 }
@@ -62,19 +70,19 @@ army = {
 	location = 1698
 	regiment = {
 		name= "7-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1690
 	}
 
 	regiment = {
 		name= "8-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 2563
 	}
 
 	regiment = {
 		name= "9-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1691
 	}
 
@@ -85,19 +93,19 @@ army = {
 	location = 1686
 	regiment = {
 		name= "10-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1686
 	}
 
 	regiment = {
 		name= "11-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1687
 	}
 
 	regiment = {
 		name= "12-€ пехотна€ бригада"
-		type = hussar
+		type = cavalry
 		home = 1685
 	}
 

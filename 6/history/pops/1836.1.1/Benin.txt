@@ -1,367 +1,370 @@
-#Dahomey Region (512000)
-#uncolonized in 1836/ruled by Dahomey
-#Cotonou (272000/68000 POPS)
+#Cotonou
 1919 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 975
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 975
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2050
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2050
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2100
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 90975
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 90975
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 2000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 2000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 275
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 750
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 53675
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 53675
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 33000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 33000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 6800
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 6800
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 6000
+    }
+
 }
-#Abomey (240000/60000 POPS)
+
+#Abomey
 1920 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1050
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1050
+    }
 
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    officers = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2125
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2125
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2150
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 152625
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 152625
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 20000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 20000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 9650
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 9650
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 3100
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 3100
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 6700
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 6700
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 3100
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 3100
+    }
+
 }
-#Borgu Region (76000) #see Nigeria.txt for balance of region 
-#ruled by Sokoto in 1836
-#Nikki (48000/12000 POPS)
+
+#Nikki
 1921 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 75
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2225
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 2700
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2700
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 31000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+        size = 31000
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1750
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1750
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 3750
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 142500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 142500
+    }
+
 }
-#Jugu (28000/7000 POPS)
+
+#Jugu
 1922 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 750
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2500
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2500
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2100
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 95750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 95750
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 1000
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 48000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 48000
+    }
 
 }
+

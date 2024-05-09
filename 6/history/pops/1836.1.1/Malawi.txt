@@ -21,7 +21,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     farmers = {

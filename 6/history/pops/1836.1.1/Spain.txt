@@ -957,13 +957,13 @@
     bureaucrats = {
         culture = spanish
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     clergymen = {
         culture = spanish
         religion = orthodox
-        size = 750
+        size = 1750
     }
 
     artisans = {
@@ -1015,7 +1015,7 @@
     clergymen = {
         culture = spanish
         religion = orthodox
-        size = 600
+        size = 2600
     }
 
     artisans = {
@@ -1045,7 +1045,7 @@
     clergymen = {
         culture = catalan
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -1119,13 +1119,13 @@
     bureaucrats = {
         culture = catalan
         religion = orthodox
-        size = 550
+        size = 3550
     }
 
     clergymen = {
         culture = catalan
         religion = orthodox
-        size = 825
+        size = 2825
     }
 
     artisans = {
@@ -1347,7 +1347,7 @@
     clergymen = {
         culture = catalan
         religion = orthodox
-        size = 500
+        size = 2500
     }
 
     artisans = {
@@ -1529,7 +1529,7 @@
     bureaucrats = {
         culture = catalan
         religion = orthodox
-        size = 225
+        size = 2250
     }
 
     clergymen = {
@@ -1553,7 +1553,7 @@
     farmers = {
         culture = catalan
         religion = orthodox
-        size = 39675
+        size = 69675
     }
 
 }
@@ -1599,7 +1599,7 @@
     clergymen = {
         culture = catalan
         religion = orthodox
-        size = 275
+        size = 2275
     }
 
     artisans = {
@@ -2129,43 +2129,43 @@
 #Canary Islands
 2136 = {
     aristocrats = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 825
     }
 
     officers = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 50
     }
 
     bureaucrats = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 525
     }
 
     artisans = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 3000
     }
 
     soldiers = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = spanish
+        culture = british
         religion = orthodox
         size = 47025
     }

@@ -57,7 +57,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 43625
+        size = 73625
     }
 
 }
@@ -73,7 +73,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -91,7 +91,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 4575
+        size = 74575
     }
 
 }
@@ -165,7 +165,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -183,7 +183,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 4575
+        size = 74575
     }
 
 }
@@ -199,7 +199,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 125
+        size = 1250
     }
 
     artisans = {
@@ -217,7 +217,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 12875
+        size = 72875
     }
 
 }
@@ -233,7 +233,7 @@
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 75
+        size = 1575
     }
 
     artisans = {
@@ -251,7 +251,7 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 2700
+        size = 72700
     }
 
     aristocrats = {
@@ -315,7 +315,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 18250
+        size = 88250
     }
 
 }
@@ -331,7 +331,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 175
+        size = 1705
     }
 
     artisans = {
@@ -349,7 +349,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 17325
+        size = 77325
     }
 
 }
@@ -365,7 +365,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 175
+        size = 1705
     }
 
     artisans = {
@@ -383,7 +383,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 15475
+        size = 75475
     }
 
 }
@@ -417,7 +417,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 48250
+        size = 78250
     }
 
 }
@@ -451,7 +451,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 14575
+        size = 74575
     }
 
     aristocrats = {
@@ -515,7 +515,7 @@
     farmers = {
         culture = kirgiz
         religion = orthodox
-        size = 5475
+        size = 85475
     }
 
     aristocrats = {
@@ -579,7 +579,7 @@
     farmers = {
         culture = uzbek
         religion = orthodox
-        size = 12775
+        size = 82775
     }
 
     aristocrats = {
@@ -659,7 +659,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -677,7 +677,7 @@
     farmers = {
         culture = kazak
         religion = orthodox
-        size = 6425
+        size = 76425
     }
 
 }
@@ -711,7 +711,7 @@
     farmers = {
         culture = uzbek
         religion = orthodox
-        size = 13725
+        size = 93725
     }
 
     aristocrats = {

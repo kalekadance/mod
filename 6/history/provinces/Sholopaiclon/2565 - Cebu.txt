@@ -1,5 +1,5 @@
 owner = PHI
 controller = PHI
 add_core = PHI
-trade_goods = wool
+trade_goods = dye
 life_rating = 35

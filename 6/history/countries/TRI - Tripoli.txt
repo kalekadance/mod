@@ -1,10 +1,10 @@
-capital = 1741
+capital = 1736
 primary_culture = maghrebi
 culture = bedouin
 culture = tuareg
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 40
 nationalvalue = nv_order
 literacy = 0.25
 non_state_culture_literacy = 0.25

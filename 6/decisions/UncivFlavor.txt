@@ -68,7 +68,7 @@ political_decisions = {
 			average_consciousness = 3
 		}
 		effect = {
-			years_of_research = 0.1
+			year_of_research = 0.1
 			any_pop = {
 				limit = {
 					has_pop_culture = manchu
@@ -193,7 +193,7 @@ political_decisions = {
 				ai = no
 		}
 		effect = {
-			years_of_research = 15
+			year_of_research = 15
 			any_pop = {
 				consciousness = 0.5
 			}
@@ -222,7 +222,7 @@ political_decisions = {
 			ai = no
 		}
 		effect = {
-			years_of_research = 15
+			year_of_research = 15
 			any_pop = {
 				consciousness = 0.5
 			}
@@ -276,7 +276,7 @@ political_decisions = {
 				militancy = -1
 			}
 			prestige = 2
-			years_of_research = 0.02
+			year_of_research = 0.02
 			ETH_1867 = {
 				add_core = ETH
 			}

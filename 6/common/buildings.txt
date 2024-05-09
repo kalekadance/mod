@@ -516,6 +516,69 @@ canned_food_factory = {
 	pop_build_factory = yes
 }
 
+canned_food_factory_b = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 90
+		iron = 220
+		cement = 220
+	}
+	time = 320
+	visibility = yes
+	onmap = no
+
+	production_type = canned_food_factory_fruit
+	default_enabled = yes	
+	pop_build_factory = yes
+}
+
+canned_food_factory_c = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 90
+		iron = 220
+		cement = 220
+	}
+	time = 320
+	visibility = yes
+	onmap = no
+
+	production_type = canned_food_factory_cattle
+	default_enabled = yes	
+	pop_build_factory = yes
+}
+
+canned_food_factory_d = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 90
+		iron = 220
+		cement = 220
+	}
+	time = 320
+	visibility = yes
+	onmap = no
+
+	production_type = canned_food_factory_fish
+	default_enabled = yes	
+	pop_build_factory = yes
+}
+
 dye_factory = {
 	type = factory
 
@@ -614,6 +677,26 @@ fabric_factory = {
 	onmap = no
 
 	production_type = fabric_factory
+	pop_build_factory = yes
+}
+
+fabric_factory_b = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 25
+		iron = 220
+		cement = 220
+	}
+	time = 150
+	visibility = yes
+	onmap = no
+
+	production_type = fabric_factory_w
+	default_enabled = yes	
 	pop_build_factory = yes
 }
 

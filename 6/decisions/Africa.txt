@@ -1,20 +1,37 @@
 political_decisions = {
 #Новый Карфаген
-MOR_claim = {
+	MOR_bedouin = {
 		picture = kanun_i_esasi
-		potential = {  tag = MOR
-		
-			 
-			NOT = { has_country_flag = MOR_claim
-				
-			}
-
+		potential = {  
+			tag = MOR
+			NOT = { has_country_flag = MOR_bedouin }
 		}
 		allow = {
+			tag = MOR	
+		}
+		effect = {
+			FRA_1780 = { add_core = THIS }	
+			set_country_flag = MOR_bedouin
+			ALD = { any_owned = { add_core = MOR } }
+			TUN = { any_owned = { add_core = MOR } }
+			TRI = { any_owned = { add_core = MOR } }
+		}
+	}
+	MOR_claim = {
+		picture = kanun_i_esasi
+		potential = {  
 			tag = MOR
-			owns = 1709
-			owns = 1705
-			owns = 1708
+			NOT = { has_country_flag = MOR_claim }
+		}
+		allow = {
+			OR = {
+				AND = {
+					owns = 1709
+					owns = 1705
+					owns = 1708
+				}
+				NOT = { exists = ALD }
+			}
 			
 			
 		}
@@ -24,73 +41,62 @@ MOR_claim = {
 			
 		}
 	}
-MOR_claim1 = {
+	MOR_claim1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = MOR
-		has_country_flag = MOR_claim
-			 
-			NOT = { has_country_flag = MOR_claim1
-				
-			}
-
+		potential = {  
+			tag = MOR
+			has_country_flag = MOR_claim
+			NOT = { has_country_flag = MOR_claim1 }
 		}
 		allow = {
-			tag = MOR
-			owns = 1725
-			owns = 1719
-
-			
-			
+			OR = {
+				AND = {
+					owns = 1725
+					owns = 1719	
+				}
+				NOT = { exists = TUN }
+			}
 		}
 		effect = {
 			FRA_1803 = { add_core = THIS }	
 			set_country_flag = MOR_claim1
-			
 		}
 	}
 	
-A14_form = {
-picture = kanun_i_esasi
-		potential = {  tag = MOR
-		has_country_flag = MOR_claim1
-			 
-			NOT = { has_country_flag = A14_form
-				
-			}
-
+	A14_form = {
+		picture = kanun_i_esasi
+		potential = {  
+			tag = MOR
+			has_country_flag = MOR_claim1
+			NOT = { has_country_flag = A14_form }
 		}
 		allow = {
 			tag = MOR
-            nationalism_n_imperialism = 1
-
-			
-			
+           	idealism = 1
 		}
 		effect = {
 			set_country_flag = A14_form
-			ruling_party_ideology = conservative
 			change_tag = A14
 			
 		}
 	}
 	
-A14_claim = {
-picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_country_flag = A14_form
-			 
-			NOT = { has_country_flag = A14_claim
-				
-			}
+	A14_claim = {
+		picture = kanun_i_esasi
+		potential = {  
+			tag = A14
+			has_country_flag = A14_form
+			NOT = { has_country_flag = A14_claim }
 
 		}
 		allow = {
-			tag = A14
-            owns = 1782
-			owns = 1806
-
-			
-			
+			OR = {
+				AND = {
+           			owns = 1782
+					owns = 1806
+				}
+				NOT = { exists = KBB }
+			}
 		}
 		effect = {
 			1774 = { secede_province = THIS }
@@ -99,12 +105,11 @@ picture = kanun_i_esasi
 			1773 = { secede_province = THIS }
 			1773 = { any_pop = { literacy = 0.15 } }
 			1773 = { life_rating = 20 }
-			set_country_flag = A14_claim
-			
+			set_country_flag = A14_claim	
 		}
 	}
-A14_claim1 = {
-picture = kanun_i_esasi
+	A14_claim1 = {
+		picture = kanun_i_esasi
 		potential = {  tag = A14
 		has_country_flag = A14_claim
 			 
@@ -114,31 +119,26 @@ picture = kanun_i_esasi
 
 		}
 		allow = {
-			tag = A14
-            owns = 1731
-			
-
-			
-			
+			OR = {
+            	owns = 1731
+				NOT = { 1731 = { owns = TRI } }
+			}
 		}
 		effect = {
 			TRI_1743 = { add_core = THIS }
 			EGY_1754 = { add_core = THIS}
 			SPA_517 = { add_core = THIS }
 			set_country_flag = A14_claim1
-			add_accepted_culture = bedouin
-			
+			add_accepted_culture = african_minor	
 		}
 	}
 
-A14_rim = {
-picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_country_flag = A14_form
-		year = 1855	 
-			NOT = { has_global_flag = A14_rim
-				
-			}
+	A14_rim = {
+		picture = kanun_i_esasi
+		potential = {  
+			tag = A14
+			has_country_flag = A14_form
+ 			NOT = { has_global_flag = A14_rim }
 
 		}
 		allow = {
@@ -191,7 +191,7 @@ picture = kanun_i_esasi
 			EGY_1746 = { add_core = THIS }
 			EGY_1762 = { add_core = THIS }
 			EGY_1750 = { add_core = THIS }
-			add_accepted_culture = african_minor
+			add_accepted_culture = bedouin
 			set_global_flag = A14_egy1
 		}
 	}
@@ -200,12 +200,12 @@ picture = kanun_i_esasi
 		potential = {  
 			tag = A14
 			has_global_flag = A14_rim
-			year = 1865	 
+			year = 1850 
 			NOT = { has_global_flag = A14_spa }
 		}
 		allow = {
 			tag = A14
-            owns = 1779
+            owns = 517
 		}
 		effect = {
 			SPA_512 = { add_core = THIS }
@@ -287,7 +287,6 @@ picture = kanun_i_esasi
 			set_global_flag = form_A17
 			change_tag = A17
 			prestige = 20
-			ruling_party_ideology = conservative
 			add_accepted_culture = african_minor
 			add_accepted_culture = maghrebi
 			set_country_flag = A17_form
@@ -404,10 +403,6 @@ picture = kanun_i_esasi
 			NOT = { has_country_flag = ISR_claim }
 		}
 		allow = {
-			OR = { 
-				tag = ISR
-				tag = A16 
-			}
 			owns = 911
 		}
 		effect = {
@@ -432,10 +427,9 @@ picture = kanun_i_esasi
 		}
 		allow = {
 			OR = { 
-				tag = ISR
-				tag = A16 
+				NOT = { exists = IRQ }
+				year = 1840
 			}
-			NOT = { exists = IRQ }
 		}
 		effect = {
 			NEJ = {
@@ -455,8 +449,10 @@ picture = kanun_i_esasi
 			NOT = { has_country_flag = ISR_claim2 }
 		}
 		allow = {
-			tag = ISR
-			owns = 1163	
+			OR = { 
+				owns = 1163
+				year = 1841
+			}	
 		}
 		effect = {
 			ABU_1162 = { add_core = THIS }
@@ -477,11 +473,10 @@ picture = kanun_i_esasi
 		}
 		allow = {
 			OR = { 
-				tag = ISR
-				tag = A16 
+				owns = 1167
+				owns = 1171
+				year = 1843
 			}
-			owns = 1167
-			owns = 1171
 		}
 		effect = {
 			YEM_1173 = { add_core = THIS }
@@ -498,20 +493,28 @@ picture = kanun_i_esasi
 		}
 		allow = {
 			tag = ISR
-			year = 1845
-			owns = 896
-			owns = 926
-			owns = 1167
-			owns = 1157
-			scientific_management = 1	
+			OR = {
+				AND = {
+					owns = 896
+					owns = 926
+					owns = 1167
+					owns = 1157
+				}
+				AND = {
+					nationalism_n_imperialism = 1
+					muzzle_loaded_rifles = 1
+				}	
+			}
 		}
 		effect = { 	
 			change_tag = A16
 			prestige = 20
-			ruling_party_ideology = conservative
 			add_accepted_culture = turkish
 			add_accepted_culture = armenian
 			add_accepted_culture = kurdish
+			ARM = { 
+				any_owned = { add_core = A16 }
+			}
 			set_global_flag = Form_A16 
 		}
 	}
@@ -546,7 +549,7 @@ picture = kanun_i_esasi
 				tag = A16
 				OR = { 
 					exists = A06
-					year = 1860 
+					year = 1855 
 				}	
 				point_defense_system = 1
 		}
@@ -567,17 +570,22 @@ picture = kanun_i_esasi
 		
 		allow = {
 			tag = A16
-			OR = { AND = {
-			NOT = { exists = CYP }
-			NOT = { exists = CRE } }
-			year = 1865 }
-			time_saving_measures = 1 }
+			OR = { 
+				AND = {
+					NOT = { exists = CYP }
+					NOT = { exists = CRE } 
+					time_saving_measures = 1
+				}
+				year = 1865 
+			}
+		}
 		effect = { 	
 			RUS_1098 = { add_core = THIS }
 			PER_1112 = { add_core = THIS }
 			TUR_885 = { add_core = THIS }
 			add_accepted_culture = azerbaijani
-			set_country_flag = A16_kavkaz }
+			set_country_flag = A16_kavkaz 
+		}
 			
 	}
 
@@ -687,6 +695,7 @@ picture = kanun_i_esasi
 			add_accepted_culture = zulu
 			prestige = 5
 			set_country_flag = form_SAF
+			any_owned = { }
 		}
 	}
 	SAF_claim = {
@@ -772,12 +781,12 @@ picture = kanun_i_esasi
 		}
 		
 		allow = {
-			owns = 2031
+			owns = 1847
 		}
 		
 		effect = {
 			C01 = { 
-				any_owned = { add_core = ZAN }
+				any_owned = { add_core = EHT }
 			}
 			prestige = 5
 			set_country_flag = ETH_claim
@@ -857,14 +866,12 @@ picture = kanun_i_esasi
 		}
 		
 		allow = {
-			OR = {
-				NOT = { 
-					exists = C01
-					exists = CNG
-					exists = ZAN 
+			NOT = { 
+				exists = C01
+				exists = CNG
+				exists = ZAN 
 				}
-				year = 1860
-			}
+				year = 1845
 		}
 		
 		effect = {

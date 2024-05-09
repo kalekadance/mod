@@ -10,7 +10,6 @@ political_decisions = {
 		}
 		allow = {
 			OR = { tag = A09 tag = D08 }
-			ai = no
 			muzzle_loaded_rifles = 1
 		}
 		effect = {
@@ -31,10 +30,9 @@ political_decisions = {
 		}
 		allow = {
 			OR = { tag = A09 tag = D08 }
-			ai = no
 			positivism = 1
 			functionalism = 1
-			naval_plans = 1
+			money = 100000
 		}
 		effect = {
 			set_country_flag = A09_colonisation1
@@ -42,6 +40,7 @@ political_decisions = {
 			FRA_1097 = { secede_province = THIS }
 			FRA_1097 = { any_pop = { literacy = 0.15 } }
 			FRA_1097 = { life_rating = 20 }
+			money = -100000
 		}
 	}
 
@@ -55,8 +54,8 @@ political_decisions = {
 		}
 		allow = {
 			OR = { tag = A09 tag = D08 }
-			ai = no
-			naval_plans = 1
+			state_n_government = 1
+			money = -200000
 		}
 		effect = {
 			set_country_flag = A09_colonisation2
@@ -64,6 +63,7 @@ political_decisions = {
 			AST_2527 = { secede_province = THIS }
 			AST_2527 = { any_pop = { literacy = 0.15 } }
 			AST_2527 = { life_rating = 20 }
+			money = -200000
 		}
 	}
 	A09_colonisation3 = {
@@ -75,8 +75,8 @@ political_decisions = {
 		}
 		allow = {
 			OR = { tag = A09 tag = D08 }
-			ai = no
-			collectivist_theory = 1
+			business_regulations = 1
+			money = 300000
 		}
 		effect = {	
 			set_country_flag = A09_colonisation3
@@ -84,6 +84,7 @@ political_decisions = {
 			AST_2454 = { secede_province = THIS }
 			AST_2454 = { any_pop = { literacy = 0.15 } }
 			AST_2454 = { life_rating = 20 }
+			money = -300000
 		}
 	}
 
@@ -96,8 +97,8 @@ political_decisions = {
 		}
 		allow = {
 			OR = { tag = A09 tag = D08 }
-			ai = no
-			central_bank_money_bill_printing =  1
+			raider_group_doctrine = 1
+			money = 300000
 		}
 		effect = {
 			set_country_flag = A09_colonisation4
@@ -105,6 +106,7 @@ political_decisions = {
 			BRZ_2540 = { secede_province = THIS }
 			BRZ_2540 = { any_pop = { literacy = 0.15 } }
 			BRZ_2540 = { life_rating = 20 }
+			money = -300000
 		}
 	}
 	D08_claim = {
@@ -181,7 +183,6 @@ political_decisions = {
 		effect = {
 			change_tag = A09
 			add_accepted_culture = asian_minor
-			ruling_party_ideology = conservative
 			set_country_flag = A09_form	
 		}
 	}
@@ -233,11 +234,10 @@ political_decisions = {
 	
 	A09_claim1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = A09	
+		potential = {  
+			tag = A09	
 			has_country_flag = A09_claim 
-			NOT = { has_country_flag = A09_claim1
-				
-			}
+			NOT = { has_country_flag = A09_claim1 }
 		}
 		allow = {
 			tag = A09
@@ -247,6 +247,8 @@ political_decisions = {
 			HAW_658 = {
 				any_owned = { add_core = THIS }
 			}
+			any_owned = { remove_core = AST }
+			any_owned = { remove_core = NZL }
 			set_country_flag = A09_claim1	
 		}
 	}
@@ -254,7 +256,7 @@ political_decisions = {
 	A09_claim2 = {
 		picture = kanun_i_esasi
 		potential = {  
-			tag = A09	
+			tag = A09
 			has_country_flag = A09_claim1
 			NOT = { has_country_flag = A09_claim2 }
 		}
@@ -264,9 +266,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			JAP_1660 = {
-				any_owned = { add_core = THIS }
-			}
+			JAP_1660 = { { add_core = THIS } }
 			set_country_flag = A09_claim2
 			
 		}
@@ -377,7 +377,6 @@ political_decisions = {
 		}
 		effect = {
 			change_tag = A12
-			ruling_party_ideology = conservative
 			add_accepted_culture = asian_minor
 			add_accepted_culture = vietnamese
 			set_country_flag = A12_form

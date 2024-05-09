@@ -4,17 +4,92 @@ political_decisions = {
 	izi_money = { 
 		picture = graet_eic
 		potential = { ai=yes }
-		allow = { NOT = { money = 100000 }
+		allow = { 
+			ai=yes
+			NOT = { money = 100000 }
 			year = 1836 
 			NOT = { year = 1845 }
 		}
 		effect = { money = 100000 }
 	}
-
+	izi_goods = { 
+		picture = graet_eic
+		potential = { 
+			ai=yes
+			OR = {
+				tag = CHI
+				tag = HND
+				tag = PER
+				tag = IGM
+				tag = EGY
+				tag = JAP
+				tag = GCO
+			} 
+		}
+		allow = { 
+			ai=yes
+			OR = {
+				NOT = { ammunition = 1000 }
+				NOT = { artillery = 1000 }
+				NOT = { canned_food = 1000 }
+				NOT = { coal = 1000 }
+				NOT = { clipper_convoy = 1000 }
+				NOT = { steamer_convoy = 1000 }
+				NOT = { liquor = 1000 }
+				NOT = { small_arms = 1000 }
+				NOT = { explosives = 1000 }
+				NOT = { steel = 1000 }
+				NOT = { wool = 1000 }
+				NOT = { barrels = 1000 }
+				NOT = { aeroplanes = 1000 }
+				NOT = { electric_gear = 1000 }
+				NOT = { telephones = 1000 }
+				NOT = { radio = 1000 }
+			}
+		}
+		effect = {
+			ammunition = 23000
+			artillery = 23000
+			canned_food = 23000
+			coal = 23000
+			clipper_convoy = 23000
+			steamer_convoy = 23000
+			liquor = 23000
+			wine = 23000
+			steel = 23000
+			explosives = 23000
+			wool = 23000
+			small_arms = 23000
+			aeroplanes = 23000
+			barrels = 23000
+			electric_gear = 23000
+			telephones = 23000
+			radio = 23000
+		}
+	}
+	izi_goods2 = { 
+		picture = graet_eic
+		potential = { 
+			ai=yes
+			NOT = { tag = CHI }
+		}
+		allow = { 
+			ai=yes
+			NOT = { liquor = 1000 }
+			NOT = { year= 1838 }
+		}
+		effect = {
+			liquor = 1500
+			wine = 2100
+			wool = 2300
+		}
+	}
 	izi_money1 = { 
 	picture = graet_eic
 		potential = { ai=yes }
-		allow = { NOT = { money = 100000 }
+		allow = { 
+			ai=yes
+			NOT = { money = 100000 }
 			year = 1845 
 			NOT = { year = 1875 }
 		}
@@ -24,8 +99,10 @@ political_decisions = {
 	izi_money2 = { 
 		picture = graet_eic
 		potential = { ai=yes }
-		allow = { NOT = { money = 500000 }
-			year = 1875 
+		allow = { 
+			NOT = { money = 500000 }
+			year = 1875
+			ai=yes 
 		}
 		effect = { money = 1000000 }
 	}
@@ -57,6 +134,44 @@ political_decisions = {
 			add_country_modifier = { 
 				name = prussian_general_staff2 duration = -1
 			}
+		}
+	}
+	ai_baff2 = { 
+		picture = graet_eic
+		potential = { 
+			ai=yes
+			NOT = { has_country_flag = ai_baff2 }
+		}
+		allow = { 
+			ai=yes
+			year = 1870
+		}
+		effect = { 
+			set_country_flag = ai_baff2
+			add_country_modifier = { 
+				name = prussian_general_staff3 duration = -1
+			}
+		}
+	}
+	CHI_baff = { 
+		picture = graet_eic
+		potential = {
+			OR = {
+				tag = CHI
+				tag = HND
+			}
+			ai=yes
+			NOT = { has_country_flag = CHI_baff }
+		}
+		allow = { 
+			ai=yes
+		}
+		effect = {
+			set_country_flag = CHI_baff
+			add_country_modifier = { 
+				name = prussian_general_staff4 duration = -1
+			}
+			tech_school = CHI_tech_school
 		}
 	}
 	CHI_remove = {
@@ -100,10 +215,12 @@ political_decisions = {
 				}		
 			}	
 			allow = {
-			owns = 300
-			owns = 269
-			owns = 418
-			owns = 435
+				owns = 300
+				owns = 269
+				OR = {
+					owns = 418
+					NOT = { exists = BAD }
+				}
 			}
 			
 			effect = {
@@ -183,6 +300,7 @@ political_decisions = {
 		effect = {
 			DEN_251 = { add_core = A01 }
 			ENG_43 = { add_core = A01 }
+			add_accepted_culture = icelandic
 			set_country_flag = raise_A01
 		}
 	}
@@ -307,14 +425,9 @@ political_decisions = {
 	A01_war = {
 		picture = graet_eic
 		potential = {
-			372 = {
-				OR = {
-					owned_by = A05  
-					owned_by = A07
-					owned_by = A02
-					owned_by = A03   
-				}
-			}
+			tag = A01
+			year = 1840
+			NOT = { 372 = { owned_by = SCA } }
 			NOT = { has_country_flag = A01_war }
 		}
 		allow = {
@@ -323,6 +436,23 @@ political_decisions = {
 		effect = {
 			add_core = 372
 			set_country_flag = A01_war
+		}
+		ai_will_do = { factor = 1 }
+	}
+	A01_war1 = {
+		picture = graet_eic
+		potential = {
+			tag = A01
+			has_country_flag = A01_war
+			NOT = { has_country_flag = A01_war1 }
+		}
+		allow = {
+			NOT = { exists = DAN }
+			year = 1845
+		}
+		effect = {
+			add_accepted_culture = danish
+			set_country_flag = A01_war1
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -338,9 +468,19 @@ political_decisions = {
 			}		
 		}	
 		allow = {
-		owns = 407
-		owns = 576
-		owns = 398
+			OR = {
+				AND = {
+					owns = 407
+					owns = 576
+					owns = 398
+				}
+				AND = {
+					NOT = { 407 = { owned_by = WLL } }
+					NOT = { 576 = { owned_by = BEL } }
+					NOT = { 398 = { owned_by = BEL } }
+				}
+
+			}
 		}
 		
 		effect = {
@@ -351,33 +491,12 @@ political_decisions = {
 			add_accepted_culture = flemish
 			add_accepted_culture = wallonian
 			add_accepted_culture = dutch
-			add_core = 396
-			add_core = 398
-			add_core = 392
-			add_core = 395
-			add_core = 391
-			add_core = 397
-			add_core = 381
-			add_core = 379
-			add_core = 382
-			add_core = 394
-			add_core = 393
-			add_core = 388
-			add_core = 389
-			add_core = 378
-			add_core = 390
-			add_core = 380
-			add_core = 376
-			add_core = 377
-			add_core = 375
-			add_core = 384
-			add_core = 386
-			add_core = 383
-			add_core = 385
-			add_core = 387
-			any_owned = {
-				remove_core = LUX
-			}
+			NET_375 = { add_core = A02 }
+			BEL_387 = { add_core = A02 }
+			BEL_393 = { add_core = A02 }
+			NET_385 = { add_core = A02 }
+			NET_381 = { add_core = A02 }
+			FRA_404 = { add_core = A02 }
 		}
 		ai_will_do = {
 			factor = 10
@@ -393,10 +512,22 @@ political_decisions = {
 				}		
 			}	
 			allow = {
-			owns = 375
-			owns = 388
-			owns = 379
-			owns = 385
+				OR = {
+					AND = {
+						owns = 375
+						owns = 388
+						owns = 379
+						owns = 385
+					}
+					NOT = { exists = FLA }
+					FLA = { part_of_sphere = yes }
+					AND = {
+						NOT = { 375 = { owned_by = FLA } }
+						NOT = { 388 = { owned_by = FLA } }
+						NOT = { 379 = { owned_by = FLA } }
+						NOT = { 385 = { owned_by = FLA } }
+					}
+				}
 			}
 			
 			effect = {
@@ -413,11 +544,14 @@ political_decisions = {
 				add_core = 567
 				add_core = 564
 				add_core = 2560
+				any_owned = {
+					remove_core = LUX
+				}
 			}
 			ai_will_do = {
 				factor = 10
 			}
-		}
+	}
 	
 	Lorraine_second = {
 		picture = graet_eic	
@@ -431,8 +565,14 @@ political_decisions = {
 				}
 			}	
 			allow = {
-			owns = 2560
-			owns = 581
+				OR = {
+					AND = {
+						owns = 2560
+						owns = 581
+					}
+				NOT = { exists = NAS }
+				NAS = { part_of_sphere = yes }
+				}
 			}
 			
 			effect = {
@@ -463,8 +603,17 @@ political_decisions = {
 					
 		}	
 		allow = {
-		owns = 587
-		owns = 589
+			OR = {
+				AND = { 
+					owns = 587
+					owns = 589 
+				}
+				AND = {
+					NOT = { 587 = { owned_by = SGF } }
+					NOT = { 589 = { owned_by = SGF } }
+				}
+				SGF = { part_of_sphere = yes }
+			}
 		}
 		
 		effect = {
@@ -478,6 +627,7 @@ political_decisions = {
 			add_core = 440
 			add_core = 441
 			add_core = 436
+			FRA_428 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 10
@@ -496,15 +646,27 @@ political_decisions = {
 			}
 		}	
 		allow = {
-		owns = 425
-		owns = 438
+			OR = {
+				AND = {
+					owns = 425
+					owns = 438
+					year = 1844
+				}
+				AND = {
+					year = 1844
+					NOT = { exists = WLL }
+				}
+				AND = {
+					WLL = { part_of_sphere = yes }
+					year = 1844
+				}
+			}
 		}
 		
 		effect = {
 			set_country_flag = form_Francia
 			change_tag = A03
 			prestige = 20
-			ruling_party_ideology = conservative
 			add_core = 445
 			add_core = 446
 			add_core = 447
@@ -516,11 +678,9 @@ political_decisions = {
 					add_core = A03
 				}
 			}
-			SWI = {
-				any_owned = {
-					add_core = A03
-				}
-			}
+			SWI_605 = { add_core = A03 }
+			SWI_603 = { add_core = A03 }
+			SAR_466 = { add_core = A03 }
 			any_owned = {
 				remove_core = A02
 			}
@@ -534,9 +694,7 @@ political_decisions = {
 		picture = graet_eic
 		potential = {
 			tag = A03
-			NOT = {
-						has_country_flag = own_Switzerland
-					}
+			NOT = { has_country_flag = own_Switzerland }
 		}
 		allow = {
 			owns = 607
@@ -545,19 +703,29 @@ political_decisions = {
 		effect = {
 				set_country_flag = own_Switzerland
 				prestige = 20
-				ruling_party_ideology = conservative
-				SAR = {
-					any_owned = {
-						add_core = A03
-					}
-				}
-				LOM = {
-					any_owned = {
-						add_core = A03
-					}
-				}
-				add_accepted_culture = north_italian
+				add_accepted_culture = swiss
+		}
+			ai_will_do = {
+				factor = 10
 			}
+		
+	}
+	own_Itali = {
+		picture = graet_eic
+		potential = {
+			tag = A03
+			NOT = { has_country_flag = own_Itali }
+		}
+		allow = {
+			NOT = { exists = SWI }
+			exists = A06 
+			year = 1870
+		}
+		effect = {
+				set_country_flag = own_Itali
+				prestige = 20
+				add_accepted_culture = north_italian
+		}
 			ai_will_do = {
 				factor = 10
 			}
@@ -576,13 +744,13 @@ political_decisions = {
 		}	
 		allow = {
 		owns = 487
+		NOT = { 487 = { owned_by = D21 } }
 		}
 		
 		effect = {
 			set_country_flag = form_Spain
 			change_tag = SPA
 			prestige = 20
-			ruling_party_ideology = conservative
 			inherit = D21
 			inherit = D20
 			POR = {
@@ -609,7 +777,11 @@ political_decisions = {
 			}		
 		}	
 		allow = {
-		owns = 521
+			OR = {
+			owns = 521
+			NOT = { 521 = { owned_by = POR } }
+			POR  = { part_of_sphere = yes }
+			}
 		}
 		
 		effect = {
@@ -631,12 +803,21 @@ political_decisions = {
 			}		
 		}	
 		allow = {
-			owns = 487
-			owns = 521
-			owns = 458
-			owns = 467
+			OR = {
+				AND = {
+					owns = 487
+					owns = 521
+					owns = 458
+					owns = 467
+				}
+				AND = {
+					NOT = { 458 = { owned_by = SIG } }
+					NOT = { 467 = { owned_by = MOD } }
+					NOT = { 521 = { owned_by = POR } }
+					NOT = { 487 = { owned_by = D21 } }
+				}
+			}
 		}
-		
 		effect = {
 			set_country_flag = form_Franco_Iberia
 			change_tag = A04
@@ -683,13 +864,14 @@ political_decisions = {
 			NOT = { has_country_flag = has_restore_emp }
 		}
 		allow = {
-	        ai = no
 			year = 1850
 			nationalism_n_imperialism = 1
 		}
 		effect = {
 			THIS = { country_event = { id=37702 days=0 } }
 		 	set_country_flag = has_restore_emp
+			add_accepted_culture = filipino
+			add_accepted_culture = caribeno
 		}
 	}
 	restore_emp1 = {
@@ -701,13 +883,13 @@ political_decisions = {
 			NOT = { has_country_flag = has_restore_emp1 }
 		}
 		allow = {
-	        ai = no
 			year = 1870
 			nationalism_n_imperialism = 1
 		}
 		effect = {
 			THIS = { country_event = { id=377033 days=0 } }
 		 	set_country_flag = has_restore_emp1
+			add_accepted_culture = north_andean
 		}
 	}
 
@@ -721,7 +903,11 @@ political_decisions = {
 			}
 		}
 		allow = {
-			owns = 682
+			OR = {
+				owns = 682
+				NOT = { 682 = { owned_by = KRA } }
+				KRA  = { part_of_sphere = yes }
+			}
 		}
 		effect = {
 			set_country_flag = BOH_first
@@ -746,7 +932,11 @@ political_decisions = {
 			}
 		}
 		allow = {
-			owns = 633
+			OR = {
+				owns = 633
+				NOT = { 633 = { owned_by = SLV } }
+				SLV  = { part_of_sphere = yes }
+			}
 		}
 		effect = {
 			set_country_flag = CZH_form
@@ -780,26 +970,36 @@ political_decisions = {
 	CZH_south_germany = {
 		picture = graet_eic
 		potential = {
-			tag = CZH
+			OR = {
+				tag = A05
+				tag = CZH
+			}
 			NOT = {
 				has_country_flag = CZH_south_germany
 			}
 		}
 		allow = {
-			AUS_623 = {
-				owned_by = CZH
-			}
-			AUS_641 = {
-				owned_by = CZH
-			}
-			AUS_647 = {
-				owned_by = CZH
-			}
-			AUS_657 = {
-				owned_by = CZH
-			}
-			AUS_777 = {
-				owned_by = CZH
+			OR = {
+				AND = {
+					AUS_623 = { owned_by = THIS }
+					AUS_641 = { owned_by = THIS }
+					AUS_647 = {	owned_by = THIS }
+					AUS_657 = { owned_by = THIS }
+				}
+				AND = {
+					OR = {
+						NOT = { exists = HUN }
+						HUN  = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { exists = SIE }
+						SIE = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { exists = CRO }
+						CRO = { part_of_sphere = yes }
+					}
+				}
 			}
 		}
 		effect = {
@@ -829,16 +1029,31 @@ political_decisions = {
 	CZH_claims = {
 		picture = graet_eic
 		potential = {
-			tag = CZH
-			AND = {
-				NOT = {
-					has_country_flag = CZH_claims
-				}
+			OR = {
+				tag = A05
+				tag = CZH
 			}
+			NOT = { has_country_flag = CZH_claims }
+			
 		}
 		allow = {
-			owns = 595
-			owns = 613
+			OR = {
+				AND = {
+					owns = 595
+					owns = 613 
+				}
+				AND = {
+					OR = {
+						NOT = { 613 = { owned_by = SWI } }
+						SWI = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { 595 = { owned_by = SGF } }
+						SGF = { part_of_sphere = yes }
+					}
+				}
+			}
+
 		}
 		effect = {
 			set_country_flag = CZH_claims
@@ -872,12 +1087,25 @@ political_decisions = {
 	picture = graet_eic
 		potential = {
 			tag = CZH
-			has_country_flag = CZH_claims
 			NOT = { has_country_flag = form_A05 }
 		}	
 		allow = {
-			owns = 549
-			owns = 559
+			OR = {
+				AND = {
+					owns = 549
+					owns = 559
+				}
+				AND = {
+					OR = {
+						NOT = { 549 = { owned_by = BRA } }
+						BRA = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { 559 = { owned_by = SAX } }
+						SAX = { part_of_sphere = yes }
+					}
+				}
+			}
 		}
 		
 		effect = {
@@ -919,9 +1147,24 @@ political_decisions = {
 			}
 		}	
 		allow = {
-			owns = 657
-			owns = 794
-			iron_breech_loaded_artillery = 1
+			OR = {
+				AND = {
+					owns = 657
+					owns = 794
+					iron_breech_loaded_artillery = 1
+				}
+				AND = {
+					OR = {
+						NOT = { 657 = { owned_by = SIE } }
+						SIE = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { 794 = { owned_by = SER } }
+						SER = { part_of_sphere = yes }
+					}
+					iron_breech_loaded_artillery = 1
+				}
+			}
 		}
 		
 		effect = {
@@ -966,13 +1209,15 @@ political_decisions = {
 	picture = graet_eic
 		potential = {
 			tag = A05
-			has_country_flag = A05_raise
 			NOT = {
 					has_global_flag = A05_nord	
 			}
 		}	
 		allow = {
-			NOT = { exists = HOL }
+			OR = {
+				NOT = { exists = HOL }
+				HOL = { part_of_sphere = yes }
+			}
 		}
 		
 		effect = {
@@ -994,7 +1239,7 @@ political_decisions = {
 			}
 		}	
 		allow = {
-		army_decision_making = 1	
+			army_decision_making = 1	
 		}
 		
 		effect = {
@@ -1035,14 +1280,16 @@ political_decisions = {
 	picture = graet_eic
 		potential = {
 			tag = A05
-			has_global_flag = form_Intermarium33
+			OR = {
+				has_global_flag = form_Intermarium33
+				has_global_flag = form_Intermarium333
+			}
 			NOT = {
 					has_global_flag = A05_Inter
 			}
 		}	
 		allow = {
 			owns = 657
-			has_global_flag = form_Intermarium33
 		}
 		
 		effect = {
@@ -1086,16 +1333,29 @@ political_decisions = {
 			}
 		}
 		allow = {
-			PAP_752 = {
-				owned_by = SIC
-			}
-			PAP_741 = {
-				owned_by = SIC
+			OR = {
+				AND = {
+					PAP_752 = {
+						owned_by = SIC
+					}
+					PAP_741 = {
+						owned_by = SIC
+					}
+				}
+				OR = {
+					AND = {
+					PAP_752 = { NOT = { owned_by = PAP } }
+					PAP_741 = { NOT = { owned_by = PAP } }
+					}
+					PAP = { part_of_sphere = yes }
+
+				}
 			}
 		}
 		effect = {
 			set_country_flag = own_roma
 			change_tag = ITA
+			prestige = 20
 		}
 				ai_will_do = {
 				factor = 10
@@ -1105,14 +1365,21 @@ political_decisions = {
 	italian_claims_on_lombardy = {
 		picture = graet_eic
 		potential = {
-			tag = ITA
+			OR = {
+				tag = A06
+				tag = ITA
+			}
 			NOT = {
 				has_country_flag = italian_claims_on_lombardy
 			}
 		}
 		allow = {
-			SAR_720 = {
-				owned_by = ITA
+			OR = {
+				SAR_720 = {
+					owned_by = ITA
+				}
+				SAR = { part_of_sphere = yes }
+				SAR_720 = { NOT = { owned_by = SAR } }
 			}
 		}
 		effect = {
@@ -1123,6 +1390,7 @@ political_decisions = {
 			AUS_729 = {
 					add_core = ITA
 				}
+			any_owned = { remove_core = SIC }
 		}
 				ai_will_do = {
 				factor = 10
@@ -1132,20 +1400,32 @@ political_decisions = {
 	italian_claims_on_greece = {
 		picture = graet_eic
 		potential = {
-			tag = ITA
-			AND = [
+			OR = {
+				tag = A06
+				tag = ITA
+			}
 				has_country_flag = italian_claims_on_lombardy
 				NOT = {
 					has_country_flag = italian_claims_on_greece
 				}
 			}
 		allow = {
-			AUS_726 = {
-					owned_by = ITA
+			OR = {
+				AND = {
+					AUS_726 = { owned_by = ITA }
+					AUS_729 = { owned_by = ITA }
 				}
-			AUS_729 = {
-					owned_by = ITA
+				AND = { 
+					OR = {
+						AUS_726 = { NOT = { owned_by = LOM } } 
+						LOM = { part_of_sphere = yes }
+					}
+					OR = {
+						AUS_729 = { NOT = { owned_by = VEN } }
+						VEN = { part_of_sphere = yes } 
+					}
 				}
+			}
 		}
 		effect = {
 			set_country_flag = italian_claims_on_greece
@@ -1181,31 +1461,35 @@ political_decisions = {
 	picture = graet_eic
 		potential = {
 			tag = ITA
-			has_country_flag = italian_claims_on_greece
 			NOT = { has_country_flag = form_RE }	
 		}	
 		allow = {
-			GRE_826 = {
-				owned_by = ITA
+			OR = {
+				AND = {	
+					GRE_826 = {
+						owned_by = ITA
+					}
+					GRE_837 = {
+						owned_by = ITA
+						}
+					TUR_832 = {
+						owned_by = ITA
+						}
+				}
+				OR = {
+					AND = {
+						GRE_826 = { NOT = { owned_by = GRE } } 
+						GRE_837 = { NOT = { owned_by = GRE } } 
+						TUR_832 = { NOT = { owned_by = GRE } }
+					} 
+					AND = {
+						GRE = { part_of_sphere = yes }
+						year = 1845
+					}
+
+				}
+				year = 1850
 			}
-			GRE_837 = {
-				owned_by = ITA
-				}
-			TUR_832 = {
-				owned_by = ITA
-				}
-			TUR_806 = {
-				owned_by = ITA
-				}
-			TUR_805 = {
-				owned_by = ITA
-				}
-			TUR_860 = {
-				owned_by = ITA
-				}
-			EGY_843 = {
-				owned_by = ITA
-				}
 		}
 		
 		effect = {
@@ -1244,58 +1528,111 @@ political_decisions = {
 			TUR_674 = {
 				add_core = A06
 			}
-			add_core = 768
-			add_core = 767
+			AUS_612 = { add_core = A06 }
 		}
 		ai_will_do = {
 			factor = 10
 		}
 	}
-	
-	romanian_balkans = {
+	A06_raise = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			exists = A03
+			NOT = { has_country_flag = A06_raise }
+		}
+		allow = { owns = 735 }
+		effect = {
+			SWI_603 = { add_core = A06 }
+			SWI_605 = { add_core = A06 }
+			add_accepted_culture = swiss
+			set_country_flag = A06_raise
+		}
+	}
+	A06_raise1 = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = A06_raise
+			NOT = { has_country_flag = A06_raise1 }
+		}
+		allow = { owns = 607 }
+		effect = {
+			AUS_619 = { add_core = A06 }
+			SAR_466 = { add_core = A06 }
+			add_accepted_culture = south_german
+			set_country_flag = A06_raise1
+		}
+	}
+	romanian_bulgarian = {
 		picture = graet_eic
 		potential = {
 			tag = A06
 			has_country_flag = form_RE
-			NOT = { has_country_flag = romanian_balkans }
+			NOT = { has_country_flag = romanian_bulgarian }
 		}
 		allow = {
-			TUR_853 = {
+			TUR_810 = {
+				owned_by = A06
+			}
+		}
+		effect = {
+			add_accepted_culture = bulgarian
+			set_country_flag = romanian_bulgarian 
+		}
+	}
+	romanian_Serbian = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = form_RE
+			NOT = { has_country_flag = romanian_Serbian }
+		}
+		allow = {
+			TUR_788 = {
 				owned_by = A06
 			}
 			MON_2582 = {
 				owned_by = A06
 			}
-			TUR_788 = {
-				owned_by = A06
-			}
+		}
+		effect = {
+			add_accepted_culture = serb
+			set_country_flag = romanian_Serbian
+		}
+	}
+	romanian_Chorvat = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = form_RE
+			NOT = { has_country_flag = romanian_Chorvat  }
+		}
+		allow = {
 			AUS_780 = {
-				owned_by = A06
-			}
-			AUS_736 = {
-				owned_by = A06
-			}
-			AUS_771 = {
-				owned_by = A06
-			}
-			SER_794 = {
-				owned_by = A06
-			}
-			TUR_803 = {
-				owned_by = A06
-			}
-			TUR_810 = {
-				owned_by = A06
-			}
-			TUR_674 = {
 				owned_by = A06
 			}
 		}
 		effect = {
-			set_country_flag = romanian_balkans
-			add_accepted_culture = bulgarian
-			add_accepted_culture = serb
 			add_accepted_culture = croat
+			set_country_flag = romanian_Chorvat 
+		}
+	}
+	
+	romanian_alban = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = form_RE
+			NOT = { has_country_flag = romanian_alban }
+		}
+		allow = {
+			TUR_853 = {
+				owned_by = A06
+			}
+		}
+		effect = {
+			set_country_flag = romanian_alban
 			add_accepted_culture = albanian
 			TUR_869 = {
 				add_core = A06
@@ -1314,17 +1651,16 @@ political_decisions = {
 		picture = graet_eic
 		potential = {
 			tag = A06
-			has_country_flag = romanian_balkans
 			NOT = { has_country_flag = romanian_turkey }
 		}
 		allow = {
-			TUR_869 = {
+			EGY_843 = {
 				owned_by = A06
 			}
 			TUR_863 = {
 				owned_by = A06
 			}
-			TUR_873 = {
+			TUR_869 = {
 				owned_by = A06
 			}
 		}
@@ -1348,15 +1684,11 @@ graet_pol = {
 			}		
 		}	
 		allow = {
-		owns = 2584
-		owns = 714
-		owns = 704
-		owns = 705
-		owns = 702
-		owns = 951
-		owns = 952
-		owns = 953
-		owns = 662
+			OR = {
+				RUT = { part_of_sphere = yes }
+				NOT = { exists = RUT }
+				year = 1840
+			}
 		}
 		
 		effect = {
@@ -1378,15 +1710,13 @@ graet_pol = {
 			add_core = 361
 			add_accepted_culture = lithuanian
 			add_accepted_culture = ashkenazi
-			any_owned = {
-				remove_core = POL }
-		}
+		}	
 		ai_will_do = {
 			factor = 10
 		}
 	}
-graet_pol2 = {
-	picture = graet_eic
+	graet_pol2 = {
+		picture = graet_eic
 		potential = {
 			tag = PLC
 			NOT = {
@@ -1394,10 +1724,26 @@ graet_pol2 = {
 			}		
 		}	
 		allow = {
-		tag = PLC
-		owns = 698
-		owns = 690
-		owns = 360
+			OR = {
+				AND = {
+					owns = 698
+					owns = 690
+					owns = 360
+				}
+				AND = {
+					OR = {
+						NOT = { exists = DZG }
+						DZG = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { exists = LIT }
+						LIT = { part_of_sphere = yes }
+					}
+				}
+				year = 1840
+			}
+
+
 		}
 		
 		effect = {
@@ -1415,7 +1761,10 @@ graet_pol2 = {
 			add_core = 349
 			add_accepted_culture = latvian
 			add_accepted_culture = estonian
+			any_owned = {
+				remove_core = POL }
 		}
+		
 		ai_will_do = {
 			factor = 10
 		}
@@ -1433,9 +1782,24 @@ graet_pol3 = {
 					
 		}	
 		allow = {
-		tag = PLC
-		owns = 349
-		owns = 354
+			OR = {
+				AND = {
+					owns = 349
+					owns = 354
+				}
+				AND = {
+					OR = {
+						NOT = { exists = LAT }
+						LAT = { part_of_sphere = yes }
+					}
+					OR = {
+						NOT = { exists = EST }
+						EST = { part_of_sphere = yes }
+					}
+				}
+				year = 1840
+			}
+		
 		}
 		
 		effect = {
@@ -1473,9 +1837,12 @@ graet_pol4 = {
 			}	
 		}	
 		allow = {
-		tag = PLC
-		owns = 718
-		
+			OR = {
+				owns = 718
+				NOT = { exists = BYE }
+				BYE = { part_of_sphere = yes }
+				year = 1841
+			}
 		}
 		
 		effect = {
@@ -1513,14 +1880,19 @@ graet_pol4 = {
 	picture = graet_eic
 		potential = {
 		has_global_flag = graet_pol4
+		tag = PLC
 				NOT = {
 					has_global_flag = form_Intermarium
 				}
 			}			
 			
 		allow = {
-		tag = PLC
-		owns = 958
+			OR = {
+				owns = 958
+				NOT = { exists = UKR }
+				UKR = { part_of_sphere = yes }
+				year = 1845
+			}
 		}
 		
 		effect = {
@@ -1530,7 +1902,6 @@ graet_pol4 = {
 			add_core = 964
 			add_core = 967
 			add_core = 966
-			ruling_party_ideology = conservative
 			add_accepted_culture = tatar
 			any_owned = {
 				remove_core = PLC }
@@ -1584,8 +1955,11 @@ graet_pol4 = {
 		}			
 			
 		allow = {
-		tag = A07
-		owns = 667	
+			OR = { 
+				owns = 667 
+				NOT = { 667 = { owned_by = ROM } }
+				ROM = { part_of_sphere = yes }
+			}	
 		}
 		
 		effect = {
@@ -1609,14 +1983,110 @@ graet_pol4 = {
 		}			
 			
 		allow = {
-		tag = A07
-		owns = 823
-		owns = 858
-		owns = 865			
+			OR = {
+				AND = {
+					owns = 823
+					owns = 858
+					owns = 865	
+				}
+				year = 1865
+			}		
 		}
 		
 		effect = {
 			set_country_flag = raise_Intermarium34
+			TUR_863 = { add_core = THIS }
+			TUR_881 = { add_core = THIS }
+			TUR_884 = { add_core = THIS }
+			TUR_885 = { add_core = THIS }
+			add_accepted_culture = turkish
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Западное решение после восточного
+	form_Intermarium334 = {
+	picture = graet_eic
+		potential = {
+		tag = A07
+			AND = {
+				has_global_flag = form_Intermarium3
+				NOT = {
+					has_global_flag = form_Intermarium33
+					has_global_flag = form_Intermarium334
+				}
+			}			
+		}	
+		allow = {
+		tag = A07
+			
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium334
+			add_core = 677
+			add_core = 676
+			add_core = 678
+			add_core = 671
+			add_core = 670
+			add_core = 673
+			add_core = 663
+			add_core = 672
+			add_accepted_culture = romanian
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	raise_Intermarium334 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = form_Intermarium334
+			NOT = { has_country_flag = raise_Intermarium334 }
+		}			
+			
+		allow = {
+			OR = { 
+				owns = 667 
+				NOT = { 667 = { owned_by = ROM } }
+				ROM = { part_of_sphere = yes }
+				year = 1855
+			}		
+		}
+		
+		effect = {
+			set_country_flag = raise_Intermarium334
+			TUR_674 = { add_core = THIS }
+			TUR_810 = { add_core = THIS }
+			add_accepted_culture = bulgarian
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	raise_Intermarium345 = {
+		picture = graet_eic
+		potential = {
+			tag = A07
+			has_country_flag = raise_Intermarium334
+			NOT = { has_country_flag = raise_Intermarium345 }
+		}			
+			
+		allow = {
+			OR = {
+				AND = {
+					owns = 823
+					owns = 858
+					owns = 865	
+				}
+				year = 1865
+			}			
+		}
+		
+		effect = {
+			set_country_flag = raise_Intermarium345
 			TUR_863 = { add_core = THIS }
 			TUR_881 = { add_core = THIS }
 			TUR_884 = { add_core = THIS }
@@ -1640,7 +2110,7 @@ graet_pol4 = {
 						
 		}	
 		allow = {
-		tag = A07
+			tag = A07
 			
 		}
 		
@@ -1666,8 +2136,8 @@ graet_pol4 = {
 					
 		}	
 		allow = {
-		tag = A07
-		owns = 979
+			tag = A07
+			owns = 979
 			
 		}
 		
@@ -1703,9 +2173,9 @@ graet_pol4 = {
 						
 		}	
 		allow = {
-		tag = A07
-		owns = 1037
-		owns = 1039
+			tag = A07
+			owns = 943
+			owns = 977
 		}
 		
 		effect = {
@@ -1718,6 +2188,98 @@ graet_pol4 = {
 			factor = 10
 		}
 	}
+	#Восточное решение после заподного
+	form_Intermarium11 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_country_flag = raise_Intermarium34
+			NOT = {
+				has_global_flag = form_Intermarium11
+				has_global_flag = form_Intermarium33
+			}
+						
+		}	
+		allow = {
+		tag = A07
+			
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium11
+			add_core = 1045
+			add_core = 979
+			add_core = 1046
+			add_core = 1047
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	form_Intermarium22 = {
+	picture = graet_eic
+		potential = {
+			has_global_flag = form_Intermarium11
+			tag = A07
+			NOT = {
+				has_global_flag = form_Intermarium22
+			}
+					
+		}	
+		allow = {
+		tag = A07
+		owns = 979
+			
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium22
+			add_core = 1007
+			add_core = 943
+			add_core = 999
+			add_core = 1000
+			add_core = 1016
+			add_core = 1015
+			add_core = 1014
+			add_core = 1010
+			add_core = 1009
+			add_core = 977
+			add_core = 1017
+			add_core = 1018
+			add_core = 1019
+			add_accepted_culture = russian
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	form_Intermarium331 = {
+	picture = graet_eic
+		potential = {
+			tag = A07
+			has_global_flag = form_Intermarium22
+			NOT = {
+				has_global_flag = form_Intermarium331
+			}
+						
+		}	
+		allow = {
+			tag = A07
+			owns = 943
+			owns = 977
+		}
+		
+		effect = {
+			set_global_flag = form_Intermarium331
+			RUS_1020 = { add_core = THIS }
+			RUS_1037 = { add_core = THIS }
+			RUS_1041 = { add_core = THIS }	
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#Северное решение
 	nord_Intermarium = {
 	picture = graet_eic
 		potential = {
@@ -1774,7 +2336,7 @@ graet_pol4 = {
 	picture = graet_eic
 		potential = {
 			tag = A07
-			year = 1865
+			year = 1855
 			NOT = {
 				has_global_flag = SCA_Intermarium
 			}

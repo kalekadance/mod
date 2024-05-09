@@ -16,33 +16,43 @@ hussar = {
 	priority = 40
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 7.00
+	maximum_speed = 8.00
 	weighted_value = 7.0
 
 
 	#Building Costs
-	build_time = 150
+	build_time = 180
 	build_cost = {
-		small_arms = 20				#37		=	740
+		small_arms = 50				#37		=	740
 		canned_food = 20			#20		=	400
-		luxury_clothes = 5			#65		=	325
+									#65		=	325
 	}								#1465
 	
 	supply_consumption = 1.0
 	supply_cost = {
 		small_arms = 0.04 #0.01		37	*0.07	=2.59	=1.48
-		ammunition = 0.1 #0		18	*0.05	=0.9	=0.54
-		canned_food = 0.09 #0.08	20	*0.18	=3.6	=1.8
+		ammunition = 0.09 #0		18	*0.05	=0.9	=0.54
+		canned_food = 0.04 #0.08	20	*0.18	=3.6	=1.8
 		#Итого 7.09	/	3.82
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 5
-	defence = 3
-	discipline = 1.0
+	attack = 6
+	defence = 4
+	discipline = 1
 	support = 0.0
-	maneuver = 4
+	maneuver = 5
+	forest = {movement = -0.3}
+	mountain = {movement = -0.2}
+	hills = {movement = -0.2}
+	woods = {movement = -0.3}
+	farmlands = {movement = 0.3}
+    steppe = {movement = 0.3}
+    plains = {movement = 0.3}
+	jungle = {movement = -0.6} 
+	marsh  = {movement = -0.6}   
+	desert	= {movement = 0.3}
 	
 }

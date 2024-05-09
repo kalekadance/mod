@@ -745,7 +745,7 @@ prussian_general_staff = {
 	leadership_modifier = 2
 	unit_recruitment_time = -0.20
 	supply_consumption = -0.1
-	research_points_modifier = 0.15
+	research_points_modifier = 0.25
 	mobilisation_size = 0.01
 	global_population_growth = 0.001
 	global_pop_militancy_modifier = -0.01
@@ -760,7 +760,21 @@ prussian_general_staff2 = {
 	global_population_growth = 0.001
 	unit_recruitment_time = -0.20
 	research_points_modifier = 0.15
-	global_pop_militancy_modifier = -0.01
+	global_pop_militancy_modifier = -0.015
+	icon = 15
+}
+prussian_general_staff3 = {
+    mobilisation_size = 0.02
+	supply_consumption = -0.1
+	org_regain = 1
+	land_organisation = 0.5
+	land_unit_start_experience = 20
+	research_points_modifier = 0.15
+	global_pop_militancy_modifier = -0.015
+	icon = 15
+}
+prussian_general_staff4 = {
+    war_exhaustion = -1
 	icon = 15
 }
 

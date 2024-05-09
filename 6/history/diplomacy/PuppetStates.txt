@@ -96,3 +96,26 @@ vassal = {
 	start_date = 1861.1.1
 	end_date = 1936.1.1
 }
+
+#######################
+#        AFRICA        #
+#######################
+
+vassal = {
+	first = D15
+	second = C01
+	start_date = 1831.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = D15
+	second = CNG
+	start_date = 1831.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = D16
+	second = ZAN
+	start_date = 1831.1.1
+	end_date = 1936.1.1
+}

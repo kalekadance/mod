@@ -4,4 +4,4 @@ add_core = NOR
 add_core = SCA
 trade_goods = grain
 life_rating = 45
-naval_base = 1 
+

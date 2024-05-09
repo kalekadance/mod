@@ -113,7 +113,7 @@ duration = 5000
 				value = 40
 			}
 			JAP = {
-				years_of_research = 0.1
+				year_of_research = 0.1
 			}
 			prestige = 20
 			set_country_flag = military_mission_in_japan

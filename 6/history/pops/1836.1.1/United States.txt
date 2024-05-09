@@ -33,7 +33,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 500
+        size = 2500
     }
 
     artisans = {
@@ -51,7 +51,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 17500
+        size = 97500
     }
 
 }
@@ -67,13 +67,13 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 250
+        size = 2250
     }
 
     artisans = {
         culture = native_american_minor
         religion = orthodox
-        size = 500
+        size = 80000
     }
 
     soldiers = {
@@ -181,7 +181,7 @@
     soldiers = {
         culture = native_american_minor
         religion = orthodox
-        size = 50
+        size = 1500
     }
 
     farmers = {
@@ -199,7 +199,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 30
+        size = 2000
     }
 
     artisans = {
@@ -217,7 +217,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 2250
+        size = 22000
     }
 
 }
@@ -233,7 +233,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 10
+        size = 900
     }
 
     artisans = {
@@ -251,7 +251,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 450
+        size = 30450
     }
 
 }
@@ -267,7 +267,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 10
+        size = 1500
     }
 
     artisans = {
@@ -285,7 +285,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 360
+        size = 30360
     }
 
 }
@@ -301,7 +301,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 10
+        size = 1000
     }
 
     artisans = {
@@ -349,7 +349,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 225
+        size = 30000
     }
 
 }
@@ -459,33 +459,33 @@
 #Portland
 81 = {
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 750
+        size = 2000
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 1500
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 250
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 27000
+        size = 97000
     }
 
 }
@@ -493,33 +493,33 @@
 #Baker City
 82 = {
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 250
+        size = 2500
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 500
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 150
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 9000
+        size = 90000
     }
 
 }
@@ -527,33 +527,33 @@
 #Klamath Falls
 83 = {
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 250
+        size = 2800
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 500
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 150
+        size = 2000
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 9000
+        size = 90000
     }
 
 }
@@ -575,7 +575,7 @@
     artisans = {
         culture = mexican
         religion = orthodox
-        size = 200
+        size = 10000
     }
 
     soldiers = {
@@ -591,33 +591,33 @@
     }
 
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 500
+        size = 2500
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 100
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 25
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 1800
+        size = 90000
     }
 
 }
@@ -667,7 +667,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 75
+        size = 900
     }
 
     artisans = {
@@ -685,7 +685,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 2700
+        size = 10000
     }
 
 }
@@ -771,7 +771,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 50
+        size = 900
     }
 
     artisans = {
@@ -789,7 +789,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 1800
+        size = 10800
     }
 
 }
@@ -1035,7 +1035,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 900
     }
 
     artisans = {
@@ -1053,7 +1053,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 9000
     }
 
 }
@@ -1069,7 +1069,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 900
     }
 
     artisans = {
@@ -1087,7 +1087,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 9000
     }
 
 }
@@ -1103,7 +1103,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 900
     }
 
     artisans = {
@@ -1121,7 +1121,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 9000
     }
 
 }
@@ -1137,7 +1137,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 50
+        size = 1500
     }
 
     artisans = {
@@ -1155,7 +1155,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 1800
+        size = 10800
     }
 
 }
@@ -1171,7 +1171,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -1189,7 +1189,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 10000
     }
 
 }
@@ -1205,7 +1205,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -1223,7 +1223,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 10900
     }
 
 }
@@ -1775,7 +1775,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 75
+        size = 1075
     }
 
     artisans = {
@@ -1793,7 +1793,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 2700
+        size = 27000
     }
 
 }
@@ -1809,7 +1809,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 50
+        size = 1000
     }
 
     artisans = {
@@ -1827,7 +1827,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 1800
+        size = 20000
     }
 
 }
@@ -2057,7 +2057,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 1800
+        size = 25800
     }
 
 }
@@ -2121,7 +2121,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 20900
     }
 
 }
@@ -2155,7 +2155,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 900
+        size = 25000
     }
 
     aristocrats = {
@@ -2283,7 +2283,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 1800
+        size = 25800
     }
 
 }
@@ -2317,7 +2317,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 900
+        size = 2500
     }
 
     aristocrats = {
@@ -2393,7 +2393,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1200
     }
 
     artisans = {
@@ -2411,7 +2411,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 30000
     }
 
 }
@@ -2427,7 +2427,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     artisans = {
@@ -2445,7 +2445,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 20000
     }
 
 }
@@ -2453,33 +2453,33 @@
 #North Platte
 125 = {
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 25
+        size = 1000
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 50
+        size = 2500
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 100
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 25
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 1800
+        size = 100800
     }
 
 }
@@ -2513,7 +2513,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 1800
+        size = 18000
     }
 
 }
@@ -2787,33 +2787,33 @@
     }
 
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 20
+        size = 1000
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 30
+        size = 2500
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 50
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 2250
+        size = 72250
     }
 
 }
@@ -3127,33 +3127,33 @@
     }
 
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 250
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 1500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 19000
+        size = 39000
     }
 
 }
@@ -3195,33 +3195,33 @@
 #El Paso
 136 = {
     aristocrats = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 500
+        size = 2000
     }
 
     artisans = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 1000
+        size = 10000
     }
 
     soldiers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 250
+        size = 2500
     }
 
     farmers = {
-        culture = native_american_minor
+        culture = yankee
         religion = orthodox
-        size = 18000
+        size = 98000
     }
 
     aristocrats = {
@@ -4475,7 +4475,7 @@
     clergymen = {
         culture = dakota
         religion = orthodox
-        size = 50
+        size = 900
     }
 
     artisans = {
@@ -4493,7 +4493,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 1800
+        size = 18000
     }
 
 }
@@ -4509,7 +4509,7 @@
     clergymen = {
         culture = dakota
         religion = orthodox
-        size = 25
+        size = 500
     }
 
     artisans = {
@@ -4527,7 +4527,7 @@
     farmers = {
         culture = dakota
         religion = orthodox
-        size = 900
+        size = 9000
     }
 
     aristocrats = {
@@ -4539,7 +4539,7 @@
     clergymen = {
         culture = native_american_minor
         religion = orthodox
-        size = 25
+        size = 500
     }
 
     artisans = {
@@ -4557,7 +4557,7 @@
     farmers = {
         culture = native_american_minor
         religion = orthodox
-        size = 900
+        size = 9000
     }
 
 }

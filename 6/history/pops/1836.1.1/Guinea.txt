@@ -21,7 +21,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 250
+        size = 2250
     }
 
     farmers = {
@@ -73,7 +73,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 1027
+        size = 2027
     }
 
     farmers = {
@@ -143,7 +143,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 100
+        size = 2100
     }
 
     farmers = {
@@ -249,7 +249,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 100
+        size = 2100
     }
 
     farmers = {
@@ -349,7 +349,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 125
+        size = 2125
     }
 
     farmers = {

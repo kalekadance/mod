@@ -1,3 +1,6 @@
+owner = C02
+controller = C02
+add_core = C02
 trade_goods = fish
 life_rating = 35
 

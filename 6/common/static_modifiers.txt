@@ -170,8 +170,8 @@ war_exhaustion = {
 
 
 badboy = {
-	cb_generation_speed_modifier = -0.002
-	leadership = -0.002
+	cb_generation_speed_modifier = -0.0055
+	leadership = -0.005
 }
 
 

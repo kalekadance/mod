@@ -2,5 +2,5 @@ owner = CRE
 controller = CRE
 add_core = CRE
 add_core = GRE
-trade_goods = fruit
+trade_goods = silk
 life_rating = 35

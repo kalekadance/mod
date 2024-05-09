@@ -13,3 +13,136 @@ alliance=
 		end_date="1936.1.1"
 		start_date="1836.1.1"
 	}
+alliance=
+	{
+		first="KTS"
+		second="D23"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="SOK"
+		second="KTS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="YAR"
+		second="LIB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="KBB"
+		second="LIB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="KBB"
+		second="YAR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="KBO"
+		second="YAR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="KBO"
+		second="LIB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="EGY"
+		second="D23"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="EGY"
+		second="CHI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="JAP"
+		second="CHI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="EGY"
+		second="CHI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="ARM"
+		second="AZB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="ARM"
+		second="GEO"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="ARM"
+		second="UKR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="GEO"
+		second="UKR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="GEO"
+		second="AZB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="PER"
+		second="CHI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="PER"
+		second="JAP"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="PER"
+		second="HND"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
