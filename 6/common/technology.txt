@@ -159,4 +159,13 @@ schools ={
 		unciv_economic_modifier = -0.05
 		unciv_military_modifier = -0.15
 	}
+	CHI_tech_school = {
+		army_tech_research_bonus = 0.25
+		commerce_tech_research_bonus = 0.25
+		culture_tech_research_bonus = 0.25
+		industry_tech_research_bonus = 0.25
+		navy_tech_research_bonus = 0.25
+		unciv_economic_modifier = 0.25
+		unciv_military_modifier = 0.25
+	}
 }

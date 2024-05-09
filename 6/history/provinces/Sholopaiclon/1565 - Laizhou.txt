@@ -1,7 +1,7 @@
 owner = CHI
 controller = CHI
 add_core = CHI
-trade_goods = cotton
+trade_goods = grain
 life_rating = 32
 naval_base = 1 
 

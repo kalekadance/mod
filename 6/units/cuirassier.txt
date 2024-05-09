@@ -17,7 +17,7 @@ cuirassier = {
 	priority = 30
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 5.00
+	maximum_speed = 6.00
 	weighted_value = 8.0
 
 
@@ -26,14 +26,14 @@ cuirassier = {
 	build_cost = {
 		small_arms = 20				#37		=	740
 		canned_food = 20			#20		=	400
-		steel = 20					#4.7	=	94
+		steel = 40					#4.7	=	94
 	}								#1234
 	
 	supply_consumption = 1.0
 	supply_cost = {
 		small_arms = 0.02 # 0.008 	37 *0.04	=1.48	=0.74
-		canned_food = 0.2 #0.08		20 *0.2		=4		=2
-		steel = 0.2 # 0.008			4.7*0.4		=1.41	=0.94
+		canned_food = 0.05 #0.08		20 *0.2		=4		=2
+		steel = 0.3 # 0.008			4.7*0.4		=1.41	=0.94
 		#Итого 6.89	/	3.68
 	}
 	
@@ -44,6 +44,16 @@ cuirassier = {
 	defence = 4
 	discipline = 1.0
 	support = 0.0
-	maneuver = 2
+	maneuver = 3
+	forest = {movement = -0.2}
+	mountain = {movement = -0.3}
+	hills = {movement = -0.2}
+	woods = {movement = -0.2}
+	farmlands = {movement = 0.1}
+    steppe = {movement = 0.1}
+    plains = {movement = 0.1}
+	jungle = {movement = -0.6} 
+	marsh  = {movement = -0.6}   
+	desert	= {movement = 0.1}
 	
 }

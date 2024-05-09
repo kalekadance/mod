@@ -399,7 +399,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 58550
+        size = 108550
     }
 
 }
@@ -551,7 +551,7 @@
     bureaucrats = {
         culture = french
         religion = orthodox
-        size = 150
+        size = 2500
     }
 
     clergymen = {
@@ -575,7 +575,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 24495
+        size = 74495
     }
 
 }
@@ -657,7 +657,7 @@
     clergymen = {
         culture = french
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
@@ -675,7 +675,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 27600
+        size = 97600
     }
 
 }
@@ -703,7 +703,7 @@
     clergymen = {
         culture = french
         religion = orthodox
-        size = 1050
+        size = 3050
     }
 
     artisans = {
@@ -721,7 +721,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 94400
+        size = 194400
     }
 
     bureaucrats = {
@@ -779,7 +779,7 @@
     clergymen = {
         culture = french
         religion = orthodox
-        size = 625
+        size = 2625
     }
 
     artisans = {
@@ -797,7 +797,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 60625
+        size = 90625
     }
 
     aristocrats = {
@@ -879,7 +879,7 @@
     clergymen = {
         culture = french
         religion = orthodox
-        size = 625
+        size = 3625
     }
 
     artisans = {
@@ -897,7 +897,7 @@
     farmers = {
         culture = french
         religion = orthodox
-        size = 73025
+        size = 173025
     }
 
     clergymen = {
@@ -937,7 +937,7 @@
     clergymen = {
         culture = french
         religion = orthodox
-        size = 1100
+        size = 3100
     }
 
     artisans = {
@@ -955,7 +955,7 @@
     labourers = {
         culture = french
         religion = orthodox
-        size = 94250
+        size = 194250
     }
 
     clergymen = {
@@ -1355,7 +1355,7 @@
     officers = {
         culture = french
         religion = orthodox
-        size = 800
+        size = 1800
     }
 
     bureaucrats = {
@@ -1388,7 +1388,7 @@
         size = 27500
     }
 
-    artisans = {
+    clerks = {
         culture = french
         religion = orthodox
         size = 10000
@@ -1400,7 +1400,7 @@
         size = 10000
     }
 
-    artisans = {
+    clerks = {
         culture = french
         religion = orthodox
         size = 10000
@@ -1797,7 +1797,7 @@
     bureaucrats = {
         culture = french
         religion = orthodox
-        size = 550
+        size = 2550
     }
 
     clergymen = {
@@ -3499,7 +3499,7 @@
     clergymen = {
         culture = north_italian
         religion = orthodox
-        size = 425
+        size = 2425
     }
 
     artisans = {
@@ -3539,7 +3539,7 @@
     bureaucrats = {
         culture = french
         religion = orthodox
-        size = 100
+        size = 1100
     }
 
     clergymen = {

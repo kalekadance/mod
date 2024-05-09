@@ -1,67 +1,67 @@
 #Cape Verde
 1876 = {
     aristocrats = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 50
     }
 
     bureaucrats = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = portuguese
+        culture = british
         religion = orthodox
         size = 50000
     }
 
     clergymen = {
-        culture = african_minor
+        culture = british
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = african_minor
+        culture = british
         religion = orthodox
         size = 700
     }
 
     soldiers = {
-        culture = african_minor
+        culture = british
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = african_minor
+        culture = british
         religion = orthodox
         size = 13500
     }
 
     slaves = {
-        culture = african_minor
+        culture = british
         religion = orthodox
         size = 4000
     }

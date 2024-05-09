@@ -1,5 +1,5 @@
 owner = D05
 controller = D05
 add_core = D05
-trade_goods = grain
+trade_goods = tropical_wood
 life_rating = 35

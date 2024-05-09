@@ -1,5 +1,5 @@
 owner = D20
 controller = D20
 add_core = SPA
-trade_goods = iron
+trade_goods = timber
 life_rating = 35

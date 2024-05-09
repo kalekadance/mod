@@ -1,3 +1,10 @@
+leader = {
+	name = "Antono"
+	date = 1836.1.1
+	type = land
+	personality = av213238
+	background = lev
+}
 army = {
 	name = "Армия Люксембурга"
 	location = 412

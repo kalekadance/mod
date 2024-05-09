@@ -1,5 +1,0 @@
-owner = D22
-controller = D22
-add_core = D22
-trade_goods = sulphur
-life_rating = 35

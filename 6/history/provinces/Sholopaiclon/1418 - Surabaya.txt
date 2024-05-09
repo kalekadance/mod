@@ -1,6 +1,6 @@
 owner = D05
 controller = D05
 add_core = D05
-trade_goods = sulphur
+trade_goods = tropical_wood
 life_rating = 35
 naval_base = 1 

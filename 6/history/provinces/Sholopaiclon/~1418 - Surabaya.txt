@@ -1,0 +1,6 @@
+owner = D05
+controller = D05
+add_core = D05
+trade_goods = sulphur
+life_rating = 35
+naval_base = 1 

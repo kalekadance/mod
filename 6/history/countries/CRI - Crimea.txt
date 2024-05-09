@@ -2,10 +2,10 @@ capital = 967
 primary_culture = tatar
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.02
+plurality = 40
 nationalvalue = nv_order
 literacy = 0.20
-non_state_culture_literacy = 0.20
+non_state_culture_literacy = 0.35
 
 ruling_party = CRI_conservative
 upper_house = {

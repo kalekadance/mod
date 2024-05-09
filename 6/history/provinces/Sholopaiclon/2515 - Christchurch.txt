@@ -1,2 +1,5 @@
-trade_goods = wool
+owner = NZL
+controller = NZL
+add_core = NZL
+trade_goods = dye
 life_rating = 35

@@ -1,92 +1,92 @@
-#Equatorial Guinea (143000)
-#Ruled By Spain in 1836
-#Fernando Po (11000/2750 POPS)
+#Fernando Po
 1955 = {
-	aristocrats = {
-		culture = spanish
-		religion = orthodox
-		size = 30
-	}
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 30
+    }
 
-	bureaucrats = {
-		culture = spanish
-		religion = orthodox
-		size = 20
-	}
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 20
+    }
 
-	clergymen = {
-		culture = spanish
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = spanish
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = spanish
-		religion = orthodox
-		size = 50
-	}
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 1200
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 150
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 65300
-	}
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 65300
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 71000
-	}
+    slaves = {
+        culture = british
+        religion = orthodox
+        size = 71000
+    }
+
 }
-#uncolonized in 1836
-#Bata (132000/33000 POPS) 
+
+#Bata
 1973 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 350
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1300
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 1300
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4500
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 4500
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 135
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 2135
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 151500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 151500
+    }
 
 }
+

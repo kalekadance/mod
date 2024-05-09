@@ -3,7 +3,7 @@
     bureaucrats = {
         culture = czech
         religion = orthodox
-        size = 550
+        size = 3550
     }
 
     officers = {
@@ -203,7 +203,7 @@
     clergymen = {
         culture = czech
         religion = orthodox
-        size = 400
+        size = 1400
     }
 
     artisans = {
@@ -343,7 +343,7 @@
     clergymen = {
         culture = czech
         religion = orthodox
-        size = 900
+        size = 1900
     }
 
     artisans = {
@@ -425,7 +425,7 @@
     clergymen = {
         culture = czech
         religion = orthodox
-        size = 500
+        size = 2500
     }
 
     artisans = {

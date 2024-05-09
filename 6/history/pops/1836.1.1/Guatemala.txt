@@ -1,239 +1,244 @@
-#Guatemala Region (476000)
-#Ruled by Central America 1836
-#Guatemala City (276000/69000 POPS)
+#Guatemala
 2186 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 600
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 600
+    }
 
-	bureaucrats = {
-		culture = central_american
-		religion = orthodox
-		size = 175
-	}
+    bureaucrats = {
+        culture = central_american
+        religion = orthodox
+        size = 175
+    }
 
-	officers = {
-		culture = central_american
-		religion = orthodox
-		size = 150
-	}
+    officers = {
+        culture = central_american
+        religion = orthodox
+        size = 150
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 275
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 275
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 1350
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 1350
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 1100
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 1100
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 4350
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 4350
+    }
 
-	clergymen = {
-		culture = mayan
-		religion = orthodox
-		size = 225
-	}
+    clergymen = {
+        culture = mayan
+        religion = orthodox
+        size = 225
+    }
 
-	artisans = {
-		culture = mayan
-		religion = orthodox
-		size = 2100
-	}
+    artisans = {
+        culture = mayan
+        religion = orthodox
+        size = 2100
+    }
 
-	soldiers = {
-		culture = mayan
-		religion = orthodox
-		size = 425
-	}
+    soldiers = {
+        culture = mayan
+        religion = orthodox
+        size = 425
+    }
 
-	farmers = {
-		culture = mayan
-		religion = orthodox
-		size = 29250
-	}
+    farmers = {
+        culture = mayan
+        religion = orthodox
+        size = 29250
+    }
+
 }
-#Quetzaltenango (112000/28000 POPS)
+
+#Quetzaltenango
 2187 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 750
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 750
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 750
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 3500
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 3500
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 1100
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 2100
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 6000
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 60000
+    }
 
-	clergymen = {
-		culture = mayan
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = mayan
+        religion = orthodox
+        size = 100
+    }
 
-	artisans = {
-		culture = mayan
-		religion = orthodox
-		size = 1050
-	}
+    artisans = {
+        culture = mayan
+        religion = orthodox
+        size = 1050
+    }
 
-	soldiers = {
-		culture = mayan
-		religion = orthodox
-		size = 225
-	}
+    soldiers = {
+        culture = mayan
+        religion = orthodox
+        size = 225
+    }
 
-	farmers = {
-		culture = mayan
-		religion = orthodox
-		size = 9625
-	}
+    farmers = {
+        culture = mayan
+        religion = orthodox
+        size = 9625
+    }
+
 }
-#Puerto Barrios (72000/18000 POPS)
+
+#Puerto Barrios
 2188 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 550
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 550
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 3000
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 3000
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 750
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 750
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 44250
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 44250
+    }
 
-	clergymen = {
-		culture = mayan
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = mayan
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = mayan
-		religion = orthodox
-		size = 600
-	}
+    artisans = {
+        culture = mayan
+        religion = orthodox
+        size = 600
+    }
 
-	soldiers = {
-		culture = mayan
-		religion = orthodox
-		size = 125
-	}
+    soldiers = {
+        culture = mayan
+        religion = orthodox
+        size = 125
+    }
 
-	farmers = {
-		culture = mayan
-		religion = orthodox
-		size = 1225
-	}
+    farmers = {
+        culture = mayan
+        religion = orthodox
+        size = 1225
+    }
+
 }
-#Sayaxche (16000/4000 POPS)
+
+#Sayaxche
 2189 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 150
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 150
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 250
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 500
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 100
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 2000
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 2000
+    }
 
-	clergymen = {
-		culture = mayan
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = mayan
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = mayan
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = mayan
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = mayan
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = mayan
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = mayan
-		religion = orthodox
-		size = 2800
-	}
+    farmers = {
+        culture = mayan
+        religion = orthodox
+        size = 2800
+    }
 
 }
+

@@ -1,88 +1,94 @@
-#Greenland (7500)
-#Ruled by Denmark 1836
-#Godthab (4220/1055 POPS)
+#Nuuk
 251 = {
-	bureaucrats = {
-		culture = danish
-		religion = orthodox
-		size = 25
-	}
+    bureaucrats = {
+        culture = icelandic
+        religion = orthodox
+        size = 2500
+    }
 
-	clergymen = {
-		culture = danish
-		religion = orthodox
-		size = 15
-	}
+    clergymen = {
+        culture = icelandic
+        religion = orthodox
+        size = 15
+    }
 
-	artisans = {
-		culture = danish
-		religion = orthodox
-		size = 15
-	}
+    artisans = {
+        culture = icelandic
+        religion = orthodox
+        size = 15
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 1100
-	}
+    farmers = {
+        culture = icelandic
+        religion = orthodox
+        size = 75000
+    }
+
 }
-#Holsteinborg (1232/308 POPS)
+
+#Sisimiut
 2591 = {
-	clergymen = {
-		culture = danish
-		religion = orthodox
-		size = 4
-	}
+    clergymen = {
+        culture = icelandic
+        religion = orthodox
+        size = 1500
+    }
 
-	artisans = {
-		culture = danish
-		religion = orthodox
-		size = 4
-	}
+    artisans = {
+        culture = icelandic
+        religion = orthodox
+        size = 4
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 300
-	}
+    farmers = {
+        culture = icelandic
+        religion = orthodox
+        size = 75000
+    }
+
 }
-#Augmagsalik (1232/308 POPS)
+
+#Isortoq
 2632 = {
-	clergymen = {
-		culture = danish
-		religion = orthodox
-		size = 4
-	}
+    clergymen = {
+        culture = icelandic
+        religion = orthodox
+        size = 1500
+    }
 
-	artisans = {
-		culture = danish
-		religion = orthodox
-		size = 4
-	}
+    artisans = {
+        culture = icelandic
+        religion = orthodox
+        size = 4
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 300
-	}
+    farmers = {
+        culture = icelandic
+        religion = orthodox
+        size = 70000
+    }
+
 }
-#Egedesminde (816/204 POPS)
+
+#Aasiaat
 2636 = {
-	clergymen = {
-		culture = danish
-		religion = orthodox
-		size = 2
-	}
+    clergymen = {
+        culture = icelandic
+        religion = orthodox
+        size = 1500
+    }
 
-	artisans = {
-		culture = danish
-		religion = orthodox
-		size = 2
-	}
+    artisans = {
+        culture = icelandic
+        religion = orthodox
+        size = 2
+    }
 
-	farmers = {
-		culture = native_american_minor
-		religion = orthodox
-		size = 200
-	}
+    farmers = {
+        culture = icelandic
+        religion = orthodox
+        size = 70000
+    }
+
 }
+

@@ -170,12 +170,12 @@ country_event = {
 		option = {
 			name = "EVTOPTB37702"
 			set_global_flag = perfect_within1
-			SPA_1455={ add_core = SPA }
-			SPA_2209={ add_core = SPA }
-			SPA_1459={ add_core = SPA }
-			SPA_1463={ add_core = SPA }
-			HAI_2213 = { add_core = SPA }
-			2222 = { add_core = SPA }
+			SPA_1455={ add_core = A04 }
+			SPA_2209={ add_core = A04 }
+			SPA_1459={ add_core = A04 }
+			SPA_1463={ add_core = A04 }
+			HAI_2213 = { add_core = A04 }
+			2222 = { add_core = A04 }
 		}	
 	}
 	country_event = { 
@@ -187,19 +187,19 @@ country_event = {
 		option = {
 			name = "EVTOPTA377033"
 			set_global_flag = perfect_within
-			VNZ_2278 = { add_core = SPA }
-			VNZ_2265 = { add_core = SPA }
-			VNZ_2234 = { add_core = SPA }
-			CLM_2251 = { add_core = SPA }
-			CLM_2262 = { add_core = SPA }
-			CLM_2247 = { add_core = SPA }
-			CLM_2259 = { add_core = SPA }
-			ECU_2279 = { add_core = SPA }
-			CLM_1723 = { add_core = SPA }
-			PEU_2289 = { add_core = SPA }
-			UCA_2201 = { add_core = SPA }
-			2532 = { add_core = SPA }
-			2401 = { add_core = SPA }
+			VNZ_2278 = { add_core = A04 }
+			VNZ_2265 = { add_core = A04 }
+			VNZ_2234 = { add_core = A04 }
+			CLM_2251 = { add_core = A04 }
+			CLM_2262 = { add_core = A04 }
+			CLM_2247 = { add_core = A04 }
+			CLM_2259 = { add_core = A04 }
+			ECU_2279 = { add_core = A04 }
+			CLM_1723 = { add_core = A04 }
+			PEU_2289 = { add_core = A04 }
+			UCA_2201 = { add_core = A04 }
+			2532 = { add_core = A04 }
+			2401 = { add_core = A04 }
 		}
 	
 	}

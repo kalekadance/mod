@@ -333,7 +333,7 @@
     farmers = {
         culture = malay
         religion = orthodox
-        size = 13850
+        size = 73850
     }
 
     aristocrats = {
@@ -801,7 +801,7 @@
     farmers = {
         culture = malay
         religion = orthodox
-        size = 32500
+        size = 52500
     }
 
     aristocrats = {

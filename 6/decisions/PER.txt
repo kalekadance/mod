@@ -37,7 +37,7 @@ or = {
 		effect = {
  money = -300000
  prestige = 16
- years_of_research = 0.1
+ year_of_research = 0.1
  add_accepted_culture = sindi
  1231 = {remove_core = SIN }
  relation = {
@@ -77,7 +77,7 @@ or = {
 		effect = {
  set_country_flag = persian_cinema
  prestige = 25
- years_of_research = 0.5
+ year_of_research = 0.5
  rich_strata = {
  militancy = -1
  }

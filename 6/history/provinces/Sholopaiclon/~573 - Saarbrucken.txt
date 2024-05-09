@@ -1,4 +1,0 @@
-owner = LUX
-controller = LUX
-trade_goods = coal
-life_rating = 35

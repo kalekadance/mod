@@ -1,6 +1,6 @@
 owner = D08
 controller = D08
 add_core = D08
-trade_goods = cotton
+trade_goods = fruit
 life_rating = 35
 

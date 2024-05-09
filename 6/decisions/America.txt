@@ -141,6 +141,7 @@ political_decisions = {
 					AND = { 
 						ai = yes
 						year = 1838 }
+					NOT = { 232 = { owned_by = MAN } }
 				}
 				
 			}
@@ -181,6 +182,11 @@ political_decisions = {
 						ai = yes
 						year = 1841 
 				}
+				AND = {
+					NOT = { 225 = { owned_by = D25 } }
+					NOT = { 228 = { owned_by = D25 } }
+					NOT = { 223 = { owned_by = D25 } }
+				}
 			}
 		}
 	
@@ -215,8 +221,12 @@ political_decisions = {
 			OR = {
 				tag = NEN
 				AND = { 
-						ai = yes
-						year = 1843 }
+					ai = yes
+					year = 1843 
+				}
+				AND = {
+					NOT = { exists = D25 }
+				}
 			}
 		}
 		
@@ -240,7 +250,10 @@ political_decisions = {
 			NOT = { has_country_flag = NEN_annexation }		
 		}	
 		allow = {
-			owns = 57
+			OR = {
+				owns = 57
+				NOT = { exists = CAN }
+			}
 		}
 		effect = {
 			set_country_flag = NEN_annexation
@@ -262,8 +275,7 @@ political_decisions = {
 			tag = A10
 			NOT = { has_global_flag = NSNY_claims}		
 		}
-		allow = { has_global_flag = CAL_action1
-		}
+		allow = { has_global_flag = CAL_action1 }
 		effect = { 
             add_core = 188
 			add_core = 189
@@ -291,7 +303,10 @@ political_decisions = {
 		}	
 		allow = {
 			tag = A10
-			owns = 73
+			OR = {
+				owns = 73
+				NOT = { 73 = { owned_by = QUE } }
+			}
 		}
 	
 		effect = {
@@ -318,13 +333,17 @@ political_decisions = {
 		}	
 		allow = {
 			tag = A10
-			owns = 74
+			OR = {
+				owns = 74
+				year = 1848
+			}
 		}
 	
 		effect = {
 			set_country_flag = NEN_annexation2
 			ENG_36 = { add_core = THIS }
 			add_accepted_culture = french_canadian
+			add_accepted_culture = icelandic
 		}
 		ai_will_do = {
 		factor = 1
@@ -349,6 +368,7 @@ political_decisions = {
 			set_country_flag = NEN_annexation3
 			ENG_36 = { add_core = THIS }
 			ENG_30 = { add_core = THIS }
+			add_accepted_culture = danish
 		}
 		ai_will_do = {
 			factor = 1
@@ -590,7 +610,7 @@ political_decisions = {
 		}	
 		allow = { 
 			OR = { 
-				AND = {
+				OR = {
 					exists = A10 
 					NOT = { exists = D13 }
 				}
@@ -607,6 +627,7 @@ political_decisions = {
 			prestige = 20
 			ruling_party_ideology = conservative
 			add_accepted_culture = metis
+			add_accepted_culture = danish
 			any_owned = {
 				remove_core = TEX
 				remove_core = USA
@@ -630,8 +651,8 @@ political_decisions = {
 		allow = { 
 			OR = { 
 				AND = {
-				tag = A11
-				prestige = 200
+					tag = A11
+					prestige = 200
 				}
 				ai = yes
 			}
@@ -642,6 +663,7 @@ political_decisions = {
 				remove_core = CAL
 			}
 			add_accepted_culture = native_american_minor
+			add_accepted_culture = icelandic
 	    }
 		ai_will_do = {
 			factor = 1.5
@@ -777,6 +799,7 @@ political_decisions = {
 			has_global_flag = NEN_annexation3
 		}
 		effect = {
+			add_accepted_culture = anglo_canadian
 			set_global_flag = QUE_salvation
 			USA_170 = { add_core = THIS }
 			USA_185 = { add_core = THIS }

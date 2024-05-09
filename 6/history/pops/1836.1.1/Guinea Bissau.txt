@@ -13,7 +13,7 @@
     }
 
     bureaucrats = {
-        culture = portuguese
+        culture = african_minor
         religion = orthodox
         size = 1500
     }
@@ -33,7 +33,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 1500
+        size = 3500
     }
 
     artisans = {
@@ -45,7 +45,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 75
+        size = 2275
     }
 
     farmers = {
@@ -73,7 +73,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 1200
+        size = 2200
     }
 
     artisans = {
@@ -85,7 +85,7 @@
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 1200
+        size = 2200
     }
 
     farmers = {

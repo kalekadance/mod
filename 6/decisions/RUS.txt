@@ -5,7 +5,12 @@ political_decisions = {
 			OR = {
 			tag = RUS
 			tag = EGY
-			tag = NOR }
+			tag = NOR 
+			tag = AST
+			tag = ARG
+			tag = CHL
+			tag = NZL
+			}
 			#government = absolute_monarchy
 			NOT = { has_country_flag = Zunsi } 
 		}
@@ -27,7 +32,7 @@ political_decisions = {
 				consciousness = 1
 			}
 			badboy = -4
-			years_of_research = 0.05
+			year_of_research = 0.05
 			clr_country_flag = serfdom_not_abolished
 			set_country_flag = Zunsi
 		}
@@ -231,21 +236,21 @@ political_decisions = {
 		
 		effect = {
 			1085 = {
-				change_province_name = "Благовещенск"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1084 = {
-				change_province_name = "Николаевск-на-Амуре"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ"
 			}
 			1083 = {
-				change_province_name = "Хабаровск"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			2617 = {
-				change_province_name = "Пашково"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1082 = {
-				change_province_name = "Владивосток"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 				state_scope = {
-					change_region_name = "Приморье"
+					change_region_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 				}
 			}
 			prestige = 5
@@ -423,19 +428,19 @@ political_decisions = {
     2078 = {
 	remove_core = NAM
 	add_core = LEV
-	change_province_name = "Подсоюзинск"
+	change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	}
 	2079 = {
 	remove_core = NAM
 	add_core = LEV
-	change_province_name = "Машниловск"
+	change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	}
 	2080 = {
 	remove_core = NAM
 	add_core = LEV
-	change_province_name = "Львумбск"
+	change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 	state_scope = {
-					change_region_name = "Львумбия"
+					change_region_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 				}
 	}
      }	

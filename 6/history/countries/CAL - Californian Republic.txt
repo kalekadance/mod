@@ -3,9 +3,9 @@ primary_culture = yankee
 culture = dixie
 religion = orthodox
 government = democracy
-plurality = 0.5
+plurality = 40
 nationalvalue = nv_liberty
-literacy = 0.25
+literacy = 0.3
 non_state_culture_literacy = 0.25
 civilized = yes
 
@@ -52,6 +52,8 @@ water_wheel_power = 1
 publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
+
+oob = "CAL_oob.txt"
 
 ruling_party = CAL_liberal
 upper_house = {

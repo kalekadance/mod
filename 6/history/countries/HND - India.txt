@@ -10,7 +10,7 @@ culture = sinhala
 
 religion = orthodox
 government = democracy
-plurality = 0.0
+plurality = 40
 nationalvalue = nv_liberty
 literacy = 0.8
 non_state_culture_literacy = 0.8

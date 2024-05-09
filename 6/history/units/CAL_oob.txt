@@ -1,0 +1,52 @@
+leader = {
+	name = "Буджо Сандуко"
+	type = land
+	date = 1836.1.1
+	personality = adventurer
+	background = old_school
+}
+
+
+
+army = {
+	name = "Армия Свободы"
+	location = 136
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 83
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 84
+	}
+	
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 134
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = hussar
+		home = 87
+	}
+	
+		regiment = {
+		name= "1-я кавалерийская бригада"
+		type = hussar
+		home = 82
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = hussar
+		home = 81
+	}
+	
+	
+
+}

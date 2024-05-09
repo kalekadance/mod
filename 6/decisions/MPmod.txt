@@ -118,260 +118,260 @@ political_decisions = {
 
 		}
 	}
-	# ------------------------------ Объединение стран для Италии --------------------------
-	form_italy_min = {
-	picture = form_italy_min
-		potential = {
-			tag = SAR
-			NOT = {
-				exists = ITA
-				has_country_flag = form_italy_min
-			}
-			#ai = no
-		}
-		
-		allow = {			
-			prestige = 10
-			war = no			
-		}
-		
-		effect = {
-			prestige = 40
-			badboy = 5
-			inherit = TUS
-			inherit = PAR
-			inherit = LUC
-			inherit = MOD
-			inherit = LOM
-			726 = {	remove_core = ITA	}
-			727 = {	remove_core = ITA	}
-			728 = {	remove_core = ITA	}
-			create_vassal = SIC
-			set_country_flag = form_italy_min
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	# -------------------------------------- Присоединение Португалии ---------------------------
-	spa_convention = {
-        picture = annex_portugal
- 		potential = {
-			tag = SPA
-			exists = POR
-			NOT = {
-				has_country_flag = spa_convention
-				war_with = POR
-			}
-			
-		}
-		
-		allow = {
-			is_sphere_leader_of = POR
-			is_greater_power = yes
-		}
-		
-		effect = {
-				
-			set_country_flag = spa_convention			
-			POR = {
-				country_event = { id=3471001 days=0 }
-			}
-			add_accepted_culture = portuguese
-			prestige = 30
-			badboy = 5
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	 
-	# ------------------------------------------------------------- Решения по займам --------------------------------------------------
-	diplomaty_mp = {
-	picture = give_money
-		potential = {
-			OR = { 
-			    tag = IGM
-				tag = ENG
-				tag = FRA
-				tag = RUS
-				tag = SPA
-				tag = TUR
-				tag = PRU
-				tag = NGF
-				tag = GER
-				tag = USA
-				tag = AUS
-				tag = KUK
-				tag = ITA
-				tag = SCA
-				tag = SWE
-				tag = BRZ
-				tag = JAP
-				tag = PER
-				tag = HND
-				tag = NET
-				tag = EIC
-				tag = MEX
-				tag = CLM
-				tag = GCO
-				tag = EGY
-				tag = ARA
-				tag = MUG
-				tag = CAN
-				tag = SAF
-			}
-			prestige = 10
-			private_banks = 1
-			civilized = yes
-			NOT = {
-				has_country_flag = diplomaty_mp
-			}
-			
-		}
-		
-		allow = {
-			prestige = 10
-			private_banks = 1
-			#business_regulations = 1
-			money = 120000			
-		}
-		
-		effect = {
-			#set_country_flag = diplomaty_mp			
-			THIS = {
-				country_event = { id=3470333 days=0 }
-			}
-			money = -120000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	diplomaty_mp_m = {
-	picture = give_money_m
-		potential = {
-			OR = {
-				tag = ENG
-				tag = FRA
-				tag = RUS
-				tag = IGM
-				tag = SPA
-				tag = TUR
-				tag = PRU
-				tag = NGF
-				tag = GER
-				tag = USA
-				tag = AUS
-				tag = KUK
-				tag = ITA
-				tag = SCA
-				tag = SWE
-				tag = BRZ
-				tag = JAP
-				tag = PER
-				tag = HND
-				tag = NET
-				tag = EIC
-				tag = MEX
-				tag = CLM
-				tag = GCO
-				tag = EGY
-				tag = ARA
-				tag = MUG
-				tag = CAN
-				tag = SAF
-			}
-			prestige = 10
-			private_banks = 1
-			civilized = yes
-			money = 520000	
-			NOT = {
-				has_country_flag = diplomaty_mp
-			}
-			
-		}
-		
-		allow = {
-			prestige = 10
-			private_banks = 1
-			#market_regulations = 1
-			money = 520000			
-		}
-		
-		effect = {
-			#set_country_flag = diplomaty_mp			
-			THIS = {
-				country_event = { id=3471333 days=0 }
-			}
-			money = -520000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	diplomaty_mp_sm = {
-	picture = give_money_s
-		potential = {
-			OR = {
-				tag = ENG
-				tag = FRA
-				tag = IGM
-				tag = RUS
-				tag = SPA
-				tag = TUR
-				tag = PRU
-				tag = NGF
-				tag = GER
-				tag = USA
-				tag = AUS
-				tag = KUK
-				tag = ITA
-				tag = SCA
-				tag = SWE
-				tag = BRZ
-				tag = JAP
-				tag = PER
-				tag = HND
-				tag = NET
-				tag = EIC
-				tag = MEX
-				tag = CLM
-				tag = GCO
-				tag = EGY
-				tag = ARA
-				tag = MUG
-				tag = CAN
-				tag = SAF
-			}
-			prestige = 10
-			private_banks = 1
-			civilized = yes
-			money = 2010000	
-			NOT = {
-				has_country_flag = diplomaty_mp
-			}
-			
-		}
-		
-		allow = {
-			prestige = 10
-			private_banks = 1
-			#economic_responsibility = 1
-			money = 2010000			
-		}
-		
-		effect = {
-			#set_country_flag = diplomaty_mp			
-			THIS = {
-				country_event = { id=3472333 days=0 }
-			}
-			money = -2010000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	## ------------------------------ Объединение стран для Италии --------------------------
+	#form_italy_min = {
+	#picture = form_italy_min
+	#	potential = {
+	#		tag = SAR
+	#		NOT = {
+	#			exists = ITA
+	#			has_country_flag = form_italy_min
+	#		}
+	#		#ai = no
+	#	}
+	#	
+	#	allow = {			
+	#		prestige = 10
+	#		war = no			
+	#	}
+	#	
+	#	effect = {
+	#		prestige = 40
+	#		badboy = 5
+	#		inherit = TUS
+	#		inherit = PAR
+	#		inherit = LUC
+	#		inherit = MOD
+	#		inherit = LOM
+	#		726 = {	remove_core = ITA	}
+	#		727 = {	remove_core = ITA	}
+	#		728 = {	remove_core = ITA	}
+	#		create_vassal = SIC
+	#		set_country_flag = form_italy_min
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	## -------------------------------------- Присоединение Португалии ---------------------------
+	#spa_convention = {
+    #    picture = annex_portugal
+ 	#	potential = {
+	#		tag = SPA
+	#		exists = POR
+	#		NOT = {
+	#			has_country_flag = spa_convention
+	#			war_with = POR
+	#		}
+	#		
+	#	}
+	#	
+	#	allow = {
+	#		is_sphere_leader_of = POR
+	#		is_greater_power = yes
+	#	}
+	#	
+	#	effect = {
+	#			
+	#		set_country_flag = spa_convention			
+	#		POR = {
+	#			country_event = { id=3471001 days=0 }
+	#		}
+	#		add_accepted_culture = portuguese
+	#		prestige = 30
+	#		badboy = 5
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	# 
+	### ------------------------------------------------------------- Решения по займам --------------------------------------------------
+	#diplomaty_mp = {
+	#picture = give_money
+	#	potential = {
+	#		OR = { 
+	#		    tag = IGM
+	#			tag = ENG
+	#			tag = FRA
+	#			tag = RUS
+	#			tag = SPA
+	#			tag = TUR
+	#			tag = PRU
+	#			tag = NGF
+	#			tag = GER
+	#			tag = USA
+	#			tag = AUS
+	#			tag = KUK
+	#			tag = ITA
+	#			tag = SCA
+	#			tag = SWE
+	#			tag = BRZ
+	#			tag = JAP
+	#			tag = PER
+	#			tag = HND
+	#			tag = NET
+	#			tag = EIC
+	#			tag = MEX
+	#			tag = CLM
+	#			tag = GCO
+	#			tag = EGY
+	#			tag = ARA
+	#			tag = MUG
+	#			tag = CAN
+	#			tag = SAF
+	#		}
+	#		prestige = 10
+	#		private_banks = 1
+	#		civilized = yes
+	#		NOT = {
+	#			has_country_flag = diplomaty_mp
+	#		}
+	#		
+	#	}
+	#	
+	#	allow = {
+	#		prestige = 10
+	#		private_banks = 1
+	#		#business_regulations = 1
+	#		money = 120000			
+	#	}
+	#	
+	#	effect = {
+	#		#set_country_flag = diplomaty_mp			
+	#		THIS = {
+	#			country_event = { id=3470333 days=0 }
+	#		}
+	#		money = -120000
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
+	#diplomaty_mp_m = {
+	#picture = give_money_m
+	#	potential = {
+	#		OR = {
+	#			tag = ENG
+	#			tag = FRA
+	#			tag = RUS
+	#			tag = IGM
+	#			tag = SPA
+	#			tag = TUR
+	#			tag = PRU
+	#			tag = NGF
+	#			tag = GER
+	#			tag = USA
+	#			tag = AUS
+	#			tag = KUK
+	#			tag = ITA
+	#			tag = SCA
+	#			tag = SWE
+	#			tag = BRZ
+	#			tag = JAP
+	#			tag = PER
+	#			tag = HND
+	#			tag = NET
+	#			tag = EIC
+	#			tag = MEX
+	#			tag = CLM
+	#			tag = GCO
+	#			tag = EGY
+	#			tag = ARA
+	#			tag = MUG
+	#			tag = CAN
+	#			tag = SAF
+	#		}
+	#		prestige = 10
+	#		private_banks = 1
+	#		civilized = yes
+	#		money = 520000	
+	#		NOT = {
+	#			has_country_flag = diplomaty_mp
+	#		}
+	#		
+	#	}
+	#	
+	#	allow = {
+	#		prestige = 10
+	#		private_banks = 1
+	#		#market_regulations = 1
+	#		money = 520000			
+	#	}
+	#	
+	#	effect = {
+	#		#set_country_flag = diplomaty_mp			
+	#		THIS = {
+	#			country_event = { id=3471333 days=0 }
+	#		}
+	#		money = -520000
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
+	#diplomaty_mp_sm = {
+	#picture = give_money_s
+	#	potential = {
+	#		OR = {
+	#			tag = ENG
+	#			tag = FRA
+	#			tag = IGM
+	#			tag = RUS
+	#			tag = SPA
+	#			tag = TUR
+	#			tag = PRU
+	#			tag = NGF
+	#			tag = GER
+	#			tag = USA
+	#			tag = AUS
+	#			tag = KUK
+	#			tag = ITA
+	#			tag = SCA
+	#			tag = SWE
+	#			tag = BRZ
+	#			tag = JAP
+	#			tag = PER
+	#			tag = HND
+	#			tag = NET
+	#			tag = EIC
+	#			tag = MEX
+	#			tag = CLM
+	#			tag = GCO
+	#			tag = EGY
+	#			tag = ARA
+	#			tag = MUG
+	#			tag = CAN
+	#			tag = SAF
+	#		}
+	#		prestige = 10
+	#		private_banks = 1
+	#		civilized = yes
+	#		money = 2010000	
+	#		NOT = {
+	#			has_country_flag = diplomaty_mp
+	#		}
+	#		
+	#	}
+	#	
+	#	allow = {
+	#		prestige = 10
+	#		private_banks = 1
+	#		#economic_responsibility = 1
+	#		money = 2010000			
+	#	}
+	#	
+	#	effect = {
+	#		#set_country_flag = diplomaty_mp			
+	#		THIS = {
+	#			country_event = { id=3472333 days=0 }
+	#		}
+	#		money = -2010000
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
 	#------------------------------------------Великобритания---------------------------------------
 	#	diplomaty_eic = {
 	#	icture = diplomaty_eic

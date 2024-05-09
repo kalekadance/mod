@@ -1,5 +1,4 @@
 owner = CRI
 controller = CRI
-add_core = ARM
 trade_goods = coal
 life_rating = 35 

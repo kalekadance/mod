@@ -1,5 +1,5 @@
 owner = D06
 controller = D06
 add_core = D06
-trade_goods = sulphur
+trade_goods = grain
 life_rating = 35

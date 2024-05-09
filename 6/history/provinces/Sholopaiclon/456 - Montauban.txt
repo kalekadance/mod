@@ -1,5 +1,5 @@
 owner = CAT
 controller = CAT
 add_core = CAT
-trade_goods = tobacco
+trade_goods = silk
 life_rating = 35

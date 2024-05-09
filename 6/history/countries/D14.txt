@@ -1,4 +1,4 @@
-#capital = 
+capital = 1008
 primary_culture = russian
 culture = byelorussian
 culture = ukrainian

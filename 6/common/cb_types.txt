@@ -152,7 +152,7 @@ status_quo = {
 conquest = {
 	sprite_index = 2
 	is_triggered_only = yes
-	months = 12
+	months = 24
 	crisis = no
 	
 	can_use = {
@@ -162,12 +162,12 @@ conquest = {
 		OR = {
 			AND = {
 				civilized = yes
-				NOT = { number_of_states = 2 }
+				NOT = { number_of_states = 3 }
 			}
 			AND = {
 				civilized = no
 				THIS = { civilized = no }
-				NOT = { number_of_states = 2 }
+				NOT = { number_of_states = 4 }
 			}
 			AND = {
 				civilized = no
@@ -260,9 +260,9 @@ add_to_sphere = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 1
+	badboy_factor = 4
 	prestige_factor = 2
-	peace_cost_factor = 50
+	peace_cost_factor = 80
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 5
@@ -666,9 +666,9 @@ acquire_small_state = {
 place_in_the_sun = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 24
 
-	badboy_factor = 0.5
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.9
 	penalty_factor = 1
@@ -681,6 +681,8 @@ place_in_the_sun = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -848,6 +850,8 @@ free_peoples = {
 	break_truce_militancy_factor = 1
 	truce_months = 0
 	
+	construction_speed = 0.5
+	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
@@ -939,6 +943,8 @@ liberate_country = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 	}
+	
+	construction_speed = 0.5
 
 	# THIS - us
 	# FROM - country scope is possible match?
@@ -1004,7 +1010,7 @@ dismantle_forts = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 1
+	badboy_factor = 2
 	prestige_factor = 1
 	peace_cost_factor = 5
 	penalty_factor = 1
@@ -1017,6 +1023,8 @@ dismantle_forts = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
 	
 	
 	can_use = {
@@ -1104,7 +1112,7 @@ make_puppet = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 1.0
+	badboy_factor = 3
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -1117,6 +1125,8 @@ make_puppet = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+		
+	construction_speed = 0.20
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -1207,9 +1217,9 @@ become_independent = {
 humiliate = {
 	sprite_index = 11
 	is_triggered_only = yes
-	months = 12
+	months = 24
 
-	badboy_factor = 0.5
+	badboy_factor = 2
 	prestige_factor = 1
 	peace_cost_factor = 15
 	penalty_factor = 1
@@ -1227,6 +1237,8 @@ humiliate = {
 	po_reparations = yes
 
 	tws_battle_factor = 2.0
+	
+	construction_speed = 0.5
 	
 	war_name = WAR_HUMILIATE_NAME
 

@@ -112,7 +112,7 @@ promotion_chance =
 		location = { NOT = { controlled_by = owner } }
 	}
 	modifier = {
-		factor = 0.25
+		factor = 0.45
 		country = {
 			ai=yes
 		}

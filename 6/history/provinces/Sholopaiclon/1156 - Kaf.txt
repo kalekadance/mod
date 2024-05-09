@@ -1,5 +1,5 @@
 owner = BAB
 controller = BAB
 add_core = ISR
-trade_goods = wool
+trade_goods = tropical_wood
 life_rating = 35

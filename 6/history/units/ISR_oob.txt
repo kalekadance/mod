@@ -1,0 +1,62 @@
+#Relations
+USA = {
+	value = 75		#relation
+}
+
+leader = {
+	name = "Korsaro Geniys"
+	date = 1830.1.1
+	type = land
+	personality = korsar_sfx
+	background = karsar-sfx
+	prestige = 1
+}
+
+leader = {
+	name = "Изя Узвалок"
+	type = land
+	date = 1836.1.1
+	personality = av213238
+	background = zunsi
+}
+
+army = {
+	name = "Армия Израиля"
+	location = 906
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = cavalry
+		home = 912
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = cavalry
+		home = 913
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = cavalry
+		home = 905
+	}
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = cavalry
+		home = 897
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = cavalry
+		home = 916
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = cavalry
+		home = 918
+	}
+
+}
+

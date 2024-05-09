@@ -1,5 +1,5 @@
 owner = D21
 controller = D21
 add_core = SPA
-trade_goods = iron
+trade_goods = grain
 life_rating = 35

@@ -4813,9 +4813,9 @@
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = polish
         religion = orthodox
-        size = 1300
+        size = 2300
     }
 
     officers = {
@@ -4851,7 +4851,7 @@
     farmers = {
         culture = north_german
         religion = orthodox
-        size = 68575
+        size = 2000
     }
 
     clergymen = {
@@ -4893,7 +4893,7 @@
     clergymen = {
         culture = polish
         religion = orthodox
-        size = 75
+        size = 2000
     }
 
     artisans = {
@@ -4911,7 +4911,7 @@
     farmers = {
         culture = polish
         religion = orthodox
-        size = 4625
+        size = 158575
     }
 
     clergymen = {
@@ -4969,7 +4969,7 @@
     farmers = {
         culture = north_german
         religion = orthodox
-        size = 87275
+        size = 6800
     }
 
     clergymen = {
@@ -5017,7 +5017,7 @@
     farmers = {
         culture = lithuanian
         religion = orthodox
-        size = 6800
+        size = 89000
     }
 
 }

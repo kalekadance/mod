@@ -1,0 +1,52 @@
+leader = {
+	name = "—аланд –алки"
+	type = land
+	date = 1836.1.1
+	personality = adventurer
+	background = old_school
+}
+
+
+
+army = {
+	name = "јрми€ √ватемалы"
+	location = 2187
+	regiment = {
+		name= "1-€ пехотна€ бригада"
+		type = infantry
+		home = 2187
+	}
+
+	regiment = {
+		name= "2-€ пехотна€ бригада"
+		type = infantry
+		home = 2182
+	}
+	
+	regiment = {
+		name= "3-€ пехотна€ бригада"
+		type = infantry
+		home = 2181
+	}
+
+	regiment = {
+		name= "3-€ кавалерийска€ бригада"
+		type = hussar
+		home = 2164
+	}
+	
+		regiment = {
+		name= "1-€ кавалерийска€ бригада"
+		type = hussar
+		home = 2177
+	}
+
+	regiment = {
+		name= "2-€ кавалерийска€ бригада"
+		type = hussar
+		home = 2178
+	}
+	
+	
+
+}

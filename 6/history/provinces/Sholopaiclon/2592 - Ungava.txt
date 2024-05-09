@@ -2,6 +2,7 @@ owner = QUE
 controller = QUE
 add_core = GCO
 add_core = QUE
+add_core = DEN
 trade_goods = fish
 life_rating = 35
 

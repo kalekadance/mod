@@ -1,2 +1,5 @@
+owner = D11
+controller = D11
+add_core = D11
 trade_goods = fish
 life_rating = 35

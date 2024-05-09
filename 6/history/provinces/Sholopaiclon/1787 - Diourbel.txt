@@ -1,2 +1,5 @@
+owner = D01
+controller = D01
+add_core = D01
 trade_goods = grain
 life_rating = 35

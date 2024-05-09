@@ -1,0 +1,6 @@
+owner = SWI
+controller = SWI
+add_core = SWI
+add_core = CZH
+trade_goods = dye
+life_rating = 35

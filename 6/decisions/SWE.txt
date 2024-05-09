@@ -90,7 +90,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			years_of_research = 0.05
+			year_of_research = 0.05
 			badboy = -1
 			set_country_flag = the_vega_expedition_went
 		}
