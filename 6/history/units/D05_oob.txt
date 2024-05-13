@@ -1,0 +1,72 @@
+leader = {
+	name = "Анат Ранду"
+	type = land
+	date = 1836.1.1
+	personality = ballsy
+	background = zunsi
+}
+
+
+
+army = {
+	name = "Армия Федерации"
+	location = 1403
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = engineer
+		home = 1403
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = engineer
+		home = 1414
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = engineer
+		home = 1416
+	}
+	
+		regiment = {
+		name= "1-я кавалерийская бригада"
+		type = hussar
+		home = 1419
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = hussar
+		home = 1420
+	}	
+	
+}
+navy = {
+	name = "Флот Федерации"
+	location = 1403
+	ship = {
+		name= "Первый"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Дубль"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Гном"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Копатыч"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Грузило"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Пудель"
+		type = clipper_transport
+	}
+}

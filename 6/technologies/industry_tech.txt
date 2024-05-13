@@ -1028,19 +1028,16 @@ medicine = {
 	supply_limit = 0.25
 	 
 	ai_chance = {
-		factor = 10
+		factor = 10000
 		modifier = {
-			factor = 1.5
+			factor = 300
 			civilized = yes
-		}
-		modifier = {
-			factor = 1.02
-			tech_school = industrial_tech_school
 		}
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
 		}
+		
 	}
 }
 inorganic_chemistry = {

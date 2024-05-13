@@ -7547,7 +7547,7 @@
     soldiers = {
         culture = tamil
         religion = orthodox
-        size = 3000
+        size = 25000
     }
 
     farmers = {
@@ -7689,7 +7689,7 @@
     soldiers = {
         culture = tamil
         religion = orthodox
-        size = 3500
+        size = 35000
     }
 
     farmers = {
@@ -7759,7 +7759,7 @@
     soldiers = {
         culture = tamil
         religion = orthodox
-        size = 3000
+        size = 30000
     }
 
     farmers = {
@@ -7829,7 +7829,7 @@
     soldiers = {
         culture = tamil
         religion = orthodox
-        size = 2000
+        size = 25000
     }
 
     farmers = {
@@ -7987,7 +7987,7 @@
     soldiers = {
         culture = kannada
         religion = orthodox
-        size = 1700
+        size = 25000
     }
 
     farmers = {
@@ -8063,7 +8063,7 @@
     soldiers = {
         culture = kannada
         religion = orthodox
-        size = 2000
+        size = 25000
     }
 
     farmers = {
@@ -8133,7 +8133,7 @@
     soldiers = {
         culture = kannada
         religion = orthodox
-        size = 1100
+        size = 4000
     }
 
     farmers = {
@@ -8249,7 +8249,7 @@
     clergymen = {
         culture = malayalam
         religion = orthodox
-        size = 2250
+        size = 8250
     }
 
     artisans = {
@@ -8261,7 +8261,7 @@
     soldiers = {
         culture = malayalam
         religion = orthodox
-        size = 2000
+        size = 25000
     }
 
     farmers = {
@@ -8385,7 +8385,7 @@
     soldiers = {
         culture = malayalam
         religion = orthodox
-        size = 4000
+        size = 30000
     }
 
     farmers = {

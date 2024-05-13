@@ -99,36 +99,36 @@ political_decisions = {
 			}
 			ai_will_do = { factor = 1 }
 	}
-	MTC_rise2 = {
-		picture = graet_eic
-			potential = {
-				OR = { 
-					tag = A08
-					tag = MTC 
-				}
-				has_country_flag = MTC_rise1
-				NOT = { has_country_flag = MTC_rise2 }		
-			}	
-			allow = {
-				OR = {
-					AND = {
-						owns = 1069
-						owns = 1070
-					}
-					NOT = { 1069 = { owned_by = C03 } }
-					C03 = { part_of_sphere = yes }
-					NOT = { 1070 = { owned_by = C03 } }
-					C03 = { part_of_sphere = yes }
-				}
-			}
-			effect = {
-				RUS_2653 = { add_province_modifier =  { name = baby_boom duration = 1825 } }
-				RUS_1071 = { add_province_modifier = { name = baby_boom duration = 1825 } }
-				RUS_1072 = { add_province_modifier =  { name = baby_boom duration = 1825 } }
-				set_country_flag = MTC_rise2						   
-			}
-			ai_will_do = { factor = 1 }
-	}
+	#MTC_rise2 = {
+	#	picture = graet_eic
+	#		potential = {
+	#			OR = { 
+	#				tag = A08
+	#				tag = MTC 
+	#			}
+	#			has_country_flag = MTC_rise1
+	#			NOT = { has_country_flag = MTC_rise2 }		
+	#		}	
+	#		allow = {
+	#			OR = {
+	#				AND = {
+	#					owns = 1069
+	#					owns = 1070
+	#				}
+	#				NOT = { 1069 = { owned_by = C03 } }
+	#				C03 = { part_of_sphere = yes }
+	#				NOT = { 1070 = { owned_by = C03 } }
+	#				C03 = { part_of_sphere = yes }
+	#			}
+	#		}
+	#		effect = {
+	#			RUS_2653 = { add_province_modifier =  { name = baby_boom duration = 1825 } }
+	#			RUS_1071 = { add_province_modifier = { name = baby_boom duration = 1825 } }
+	#			RUS_1072 = { add_province_modifier =  { name = baby_boom duration = 1825 } }
+	#			set_country_flag = MTC_rise2						   
+	#		}
+	#		ai_will_do = { factor = 1 }
+	#}
 	MTC_rise3 = {
 		picture = graet_eic
 			potential = {
@@ -136,7 +136,7 @@ political_decisions = {
 					tag = A08
 					tag = MTC 
 				}
-				has_country_flag = MTC_rise2
+				has_country_flag = MTC_rise1
 				NOT = { has_country_flag = MTC_rise3 }		
 			}	
 			allow = {
@@ -194,7 +194,7 @@ political_decisions = {
 		picture = graet_eic
 		potential = {
 			tag = A08
-			has_country_flag = MTC_rise2
+			has_country_flag = MTC_rise1
 			NOT = { has_country_flag = A08_rise }		
 		}	
 		allow = {
@@ -246,7 +246,7 @@ political_decisions = {
 				RUS_1008 = { add_core = THIS }
 				RUS_1009 = { add_core = THIS }
 				RUS_977 = { add_core = THIS }
-				set_country_flag = A08_D14 
+				set_country_flag = A08_D141 
 			}						   
 			ai_will_do = { factor = 1 }
 	}
@@ -254,7 +254,7 @@ political_decisions = {
 		picture = graet_eic
 			potential = {
 				tag = A08
-				has_country_flag = MTC_rise2
+				has_country_flag = A08_rise
 				NOT = { has_country_flag = A08_rise1 }		
 			}	
 			allow = {
@@ -276,8 +276,8 @@ political_decisions = {
 		picture = graet_eic
 			potential = {
 				tag = A08
-				has_country_flag = MTC_rise2
-				NOT = { has_country_flag = A08_rise1 }		
+				has_country_flag = A08_rise1
+				NOT = { has_country_flag = A08_rise2 }		
 			}	
 			allow = {
 				NOT = { exists = FIN }

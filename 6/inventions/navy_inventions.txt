@@ -14,6 +14,31 @@ torpedo_attacks = {
 	}
 }
 
+Flot_CHI = {
+	limit = { battleship_column_doctrine = 1 year=1836 has_country_flag = CHI_baff }
+	chance = { base = 90 }
+	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 2 } navy_base = { hull = 4 } navy_base = { maximum_speed = 2 } }
+}
+
+Flot_CHI1 = {
+	limit = { battleship_column_doctrine = 1 year=1846 has_country_flag = CHI_baff }
+	chance = { base = 90 }
+	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 3 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+}
+
+Flot_CHI2 = {
+	limit = { battleship_column_doctrine = 1 year=1856 has_country_flag = CHI_baff }
+	chance = { base = 90 }
+	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 3 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+}
+
+Flot_CHI3 = {
+	limit = { battleship_column_doctrine = 1 year=1866 has_country_flag = CHI_baff }
+	chance = { base = 90 }
+	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 2 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+}
+
+
 #battleship_column_doctrine 1836
 long_range_fire_tactic = {
 	limit = { battleship_column_doctrine = 1 }
@@ -53,113 +78,10 @@ speedy_maneuvering_tactic = {
 		}
 	}
 }
-fleet_CHI_1 = {
-	limit = { battleship_column_doctrine = 1
-	year=1836
-       has_country_modifier = a_nation_of_shopkeepers
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-		has_country_modifier = a_nation_of_shopkeepers
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.6
-		}
-	}
-}
-fleet_CHI_2 = {
-	limit = { battleship_column_doctrine = 1
-	year=1856
-       has_country_modifier = a_nation_of_shopkeepers
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-		has_country_modifier = a_nation_of_shopkeepers
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.2
-		}
-	}
-}
-fleet_CHI_3 = {
-	limit = { battleship_column_doctrine = 1
-	year=1866
-       has_country_modifier = a_nation_of_shopkeepers
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-		has_country_modifier = a_nation_of_shopkeepers
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.2
-		}
-	}
-}
-fleet_CHI_4 = {
-	limit = { battleship_column_doctrine = 1
-	year=1876
-       has_country_modifier = a_nation_of_shopkeepers
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-		has_country_modifier = a_nation_of_shopkeepers
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.3
-		}
-	}
-}
-fleet_CHI_5 = {
-	limit = { battleship_column_doctrine = 1
-	year=1886
-       has_country_modifier = a_nation_of_shopkeepers
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-		has_country_modifier = a_nation_of_shopkeepers
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.3
-		}
-	}
-}
+
+
 #raider_group_doctrine 1855
-#fleet_eng_2 = {
-#	limit = { raider_group_doctrine = 1 }
-#	chance = {
-#		base = 0
-#		 
-#		modifier = {
-#			factor = 5
-#		  has_country_modifier = a_nation_of_shopkeepers
-#		}
-#	}
-#	effect = {
-#		navy_base = {
-#			supply_consumption = 0.3
-#		}
-#	}
-#}
+
 sealane_hunters = {
 	limit = { raider_group_doctrine = 1 }
 	chance = {

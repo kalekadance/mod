@@ -211,31 +211,20 @@ idealism = {
 
 	increase_research = 0.50
 	ai_chance = {
-		factor = 51
+		factor = 1000000
 		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
+			factor = 30000
+			civilized = yes
 		}
 		modifier = {
-			factor = 1.1
-			year = 1845
+			factor = 100.5
+			is_greater_power = yes
 		}
 		modifier = {
-			factor = 2
-			year = 1850
+			factor = 100
+			year = 1836
 		}
-		modifier = {
-			factor = 1.1
-			year = 1865
-		}
-		modifier = {
-			factor = 2
-			year = 1875
-		}
-		modifier = {
-			factor = 2
-			year = 1885
-		}
+		
 	}
 }
 
@@ -246,23 +235,20 @@ empiricism = {
 	
 	increase_research = 0.50
 	ai_chance = {
-		factor = 51
+		factor = 1000000
 		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
+			factor = 30000
+			civilized = yes
 		}
 		modifier = {
-			factor = 1.1
-			year = 1865
+			factor = 100.5
+			is_greater_power = yes
 		}
 		modifier = {
-			factor = 2
-			year = 1875
+			factor = 100
+			year = 1836
 		}
-		modifier = {
-			factor = 2
-			year = 1885
-		}
+		
 	}
 }
 analytic_philosophy = {
@@ -272,19 +258,16 @@ analytic_philosophy = {
 
 	increase_research = 1.0
 	ai_chance = {
-		factor = 51
+		factor = 100000
 		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
+			factor = 300
+			civilized = yes
 		}
 		modifier = {
-			factor = 1.1
-			year = 1875
+			factor = 1.5
+			is_greater_power = yes
 		}
-		modifier = {
-			factor = 2
-			year = 1885
-		}
+		
 	}
 }
 phenomenology_n_hermeneutic = {
@@ -294,19 +277,16 @@ phenomenology_n_hermeneutic = {
 
 	increase_research = 1.0
 	ai_chance = {
-		factor = 51
+		factor = 100000
 		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
+			factor = 300
+			civilized = yes
 		}
 		modifier = {
-			factor = 1.1
-			year = 1885
+			factor = 1.5
+			is_greater_power = yes
 		}
-		modifier = {
-			factor = 2
-			year = 1890
-		}
+		
 	}
 }
 anti__rationalism = {
@@ -316,7 +296,7 @@ anti__rationalism = {
 
 	increase_research = 2.0
 	ai_chance = {
-		factor = 51
+		factor = 99
 		modifier = {
 			factor = 1.02
 			tech_school = culture_tech_school
@@ -493,28 +473,25 @@ ideological_thought = {
 	max_national_focus = 1 
 		
 	ai_chance = {
-		factor = 1.1
+		factor = 90
 		modifier = {
 			factor = 6
 			is_greater_power = yes
 		}
 		modifier = {
 			factor = 1.5
-			total_pops = 1000000
+			total_pops = 100000
 		}
 		modifier = {
 			factor = 51
 			rank = 16
-			year = 1840
+			year = 1835
 		}
 		modifier = {
-			factor = 51
-			year = 1850
+			factor = 1
+			year = 1835
 		}
-		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
-		}
+
 		
 	}
 }
@@ -525,27 +502,23 @@ state_n_government = {
 
 	max_national_focus = 1 
 	ai_chance = {
-		factor = 1.1
+		factor = 80
 		modifier = {
-			factor = 3.5
+			factor = 6
 			is_greater_power = yes
 		}
 		modifier = {
 			factor = 1.5
-			total_pops = 2000000
+			total_pops = 100000
 		}
 		modifier = {
 			factor = 51
 			rank = 16
-			year = 1850
+			year = 1835
 		}
 		modifier = {
 			factor = 51
-			year = 1860
-		}
-		modifier = {
-			factor = 1.02
-			tech_school = culture_tech_school
+			year = 1835
 		}
 		
 	}	

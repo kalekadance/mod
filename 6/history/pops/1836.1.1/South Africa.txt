@@ -415,7 +415,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 50
+        size = 2550
     }
 
     artisans = {
@@ -951,7 +951,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 1000
+        size = 2000
     }
 
     artisans = {
@@ -985,7 +985,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 500
+        size = 2500
     }
 
     artisans = {
@@ -1019,7 +1019,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 600
+        size = 2600
     }
 
     artisans = {
@@ -1281,7 +1281,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 700
+        size = 2700
     }
 
     artisans = {
@@ -1643,7 +1643,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 125
+        size = 2125
     }
 
     artisans = {
@@ -1759,7 +1759,7 @@
     clergymen = {
         culture = boer
         religion = orthodox
-        size = 50
+        size = 3050
     }
 
     artisans = {
@@ -1819,7 +1819,7 @@
     clergymen = {
         culture = zulu
         religion = orthodox
-        size = 1225
+        size = 2225
     }
 
     artisans = {
@@ -1853,7 +1853,7 @@
     clergymen = {
         culture = zulu
         religion = orthodox
-        size = 400
+        size = 2400
     }
 
     artisans = {
@@ -1899,7 +1899,7 @@
     clergymen = {
         culture = zulu
         religion = orthodox
-        size = 825
+        size = 3825
     }
 
     artisans = {
@@ -1933,7 +1933,7 @@
     clergymen = {
         culture = zulu
         religion = orthodox
-        size = 750
+        size = 2750
     }
 
     artisans = {

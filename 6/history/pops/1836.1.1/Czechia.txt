@@ -707,7 +707,7 @@
     clergymen = {
         culture = czech
         religion = orthodox
-        size = 50
+        size = 2050
     }
 
     artisans = {
@@ -725,7 +725,7 @@
     farmers = {
         culture = czech
         religion = orthodox
-        size = 5385
+        size = 50385
     }
 
     aristocrats = {
@@ -777,7 +777,7 @@
     clergymen = {
         culture = czech
         religion = orthodox
-        size = 125
+        size = 1250
     }
 
     artisans = {
@@ -795,7 +795,7 @@
     farmers = {
         culture = czech
         religion = orthodox
-        size = 13050
+        size = 53050
     }
 
     clergymen = {

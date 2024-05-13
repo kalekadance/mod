@@ -153,9 +153,7 @@ political_decisions = {
 		potential = {  
 			tag = D08	
 			has_country_flag = D08_claim1
-			NOT = { has_country_flag = D08_claim2
-				
-			}
+			NOT = { has_country_flag = D08_claim2 }
 		}
 		allow = {
 			OR = { tag = D08 tag = A09 }
@@ -166,7 +164,6 @@ political_decisions = {
 			prestige = 2
 			add_accepted_culture = moluccan
 			set_country_flag = D08_claim2
-			
 		}
 	}
 	A09_form = {
@@ -212,9 +209,7 @@ political_decisions = {
 		potential = {  
 			tag = A09	
 			has_country_flag = A09_claim	 
-			NOT = { has_country_flag = A09_filipin
-				
-			}
+			NOT = { has_country_flag = A09_filipin }
 		}
 		allow = {
 			tag = A09
@@ -224,9 +219,9 @@ political_decisions = {
 			}
 		}
 		effect = {
-			PHI = {
-                any_owned = { add_core = THIS }
-            }
+			SPA_1455 = { add_core = THIS }
+			SPA_1459 = { add_core = THIS }
+			SPA_1463 = { add_core = THIS }
 			set_country_flag = A09_filipin
 			add_accepted_culture = malay	
 		}
@@ -244,9 +239,7 @@ political_decisions = {
 			NOT = { exists = AST }
 		}
 		effect = {
-			HAW_658 = {
-				any_owned = { add_core = THIS }
-			}
+			HAW_658 = { add_core = THIS } 
 			any_owned = { remove_core = AST }
 			any_owned = { remove_core = NZL }
 			set_country_flag = A09_claim1	
@@ -257,7 +250,7 @@ political_decisions = {
 		picture = kanun_i_esasi
 		potential = {  
 			tag = A09
-			has_country_flag = A09_claim1
+			has_country_flag = A09_filipin
 			NOT = { has_country_flag = A09_claim2 }
 		}
 		allow = {
@@ -266,7 +259,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			JAP_1660 = { { add_core = THIS } }
+			JAP_1660 =  { add_core = THIS } 
 			set_country_flag = A09_claim2
 			
 		}
@@ -286,7 +279,6 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = filipino
 			set_country_flag = A09_claim3
-			
 		}
 	}
 	
@@ -299,10 +291,7 @@ political_decisions = {
 		}
 		allow = {
 			tag = A09
-			owns = 1455
-			owns = 1460
-			owns = 1463
-			
+			owns = 1481	
 		}
 		effect = {
 			add_accepted_culture = japanese
@@ -378,7 +367,9 @@ political_decisions = {
 		effect = {
 			change_tag = A12
 			add_accepted_culture = asian_minor
-			add_accepted_culture = vietnamese
+			add_accepted_culture = lao
+			add_accepted_culture = khmer
+			add_accepted_culture = yue
 			set_country_flag = A12_form
 		}
 	}
@@ -398,6 +389,7 @@ political_decisions = {
 			SIA = {
 				any_owned = { add_core = THIS }
             }
+			add_accepted_culture = thai
 			set_country_flag = A12_claim
 		}
 	}
@@ -431,8 +423,7 @@ political_decisions = {
 		}
 		allow = {
 			tag = A12
-			NOT = { exists = PHI 
-						  } 
+			NOT = { exists = PHI } 
 			
 		}
 		effect = {
@@ -441,6 +432,7 @@ political_decisions = {
 			BUR_1334 = { add_core = THIS }
 			BUR_1330 = { add_core = THIS }
 			ENG_1259 = { add_core = THIS }
+			add_accepted_culture = vietnamese
 			set_country_flag = A12_claim2
 			
 		}
@@ -460,6 +452,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = burmese
 			add_accepted_culture = karen
+			add_accepted_culture = shan
 			BRU_1394 = { add_core = THIS }	
 			NET_1423 = { add_core = THIS }
 			NET_1449 = { add_core = THIS }
@@ -468,5 +461,21 @@ political_decisions = {
 			
 		}
 	}
-	
+	A12_Frank = {
+		picture = kanun_i_esasi
+		potential = {
+			tag = A12
+			exists = A03
+			year = 1860
+			NOT = { has_global_flag = A12_Frank }
+		}
+		allow = { 
+			tag = A12
+		}
+		effect = {
+			add_accepted_culture = dutch
+			add_accepted_culture = wallonian
+			set_global_flag = A12_Frank
+		}
+	}
 }

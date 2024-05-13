@@ -1,0 +1,453 @@
+political_decisions = { 
+    gujarati_man = { 
+        picture = graet_eic
+        potential = {
+            OR = {
+                owns = 1292
+                owns = 1291
+            }
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = gujarati_man
+                }
+            }
+        }
+        allow = {
+            OR = {
+                owns = 1292
+                owns = 1291
+            }
+        }
+        effect = {
+            set_country_flag = gujarati_man
+            add_accepted_culture = gujarati
+        }
+    }
+    sindi_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1290
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = sindi_man 
+                }
+            }
+        }
+        allow = {
+            owns = 1290
+        }
+        effect = {
+            set_country_flag = sindi_man 
+            add_accepted_culture = sindi
+        }
+    }
+    rajput_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1264
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = rajput_man
+                }
+            }
+        }
+        allow = {
+            owns = 1264
+        }
+        effect = {
+            set_country_flag = rajput_man 
+            add_accepted_culture = rajput
+        }
+    }
+    panjabi_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1227
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    tag = A16
+                    tag = A08
+                    has_country_flag = panjabi_man
+                }
+            }
+        }
+        allow = {
+            owns = 1227
+        }
+        effect = {
+            set_country_flag = panjabi_man 
+            add_accepted_culture = panjabi
+        }
+    }
+    oriya_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1262
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = oriya_man
+                }
+            }
+        }
+        allow = {
+            owns = 1262
+        }
+        effect = {
+            set_country_flag = oriya_man 
+            add_accepted_culture = oriya
+        }
+    }
+    marathi_man = { 
+        picture = graet_eic
+        potential = {
+            OR = {
+                owns = 1277
+                owns = 1272
+            }
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = marathi_man
+                }
+            }
+        }
+        allow = {
+            OR = {
+                owns = 1277
+                owns = 1272
+            }
+        }
+        effect = {
+            set_country_flag = marathi_man
+            add_accepted_culture = marathi
+        }
+    }
+    avadhi_man = { 
+        picture = graet_eic
+        potential = {
+            OR = {
+                owns = 1239
+                owns = 1242
+            }
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = avadhi_man
+                }
+            }
+        }
+        allow = {
+            OR = {
+                owns = 1239
+                owns = 1242
+            }
+        }
+        effect = {
+            set_country_flag = avadhi_man
+            add_accepted_culture = avadhi
+        }
+    }
+    kanauji_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1243
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = kanauji_man
+                }
+            }
+        }
+        allow = {
+            owns = 1243
+        }
+        effect = {
+            set_country_flag = kanauji_man 
+            add_accepted_culture = kanauji
+        }
+    }
+    bihari_man = { 
+        picture = graet_eic
+        potential = {
+            OR = {
+                owns = 1248
+                owns = 1250
+            }
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = bihari_man
+                }
+            }
+        }
+        allow = {
+            OR = {
+                owns = 1248
+                owns = 1250
+            }
+        }
+        effect = {
+            set_country_flag = bihari_man
+            add_accepted_culture = bihari
+        }
+    }
+   bengali_man = { 
+        picture = graet_eic
+        potential = {
+            OR = {
+                owns = 1256
+                owns = 1254
+            }
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = bengali_man
+                }
+            }
+        }
+        allow = {
+            OR = {
+                owns = 1256
+                owns = 1254
+            }
+        }
+        effect = {
+            set_country_flag = bengali_man
+            add_accepted_culture = bihari
+        }
+    }
+    asian_minor_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1259
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = asian_minor_man
+                }
+            }
+        }
+        allow = {
+            owns = 1259
+        }
+        effect = {
+            set_country_flag = asian_minor_man 
+            add_accepted_culture = asian_minor
+        }
+    }
+    nepali_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1326
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    has_country_flag = nepali_man
+                }
+            }
+        }
+        allow = {
+            owns = 1326
+        }
+        effect = {
+            set_country_flag = nepali_man 
+            add_accepted_culture = nepali
+        }
+    }
+    baluchi_man = { 
+        picture = graet_eic
+        potential = {
+                owns = 1221
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    tag = A16
+                    tag = A08
+                    has_country_flag = baluchi_man
+                }
+            }
+        }
+        allow = {
+            owns = 1221
+        }
+        effect = {
+            set_country_flag = baluchi_man 
+            add_accepted_culture = baluchi
+        }
+    }
+    kashmiri_man = { 
+        picture = graet_eic
+        potential = {
+            owns = 1224
+            NOT = {
+                OR = {
+                    tag = HND
+                    tag = PER
+                    tag = IGM
+                    tag = A16
+                    tag = A08
+                    has_country_flag = kashmiri_man
+                }
+            }
+        }
+        allow = {
+            owns = 1224
+        }
+        effect = {
+            set_country_flag = kashmiri_man 
+            add_accepted_culture = kashmiri
+        }
+    }
+    bedouin_man = {
+        picture = graet_eic
+        potential = {
+            NOT = {
+                OR = {
+                    tag = A16
+                    tag = A14
+                    tag = A17
+                    tag = EGY
+                    tag = ETH
+                    tag = A15
+                    has_country_flag = bedouin_man
+                }
+            }
+            year = 1875
+ 
+        }
+        allow = {
+            OR = {
+                owns = 1745
+                owns = 1833
+            }
+        }
+        effect = {
+            add_accepted_culture = bedouin
+            set_country_flag = bedouin_man
+        }
+    }
+    amhara_man = {
+        picture = graet_eic
+        potential = {
+            NOT = {
+                OR = {
+                    tag = ETH
+                    tag = A15
+                    has_country_flag = amhara_man
+                }
+            }
+            owns = 1848
+            year = 1865
+        }
+        allow = {
+            owns = 1848
+        }
+        effect = {
+            add_accepted_culture = amhara
+            set_country_flag = amhara_man
+        }
+    }
+    south_andean_man = {
+        picture = graet_eic
+        potential = {
+            NOT = {
+                OR = {
+                    tag = UCA
+                    tag = GCO
+                    has_country_flag = south_andean_man
+                }
+            }
+            year = 1865
+            owns = 2295
+        }
+        allow = {
+            owns = 2295
+            NOT = { exists = PEU }
+        }
+        effect = {
+            add_accepted_culture = south_andean
+            set_country_flag = south_andean_man
+        }
+    }
+    north_andean_man = {
+        picture = graet_eic
+        potential = {
+            NOT = {
+                OR = {
+                    tag = UCA
+                    tag = GCO
+                    tag = A04
+                    has_country_flag = north_andean_man
+                }
+            }
+            year = 1865
+            owns = 2264
+        }
+        allow = {
+            owns = 2264
+            NOT = { exists = VNZ }
+        }
+        effect = {
+            add_accepted_culture = north_andean
+            set_country_flag = north_andean_man
+        }
+    }
+    brazilian_man = {
+        picture = graet_eic
+        potential = {
+            NOT = {
+                OR = {
+                    tag = UCA
+                    tag = GCO
+                    has_country_flag = brazilian_man
+                }
+            }
+            year = 1855
+        }
+        allow = {
+            exists = ARG
+            owns = 2447
+        }
+        effect = {
+            add_accepted_culture = brazilian
+            add_accepted_culture = afro_brazilian
+            set_country_flag = brazilian_man
+        }
+    }
+
+
+
+
+
+}

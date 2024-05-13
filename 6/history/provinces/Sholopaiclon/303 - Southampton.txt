@@ -1,7 +1,6 @@
-owner = SCO
-controller = SCO
+owner = D22
+controller = D22
 add_core = D22
-add_core = ENG
 trade_goods = fish
 life_rating = 35
 naval_base = 1 

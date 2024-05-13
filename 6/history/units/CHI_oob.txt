@@ -1,6 +1,51 @@
-POR = {
-	value = 125		#relation
+leader = {
+	name = "Carlo1 Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = harsh
+	background = generals_aide
+	prestige = 0.2
 }
+leader = {
+	name = "Carlo2 Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = harsh
+	background = generals_aide
+	prestige = 0.2
+}
+leader = {
+	name = "Carlo3 Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = harsh
+	background = generals_aide
+	prestige = 0.2
+}
+leader = {
+	name = "Carlo4 Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = harsh
+	background = generals_aide
+	prestige = 0.2
+}
+
+leader = {
+	name = "Rafaella de Cosa"
+	date = 1836.1.1
+	type = sea
+	personality = toady
+	background = doughty
+}
+leader = {
+	name = "GIh de Cosa"
+	date = 1836.1.1
+	type = sea
+	personality = toady
+	background = doughty
+}
+
 
 army = {
 	name = "Армия Запретных Знамен"
@@ -787,4 +832,70 @@ army = {
 		home = 1613
 	}
 
+}
+navy = {
+	name = "Королевский флот"
+	location = 1498
+	ship = { 
+		name = Броник
+		type = ironclad
+	}
+	ship = { 
+		name = Броник1
+		type = ironclad
+	}
+	ship = { 
+		name = Броник2
+		type = ironclad
+	}
+	ship = { 
+		name = Броник3
+		type = ironclad
+	}
+	ship = { 
+		name = Броник4
+		type = ironclad
+	}
+	ship = { 
+		name = Броник5
+		type = ironclad
+	}
+	ship = { 
+		name = Броник6
+		type = ironclad
+	}
+	
+}
+navy = {
+	name = "Королевский флот2"
+	location = 1481
+	ship = { 
+		name = Броник
+		type = ironclad
+	}
+	ship = { 
+		name = Броник1
+		type = ironclad
+	}
+	ship = { 
+		name = Броник2
+		type = ironclad
+	}
+	ship = { 
+		name = Броник3
+		type = ironclad
+	}
+	ship = { 
+		name = Броник4
+		type = ironclad
+	}
+	ship = { 
+		name = Броник5
+		type = ironclad
+	}
+	ship = { 
+		name = Броник6
+		type = ironclad
+	}
+	
 }

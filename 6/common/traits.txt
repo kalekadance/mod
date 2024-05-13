@@ -346,6 +346,11 @@ personality = {
 	korsar_sfx = {
 		attack = -4
 	}
+	impi = {
+		attack = 1
+		reconnaissance = 1
+		attrition = 0.1
+	}
 }
 
 background = {
@@ -593,5 +598,9 @@ background = {
 	karsar-sfx = {
 		defence = -4
 		speed = 0.40
+	}
+	addafa = {
+		morale = -0.10
+		reliability = 0.01
 	}
 }

@@ -9,7 +9,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 350
+        size = 3350
     }
 
     artisans = {
@@ -75,7 +75,7 @@
     bureaucrats = {
         culture = african_minor
         religion = orthodox
-        size = 2500
+        size = 4500
     }
 
 }
@@ -91,7 +91,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 350
+        size = 2350
     }
 
     artisans = {
@@ -243,7 +243,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -319,7 +319,7 @@
     bureaucrats = {
         culture = african_minor
         religion = orthodox
-        size = 2990
+        size = 5990
     }
 
     artisans = {
@@ -543,7 +543,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 125
+        size = 2125
     }
 
     artisans = {
@@ -649,7 +649,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 400
+        size = 2400
     }
 
     artisans = {
@@ -689,7 +689,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 100
+        size = 2100
     }
 
     artisans = {
@@ -945,21 +945,21 @@
 #Mocambique
 2060 = {
     aristocrats = {
-        culture = portuguese
+        culture = african_minor
         religion = orthodox
         size = 275
     }
 
     clergymen = {
-        culture = portuguese
+        culture = african_minor
         religion = orthodox
-        size = 1500
+        size = 2500
     }
 
     bureaucrats = {
-        culture = portuguese
+        culture = african_minor
         religion = orthodox
-        size = 2500
+        size = 3500
     }
 
     artisans = {
@@ -969,7 +969,7 @@
     }
 
     soldiers = {
-        culture = portuguese
+        culture = african_minor
         religion = orthodox
         size = 100
     }
@@ -1193,7 +1193,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 2200
+        size = 3200
     }
 
     artisans = {

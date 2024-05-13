@@ -63,7 +63,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 375
+        size = 1375
     }
 
     artisans = {
@@ -75,7 +75,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 29125
+        size = 59125
     }
 
     clergymen = {
@@ -151,7 +151,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 150
+        size = 2150
     }
 
     artisans = {
@@ -163,7 +163,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 13400
+        size = 73400
     }
 
 }
@@ -221,7 +221,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 225
+        size = 2225
     }
 
     artisans = {
@@ -233,7 +233,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 18875
+        size = 78875
     }
 
     clergymen = {
@@ -255,7 +255,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -267,7 +267,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 12400
+        size = 52400
     }
 
     clergymen = {
@@ -325,7 +325,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -337,7 +337,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 30850
+        size = 50850
     }
 
     aristocrats = {
@@ -377,7 +377,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 225
+        size = 1225
     }
 
     artisans = {
@@ -389,7 +389,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 23125
+        size = 63125
     }
 
     clergymen = {
@@ -513,7 +513,7 @@
     clergymen = {
         culture = albanian
         religion = orthodox
-        size = 150
+        size = 1500
     }
 
     artisans = {
@@ -525,13 +525,13 @@
     farmers = {
         culture = albanian
         religion = orthodox
-        size = 25600
+        size = 45600
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 750
+        size = 1500
     }
 
     artisans = {
@@ -681,7 +681,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 175
+        size = 1075
     }
 
     artisans = {
@@ -699,7 +699,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 17425
+        size = 77425
     }
 
 }
@@ -739,7 +739,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 1500
     }
 
     artisans = {
@@ -751,7 +751,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 9450
+        size = 79450
     }
 
     artisans = {
@@ -803,7 +803,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 1500
     }
 
     artisans = {
@@ -815,7 +815,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 7450
+        size = 87450
     }
 
     clergymen = {
@@ -949,7 +949,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 450
+        size = 950
     }
 
     artisans = {
@@ -1001,7 +1001,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 900
     }
 
     artisans = {
@@ -1013,7 +1013,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 9550
+        size = 49550
     }
 
 }
@@ -1091,7 +1091,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 1500
     }
 
     artisans = {
@@ -1109,7 +1109,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 8900
+        size = 78900
     }
 
 }
@@ -1147,7 +1147,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 175
+        size = 875
     }
 
     artisans = {
@@ -1165,7 +1165,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 14975
+        size = 44975
     }
 
 }
@@ -1271,7 +1271,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 1000
     }
 
     artisans = {
@@ -1289,7 +1289,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 7400
+        size = 67400
     }
 
 }

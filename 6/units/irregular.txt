@@ -16,7 +16,7 @@ irregular = {
 
 
 	#Building Costs
-	build_time = 40
+	build_time = 75
 	build_cost = {
 		liquor = 4
 		wool = 5				#0.7	=	7

@@ -1,4 +1,4 @@
-capital = 1060
+capital = 2648
 primary_culture = metis
 culture = russian
 culture = kazak
