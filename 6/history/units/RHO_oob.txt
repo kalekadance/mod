@@ -1,0 +1,46 @@
+leader = {
+	name = "Аддафов Дадафа"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
+
+
+
+army = {
+	name = "Скауты селуса"
+	location = 2069
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = guard
+		home = 2015
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = guard
+		home = 2072
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = guard
+		home = 2069
+	}
+	
+		regiment = {
+		name= "1-я кавалерийская бригада"
+		type = hussar
+		home = 2068
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = hussar
+		home = 2635
+	}
+	
+	
+
+}

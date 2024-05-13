@@ -1,7 +1,6 @@
 #post_napoleonic_thought 1836
 AI_baff = { 
 	limit = { 
-		civilized = yes
 		post_napoleonic_thought = 1 
 		has_country_flag = CHI_baff
 	}
@@ -10,11 +9,35 @@ AI_baff = {
 	}
 	effect = {
 		infantry =  { 
-			support = 1 
-			defence = 5
-			maneuver = 2
-			attack = 5			
+			support = 1.5 
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 2
+			maximum_speed = 3
+			reconnaissance = 2
 		}
+		irregular =  { 
+			support = 1.5 
+			defence = 8
+			maneuver = 3
+			attack = 8
+			siege = 2
+			maximum_speed = 4
+			reconnaissance = 2
+		}
+	}
+}
+AI_baff_2 = {
+	limit = { 
+		post_napoleonic_thought = 1 
+		has_country_flag = AI_baff_2 
+	}
+	chance = {
+		base = 90
+	}
+	effect = { 
+		supply_limit = 2
 	}
 }
 post_napoleonic_army_doctrine = {
@@ -174,7 +197,7 @@ flexible_firepower = {
 			 discipline = 0.25
 		}
 		cavalry = {
-			defence = 0.5
+			defence = 1
 		}
 		irregular = {
 			defence = 1.0
@@ -218,10 +241,10 @@ synchronized_heavy_support = {
 		    attack = 1
 		}
 		cavalry = {
-			defence = 0.5
+			defence = 1
 		}
 		irregular = {
-			defence = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -280,7 +303,7 @@ trench_systems = {
 			defence = 1
 		}
 		cavalry = {
-			defence = 0.5
+			defence = 1
 		}
 		irregular = {
 			defence = 1.0
@@ -383,7 +406,7 @@ elastic_defense_system = {
 			defence = 1
 		}
 		cavalry = {
-			defence = 0.5
+			defence = 1
 		}
 		irregular = {
 			defence = 1.0
@@ -427,7 +450,7 @@ flexible_counterattacks = {
 			attack = 1
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 		}
 		irregular = {
 			attack = 1.0
@@ -481,11 +504,11 @@ low_echelon_fire_support = {
 			attack = 1
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 			defence = 1
 		}
 		irregular = {
-			attack = 0.5
+			attack = 1
 			defence = 1
 		}
 		artillery = {
@@ -760,7 +783,7 @@ flintlock_rifle_armament = {
 			#supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 			supply_consumption = 0.50
 		}
 		irregular = {
@@ -779,10 +802,12 @@ MOR_baff = {
 	}
 	effect = { 
 			cavalry = {
-			attack = 3
-			defence = 3
+			attack = 2
+			defence = 2
 			support = 0.75
+			maneuver = 1
 			discipline = 0.2
+			reconnaissance = 1
 			forest = {movement = 0.2}
 			mountain = {movement = 0.2}
 			hills = {movement = 0.2}
@@ -820,7 +845,7 @@ muzzle_loaded_rifle_armament = {
 			supply_consumption = 0.10
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 			supply_consumption = 0.10
 		}
 		irregular = {
@@ -832,7 +857,7 @@ muzzle_loaded_rifle_armament = {
 Sibir_baff = { 
 	limit = { 
 		civilized = yes
-		muzzle_loaded_rifles 1836 = 1 
+		muzzle_loaded_rifles = 1 
 		has_country_flag = MTC_rise
 	}
 	chance = {
@@ -842,7 +867,7 @@ Sibir_baff = {
 		hussar = {
 			attack = 1
 			defence = 1
-			support = 1
+			support = 0.75
 			forest = {movement = 0.3}
 			mountain = {movement = 0.2}
 			hills = {movement = 0.2}
@@ -852,7 +877,8 @@ Sibir_baff = {
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			defence = 4
+			attack = 1
+			defence = 3
 			discipline = 0.25
 			forest = {movement = 0.3}
 			mountain = {movement = 0.25}
@@ -864,6 +890,7 @@ Sibir_baff = {
 		}
 		cuirassier = {
 			attack = 3
+			defence = 1
 			discipline = 0.25
 			forest = {movement = 0.2}
 			mountain = {movement = 0.3}
@@ -917,7 +944,7 @@ breech_loaded_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 1
 			supply_consumption = 0.20
 		}
 		irregular = {
@@ -1001,7 +1028,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			defence = 1
+			defence = 3
 			supply_consumption = 0.20
 		}
 		irregular = {
@@ -1048,7 +1075,7 @@ bolt_action_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 0.5
+			attack = 4
 			supply_consumption = 0.20
 		}
 		irregular = {
@@ -1088,7 +1115,7 @@ interwar_infantry = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1
+			attack = 2
 			defence = 2
 			supply_consumption = 0.20
 		}
@@ -1127,7 +1154,7 @@ interwar_cavalry = {
 			supply_consumption = 0.20
 		}
 		cavalry = {
-			attack = 1
+			attack = 3
 			defence = 2
 			reconnaissance = 2
 			supply_consumption = 0.20
@@ -1155,6 +1182,27 @@ rear_area_dumps = {
 	}
 }
 #iron_breech_loaded_artillery 1850
+artillery_speed = {
+	limit = { iron_breech_loaded_artillery = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = 10
+			year = 1855
+		}
+	}
+	effect = {
+		artillery = {
+			forest = {movement = 0.1}
+			mountain = {movement = 0.2}
+			hills = {movement = 0.1}
+			woods = {movement = 0.1}
+			jungle = {movement = 0.4} 
+			marsh  = {movement = 0.2}
+			maneuver = 1
+		}
+	}
+}
 #indirect_artillery_fire 1900
 #heavy_armament_dunno 1914
 light_tank = {

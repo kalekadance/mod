@@ -54,6 +54,8 @@ publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
 
+oob = "RHO_oob.txt"
+
 ruling_party = RHO_conservative
 upper_house = {
 	fascist = 0

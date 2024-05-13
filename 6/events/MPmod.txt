@@ -2075,7 +2075,7 @@ country_event = {
 	id = 99912112
 
 	trigger = {
-	tag = TUR
+	tag = CRE
 	NOT = {has_country_flag = bosfordone}
 	}
 	

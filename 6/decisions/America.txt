@@ -224,9 +224,9 @@ political_decisions = {
 					ai = yes
 					year = 1843 
 				}
-				AND = {
-					NOT = { exists = D25 }
-				}
+
+				NOT = { exists = D25 }
+				
 			}
 		}
 		
@@ -762,9 +762,7 @@ political_decisions = {
 			effect = {
 			set_global_flag = CAL_mexican1
 			add_accepted_culture = mexican
-			MEX = {
-				any_owned = { add_core = A11 }
-			}
+			MEX = { any_owned = { add_core = A11 } }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -845,8 +843,10 @@ political_decisions = {
 		}	
 		allow = {
 			OR = {
-				tag = GUA
-				NOT = { exists = COS }
+				AND = {
+					tag = GUA
+					NOT = { exists = COS }
+				}
 				AND = {
 					ai = yes
 					year = 1838
@@ -871,12 +871,16 @@ political_decisions = {
 			NOT = { has_global_flag = UCA_form }
 		}		
 		allow = {
-			tag = GUA
-			NOT = {	exists = PNM }
-			AND = {
+			OR = {
+				AND = {
+					tag = GUA
+					NOT = {	exists = PNM }
+				}
+				AND = {
 					ai = yes
 					year = 1841
 				}
+			}
 		}
 		effect = {
 			set_global_flag = UCA_USNY 

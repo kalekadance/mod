@@ -721,19 +721,19 @@ organized_factories = {
 	cost = 7200
 
 	rgo_size = {
-       timber = 0.3
+       timber = 0.2
 	}
 	rgo_size = {
-		grain = 0.3
+		grain = 0.2
 	}
 	rgo_size = {
-		fish = 0.3
+		fish = 0.2
 	}
 	rgo_size = {
-		fruit = 0.3
+		fruit = 0.2
 	}
 	rgo_size = {
-	    wool = 0.3
+	    wool = 0.2
 	}
 		ai_chance = {
 		factor = 1.05
@@ -772,22 +772,22 @@ scientific_management = {
 	year = 1836
 	cost = 10800
     rgo_size = {
-       timber = 0.3
+       timber = 0.2
 	}
 	rgo_size = {
-		cattle = 0.3
+		cattle = 0.2
 	}
 	rgo_size = {
-		grain = 0.3
+		grain = 0.2
 	}
 	rgo_size = {
-		fish = 0.3
+		fish = 0.2
 	}
 	rgo_size = {
-		fruit = 0.3
+		fruit = 0.2
 	}
 	rgo_size = {
-	    wool = 0.3
+	    wool = 0.2
 	}
 	ai_chance = {
 		factor = 1.05
@@ -826,22 +826,22 @@ time_saving_measures = {
 	year = 1850
 	cost = 14400
     rgo_size = {
-       timber = 0.3
+       timber = 0.2
 	}
 	rgo_size = {
-		cattle = 0.3
+		cattle = 0.2
 	}
 	rgo_size = {
-		grain = 0.3
+		grain = 0.2
 	}
 	rgo_size = {
-		fish = 0.3
+		fish = 0.2
 	}
 	rgo_size = {
-		fruit = 0.3
+		fruit = 0.2
 	}
 	rgo_size = {
-	    wool = 0.3
+	    wool = 0.2
 	}
 	ai_chance = {
 		factor = 1.05

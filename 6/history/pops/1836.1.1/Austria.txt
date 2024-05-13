@@ -107,7 +107,7 @@
     farmers = {
         culture = south_german
         religion = orthodox
-        size = 29700
+        size = 129700
     }
 
 }
@@ -237,7 +237,7 @@
     clergymen = {
         culture = south_german
         religion = orthodox
-        size = 325
+        size = 3025
     }
 
     artisans = {
@@ -255,7 +255,7 @@
     farmers = {
         culture = south_german
         religion = orthodox
-        size = 25675
+        size = 205675
     }
 
     clergymen = {

@@ -1571,7 +1571,7 @@
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 100000
+        size = 120000
     }
 
     clergymen = {
@@ -2801,7 +2801,7 @@
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 90000
+        size = 110000
     }
 
     clergymen = {
@@ -2901,7 +2901,7 @@
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 80000
+        size = 110000
     }
 
     clergymen = {
@@ -3013,7 +3013,7 @@
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 85000
+        size = 135000
     }
 
     clergymen = {
@@ -3269,7 +3269,7 @@
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 16500
+        size = 86500
     }
 
     aristocrats = {

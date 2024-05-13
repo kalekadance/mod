@@ -74,21 +74,14 @@ alliance=
 		first="EGY"
 		second="CHI"
 		end_date="1936.1.1"
-		start_date="1836.1.1"
+		start_date="1841.1.1"
 	}
 alliance=
 	{
 		first="JAP"
 		second="CHI"
 		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
-alliance=
-	{
-		first="EGY"
-		second="CHI"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
+		start_date="1840.1.1"
 	}
 alliance=
 	{
@@ -130,19 +123,33 @@ alliance=
 		first="PER"
 		second="CHI"
 		end_date="1936.1.1"
-		start_date="1836.1.1"
+		start_date="1841.1.1"
 	}
 alliance=
 	{
 		first="PER"
 		second="JAP"
 		end_date="1936.1.1"
-		start_date="1836.1.1"
+		start_date="1841.1.1"
 	}
 alliance=
 	{
 		first="PER"
 		second="HND"
+		end_date="1936.1.1"
+		start_date="1841.1.1"
+	}
+alliance=
+	{
+		first="CHI"
+		second="HND"
+		end_date="1936.1.1"
+		start_date="1850.1.1"
+	}
+alliance=
+	{
+		first="PER"
+		second="EGY"
 		end_date="1936.1.1"
 		start_date="1836.1.1"
 	}

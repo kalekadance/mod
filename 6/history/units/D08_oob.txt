@@ -1,0 +1,72 @@
+leader = {
+	name = "Ку Лант"
+	type = land
+	date = 1836.1.1
+	personality = ballsy
+	background = zunsi
+}
+
+
+
+army = {
+	name = "Армия Свободной Республики"
+	location = 1453
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = engineer
+		home = 1453
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = engineer
+		home = 1454
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = engineer
+		home = 1560
+	}
+	
+		regiment = {
+		name= "1-я кавалерийская бригада"
+		type = hussar
+		home = 2529
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = hussar
+		home = 2530
+	}
+
+}
+navy = {
+	name = "Флот Свободной Республики"
+	location = 2529
+	ship = {
+		name= "Первый"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Дубль"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Гном"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Копатыч"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Грузило"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Пудель"
+		type = clipper_transport
+	}
+}

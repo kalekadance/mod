@@ -13,6 +13,8 @@ civilized = yes
 
 prestige = 5
 
+set_country_flag = AI_baff_2
+
 ruling_party = EGY_conservative
 upper_house = {
 	fascist = 0

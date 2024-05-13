@@ -2,6 +2,6 @@ owner = CRI
 controller = CRI
 add_core = UKR
 add_core = CRI
-trade_goods = fish
+trade_goods = iron
 life_rating = 35
 naval_base = 2 

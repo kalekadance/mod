@@ -71,7 +71,17 @@ political_decisions = {
 		picture = graet_eic
 		potential = { 
 			ai=yes
-			NOT = { tag = CHI }
+			NOT = {	
+				OR = {
+					tag = CHI
+					tag = HND
+					tag = PER
+					tag = IGM
+					tag = EGY
+					tag = JAP
+					tag = GCO
+				}
+			}
 		}
 		allow = { 
 			ai=yes
@@ -112,7 +122,10 @@ political_decisions = {
 			ai=yes
 			NOT = { has_country_flag = ai_baff }
 		}
-		allow = { ai=yes }
+		allow = { 
+			ai=yes 
+			year = 1838
+		}
 		effect = { set_country_flag = ai_baff
 			add_country_modifier = { 
 				name =  prussian_general_staff duration = -1
@@ -159,6 +172,8 @@ political_decisions = {
 			OR = {
 				tag = CHI
 				tag = HND
+				tag = GCO
+				tag = PER
 			}
 			ai=yes
 			NOT = { has_country_flag = CHI_baff }
@@ -182,30 +197,14 @@ political_decisions = {
 		}
 		allow = { tag = CHI }
 		effect = {
-			YNN = {
-               any_owned = {
-                   remove_core = CHI }
-            }
-			XBI = {
-               any_owned = {
-                   remove_core = CHI }
-            }
 			MCK = {
-               any_owned = {
-                   remove_core = CHI }
-            }
-			XIN = {
-               any_owned = {
-                   remove_core = CHI }
-            }
-			TIB = {
                any_owned = {
                    remove_core = CHI }
             }
 			set_country_flag = CHI_remove
 		}
 	}		  
-	# Решения Коммуны
+	#Решения Коммуны
 	form_anjou_kingdom = {
 		picture = graet_eic
 			potential = {
@@ -411,6 +410,7 @@ political_decisions = {
 					owned_by = A04
 				}
 			}
+			tag = A01
 		}
 		allow = {
 			year = 1850
@@ -447,7 +447,7 @@ political_decisions = {
 			NOT = { has_country_flag = A01_war1 }
 		}
 		allow = {
-			NOT = { exists = DAN }
+			NOT = { exists = DEN }
 			year = 1845
 		}
 		effect = {
@@ -592,7 +592,7 @@ political_decisions = {
 			ai_will_do = {
 				factor = 10
 			}
-		}
+	}
 	
 	Lorraine_third = {
 	picture = graet_eic
@@ -650,15 +650,15 @@ political_decisions = {
 				AND = {
 					owns = 425
 					owns = 438
-					year = 1844
+					year = 1842
 				}
 				AND = {
-					year = 1844
+					year = 1842
 					NOT = { exists = WLL }
 				}
 				AND = {
 					WLL = { part_of_sphere = yes }
-					year = 1844
+					year = 1842
 				}
 			}
 		}
@@ -719,7 +719,7 @@ political_decisions = {
 		allow = {
 			NOT = { exists = SWI }
 			exists = A06 
-			year = 1870
+			year = 1855
 		}
 		effect = {
 				set_country_flag = own_Itali
@@ -730,6 +730,45 @@ political_decisions = {
 				factor = 10
 			}
 		
+	}
+	own_SCA = {
+		picture = graet_eic
+		potential = {
+			tag = A03
+			year = 1855
+			NOT = { has_country_flag = own_SCA }
+		}
+		allow = {
+			NOT = { exists = DAN }
+			year = 1860
+		}
+		effect = {
+				set_country_flag = own_SCA
+				prestige = 20
+				add_accepted_culture = swedish
+		}
+			ai_will_do = {
+				factor = 10
+			}
+		
+	}
+	A12_war = {
+		picture = graet_eic
+		potential = {
+			tag = A03
+			has_global_flag = A12_Frank
+			NOT = { has_country_flag = A12_war }
+		}
+		allow = {
+			iron_steamers = 1
+		}
+		effect = {
+			set_country_flag = A12_war
+			ANN_1371 = { add_core = THIS }
+			ANN_1374 = { add_core = THIS }
+			ANN_1383 = { add_core = THIS }
+			add_accepted_culture = vietnamese
+		}
 	}
 	
 	#Решения Каталонии
@@ -743,8 +782,8 @@ political_decisions = {
 			}		
 		}	
 		allow = {
-		owns = 487
-		NOT = { 487 = { owned_by = D21 } }
+			owns = 487
+			NOT = { 487 = { owned_by = D21 } }
 		}
 		
 		effect = {
@@ -878,13 +917,13 @@ political_decisions = {
 	picture = restore_brz
 		potential = {
 			tag = A04
-			set_country_flag = has_restore_emp
+			has_country_flag = has_restore_emp
 			year = 1870
 			NOT = { has_country_flag = has_restore_emp1 }
 		}
 		allow = {
 			year = 1870
-			nationalism_n_imperialism = 1
+			impressionism = 1
 		}
 		effect = {
 			THIS = { country_event = { id=377033 days=0 } }
@@ -1178,6 +1217,32 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	A05_chorvat = {
+		picture = graet_eic
+		potential = {
+			tag = A05
+			has_country_flag = A05_raise
+			NOT = { has_country_flag = A05_chorvat }
+		}
+		allow = { owns = 771 }	
+		effect = {
+			add_accepted_culture = croat
+			has_country_flag = A05_chorvat
+		}
+	}
+	A05_alban = {
+		picture = graet_eic
+		potential = {
+			tag = A05
+			has_country_flag = A05_raise
+			NOT = { has_country_flag = A05_alban }
+		}
+		allow = { owns = 850 }	
+		effect = {
+			add_accepted_culture = albanian
+			has_country_flag = A05_alban
 		}
 	}
 	A05_raise1 = {
@@ -1549,6 +1614,19 @@ political_decisions = {
 			set_country_flag = A06_raise
 		}
 	}
+	A06_fra = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			exists = A03
+			NOT = { has_country_flag = A06_fra }
+		}
+		allow = { owns = 468 }
+		effect = {
+			add_accepted_culture = french
+			set_country_flag = A06_fra
+		}
+	}
 	A06_raise1 = {
 		picture = graet_eic
 		potential = {
@@ -1672,6 +1750,8 @@ political_decisions = {
 				factor = 10
 			}
 	}
+
+
 	
 #Решения Польши
 	
@@ -2009,18 +2089,12 @@ graet_pol4 = {
 	form_Intermarium334 = {
 	picture = graet_eic
 		potential = {
-		tag = A07
-			AND = {
-				has_global_flag = form_Intermarium3
-				NOT = {
-					has_global_flag = form_Intermarium33
-					has_global_flag = form_Intermarium334
-				}
-			}			
+			tag = A07
+			has_global_flag = form_Intermarium3
+			NOT = { has_global_flag = form_Intermarium334 }			
 		}	
 		allow = {
-		tag = A07
-			
+			tag = A07	
 		}
 		
 		effect = {
@@ -2196,7 +2270,6 @@ graet_pol4 = {
 			has_country_flag = raise_Intermarium34
 			NOT = {
 				has_global_flag = form_Intermarium11
-				has_global_flag = form_Intermarium33
 			}
 						
 		}	

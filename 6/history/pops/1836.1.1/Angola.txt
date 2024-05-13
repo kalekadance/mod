@@ -238,6 +238,12 @@
         size = 35000
     }
 
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 4000
+    }
+
 }
 
 #Quibala
@@ -401,7 +407,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 600
+        size = 4600
     }
 
     artisans = {
@@ -441,7 +447,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 550
+        size = 2550
     }
 
     artisans = {
@@ -466,6 +472,12 @@
         culture = african_minor
         religion = orthodox
         size = 61000
+    }
+
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 4100
     }
 
 }
@@ -506,6 +518,12 @@
         culture = african_minor
         religion = orthodox
         size = 57500
+    }
+
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 3500
     }
 
 }
@@ -597,7 +615,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 600
+        size = 2600
     }
 
     artisans = {

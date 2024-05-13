@@ -1,0 +1,297 @@
+leader = {
+	name = "Аддафов Дадафа"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
+leader = {
+	name = "Аддафов Дадафа1"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
+leader = {
+	name = "Аддафов Дадафа2"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
+leader = {
+	name = "Аддафов Дадафа3"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
+
+
+
+army = {
+	name = "Армия Индии"
+	location = 1304
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1304
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1304
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1304
+	}
+	
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1304
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1304
+	}
+		regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1311
+	}
+
+		regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1311
+	}
+
+		regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1311
+	}
+	
+		regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1311
+	}
+
+		regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1311
+	}
+	
+
+}
+
+army = {
+	name = "Армия Индии1"
+	location = 1313
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1313
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1313
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1313
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1313
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1313
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1314
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1314
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1314
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1314
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1314
+	}
+	
+}
+
+army = {
+	name = "Армия Индии2"
+	location = 1317
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1317
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1317
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1317
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1317
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1317
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1318
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1318
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1318
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1318
+	}
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1318
+	}
+	
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 1312
+	ship = { 
+		name = Броник
+		type = ironclad
+	}
+	ship = { 
+		name = Броник1
+		type = ironclad
+	}
+	ship = { 
+		name = Броник2
+		type = ironclad
+	}
+	ship = { 
+		name = Броник3
+		type = ironclad
+	}
+	ship = { 
+		name = Броник4
+		type = ironclad
+	}
+	ship = { 
+		name = Броник5
+		type = ironclad
+	}
+	ship = { 
+		name = Броник6
+		type = ironclad
+	}
+	ship = { 
+		name = Броник
+		type = ironclad
+	}
+	ship = { 
+		name = Броник1
+		type = ironclad
+	}
+	ship = { 
+		name = Броник2
+		type = ironclad
+	}
+	ship = { 
+		name = Броник3
+		type = ironclad
+	}
+	ship = { 
+		name = Броник4
+		type = ironclad
+	}
+	ship = { 
+		name = Броник5
+		type = ironclad
+	}
+	ship = { 
+		name = Броник6
+		type = ironclad
+	}
+	ship = { 
+		name = Броник
+		type = ironclad
+	}
+	ship = { 
+		name = Броник1
+		type = ironclad
+	}
+	ship = { 
+		name = Броник2
+		type = ironclad
+	}
+	ship = { 
+		name = Броник3
+		type = ironclad
+	}
+	ship = { 
+		name = Броник4
+		type = ironclad
+	}
+	ship = { 
+		name = Броник5
+		type = ironclad
+	}
+	ship = { 
+		name = Броник6
+		type = ironclad
+	}
+	
+}

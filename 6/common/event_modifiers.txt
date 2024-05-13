@@ -774,7 +774,8 @@ prussian_general_staff3 = {
 	icon = 15
 }
 prussian_general_staff4 = {
-    war_exhaustion = -1
+    war_exhaustion = -4
+	pop_militancy_modifier = -1
 	icon = 15
 }
 

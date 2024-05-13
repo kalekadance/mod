@@ -3865,9 +3865,9 @@
     }
 
     soldiers = {
-        culture = moluccan
+        culture = aborigine
         religion = orthodox
-        size = 50
+        size = 3150
     }
 
     farmers = {
@@ -3897,7 +3897,7 @@
     soldiers = {
         culture = aborigine
         religion = orthodox
-        size = 3150
+        size = 50
     }
 
     farmers = {

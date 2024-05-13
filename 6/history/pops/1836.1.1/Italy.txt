@@ -97,7 +97,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 80000
+        size = 110000
     }
 
     aristocrats = {
@@ -161,7 +161,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 110000
+        size = 130000
     }
 
 }
@@ -195,7 +195,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 110000
+        size = 130000
     }
 
 }
@@ -627,7 +627,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 90000
+        size = 130000
     }
 
 }
@@ -817,7 +817,7 @@
     clergymen = {
         culture = north_italian
         religion = orthodox
-        size = 175
+        size = 1750
     }
 
     artisans = {
@@ -841,7 +841,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 2375
+        size = 92375
     }
 
     clergymen = {
@@ -881,7 +881,7 @@
     clergymen = {
         culture = north_italian
         religion = orthodox
-        size = 125
+        size = 1500
     }
 
     artisans = {
@@ -899,7 +899,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 10800
+        size = 130800
     }
 
     clergymen = {
@@ -969,7 +969,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 104500
+        size = 134500
     }
 
 }
@@ -1595,7 +1595,7 @@
     farmers = {
         culture = north_italian
         religion = orthodox
-        size = 90000
+        size = 130000
     }
 
 }

@@ -55,6 +55,6 @@ dragoon = {
 	jungle = {movement = -0.6} 
 	marsh  = {movement = -0.6}   
 	desert	= {movement = 0.1}
-	attrition = -0.60
+
 	
 }
