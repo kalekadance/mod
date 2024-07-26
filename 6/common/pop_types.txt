@@ -2,6 +2,13 @@
 promotion_chance = 
 {
 	factor = 0.25
+	
+	modifier = {
+		factor = 0.15
+		country = {
+			economic_policy = laissez_faire
+		}
+	}
 	group = {
 		modifier = {
 			factor = 0.02
@@ -124,7 +131,13 @@ demotion_chance =
 {
 	factor = 1
 	 
-
+	modifier = {
+		factor = 0.10
+		country = {
+			economic_policy = laissez_faire
+		}
+	}
+	
 	modifier = {
 		factor = -0.1
 		state_scope = { is_colonial = yes }
