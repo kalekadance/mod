@@ -215,6 +215,13 @@ personality = {
 	coward = {
 		attack = 1
 	}
+	leg.latvian = {
+		attack = 1
+		speed = 0.05
+	}
+	toka_todo = {
+		experience = 0.50
+	}
 	craven = {
 		attack = 1
 	}
@@ -446,6 +453,10 @@ background = {
 	amateur = {
 		defence = 2
 	}
+	weshenka = {
+		attrition = -0.10
+		experience = 0.10
+	}
 	madman = { ####
 		defence = 1
 		morale = 0.30
@@ -497,6 +508,9 @@ background = {
 	politician = {
 		defence = 1
 		reliability = -0.02
+	}
+	zobin = {
+		morale = 0.60
 	}
 	cartographer = {
 		defence = 1

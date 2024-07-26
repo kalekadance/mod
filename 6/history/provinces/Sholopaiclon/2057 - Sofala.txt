@@ -1,5 +1,5 @@
 owner = D16
 controller = D16
 add_core = D16
-trade_goods = tobacco
+trade_goods = timber
 life_rating = 35

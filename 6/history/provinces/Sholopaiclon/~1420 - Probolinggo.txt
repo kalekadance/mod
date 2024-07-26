@@ -1,5 +1,0 @@
-owner = D05
-controller = D05
-add_core = D05
-trade_goods = fruit
-life_rating = 35

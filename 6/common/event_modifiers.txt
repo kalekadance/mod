@@ -21,7 +21,7 @@ tax_efficiency = -0.05
 icon = 9
 }
 krestianka_otmena = {
-global_population_growth = 0.15
+global_immigrant_attract = 0.1
 icon = 9
 }
 Investicii_v_region1 = {
@@ -742,7 +742,6 @@ prussian_general_staff = {
 	org_regain = 1
 	land_organisation = 0.5
 	land_unit_start_experience = 20
-	leadership_modifier = 2
 	unit_recruitment_time = -0.20
 	supply_consumption = -0.1
 	research_points_modifier = 0.25

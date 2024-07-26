@@ -41,7 +41,7 @@ country_event = {
 country_event = {
 
 	id = 31502
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC31502_NEWS_LONG"
 	news_desc_medium = "EVTDESC31502_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC31502_NEWS_SHORT"
@@ -161,7 +161,7 @@ country_event = {
 country_event = {
 
 	id = 31504
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC31504_NEWS_LONG"
 	news_desc_medium = "EVTDESC31504_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC31504_NEWS_SHORT"
@@ -228,7 +228,7 @@ country_event = {
 country_event = {
 
 	id = 31505
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC31505_NEWS_LONG"
 	news_desc_medium = "EVTDESC31505_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC31505_NEWS_SHORT"

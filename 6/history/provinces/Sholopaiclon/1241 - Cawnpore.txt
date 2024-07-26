@@ -3,5 +3,5 @@ controller = MUG
 add_core = MUG
 add_core = IGM
 add_core = HND
-trade_goods = dye
+trade_goods = timber
 life_rating = 35

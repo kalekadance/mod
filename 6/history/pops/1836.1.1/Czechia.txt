@@ -27,7 +27,7 @@
     artisans = {
         culture = czech
         religion = orthodox
-        size = 8000
+        size = 10000
     }
 
     soldiers = {
@@ -75,7 +75,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 2000
+        size = 10000
     }
 
     soldiers = {
@@ -431,7 +431,7 @@
     artisans = {
         culture = czech
         religion = orthodox
-        size = 2850
+        size = 10000
     }
 
     soldiers = {
@@ -485,7 +485,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 2000
+        size = 10000
     }
 
     soldiers = {
@@ -525,7 +525,7 @@
     artisans = {
         culture = czech
         religion = orthodox
-        size = 9350
+        size = 10000
     }
 
     soldiers = {
@@ -567,7 +567,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 6500
+        size = 10000
     }
 
     soldiers = {

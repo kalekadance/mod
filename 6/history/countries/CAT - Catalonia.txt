@@ -9,6 +9,8 @@ literacy = 0.55
 non_state_culture_literacy = 0.45
 civilized = yes
 
+set_country_flag = A04_baff
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

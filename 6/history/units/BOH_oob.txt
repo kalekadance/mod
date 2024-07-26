@@ -1,3 +1,11 @@
+leader = {
+	name = "Йоган Ганзалес"
+	type = land
+	date = 1836.1.1
+	personality = leg.latvian
+	background = weshenka
+}
+
 army = {	
 	name = "Armia Bogemi"
 	location = 625
@@ -26,37 +34,37 @@ army = {
 	}
 
 	regiment = {
-		name= "2-я пехотная бригада"
-		type = engineer
+		name= "Бригада драгунов"
+		type = dragoon
 		home = 626
 	}
 
 	regiment = {
 		name= "1-я артиллерийская бригада"
-		type = engineer
+		type = artillery
 		home = 631
 	}
 	regiment = {
-		name= "2-я инженерная бригада"
-		type = engineer
+		name= "Бригада драгунов"
+		type = dragoon
 		home = 630
 	}
 
 	regiment = {
-		name= "3-я пехотная бригада"
-		type = engineer
+		name= "Тяжелая бригада"
+		type = artillery
 		home = 621
 	}
 
 	regiment = {
 		name= "Тяжелая бригада"
-		type = engineer
+		type = artillery
 		home = 619
 	}
 
 	regiment = {
-		name= "1-я пехотная бригада"
-		type = engineer
+		name= "Тяжелая бригада"
+		type = artillery
 		home = 620
 	}
 

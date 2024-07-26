@@ -1,6 +1,0 @@
-owner = SCO
-controller = SCO
-add_core = D22
-add_core = ENG
-trade_goods = coal
-life_rating = 35

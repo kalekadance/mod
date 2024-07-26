@@ -110,13 +110,10 @@ political_decisions = {
 	}
 	A14_claim1 = {
 		picture = kanun_i_esasi
-		potential = {  tag = A14
-		has_country_flag = A14_claim
-			 
-			NOT = { has_country_flag = A14_claim1
-				
-			}
-
+		potential = {  
+			tag = A14
+			has_country_flag = A14_claim
+			NOT = { has_country_flag = A14_claim1 }
 		}
 		allow = {
 			OR = {
@@ -165,7 +162,7 @@ political_decisions = {
 		}
 		allow = {
 			tag = A14
-            iron_breech_loaded_artillery = 1
+            army_decision_making = 1
 		}
 		effect = {
 			TRI_1739 = { add_core = THIS }

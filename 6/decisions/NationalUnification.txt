@@ -267,7 +267,7 @@ political_decisions = {
 		
 	#form_germany = {
 	#	picture = form_germany
-	#	news = yes
+	#	news = no
 	#	news_desc_long = "form_germany_NEWS_LONG"
 	#	news_desc_medium = "form_germany_NEWS_MEDIUM"
 	#	news_desc_short = "form_germany_NEWS_SHORT"
@@ -317,7 +317,7 @@ political_decisions = {
 	#}
 	form_scandinavia = {
 		picture = form_scandinavia
-		news = yes
+		news = no
 		news_desc_long = "form_scandinavia_NEWS_LONG"
 		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
 		news_desc_short = "form_scandinavia_NEWS_SHORT"

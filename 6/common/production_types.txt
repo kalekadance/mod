@@ -667,11 +667,11 @@ canned_food_factory_fruit = {
 dye_factory = { 
 	template = factory_template
 	input_goods = { 
-		coal = 2.5 		#2.3*4 = 9.2 	total input+maint = 9.2
-		fruit = 4
+		coal = 5 		#2.3*4 = 9.2 	total input+maint = 9.2
+		fruit = 8
 	}
 	output_goods = dye 
-	value = 1.5	#12*1 = 12 / 2.8
+	value = 4.5	#12*1 = 12 / 2.8
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -1092,6 +1092,25 @@ artisan_automobile = {
 	
 	workforce = 10000
 }
+
+artisan_dye = { 
+	input_goods = { 
+		coal = 5 		#2.3*4 = 9.2 	total input+maint = 9.2
+		fruit = 8
+	}
+	output_goods = dye 
+	value = 4	#12*1 = 12 / 2.8
+	
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
 
 artisan_radio = { 
 	input_goods = { 

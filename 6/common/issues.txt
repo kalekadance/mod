@@ -340,7 +340,6 @@ political_reforms = {
 			#no immediate effect
 		}
 		yes_meeting = {
-			issue_change_speed = 1
 			global_immigrant_attract = 0.01
 			suppression_points_modifier = -0.25
 		}
@@ -358,7 +357,6 @@ political_reforms = {
 		}
 		free_press = {
 			literacy_con_impact = 0.25
-			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
 		}
@@ -369,15 +367,12 @@ political_reforms = {
 			#no immediate effect
 		}
 		state_controlled = {
-			social_reform_desire = 0.1
 			global_immigrant_attract = 0.01
 		}
 		non_socialist = {
-			social_reform_desire = 0.2
 			global_immigrant_attract = 0.02
 		}
 		all_trade_unions = {
-			social_reform_desire = 0.3
 			global_immigrant_attract = 0.03
 		}
 	}

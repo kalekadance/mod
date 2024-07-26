@@ -640,7 +640,7 @@ pops = {
 	MIL_HAS_EVERYDAY_NEED = -0.1,
 	MIL_HAS_LUXURY_NEED = -0.2,
 	MIL_NO_LIFE_NEED = 0.2,
-	MIL_REQUIRE_REFORM = 0.2,
+	MIL_REQUIRE_REFORM = -0.0,
 	MIL_IDEOLOGY = -0.1,
 	MIL_RULING_PARTY = -0.1,
 	MIL_REFORM_IMPACT = 2,
@@ -732,7 +732,7 @@ ai =
 	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 4, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-	MONTHS_BEFORE_DISBAND = 3, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
+	MONTHS_BEFORE_DISBAND = 300, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 
 graphics =

@@ -405,8 +405,9 @@ breech_loaded_rifles = {
 	area = light_armament
 	year = 1850
 	cost = 10800
-
+	
 	activate_unit = guard
+
 	unciv_military = yes
 
 	army_base = {
@@ -502,7 +503,7 @@ machine_guns = {
 }
 bolt_action_rifles = {
 	area = light_armament
-	year = 1900
+	year = 1880
 	cost = 19800
 	unciv_military = yes
 	unit = 1
@@ -762,7 +763,7 @@ steel_breech_loaded_artillery = {
 }
 indirect_artillery_fire = {
 	area = heavy_armament
-	year = 1900
+	year = 1890
 	cost = 19800
 	unciv_military = yes
 	artillery = {
@@ -1078,7 +1079,7 @@ military_directionism = {
 }
 aeronautics = {
 	area = military_science
-	year = 1910
+	year = 1905
 	cost = 25200
 	army_base = {
 		default_organisation = 10

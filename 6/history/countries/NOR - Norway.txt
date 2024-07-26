@@ -2,11 +2,12 @@ capital = 313
 primary_culture = sami
 religion = orthodox
 government = hms_government
-plurality = 40
+plurality = 100
 nationalvalue = nv_liberty
 literacy = 0.85
 non_state_culture_literacy = 0.65
 civilized = yes
+prestige = 180
 
 
 # Political reforms

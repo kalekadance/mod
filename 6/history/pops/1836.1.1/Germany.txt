@@ -1263,7 +1263,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 5400
+        size = 10000
     }
 
     soldiers = {
@@ -2765,7 +2765,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 3100
+        size = 10000
     }
 
     soldiers = {
@@ -2789,7 +2789,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 3800
+        size = 10000
     }
 
     soldiers = {

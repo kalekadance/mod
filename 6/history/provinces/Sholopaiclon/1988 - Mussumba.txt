@@ -1,2 +1,5 @@
-trade_goods = tropical_wood
+owner = RHO
+controller = RHO
+trade_goods = iron
 life_rating = 35
+colonial = 2

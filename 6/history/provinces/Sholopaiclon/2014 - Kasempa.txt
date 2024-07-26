@@ -1,2 +1,5 @@
-trade_goods = sulphur
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = coal
 life_rating = 35

@@ -467,7 +467,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 5500
+        size = 10000
     }
 
     soldiers = {
@@ -509,7 +509,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 6000
+        size = 10000
     }
 
     soldiers = {
@@ -563,7 +563,7 @@
     artisans = {
         culture = french
         religion = orthodox
-        size = 3500
+        size = 10000
     }
 
     soldiers = {
@@ -709,7 +709,7 @@
     artisans = {
         culture = french
         religion = orthodox
-        size = 7450
+        size = 10000
     }
 
     soldiers = {
@@ -739,7 +739,7 @@
     artisans = {
         culture = south_german
         religion = orthodox
-        size = 1250
+        size = 10000
     }
 
     soldiers = {

@@ -1,5 +1,5 @@
 owner = ISR
 controller = ISR
 add_core = ISR
-trade_goods = dye
+trade_goods = coal
 life_rating = 35 

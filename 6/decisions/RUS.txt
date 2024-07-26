@@ -3,18 +3,13 @@ political_decisions = {
 		picture = abolish_serfdom
 		potential = {
 			OR = {
-			tag = EGY
-			tag = NOR 
-			tag = AST
-			tag = ARG
-			tag = CHL
-			tag = NZL
-			tag = FIN
-			tag = PEU
-			tag = MEX
-			tag = CUB
-			tag = PHI
-			tag = BOL
+				tag = RUS
+				tag = AST
+				tag = SCA
+				tag = FIN
+				tag = NZT
+				tag = ARG
+				tag = CHL
 			}
 			#government = absolute_monarchy
 			NOT = { has_country_flag = Zunsi } 

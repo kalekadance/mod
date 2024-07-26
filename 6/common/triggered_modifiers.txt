@@ -2,3 +2,53 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
+
+AI_bonys = {
+	trigger = {
+	ai = yes
+	year = 1838
+	}
+	org_regain = 1
+	land_organisation = 0.5
+	land_unit_start_experience = 20
+	unit_recruitment_time = -0.20
+	supply_consumption = -0.1
+	research_points_modifier = 0.25
+	mobilisation_size = 0.01
+	global_pop_militancy_modifier = -0.01
+}
+AI_bonys1 = {
+	trigger = {
+	ai = yes
+	year = 1850
+	}
+	org_regain = 1
+	land_organisation = 0.5
+	land_unit_start_experience = 20
+	unit_recruitment_time = -0.20
+	supply_consumption = -0.1
+	research_points_modifier = 0.25
+	mobilisation_size = 0.01
+	global_pop_militancy_modifier = -0.01
+}
+AI_bonys2 = {
+	trigger = {
+	ai = yes
+	year = 1870
+	}
+    mobilisation_size = 0.02
+	supply_consumption = -0.1
+	org_regain = 1
+	land_organisation = 0.5
+	land_unit_start_experience = 20
+	research_points_modifier = 0.15
+	global_pop_militancy_modifier = -0.015
+}
+AI_bonys3 = {
+	trigger = {
+	tag = EGY
+	}
+	mobilisation_size = 0.15
+	supply_consumption = -0.1
+	research_points_modifier = 0.15
+}

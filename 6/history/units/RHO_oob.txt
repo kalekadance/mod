@@ -6,6 +6,13 @@ leader = {
 	background = addafa
 }
 
+leader = {
+	name = "Андрейко Андреевин"
+	type = land
+	date = 1836.1.1
+	personality = impi
+	background = addafa
+}
 
 
 army = {
@@ -30,17 +37,48 @@ army = {
 	}
 	
 		regiment = {
-		name= "1-я кавалерийская бригада"
-		type = hussar
+		name= "1-я мобильная бригада"
+		type = engineer
 		home = 2068
 	}
 
 	regiment = {
-		name= "2-я кавалерийская бригада"
-		type = hussar
+		name= "2-я мобильная бригада"
+		type = engineer
 		home = 2635
 	}
-	
-	
+}
 
+army = {
+	name = "Вторая армия скаутов"
+	location = 2015
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = guard
+		home = 2013
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = guard
+		home = 2014
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = guard
+		home = 2012
+	}
+	
+		regiment = {
+		name= "1-я мобильная бригада"
+		type = engineer
+		home = 2071
+	}
+
+	regiment = {
+		name= "2-я мобильная бригада"
+		type = engineer
+		home = 2073
+	}
 }
