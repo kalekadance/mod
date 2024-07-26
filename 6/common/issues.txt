@@ -5,21 +5,21 @@ party_issues = {
 	trade_policy = {
 		protectionism = {
 			max_tariff = 1
-			min_tariff = -0.25
+			min_tariff = -1
+			factory_throughput = 0.05
           
 		}
 		free_trade = {
-			max_tariff = 0.25
+			max_tariff = 1
 			min_tariff = -1
-			tax_efficiency = 0.1
+			tax_efficiency = 0.05
 			 
 		}
 	}
 	economic_policy = {
 		laissez_faire = {
              
-			max_tax = 0.95
-			factory_owner_cost = 0.3
+			factory_owner_cost = 0.7
 			factory_output = 0.1
            
 			
@@ -45,7 +45,7 @@ party_issues = {
 		}
 		interventionism = {
                         
-			factory_owner_cost = 0.5
+			factory_owner_cost = 1
 			 factory_output = 0.05
 			rules = {
 				build_factory = no
@@ -70,10 +70,10 @@ party_issues = {
 			}
 		}
 		state_capitalism = {
-		 
-		tax_efficiency = 0.02
-		 
-			factory_owner_cost = 0.7
+			 
+			tax_efficiency = 0.02
+			factory_throughput = 0.05
+			factory_owner_cost = 1
 			 
 			rules = {
 				build_factory = yes
@@ -95,9 +95,9 @@ party_issues = {
 		}
 		fascist_capitalism = {
 		 
-		tax_efficiency = 0.03
-		 
-			factory_owner_cost = 0.5
+			tax_efficiency = 0.04
+			factory_throughput = 0.1
+			factory_owner_cost = 1
 			 
 			rules = {
 				build_factory = yes
@@ -150,11 +150,11 @@ party_issues = {
 	        core_pop_consciousness_modifier = 0.02
 		}
 		secularized = {               
-            education_efficiency_modifier = 0.07	
+           	education_efficiency_modifier = 0.07	
 	        core_pop_consciousness_modifier = 0.05
 		}
 		pluralism = {
-                global_assimilation_rate = 0.2
+                core_pop_consciousness_modifier = -0.01
 	        global_pop_militancy_modifier = -0.01
 		}
 		moralism = {
@@ -173,11 +173,12 @@ party_issues = {
 			rules = { culture_voting = yes }
 			core_pop_militancy_modifier = -0.01
 			non_accepted_pop_militancy_modifier = 0.01
-			global_assimilation_rate = 0.10
+			global_assimilation_rate = 0.05
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			global_assimilation_rate = 0.25
+			global_assimilation_rate = 0.10
+			non_accepted_pop_militancy_modifier = -0.01
 		}
 	}
 	war_policy = {
@@ -187,7 +188,7 @@ party_issues = {
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
-			mobilization_impact = 4
+			mobilization_impact = 1
 			org_regain = 0.5
 			reinforce_speed = 0.5
 			badboy = 0.01
@@ -196,7 +197,7 @@ party_issues = {
 			max_military_spending = 1.0
 			war_exhaustion_effect = 0.8
 			cb_generation_speed_modifier = 0.2
-			mobilization_impact = 3
+			mobilization_impact = 1
 			org_regain = 0.25
 			reinforce_speed = 0.25
 		}
@@ -204,8 +205,8 @@ party_issues = {
 			max_military_spending = 0.9
 			supply_consumption = -0.1
 			war_exhaustion_effect = 1.2
-			cb_generation_speed_modifier = -0.2
-			mobilization_impact = 2
+			cb_generation_speed_modifier = -0.1
+			mobilization_impact = 1
 			org_regain = -0.05
 			reinforce_speed = -0.05
 			badboy = -0.01
@@ -214,11 +215,11 @@ party_issues = {
 			max_military_spending = 0.8
 			supply_consumption = -0.2
 			war_exhaustion_effect = 1.5
-			cb_generation_speed_modifier = -0.4
+			cb_generation_speed_modifier = -0.2
 			mobilization_impact = 1
 			org_regain = -0.25
 			reinforce_speed = -0.25
-				badboy = -0.02
+			badboy = -0.02
 		}
 	}
 }
@@ -340,6 +341,7 @@ political_reforms = {
 			#no immediate effect
 		}
 		yes_meeting = {
+			issue_change_speed = 1
 			global_immigrant_attract = 0.01
 			suppression_points_modifier = -0.25
 		}
@@ -357,6 +359,7 @@ political_reforms = {
 		}
 		free_press = {
 			literacy_con_impact = 0.25
+			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
 		}
@@ -367,12 +370,15 @@ political_reforms = {
 			#no immediate effect
 		}
 		state_controlled = {
+			social_reform_desire = 0.1
 			global_immigrant_attract = 0.01
 		}
 		non_socialist = {
+			social_reform_desire = 0.2
 			global_immigrant_attract = 0.02
 		}
 		all_trade_unions = {
+			social_reform_desire = 0.3
 			global_immigrant_attract = 0.03
 		}
 	}
@@ -471,7 +477,8 @@ social_reforms = {
 		no_safety = {
 		}
 		trinket_safety = {
-			factory_cost = 0.25
+			farm_RGO_eff = -0.05
+			mine_RGO_eff = -0.05
 			rich_everyday_needs = -0.05
 			middle_everyday_needs = -0.05
 			poor_everyday_needs = -0.05
@@ -479,7 +486,8 @@ social_reforms = {
 			global_immigrant_attract = 0.01
 		}
 		low_safety = {
-			factory_cost = 0.50
+			farm_RGO_eff = -0.10
+			mine_RGO_eff = -0.10
 			rich_everyday_needs = -0.10
 			middle_everyday_needs = -0.10
 			poor_everyday_needs = -0.10
@@ -487,7 +495,8 @@ social_reforms = {
 			global_immigrant_attract = 0.02
 		}
 		acceptable_safety = {
-			factory_cost = 0.75
+			farm_RGO_eff = -0.15
+			mine_RGO_eff = -0.15
 			rich_everyday_needs = -0.15
 			middle_everyday_needs = -0.15
 			poor_everyday_needs = -0.15
@@ -495,7 +504,8 @@ social_reforms = {
 			global_immigrant_attract = 0.03
 		}
 		good_safety = {
-			factory_cost = 1.0
+			farm_RGO_eff = -0.20
+			mine_RGO_eff = -0.20
 			rich_everyday_needs = -0.20
 			middle_everyday_needs = -0.20
 			poor_everyday_needs = -0.20
@@ -556,11 +566,12 @@ social_reforms = {
  }
  culture_voting_only = {
  global_assimilation_rate = 0.05
+ non_accepted_pop_militancy_modifier = -0.01
  }
  all_voting_pops = {
- non_accepted_pop_militancy_modifier = -0.01
  global_assimilation_rate = 0.15
  global_immigrant_attract = 0.08
+ non_accepted_pop_militancy_modifier = -0.02
  }
  }
 
