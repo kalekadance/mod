@@ -11,6 +11,8 @@ non_state_culture_literacy = 0.35
 civilized = yes
 is_releasable_vassal = no
 
+set_country_flag = MTC_baff
+
 
 # Political reforms
 slavery = no_slavery

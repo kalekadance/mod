@@ -2,5 +2,5 @@ owner = SIK
 controller = SIK
 add_core = SIK
 add_core = HND
-trade_goods = dye
+trade_goods = coal
 life_rating = 35

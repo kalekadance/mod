@@ -1,5 +1,0 @@
-owner = BAB
-controller = BAB
-add_core = ISR
-trade_goods = wool
-life_rating = 35

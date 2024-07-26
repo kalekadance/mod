@@ -8,6 +8,8 @@ literacy = 0.2
 non_state_culture_literacy = 0.2
 civilized = yes
 
+set_country_flag = ISR_baff
+
 ruling_party = ETH_conservative
 upper_house = {
 	fascist = 0

@@ -1,6 +1,7 @@
 	#combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -27,6 +28,7 @@ daimlers_automobile = {
 }
 wright_n_langleys_aeroplanes = {
 	limit = { combustion_engine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -54,6 +56,7 @@ wright_n_langleys_aeroplanes = {
 
 tractors = {
 	limit = { combustion_engine = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -72,6 +75,7 @@ tractors = {
 #electrical_power_generation
 direct_current = {
 	limit = { electrical_power_generation = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -91,6 +95,7 @@ direct_current = {
 }
 alternating_current = {
 	limit = { electrical_power_generation = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -109,6 +114,7 @@ alternating_current = {
 }
 polyphase_system = {
 	limit = { electrical_power_generation = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -128,6 +134,7 @@ polyphase_system = {
 #mechanical_production
 sharp_n_roberts_power_loom = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -150,6 +157,7 @@ sharp_n_roberts_power_loom = {
 }
 jacquard_power_loom = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -175,6 +183,7 @@ jacquard_power_loom = {
 }
 northrop_power_loom = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -203,6 +212,7 @@ northrop_power_loom = {
 }
 mechanical_saw = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -225,6 +235,7 @@ mechanical_saw = {
 }
 mechanical_precision_saw = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -244,6 +255,7 @@ mechanical_precision_saw = {
 }
 hussey_n_mccormicks_reaping_machine = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -269,6 +281,7 @@ hussey_n_mccormicks_reaping_machine = {
 }
 pitts_threshing_machine = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -294,6 +307,7 @@ pitts_threshing_machine = {
 }
 mechanized_slaughtering_block = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -317,6 +331,7 @@ mechanized_slaughtering_block = {
 #interchangeable_parts
 precision_work = {
 	limit = { mechanical_production = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -340,6 +355,7 @@ precision_work = {
 }
 machine_tools = {
 	limit = { interchangeable_parts = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -361,6 +377,7 @@ machine_tools = {
 }
 whitney_n_colts_standardized_small_arms = {
 	limit = { interchangeable_parts = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -380,6 +397,7 @@ whitney_n_colts_standardized_small_arms = {
 }
 food_packing_system = {
 	limit = { interchangeable_parts = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -399,6 +417,7 @@ food_packing_system = {
 }
 integral_distillery_process = {
 	limit = { interchangeable_parts = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -418,6 +437,7 @@ integral_distillery_process = {
 }
 jiggs = {
 	limit = { interchangeable_parts = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -441,6 +461,7 @@ jiggs = {
 #semi_automatization
 electric_machinery = {
 	limit = { semi_automatization = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -461,6 +482,7 @@ electric_machinery = {
 }
 oil_pumping_machinery = {
 	limit = { semi_automatization = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -480,6 +502,7 @@ oil_pumping_machinery = {
 }
 drying_techniques = {
 	limit = { semi_automatization = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -506,6 +529,7 @@ drying_techniques = {
 #assembly_line
 fordism = {
 	limit = { assembly_line = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -548,6 +572,7 @@ fordism = {
 #}
 industrialized_armament_industry = {
 	limit = { assembly_line = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -576,6 +601,7 @@ industrialized_armament_industry = {
 }
 refrigerator_technology = {
 	limit = { assembly_line = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -608,6 +634,7 @@ refrigerator_technology = {
 #Metulurgy
 ammunition_production = {
 	limit = { mechanized_mining = 1 }
+	news = no
 	chance = {
 		base = 20
 		modifier = {
@@ -625,6 +652,7 @@ ammunition_production = {
 }
 small_arms_production = {
 	limit = { mechanized_mining = 1 }
+	news = no
 	chance = {
 		base = 20
 		modifier = {
@@ -642,6 +670,7 @@ small_arms_production = {
 }
 explosives_production = {
 	limit = { mechanized_mining = 1 }
+	news = no
 	chance = {
 		base = 20
 		modifier = {
@@ -659,6 +688,7 @@ explosives_production = {
 }
 artillery_production = {
 	limit = { mechanized_mining = 1 }
+	news = no
 	chance = {
 		base = 20
 		modifier = {
@@ -677,6 +707,7 @@ artillery_production = {
 #clean_coal
 pit_coal = {
 	limit = { clean_coal = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -696,6 +727,7 @@ pit_coal = {
 }
 coke = {
 	limit = { clean_coal = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -716,6 +748,7 @@ coke = {
 #cheap_iron
 advanced_ore_roasting_processes = {
 	limit = { cheap_iron = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {	
@@ -735,6 +768,7 @@ advanced_ore_roasting_processes = {
 }
 advanced_ore_grinding_processes = {
 	limit = { cheap_iron = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -754,6 +788,7 @@ advanced_ore_grinding_processes = {
 }
 advanced_ore_smelting_processes = {
 	limit = { cheap_iron = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -773,6 +808,7 @@ advanced_ore_smelting_processes = {
 }
 bessemer_steel = {
 	limit = { cheap_iron = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -793,6 +829,7 @@ bessemer_steel = {
 #cheap_steel
 martin_steel = {
 	limit = { cheap_steel = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -812,6 +849,7 @@ martin_steel = {
 }
 thomas_steel = {
 	limit = { cheap_steel = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -832,6 +870,7 @@ thomas_steel = {
 #advanced_metallurgy
 electric_rolling_techniques = {
 	limit = { advanced_metallurgy = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -851,6 +890,7 @@ electric_rolling_techniques = {
 }
 steel_alloys = {
 	limit = { advanced_metallurgy = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -871,6 +911,7 @@ steel_alloys = {
 #electric_furnace
 stainless_steel = {
 	limit = { electric_furnace = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -893,11 +934,30 @@ stainless_steel = {
 #Basick_chemestry
 piroksicilin = {
 	limit = { basic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 20
 	}
 	effect = {
 	activate_building = synthetic_sulphur_factory 
+	}
+}
+synthetic_dye = {
+	limit = { basic_chemistry = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			clean_coal = 1
+		}
+		modifier = {
+			factor = 2
+			management_strategy = 1
+		}
+	}
+	effect = {
+		activate_building = dye_factory 
 	}
 }
 #early_railroad
@@ -906,6 +966,7 @@ piroksicilin = {
 #medicine
 combat_medicine = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -924,6 +985,7 @@ combat_medicine = {
 }
 aerial_bacteria_and_antiseptic_principle = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -943,6 +1005,7 @@ aerial_bacteria_and_antiseptic_principle = {
 }
 vaccination = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -961,6 +1024,7 @@ vaccination = {
 }
 chemotherapy = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -978,6 +1042,7 @@ chemotherapy = {
 }
 genetics:_heredity = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -995,6 +1060,7 @@ genetics:_heredity = {
 }
 clinical_thermometers_and_binaural_stethoscopes = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1012,6 +1078,7 @@ clinical_thermometers_and_binaural_stethoscopes = {
 }
 prophylaxis_against_malaria = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1031,6 +1098,7 @@ prophylaxis_against_malaria = {
 }
 pressure_chambers_for_thorax_surgery = {
 	limit = { medicine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1084,6 +1152,7 @@ family_planning = {
 #inorganic_chemistry
 artificial_fertilizers = {
 	limit = { inorganic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1104,6 +1173,7 @@ artificial_fertilizers = {
 }
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1124,6 +1194,7 @@ nitroglycerin = {
 }
 chemical_wood_pulp_process = {
 	limit = { inorganic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1143,6 +1214,7 @@ chemical_wood_pulp_process = {
 }
 rubber_vulcanization = {
 	limit = { inorganic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1162,6 +1234,7 @@ rubber_vulcanization = {
 }
 catalytic_fermentative_process = {
 	limit = { inorganic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1180,25 +1253,9 @@ catalytic_fermentative_process = {
 	}
 }
 #organic_chemistry
-synthetic_dye = {
-	limit = { inorganic_chemistry = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			clean_coal = 1
-		}
-		modifier = {
-			factor = 2
-			management_strategy = 1
-		}
-	}
-	effect = {
-		activate_building = dye_factory 
-	}
-}
 gaslights = {
 	limit = { organic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1216,6 +1273,7 @@ gaslights = {
 }
 carbon_soil_enrichment = {
 	limit = { organic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1233,6 +1291,7 @@ carbon_soil_enrichment = {
 }
 cracking = {
 	limit = { organic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1250,6 +1309,7 @@ cracking = {
 }
 extreme_fuel_production = {
 	limit = { organic_chemistry = 1 }
+	news = no
 	chance = {
 		base = 0
 		modifier = {
@@ -1267,6 +1327,7 @@ extreme_fuel_production = {
 #electricity
 x_rays = {
 	limit = { electricity = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1285,6 +1346,7 @@ x_rays = {
 }
 edison_light_bulb = {
 	limit = { electricity = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1302,6 +1364,7 @@ edison_light_bulb = {
 }
 bell_n_greys_telephones = {
 	limit = { electricity = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1321,6 +1384,7 @@ bell_n_greys_telephones = {
 }
 electrical_lighting = {
 	limit = { electricity = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1344,6 +1408,7 @@ electrical_lighting = {
 #synthetic_polymers
 rayon = {
 	limit = { synthetic_polymers = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1363,6 +1428,7 @@ rayon = {
 }
 bakelite = {
 	limit = { synthetic_polymers = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1406,6 +1472,7 @@ vacuum_tube = {
 
 tulls_seed_drill = {
 	limit = { water_wheel_power = 1 }
+	news = no
 	chance = {
 		base = 6
 	}
@@ -1424,6 +1491,7 @@ tulls_seed_drill = {
 
 rotherham_plough = {
 	limit = { practical_steam_engine = 1 }
+	news = no
 	chance = {
 		base = 6
 	}
@@ -1441,6 +1509,7 @@ telephone_switchboard = {
 	limit = { 
 		electricity = 1
 	}
+	news = no
 	chance = {
 		base = 0
 		modifier = {

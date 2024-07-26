@@ -9,6 +9,8 @@ non_state_culture_literacy = 0.45
 civilized = yes
 #dominion=yes
 
+set_country_flag = A01_baff
+
 # Political reforms - inherit
 slavery = no_slavery
 upper_house_composition = appointed

@@ -2,7 +2,7 @@
 country_event = {
 
 	id = 33003 #parallel event is BAY 33403
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33403_NEWS_LONG"
 	news_desc_medium = "EVTDESC33403_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33403_NEWS_SHORT"
@@ -48,7 +48,7 @@ country_event = {
 province_event = {
 
 	id = 33004 #will set up DAN36206
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33004_NEWS_LONG"
 	news_desc_medium = "EVTDESC33004_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33004_NEWS_SHORT"
@@ -110,7 +110,7 @@ province_event = {
 country_event = {
 
 	id = 33000
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33000_NEWS_LONG"
 	news_desc_medium = "EVTDESC33000_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33000_NEWS_SHORT"
@@ -154,7 +154,7 @@ country_event = {
 country_event = {
 
 	id = 33001
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33001_NEWS_LONG"
 	news_desc_medium = "EVTDESC33001_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33001_NEWS_SHORT"
@@ -200,7 +200,7 @@ country_event = {
 country_event = {
 
 	id = 33002
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33002_NEWS_LONG"
 	news_desc_medium = "EVTDESC33002_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33002_NEWS_SHORT"
@@ -244,7 +244,7 @@ country_event = {
 country_event = {
 
 	id = 33005
-	news = yes
+	news = no
 	news_desc_long = "EVTDESC33005_NEWS_LONG"
 	news_desc_medium = "EVTDESC33005_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC33005_NEWS_SHORT"

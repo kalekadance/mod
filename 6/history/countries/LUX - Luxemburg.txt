@@ -9,6 +9,7 @@ non_state_culture_literacy = 0.55
 civilized = yes
 prestige = 1
 
+set_country_flag = A03_baff
 
 # Political reforms
 slavery = no_slavery

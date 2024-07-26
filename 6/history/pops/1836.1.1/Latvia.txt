@@ -127,7 +127,7 @@
     artisans = {
         culture = latvian
         religion = orthodox
-        size = 3350
+        size = 10000
     }
 
     soldiers = {
@@ -145,7 +145,7 @@
     aristocrats = {
         culture = north_german
         religion = orthodox
-        size = 1250
+        size = 100
     }
 
     clergymen = {
@@ -157,7 +157,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 600
+        size = 10000
     }
 
     soldiers = {
@@ -175,7 +175,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 1100
+        size = 10000
     }
 
     soldiers = {
@@ -205,7 +205,7 @@
     artisans = {
         culture = russian
         religion = orthodox
-        size = 100
+        size = 10000
     }
 
     soldiers = {
@@ -235,7 +235,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 400
+        size = 10000
     }
 
     soldiers = {
@@ -263,7 +263,7 @@
     artisans = {
         culture = latvian
         religion = orthodox
-        size = 650
+        size = 10000
     }
 
     soldiers = {
@@ -293,7 +293,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 2200
+        size = 10000
     }
 
     soldiers = {
@@ -311,7 +311,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 400
+        size = 10000
     }
 
     soldiers = {
@@ -341,7 +341,7 @@
     artisans = {
         culture = russian
         religion = orthodox
-        size = 75
+        size = 10000
     }
 
     soldiers = {

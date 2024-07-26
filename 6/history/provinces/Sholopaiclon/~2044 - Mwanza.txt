@@ -1,4 +1,0 @@
-owner = ZAN
-controller = ZAN
-trade_goods = cotton
-life_rating = 35

@@ -1,5 +1,5 @@
 owner = D22
 controller = D22
 add_core = D22
-trade_goods = dye
+trade_goods = timber
 life_rating = 35

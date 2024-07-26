@@ -1,5 +1,2 @@
-owner = D23
-controller = D23
-add_core = D23
 trade_goods = coal
 life_rating = 35

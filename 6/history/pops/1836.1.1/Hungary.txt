@@ -1155,7 +1155,7 @@
     artisans = {
         culture = hungarian
         religion = orthodox
-        size = 3350
+        size = 10000
     }
 
     soldiers = {
@@ -1185,7 +1185,7 @@
     artisans = {
         culture = hungarian
         religion = orthodox
-        size = 2500
+        size = 10000
     }
 
     soldiers = {
@@ -1209,7 +1209,7 @@
     artisans = {
         culture = hungarian
         religion = orthodox
-        size = 1100
+        size = 10000
     }
 
     soldiers = {
@@ -1233,7 +1233,7 @@
     artisans = {
         culture = slovak
         religion = orthodox
-        size = 50
+        size = 10000
     }
 
     soldiers = {

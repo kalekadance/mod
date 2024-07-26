@@ -2,5 +2,5 @@ owner = D07
 controller = D07
 add_core = D07
 add_core = GCO
-trade_goods = dye
+trade_goods = timber
 life_rating = 35

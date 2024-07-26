@@ -1,5 +1,5 @@
 owner = C01
 controller = C01
 add_core = C01
-trade_goods = cotton
+trade_goods = coal
 life_rating = 35

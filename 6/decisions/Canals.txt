@@ -1,7 +1,7 @@
 political_decisions = {
 	build_kiel_canal = {
 	picture = build_kiel_canal
-		news = yes
+		news = no
 		news_desc_long = "kiel_canal_NEWS_LONG"
 		news_desc_medium = "kiel_canal_NEWS_MEDIUM"
 		news_desc_short = "kiel_canal_NEWS_SHORT"
@@ -45,7 +45,7 @@ political_decisions = {
 	
 	build_suez_canal = {
 	picture = suezcanal
-		news = yes
+		news = no
 		news_desc_long = "suez_canal_NEWS_LONG"
 		news_desc_medium = "suez_canal_NEWS_MEDIUM"
 		news_desc_short = "suez_canal_NEWS_SHORT"
@@ -100,7 +100,7 @@ political_decisions = {
 
 	build_panama_canal = {
 	picture = build_panama_canal
-		news = yes
+		news = no
 		news_desc_long = "panama_canal_NEWS_LONG"
 		news_desc_medium = "panama_canal_NEWS_MEDIUM"
 		news_desc_short = "panama_canal_NEWS_SHORT"

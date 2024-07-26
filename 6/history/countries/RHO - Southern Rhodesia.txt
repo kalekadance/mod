@@ -9,6 +9,7 @@ literacy = 0.25
 non_state_culture_literacy = 0.25
 civilized = yes
 
+set_country_flag = RHO_guard
 
 # Political reforms
 slavery = no_slavery

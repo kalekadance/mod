@@ -98,7 +98,7 @@ tea_need = {
 	}
 	crown_empress_of_india = {
 	picture = crown_empress_of_india
-		news = yes
+		news = no
 		news_desc_long = "empress_of_india_NEWS_LONG"
 		news_desc_medium = "empress_of_india_NEWS_MEDIUM"
 		news_desc_short = "empress_of_india_NEWS_SHORT"

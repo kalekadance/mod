@@ -1,4 +1,2 @@
-owner = KTS
-controller = KTS
 trade_goods = wool
 life_rating = 35

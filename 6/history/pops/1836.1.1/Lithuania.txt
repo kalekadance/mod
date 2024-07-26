@@ -409,7 +409,7 @@
     artisans = {
         culture = lithuanian
         religion = orthodox
-        size = 1250
+        size = 10000
     }
 
     soldiers = {
@@ -433,7 +433,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 1400
+        size = 10000
     }
 
     soldiers = {

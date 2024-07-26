@@ -4,26 +4,27 @@ AI_baff = {
 		post_napoleonic_thought = 1 
 		has_country_flag = CHI_baff
 	}
+	news = no
 	chance = {
 		base = 90
 	}
 	effect = {
 		infantry =  { 
-			support = 1.5 
+			support = 1
 			defence = 7
 			maneuver = 3
 			attack = 7
-			siege = 2
-			maximum_speed = 3
+			siege = 1
+			maximum_speed = 2
 			reconnaissance = 2
 		}
 		irregular =  { 
-			support = 1.5 
-			defence = 8
+			support = 1
+			defence = 7
 			maneuver = 3
-			attack = 8
-			siege = 2
-			maximum_speed = 4
+			attack = 7
+			siege = 1
+			maximum_speed = 3
 			reconnaissance = 2
 		}
 	}
@@ -33,6 +34,7 @@ AI_baff_2 = {
 		post_napoleonic_thought = 1 
 		has_country_flag = AI_baff_2 
 	}
+	news = no
 	chance = {
 		base = 90
 	}
@@ -40,11 +42,33 @@ AI_baff_2 = {
 		supply_limit = 2
 	}
 }
+A03_guard = { 
+	limit = { 
+		post_napoleonic_thought = 1
+		has_country_flag = A03_baff
+	}
+	news = no
+	chance = { base = 100 }
+	effect = {
+		activate_unit = guard
+		guard = {
+			attack = 2
+			defence = 2
+			max_strength = 3
+			reconnaissance = 1
+			build_time = -60
+			supply_consumption = -0.3
+			maneuver = 1
+		}
+	}
+	
+}
 post_napoleonic_army_doctrine = {
 	limit = { post_napoleonic_thought = 1 }
 	chance = {
 		base = 2
 	}
+	news = no
 	effect = {
 		infantry = {
 			defence = 1
@@ -75,6 +99,7 @@ post_napoleonic_army_doctrine = {
 #strategic_mobility 1836
 field_fortifications = {
 	limit = { strategic_mobility = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -115,6 +140,7 @@ field_fortifications = {
 }
 railroad_transport_groups = {
 	limit = { strategic_mobility = 1 }
+	news = no
 	chance = {
 		base = 0
 		modifier = {
@@ -133,6 +159,7 @@ railroad_transport_groups = {
 #point_defense_system 1850
 signal_detachments = {
 	limit = { point_defense_system = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -162,6 +189,7 @@ signal_detachments = {
 }
 flexible_firepower = {
 	limit = { point_defense_system = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -209,6 +237,7 @@ flexible_firepower = {
 }
 synchronized_heavy_support = {
 	limit = { point_defense_system = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -253,6 +282,7 @@ synchronized_heavy_support = {
 }
 staff_command_support = {
 	limit = { point_defense_system = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -271,6 +301,7 @@ staff_command_support = {
 #deep_defense_system 1870
 trench_systems = {
 	limit = { deep_defense_system = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -315,6 +346,7 @@ trench_systems = {
 }
 gas_attack_capability = {
 	limit = { military_directionism = 1 }
+	news = no
 	chance = {
 		base = -5
 		modifier = {
@@ -346,6 +378,7 @@ gas_defense_capability = {
 			year = 1905
 			military_directionism = 1 
 			}
+			news = no
 	chance = {
 		base = 0
 		modifier = {
@@ -372,6 +405,7 @@ gas_defense_capability = {
 }
 elastic_defense_system = {
 	limit = { deep_defense_system = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -418,6 +452,7 @@ elastic_defense_system = {
 }
 flexible_counterattacks = {
 	limit = { deep_defense_system = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -463,6 +498,7 @@ flexible_counterattacks = {
 #infiltration 1900
 low_echelon_fire_support = {
 	limit = { infiltration = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -521,6 +557,7 @@ low_echelon_fire_support = {
 }
 stormtrooper_training = {
 	limit = { infiltration = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -550,6 +587,7 @@ stormtrooper_training = {
 }
 tank_experiments = {
 	limit = { infiltration = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -573,6 +611,7 @@ tank_experiments = {
 }
 tankette = {
 	limit = { infiltration = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -595,6 +634,7 @@ tankette = {
 }
 tank_exploits = {
 	limit = { infiltration = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -623,6 +663,7 @@ tank_exploits = {
 #modern_army_doctrine 1914
 firepower_vs_mobility = {
 	limit = { modern_army_doctrine = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -674,6 +715,7 @@ firepower_vs_mobility = {
 }
 grand_battle_plan_vs_superior_firepower = {
 	limit = { modern_army_doctrine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -694,6 +736,7 @@ grand_battle_plan_vs_superior_firepower = {
 }
 human_wave_vs_spearhead = {
 	limit = { modern_army_doctrine = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -751,12 +794,14 @@ infantry_army = {
 		flintlock_rifles = 1
 		NOT = { has_country_flag = ISR_baff }
 	}
+	news = no
 	chance = { base = 100 }
 	effect = { activate_unit = infantry }
 }
 
 flintlock_rifle_armament = {
 	limit = { flintlock_rifles = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -797,12 +842,13 @@ MOR_baff = {
 		flintlock_rifles = 1 
 		has_country_flag = MOR_bedouin
 	}
+	news = no
 	chance = {
 		base = 90
 	}
 	effect = { 
 			cavalry = {
-			attack = 2
+			attack = 3
 			defence = 2
 			support = 0.75
 			maneuver = 1
@@ -823,6 +869,7 @@ MOR_baff = {
 #muzzle_loaded_rifles 1836
 muzzle_loaded_rifle_armament = {
 	limit = { muzzle_loaded_rifles = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -854,20 +901,40 @@ muzzle_loaded_rifle_armament = {
 		}
 	}
 }
+A01_baff = {
+	limit = { 
+		muzzle_loaded_rifles = 1 
+		has_country_flag = A01_baff
+	}
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		engineer = {
+			support = 0.5
+			attack = 1
+			defence = 1
+		}
+	}
+}
 Sibir_baff = { 
 	limit = { 
 		civilized = yes
 		muzzle_loaded_rifles = 1 
-		has_country_flag = MTC_rise
+		has_country_flag = MTC_baff
 	}
+	news = no
 	chance = {
 		base = 90
 	}
 	effect = {
 		hussar = {
-			attack = 1
-			defence = 1
-			support = 0.75
+			attack = 2.5
+			defence = 2.5
+			support = 1.5
+			max_strength = -1
+			build_time = -30
 			forest = {movement = 0.3}
 			mountain = {movement = 0.2}
 			hills = {movement = 0.2}
@@ -877,9 +944,11 @@ Sibir_baff = {
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			attack = 1
-			defence = 3
-			discipline = 0.25
+			attack = 3
+			defence = 5
+			discipline = 0.5
+			max_strength = -1
+			build_time = -60
 			forest = {movement = 0.3}
 			mountain = {movement = 0.25}
 			hills = {movement = 0.25}
@@ -889,9 +958,11 @@ Sibir_baff = {
 			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 3
-			defence = 1
-			discipline = 0.25
+			attack = 5
+			defence = 3
+			discipline = 0.5
+			max_strength = -1
+			build_time = -60
 			forest = {movement = 0.2}
 			mountain = {movement = 0.3}
 			hills = {movement = 0.2}
@@ -906,10 +977,29 @@ Sibir_baff = {
 		}
 	}
 }	
+	A07_cuirassier = {
+		limit = { 
+			civilized = yes
+			muzzle_loaded_rifles = 1
+			has_country_flag = graet_pol			
+		}
+		news = no
+		chance = { base = 90 }
+		effect = { 
+			cuirassier = {
+				attack = 2
+				defence = 2
+				discipline = 0.5
+				max_strength = 3
+				reconnaissance = 2
+			}
+		}	
+	}
 
 #breech_loaded_rifles 1850
 breech_loaded_rifle_armament = {
 	limit = { breech_loaded_rifles = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -993,6 +1083,7 @@ colonial_negotiations = {
 #machine_guns 1870
 machine_gun_armament = {
 	limit = { machine_guns = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -1041,6 +1132,7 @@ machine_gun_armament = {
 #bolt_action_rifles 1900
 bolt_action_rifle_armament = {
 	limit = { bolt_action_rifles = 1 }
+	news = no
 	chance = {
 		base = 5
 		modifier = {
@@ -1087,6 +1179,7 @@ bolt_action_rifle_armament = {
 #modern_divisional_structure 1914
 interwar_infantry = {
 	limit = { modern_divisional_structure = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1123,6 +1216,7 @@ interwar_infantry = {
 }
 interwar_cavalry = {
 	limit = { modern_divisional_structure = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1163,6 +1257,7 @@ interwar_cavalry = {
 }
 rear_area_dumps = {
 	limit = { modern_divisional_structure = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1181,9 +1276,28 @@ rear_area_dumps = {
 		}
 	}
 }
+#bronze_muzzle_loaded_artillery
+A05_artillery = {
+	limit = { bronze_muzzle_loaded_artillery = 1 has_country_flag = A05_baff }
+	news = no
+	chance = {
+		base = 95
+	}
+	effect = {
+		artillery = {
+			attack = 0.5
+			defence = 0.5
+			support = 0.5
+			discipline = 0.1
+		}
+	}
+
+}
+
 #iron_breech_loaded_artillery 1850
 artillery_speed = {
 	limit = { iron_breech_loaded_artillery = 1 }
+	news = no
 	chance = {
 		base = 10
 		modifier = {
@@ -1207,6 +1321,7 @@ artillery_speed = {
 #heavy_armament_dunno 1914
 light_tank = {
 	limit = { heavy_armament_dunno = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1232,6 +1347,7 @@ light_tank = {
 }
 armoured_cars = {
 	limit = { heavy_armament_dunno = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1258,6 +1374,7 @@ armoured_cars = {
 
 light_artillery = {
 	limit = { heavy_armament_dunno = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1279,6 +1396,7 @@ light_artillery = {
 }
 medium_artillery = {
 	limit = { heavy_armament_dunno = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1301,6 +1419,7 @@ medium_artillery = {
 }
 heavy_artillery = {
 	limit = { heavy_armament_dunno = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1320,11 +1439,51 @@ heavy_artillery = {
 		}
 	}
 }
+#military_staff_system
+RHO_guard_ap = { 
+	limit = { 
+		military_staff_system = 1
+		has_country_flag = RHO_guard
+	} 
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		activate_unit = guard
+		guard = { 
+			supply_consumption = -0.5
+			build_time = 60
+			default_organisation = 15
+		}
+	}
+}
+RHO_engineer_ap = { 
+	limit = { 
+		military_staff_system = 1
+		has_country_flag = RHO_guard
+	} 
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		activate_unit = engineer
+		engineer = { 
+			supply_consumption = -0.5
+			build_time = 60
+			default_organisation = 15
+			support = 0.25
+			reconnaissance = 2
+		}
+	}
+}
 #military_plans 1836
  
 
 mobilization_time_tables = {
 	limit = { military_plans = 1 }
+	news = no
 	chance = {
 		base = 3
 		 
@@ -1340,6 +1499,7 @@ mobilization_time_tables = {
 
 personnel_category_tables = {
 	limit = { military_plans = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1359,6 +1519,7 @@ personnel_category_tables = {
 #military_statistics 1850
 ammunition_area_effect_calculations = {
 	limit = { military_statistics = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1391,6 +1552,7 @@ ammunition_area_effect_calculations = {
 
 logistical_calculations = {
 	limit = { military_logistics = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1415,6 +1577,7 @@ logistical_calculations = {
 #military_directionism 1900
 army_political_lobbying = {
 	limit = { military_directionism = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1438,6 +1601,7 @@ army_political_lobbying = {
 #aeronautics 1914
 anti_aircraft_artillery = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1460,6 +1624,7 @@ anti_aircraft_artillery = {
 }
 improved_anti_aircraft_artillery = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1482,6 +1647,7 @@ improved_anti_aircraft_artillery = {
 }
 early_interwar_bombers = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 	}
@@ -1494,6 +1660,7 @@ early_interwar_bombers = {
 }
 late_interwar_bombers = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -1526,6 +1693,7 @@ late_interwar_bombers = {
 }
 early_interwar_fighters = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 	}
@@ -1538,6 +1706,7 @@ early_interwar_fighters = {
 }
 late_interwar_fighters = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1558,6 +1727,7 @@ late_interwar_fighters = {
 }
 t_air_superiority = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -1579,6 +1749,7 @@ t_air_superiority = {
 }
 flying_circus_doctrine = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -1600,6 +1771,7 @@ flying_circus_doctrine = {
 }
 force_substitution_doctrine = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -1621,6 +1793,7 @@ force_substitution_doctrine = {
 }
 battlefield_destruction_doctrine = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -1642,6 +1815,7 @@ battlefield_destruction_doctrine = {
 }
 operational_destruction_doctrine = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 4
 		modifier = {
@@ -1663,6 +1837,7 @@ operational_destruction_doctrine = {
 }
 strategic_destruction_doctrine = {
 	limit = { aeronautics = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {
@@ -1687,22 +1862,68 @@ ISR_baff = {
 		army_command_principle = 1
 		has_country_flag = ISR_baff
 	}
+	news = no
 	chance = {
 		base = 100
 	}
 	effect = { 
 			irregular = {
-			attack = 2
-			defence = 2
+			attack = 3
+			defence = 4
 			discipline = 0.2
 			maneuver = 1
 			maximum_speed = 1
 		}
 	}
 }
+A06_baff = {
+	limit = { 
+		army_command_principle = 1
+		has_country_flag = A06_baff
+	}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		infantry = {
+			attack = 2
+			defence = 2
+			max_strength = 1
+			maneuver = 1
+			default_organisation = 10
+			discipline = 0.2
+		}
+		reinforce_rate = 0.50
+		regular_experience_level = 10
+		soldier_to_pop_loss = 0.03
+		mobilisation_size = 0.03
+	}
+}
 #army_professionalism 1836
+A04_baff = {
+	limit = { 
+		army_professionalism 1836 = 1
+		has_country_flag = A04_baff
+	}
+	news = no
+	chance = {
+		base = 90
+	}
+	effect = {
+		dragoon = {
+			attack = 3
+			defence = 3
+			maneuver = 1
+			discipline = 0.25
+			build_time = -60
+		}
+		military_tactics = 0.5
+	}
+}
 army_academic_training = {
 	limit = { army_professionalism = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1721,6 +1942,7 @@ army_academic_training = {
 
 field_training = {
 	limit = { army_professionalism = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1739,6 +1961,7 @@ field_training = {
 
 army_societal_status = {
 	limit = { army_professionalism = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1758,6 +1981,7 @@ army_societal_status = {
 #army_decision_making 1850
 army_independent_command = {
 	limit = { army_decision_making = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1778,6 +2002,7 @@ army_independent_command = {
 
 army_continuous_issuing_of_orders = {
 	limit = { army_decision_making = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1798,6 +2023,7 @@ army_continuous_issuing_of_orders = {
 
 army_delegated_power = {
 	limit = { army_decision_making = 1 }
+	news = no
 	chance = {
 		base = 3
 		modifier = {	
@@ -1815,6 +2041,7 @@ army_delegated_power = {
 #army_risk_management 1870
 army_wargames = {
 	limit = { army_risk_management = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1835,6 +2062,7 @@ army_wargames = {
 
 army_alternative_plans = {
 	limit = { army_risk_management = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1868,6 +2096,7 @@ army_alternative_plans = {
 
 saddle_orders = {
 	limit = { army_risk_management = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1887,6 +2116,7 @@ saddle_orders = {
 #army_nco_training 1900
 army_literate_ncos = {
 	limit = { army_nco_training = 1 }
+	news = no
 	chance = {
 		base = 2
 		modifier = {
@@ -1907,6 +2137,7 @@ army_literate_ncos = {
 
 army_nco_tactical_training = {
 	limit = { army_nco_training = 1 }
+	news = no
 	chance = {
 		base = 4
 	}

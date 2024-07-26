@@ -1682,6 +1682,8 @@ the_police_state = {
 		suppression_points_modifier = 0.25
 	}
 }
+#introspectionism
+
 #behaviorism
 mass_advertising = {
 	limit = { behaviorism = 1 }

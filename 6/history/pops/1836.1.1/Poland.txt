@@ -1217,7 +1217,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 2900
+        size = 10000
     }
 
     soldiers = {
@@ -1241,7 +1241,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 1800
+        size = 10000
     }
 
     soldiers = {
@@ -2223,7 +2223,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 4200
+        size = 10000
     }
 
     soldiers = {
@@ -2247,7 +2247,7 @@
     artisans = {
         culture = ukrainian
         religion = orthodox
-        size = 1100
+        size = 10000
     }
 
     soldiers = {
@@ -2271,7 +2271,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 4550
+        size = 10000
     }
 
     soldiers = {
@@ -2623,7 +2623,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 1900
+        size = 10000
     }
 
     soldiers = {
@@ -2647,7 +2647,7 @@
     artisans = {
         culture = lithuanian
         religion = orthodox
-        size = 250
+        size = 10000
     }
 
     soldiers = {
@@ -2671,7 +2671,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 2000
+        size = 10000
     }
 
     soldiers = {
@@ -2705,7 +2705,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 4400
+        size = 10000
     }
 
     soldiers = {
@@ -2729,7 +2729,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 3500
+        size = 10000
     }
 
     soldiers = {
@@ -2753,7 +2753,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 250
+        size = 10000
     }
 
     soldiers = {
@@ -2845,7 +2845,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 4750
+        size = 10000
     }
 
     soldiers = {
@@ -2869,7 +2869,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 5000
+        size = 10000
     }
 
     soldiers = {
@@ -2893,7 +2893,7 @@
     artisans = {
         culture = north_german
         religion = orthodox
-        size = 250
+        size = 10000
     }
 
     soldiers = {
@@ -2927,7 +2927,7 @@
     artisans = {
         culture = polish
         religion = orthodox
-        size = 5250
+        size = 10000
     }
 
     soldiers = {
@@ -2951,7 +2951,7 @@
     artisans = {
         culture = ashkenazi
         religion = orthodox
-        size = 4550
+        size = 10000
     }
 
     soldiers = {

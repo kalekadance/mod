@@ -69,7 +69,7 @@
     soldiers = {
         culture = french
         religion = orthodox
-        size = 250
+        size = 3250
     }
 
     farmers = {

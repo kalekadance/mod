@@ -3,6 +3,7 @@ political_decisions = {
 #Решения для ботов
 	izi_money = { 
 		picture = graet_eic
+		news = no
 		potential = { ai=yes }
 		allow = { 
 			ai=yes
@@ -14,17 +15,10 @@ political_decisions = {
 	}
 	izi_goods = { 
 		picture = graet_eic
+		news = no
 		potential = { 
 			ai=yes
-			OR = {
-				tag = CHI
-				tag = HND
-				tag = PER
-				tag = IGM
-				tag = EGY
-				tag = JAP
-				tag = GCO
-			} 
+			
 		}
 		allow = { 
 			ai=yes
@@ -69,6 +63,7 @@ political_decisions = {
 	}
 	izi_goods2 = { 
 		picture = graet_eic
+		news = no
 		potential = { 
 			ai=yes
 			NOT = {	
@@ -95,7 +90,8 @@ political_decisions = {
 		}
 	}
 	izi_money1 = { 
-	picture = graet_eic
+		picture = graet_eic
+		news = no
 		potential = { ai=yes }
 		allow = { 
 			ai=yes
@@ -108,6 +104,7 @@ political_decisions = {
 
 	izi_money2 = { 
 		picture = graet_eic
+		news = no
 		potential = { ai=yes }
 		allow = { 
 			NOT = { money = 500000 }
@@ -116,58 +113,59 @@ political_decisions = {
 		}
 		effect = { money = 1000000 }
 	}
-	ai_baff = { 
-		picture = graet_eic
-		potential = { 
-			ai=yes
-			NOT = { has_country_flag = ai_baff }
-		}
-		allow = { 
-			ai=yes 
-			year = 1838
-		}
-		effect = { set_country_flag = ai_baff
-			add_country_modifier = { 
-				name =  prussian_general_staff duration = -1
-			}
-		}
-	}
-	ai_baff1 = { 
-		picture = graet_eic
-		potential = { 
-			ai=yes
-			NOT = { has_country_flag = ai_baff1 }
-		}
-		allow = { 
-			ai=yes
-			year = 1850
-		}
-		effect = { 
-			set_country_flag = ai_baff1
-			add_country_modifier = { 
-				name = prussian_general_staff2 duration = -1
-			}
-		}
-	}
-	ai_baff2 = { 
-		picture = graet_eic
-		potential = { 
-			ai=yes
-			NOT = { has_country_flag = ai_baff2 }
-		}
-		allow = { 
-			ai=yes
-			year = 1870
-		}
-		effect = { 
-			set_country_flag = ai_baff2
-			add_country_modifier = { 
-				name = prussian_general_staff3 duration = -1
-			}
-		}
-	}
+	#ai_baff = { 
+	#	picture = graet_eic
+	#	potential = { 
+	#		ai=yes
+	#		NOT = { has_country_flag = ai_baff }
+	#	}
+	#	allow = { 
+	#		ai=yes 
+	#		year = 1838
+	#	}
+	#	effect = { set_country_flag = ai_baff
+	#		add_country_modifier = { 
+	#			name =  prussian_general_staff duration = -1
+	#		}
+	#	}
+	#}
+	#ai_baff1 = { 
+	#	picture = graet_eic
+	#	potential = { 
+	#		ai=yes
+	#		NOT = { has_country_flag = ai_baff1 }
+	#	}
+	#	allow = { 
+	#		ai=yes
+	#		year = 1850
+	#	}
+	#	effect = { 
+	#		set_country_flag = ai_baff1
+	#		add_country_modifier = { 
+	#			name = prussian_general_staff2 duration = -1
+	#		}
+	#	}
+	#}
+	#ai_baff2 = { 
+	#	picture = graet_eic
+	#	potential = { 
+	#		ai=yes
+	#		NOT = { has_country_flag = ai_baff2 }
+	#	}
+	#	allow = { 
+	#		ai=yes
+	#		year = 1870
+	#	}
+	#	effect = { 
+	#		set_country_flag = ai_baff2
+	#		add_country_modifier = { 
+	#			name = prussian_general_staff3 duration = -1
+	#		}
+	#	}
+	#}
 	CHI_baff = { 
 		picture = graet_eic
+		news = no
 		potential = {
 			OR = {
 				tag = CHI
@@ -191,6 +189,7 @@ political_decisions = {
 	}
 	CHI_remove = {
 		picture = graet_eic
+		news = no
 		potential = { 
 			tag = CHI
 			NOT = { has_country_flag = CHI_remove }
@@ -219,6 +218,10 @@ political_decisions = {
 				OR = {
 					owns = 418
 					NOT = { exists = BAD }
+					AND = {
+						ai = yes
+						year = 1838
+					}
 				}
 			}
 			
@@ -782,8 +785,14 @@ political_decisions = {
 			}		
 		}	
 		allow = {
-			owns = 487
-			NOT = { 487 = { owned_by = D21 } }
+			OR = {
+				owns = 487
+				NOT = { 487 = { owned_by = D21 } }
+				AND = {
+					ai = yes
+					year = 1838
+				}
+			}
 		}
 		
 		effect = {
@@ -817,9 +826,9 @@ political_decisions = {
 		}	
 		allow = {
 			OR = {
-			owns = 521
-			NOT = { 521 = { owned_by = POR } }
-			POR  = { part_of_sphere = yes }
+				owns = 521
+				NOT = { 521 = { owned_by = POR } }
+				POR  = { part_of_sphere = yes }
 			}
 		}
 		
@@ -1760,7 +1769,7 @@ graet_pol = {
 		potential = {
 		tag = POL
 			NOT = {
-				has_global_flag = graet_pol
+				has_country_flag = graet_pol
 			}		
 		}	
 		allow = {
@@ -1772,7 +1781,7 @@ graet_pol = {
 		}
 		
 		effect = {
-			set_global_flag = graet_pol
+			set_country_flag = graet_pol
 			change_tag = PLC
 			add_core = 691
 			add_core = 690
@@ -1800,7 +1809,7 @@ graet_pol = {
 		potential = {
 			tag = PLC
 			NOT = {
-				has_global_flag = graet_pol2
+				has_country_flag = graet_pol2
 			}		
 		}	
 		allow = {
@@ -1827,7 +1836,7 @@ graet_pol = {
 		}
 		
 		effect = {
-			set_global_flag = graet_pol2
+			set_country_flag = graet_pol2
 			add_core = 359
 			add_core = 358
 			add_core = 357
@@ -1853,12 +1862,9 @@ graet_pol3 = {
 	picture = graet_eic
 		potential = {
 			tag = PLC
-			AND = {
-				has_global_flag = graet_pol2
-				NOT = {
-					has_global_flag = graet_pol3
-				}
-			}		
+			has_country_flag = graet_pol2
+			NOT = { has_country_flag = graet_pol3 }
+					
 					
 		}	
 		allow = {
@@ -1883,7 +1889,7 @@ graet_pol3 = {
 		}
 		
 		effect = {
-			set_global_flag = graet_pol3
+			set_country_flag = graet_pol3
 			add_core = 947
 			add_core = 946
 			add_core = 945
@@ -1908,13 +1914,10 @@ graet_pol3 = {
 graet_pol4 = {
 	picture = graet_eic
 		potential = {
-			AND = {
-				tag = PLC
-				has_global_flag = graet_pol3
-				NOT = {
-					has_global_flag = graet_pol4
-				}
-			}	
+			tag = PLC
+			has_country_flag = graet_pol3
+			NOT = { has_country_flag = graet_pol4 }
+				
 		}	
 		allow = {
 			OR = {
@@ -1926,7 +1929,7 @@ graet_pol4 = {
 		}
 		
 		effect = {
-			set_global_flag = graet_pol4
+			set_country_flag = graet_pol4
 			add_core = 957
 			add_core = 956
 			add_core = 955
@@ -1959,7 +1962,7 @@ graet_pol4 = {
 	form_Intermarium = {
 	picture = graet_eic
 		potential = {
-		has_global_flag = graet_pol4
+		has_country_flag = graet_pol4
 		tag = PLC
 				NOT = {
 					has_global_flag = form_Intermarium

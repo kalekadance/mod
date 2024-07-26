@@ -1,5 +1,0 @@
-owner = BAD
-controller = BAD
-add_core = FLA
-trade_goods = fish
-life_rating = 35

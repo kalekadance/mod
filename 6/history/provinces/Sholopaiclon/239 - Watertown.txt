@@ -3,5 +3,5 @@ controller = MAN
 add_core = GCO
 add_core = USA
 add_core = NEN
-trade_goods = iron
+trade_goods = sulphur
 life_rating = 35

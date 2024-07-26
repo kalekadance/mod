@@ -1,6 +1,6 @@
 owner = POR
 controller = POR
 add_core = SPA
-trade_goods = dye
+trade_goods = timber
 life_rating = 35 
 naval_base = 1

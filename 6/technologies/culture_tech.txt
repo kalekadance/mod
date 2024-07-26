@@ -258,14 +258,18 @@ analytic_philosophy = {
 
 	increase_research = 1.0
 	ai_chance = {
-		factor = 100000
+		factor = 95
 		modifier = {
-			factor = 300
+			factor = 3
 			civilized = yes
 		}
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 5
+			year = 1836
 		}
 		
 	}
@@ -277,14 +281,18 @@ phenomenology_n_hermeneutic = {
 
 	increase_research = 1.0
 	ai_chance = {
-		factor = 100000
+		factor = 95
 		modifier = {
-			factor = 300
+			factor = 3
 			civilized = yes
 		}
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 5
+			year = 1836
 		}
 		
 	}

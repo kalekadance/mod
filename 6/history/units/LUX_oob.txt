@@ -5,59 +5,67 @@ leader = {
 	personality = av213238
 	background = lev
 }
+leader = {
+	name = "Kruppeltanzer"
+	date = 1836.1.1
+	type = land
+	personality = kaleka
+	background = zunsi
+}
 army = {
 	name = "Армия Люксембурга"
 	location = 412
+
 	regiment = {
 		name= "Драгуны Люксембурга1"
 		type = dragoon
-		home = 412
-	}
-
-	regiment = {
-		name= "Драгуны Люксембурга2"
-		type = dragoon
 		home = 571
 	}
-
 	regiment = {
-		name= "Драгуны Люксембурга3"
+		name= "Драгуны Люксембурга2"
 		type = dragoon
 		home = 413
 	}
 	regiment = {
-		name= "Драгуны Люксембурга4"
+		name= "Драгуны Люксембурга3"
 		type = dragoon
 		home = 411
 	}
-
 	regiment = {
-		name= "Драгуны Люксембурга5"
-		type = dragoon
-		home = 414
-	}
-	regiment = {
-		name= "Драгуны Люксембурга6"
-		type = dragoon
-		home = 410
-	}
-
-	regiment = {
-		name= "Драгуны Люксембурга7"
-		type = dragoon
-		home = 574
-	}
-
-	regiment = {
-		name= "Драгуны Люксембурга8"
+		name= "Драгуны Люксембурга4"
 		type = dragoon
 		home = 570
 	}
 	regiment = {
-		name= "Драгуны Люксембурга9"
+		name= "Драгуны Люксембурга5"
 		type = dragoon
 		home = 572
 	}
 	
 
+}
+army = {
+	name = "Армия Гвардейцев"
+	location = 411
+	regiment = {
+		name= "Гвардейцы"
+		type = guard
+		home = 412
+	}
+	regiment = {
+		name= "Гвардейцы 2"
+		type = guard
+		home = 411
+	}
+
+	regiment = {
+		name= "Гвардейцы 3"
+		type = guard
+		home = 414
+	}
+	regiment = {
+		name= "Гвардейцы 4"
+		type = guard
+		home = 410
+	}
 }
