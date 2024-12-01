@@ -895,6 +895,7 @@ political_decisions = {
                 remove_core = ELS		
 				remove_core = NIC
 			}
+			CLM_2251 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -936,7 +937,7 @@ political_decisions = {
 		}
 		allow = {  
 			OR = { 
-				raider_group_doctrine = 1
+				SPA_2209  = { owned_by = THIS }
 				ai = yes
 		    }
 		}
@@ -944,6 +945,7 @@ political_decisions = {
 			SPA_2209 = { add_core = THIS }
 			ENG_2224 = { add_core = THIS }
 			ENG_2228 = { add_core = THIS }
+			ENG_203 = { add_core = THIS }
 			HAI_2213 = { add_core = THIS } 
 			set_country_flag = UCA_atlantic_claim
 		}
@@ -960,7 +962,7 @@ political_decisions = {
 		}
 		allow = {  
 			OR = { 
-				blue_and_brown_water_schools = 1
+				ENG_1979  = { owned_by = THIS }
 				ai = yes
 		    }
 		}
@@ -985,7 +987,7 @@ political_decisions = {
 		allow = {  
 			OR = {  
 	      	    AND = {
-		     		MEX_2173 = { owned_by = THIS }
+		     		MEX_2146 = { owned_by = THIS }
 			 		MEX_2161 = { owned_by = THIS } 
 			    }
 				ai = yes
@@ -993,9 +995,10 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = UCA_nord_claim1
-			MEX = {
-				any_owned = { add_core = UCA }
-            }
+			MEX_2151 = { add_core = THIS }
+			MEX_2142 = { add_core = THIS }
+			MEX_2138 = { add_core = THIS }
+			MEX_2173 = { add_core = THIS }
             add_accepted_culture = native_american_minor
 		}
 		ai_will_do = { factor = 1 }
@@ -1010,7 +1013,6 @@ political_decisions = {
 		allow = {  
 			OR = {
 				AND = {
-					year = 1865
 					USA_200 = { owned_by = UCA }
 				}
 				AND = {
@@ -1044,31 +1046,14 @@ political_decisions = {
 		effect = { 
 			add_accepted_culture = north_andean
 			set_global_flag = UCA_south_claim
-			add_country_modifier = { name = technical_school_UCA duration = 732}	 
+			add_country_modifier = { name = technical_school_UCA duration = 732 }
+			CLM_2259 = { remove_core = GCO }
+			VNZ_2234 = { remove_core = GCO	}
 		}
 		ai_will_do = {
 			factor = 1.5
 		}
 	}
-#test_form = {
-#	picture = graet_eic
-#		potential = {
-#				tag = UCA
-#				NOT = {
-#					has_country_flag = test_form
-#					 }
-#					}		
-#		allow = {
-#			tag = UCA
-#			}
-#		effect = {
-#			set_country_flag = test_form
-#			change_tag = A13
-#			prestige = 20
-#			primary_culture = mayan
-#			any_owned = { limit = { is_core = THIS } assimilate = yes } 
-#			}
-#	}
 	UCA_south_claim1 = {
 	picture = graet_eic
 		potential = { 
@@ -1091,8 +1076,8 @@ political_decisions = {
 		effect = { 
 			set_country_flag = UCA_south_claim1
 			CLM_2251 = { remove_core = GCO }
-			CLM_2259 = { remove_core = GCO }
-			VNZ_2234 = { remove_core = GCO	}
+			VNZ_2278 = { remove_core = GCO }
+			VNZ_2265 = { remove_core = GCO	}
 			add_country_modifier = { name = army_changed3 duration = -1}
 		}
 		ai_will_do = {
@@ -1108,7 +1093,7 @@ political_decisions = {
 		}
 		allow = { 
 			OR = {
-				VNZ = exists
+				owns = 2264
 				AND = {
 					ai = yes
 					year = 1848
@@ -1120,6 +1105,7 @@ political_decisions = {
 			ENG_1980 = { add_core = THIS }
 			ENG_1979 = { add_core = THIS }
 			ECU_2279 = { add_core = THIS }
+			PEU_2289 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -1135,8 +1121,8 @@ political_decisions = {
 		allow = { 
 			OR = {
 				AND = {
-					VNZ = exists
-					ECU = exists
+					owns = 2210
+					owns = 2282
 				}
 				AND = {
 					ai = yes
@@ -1146,9 +1132,12 @@ political_decisions = {
 		}
 		effect = { 
 			set_country_flag = UCA_south_claim3
-			BRZ_2401 = { add_core = THIS }
+			PEU_2297 = { add_core = THIS }
 			PEU_2291 = { add_core = THIS }
 			PEU_2300 = { add_core = THIS }
+			BOL_2321 = { add_core = THIS }
+			BOL_2305 = { add_core = THIS }
+			BOL_2317 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -1164,10 +1153,8 @@ political_decisions = {
 		allow = { 
 			OR = {
 				AND = {
-					VNZ = exists
-					ECU = exists
-					URU = exists
-					CHL = exists
+					owns = 2311
+					owns = 2296
 				}
 				AND = {
 					ai = yes
@@ -1177,15 +1164,44 @@ political_decisions = {
 		}
 		effect = { 
 			set_country_flag = UCA_south_claim4
-			BOL_2321 = { add_core = THIS }
-			PEU_2297 = { add_core = THIS }
-			BOL_2305 = { add_core = THIS }
+			CHL_2322 = { add_core = THIS }
+			CHL_2327 = { add_core = THIS }
+			CHL_2332 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
 		}
 	}
-
+    A13_form = {
+	picture = graet_eic
+		potential = {
+				tag = UCA
+				NOT = { has_country_flag = A13_form }
+					}		
+		allow = {
+			tag = UCA
+			owns = 2311
+			owns = 2296
+			owns = 2210
+			owns = 2282
+			owns = 2324
+			owns = 2313
+			owns = 2161
+		}
+		effect = {
+			set_country_flag = A13_form
+			change_tag = A13
+			capital = 2279
+			prestige = 20
+			primary_culture = mayan
+			ARG_2387 = { add_core = THIS }
+			ARG_2363 = { add_core = THIS }
+			ARG_2391 = { add_core = THIS }
+			ARG_2355 = { add_core = THIS }
+			BRZ_2401 = { add_core = THIS }
+			any_owned = { limit = { is_core = THIS } assimilate = yes } 
+		}
+	}
 #	delet_core = {
 #		picture = graet_eic
 #		potential = { 

@@ -1,0 +1,137 @@
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140400
+	
+	trigger = {
+		tag = CHI
+		NOT = {
+			has_country_modifier = mcl_happened_modifier
+		}
+	}
+	
+	
+	option = {
+		name = "noloc"
+		add_country_modifier = { name = mcl_happened_modifier duration = 365 }
+		
+		any_country = { # УБИТЬ ВСЕМ ОТНОШЕНИЯ С МИРБАНКОМ
+			limit = {
+				exists = yes
+			}
+			relation = { who = THIS value = -400 }
+			
+			diplomatic_influence = {
+				who = CHI
+				value = -400
+			}
+		}
+		
+		any_country = { # УБРАТЬ БАГОВАННЫЕ РАБ СТЕЙТЫ ЕСЛИ РАБСТВА НЕТ
+			limit = {
+				any_state = { is_slave = yes }
+				slavery = no_slavery
+			}
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				is_slave = no
+			}
+		}
+		
+		any_country = { # УБРАТЬ ГОСТ ЮНИТЫ
+			limit = {
+				exists = no
+                capital_scope = { NOT = { province_control_days = 120 } }
+                OR = {
+                    is_mobilised = yes
+                    total_amount_of_ships = 1
+                }
+			}
+			## Audax Validator "." Ignore_NEXT
+			annex_to = FROM
+		}
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+
+#			any_pop = {
+#				limit = {
+#					type = officers
+#					is_accepted_culture = no
+#					NOT = { continent = china }
+#				}
+#				pop_type = soldiers
+#			}
+#
+#
+#			any_pop = {
+#				limit = {
+#					type = capitalists
+#					is_accepted_culture = no
+#					NOT = { continent = china }
+#				}
+#				pop_type = farmers
+#			}
+#
+#
+#			any_pop = {
+#				limit = {
+#					type = aristocrats
+#					is_accepted_culture = no
+#					NOT = { continent = china }
+#				}
+#				pop_type = farmers
+#			}
+		}
+	}
+}
+
+country_event = {
+	id = 57094
+	title = "CapSupply_Depot_EvtName"
+	desc = "CapSupply_Depot_EvtDesc"
+	picture = "armament_depot"
+
+
+	trigger = {
+		OR = {
+			AND = {
+				ai = no 
+				capital_scope = {
+					NOT = { has_province_modifier = capital_supply_depot_pmodifier }
+				}
+			}
+			AND = {
+				ai = no
+				any_owned_province = {
+					is_capital = no
+					has_province_modifier = capital_supply_depot_pmodifier
+				}	
+			}
+		}
+	}
+
+	option = {
+		name = "CapSupply_Depot_EvtOptA"
+		any_owned = {
+			limit = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot_pmodifier
+			}
+			remove_province_modifier = capital_supply_depot_pmodifier
+		}
+		capital_scope = {
+			add_province_modifier = { name = capital_supply_depot_pmodifier duration = -1 }
+		}
+	}
+}
+

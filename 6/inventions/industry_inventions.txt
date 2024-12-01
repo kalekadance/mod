@@ -372,7 +372,7 @@ machine_tools = {
 			machine_parts = 0.02 
 		}
 		factory_throughput = 0.05		
-		mine_RGO_eff = 0.5
+		mine_RGO_eff = 0.25
 	}
 }
 whitney_n_colts_standardized_small_arms = {
@@ -998,9 +998,8 @@ aerial_bacteria_and_antiseptic_principle = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
 		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
+		soldier_to_pop_loss = 0.02
 	}
 }
 vaccination = {
@@ -1055,7 +1054,7 @@ genetics:_heredity = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
+		soldier_to_pop_loss = 0.01
 	}
 }
 clinical_thermometers_and_binaural_stethoscopes = {
@@ -1073,7 +1072,7 @@ clinical_thermometers_and_binaural_stethoscopes = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
+		supply_limit = 0.10
 	}
 }
 prophylaxis_against_malaria = {
@@ -1145,8 +1144,7 @@ family_planning = {
 		}
 	}
 	effect = {
-	 
-		pop_growth = -0.001
+		shared_prestige = 100
 	}
 }
 #inorganic_chemistry
@@ -1189,7 +1187,7 @@ nitroglycerin = {
 		factory_goods_output = {
 			explosives = 0.02
 		} 
-		mine_RGO_eff = 0.5
+		mine_RGO_eff = 0.25
 	}
 }
 chemical_wood_pulp_process = {
@@ -1340,15 +1338,14 @@ x_rays = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
-		land_attrition = -0.02 
+		land_attrition = -0.05 
 	}
 }
 edison_light_bulb = {
 	limit = { electricity = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 25
 		modifier = {
 			factor = 2
 			invention = direct_current
@@ -1366,7 +1363,7 @@ bell_n_greys_telephones = {
 	limit = { electricity = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 25
 		modifier = {
 			factor = 2
 			electrical_power_generation = 1

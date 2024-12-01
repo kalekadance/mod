@@ -55,43 +55,43 @@ army = {
 	location = 278
 	regiment = {
 		name= "1-я пехотная бригада"
-		type = dragoon
+		type = engineer
 		home = 279
 	}
 
 	regiment = {
 		name= "2-я пехотная бригада"
-		type = dragoon
+		type = engineer
 		home = 277
 	}
 
 	regiment = {
 		name= "3-я пехотная бригада"
-		type = dragoon
+		type = engineer
 		home = 285
 	}
 
 	regiment = {
 		name= "1-я артиллерийская бригада"
-		type = artillery
+		type = engineer
 		home = 284
 	}
 
 	regiment = {
 		name= "1-я кавалерийская бригада"
-		type = cuirassier
+		type = dragoon
 		home = 276
 	}
 
 	regiment = {
 		name= "2-я кавалерийская бригада"
-		type = cuirassier
+		type = dragoon
 		home = 286
 	}
 
 	regiment = {
 		name= "3-я кавалерийская бригада"
-		type = cuirassier
+		type = dragoon
 		home = 275
 	}
 
@@ -102,31 +102,31 @@ army = {
 	location = 296
 	regiment = {
 		name= "1-я гвардейская бригада"
-		type = dragoon
+		type = engineer
 		home = 297
 	}
 
 	regiment = {
 		name= "2-я гвардейская бригада"
-		type = dragoon
+		type = engineer
 		home = 298
 	}
 
 	regiment = {
 		name= "3-я гвардейская бригада"
-		type = dragoon
+		type = engineer
 		home = 296
 	}
 
 	regiment = {
 		name= "1-я комунская бригада"
-		type = dragoon
+		type = engineer
 		home = 299
 	}
 
 	regiment = {
 		name= "2-я комунская бригада"
-		type = dragoon
+		type = engineer
 		home = 287
 	}
 

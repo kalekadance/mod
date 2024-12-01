@@ -114,7 +114,7 @@ vassal = {
 	end_date = 1936.1.1
 }
 vassal = {
-	first = D16
+	first = D15
 	second = ZAN
 	start_date = 1831.1.1
 	end_date = 1936.1.1
@@ -126,8 +126,50 @@ vassal = {
 	end_date = 1936.1.1
 }
 vassal = {
-	first = EGY
+	first = D15
 	second = KTS
 	start_date = 1831.1.1
 	end_date = 1936.1.1
+}
+vassal = {
+	first = BOH
+	second = SAX
+	start_date = 1831.1.1
+	end_date = 1841.1.1
+}
+vassal = {
+	first = KOR
+	second = MCK
+	start_date = 1831.1.1
+	end_date = 1851.1.1
+}
+vassal = {
+	first = NZL
+	second = D19
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = GCO
+	second = ECU
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = GCO
+	second = PEU
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = GCO
+	second = BOL
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = GCO
+	second = CHL
+	start_date = 1831.1.1
+	end_date = 1951.1.1
 }

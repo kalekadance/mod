@@ -9,7 +9,7 @@ non_state_culture_literacy = 0.25
 civilized = yes
 #dominion=yes
 
-set_country_flag = A06_baff
+set_country_flag = A07_cuirassier
 
 # Political reforms - inherit
 slavery = no_slavery

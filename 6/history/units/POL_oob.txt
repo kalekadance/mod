@@ -10,53 +10,53 @@ army = {
 	name = "Армия Польши"
 	location = 706
 	regiment = {
-		name= "Драгуны Польши1"
-		type = dragoon
+		name= "Гусары Польши"
+		type = hussar
 		home = 692
 	}
 
 	regiment = {
-		name= "Драгуны Польши2"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 710
 	}
 
 	regiment = {
-		name= "Драгуны Польши3"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 708
 	}
 	regiment = {
-		name= "Драгуны Польши4"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 706
 	}
 
 	regiment = {
-		name= "Драгуны Польши5"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 713
 	}
 	regiment = {
-		name= "Драгуны Польши7"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 717
 	}
 
 	regiment = {
-		name= "Драгуны Польши8"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 709
 	}
 
 	regiment = {
-		name= "Драгуны Польши9"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 707
 	}
 	regiment = {
-		name= "Драгуны Польши10"
-		type = dragoon
+		name= "Кирасиры Польши"
+		type = cuirassier
 		home = 711
 	}
 	

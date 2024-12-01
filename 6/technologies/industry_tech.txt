@@ -861,6 +861,8 @@ experimental_railroad = {
 
 	activate_building = railroad
 	factory_cost = 0.15
+	mine_RGO_eff = 0.10
+	farm_RGO_eff = 0.10
 	
 	ai_chance = {
 		factor = 1.5 #1.1
@@ -886,6 +888,8 @@ early_railroad = {
 
 	max_railroad = 1
 	factory_cost = 0.15
+	mine_RGO_eff = 0.10
+	farm_RGO_eff = 0.10
 	
 	ai_chance = {
 		factor = 2
@@ -911,6 +915,9 @@ iron_railroad = {
 
 	max_railroad = 1 
 	factory_cost = 0.15
+	mine_RGO_eff = 0.15
+	farm_RGO_eff = 0.10
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -935,6 +942,9 @@ steel_railroad = {
 
 	max_railroad = 1 
 	factory_cost = 0.15
+	mine_RGO_eff = 0.15
+	farm_RGO_eff = 0.10
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -959,6 +969,9 @@ integral_rail_system = {
 
 	max_railroad = 1
 	factory_cost = 0.15
+	mine_RGO_eff = 0.10
+	farm_RGO_eff = 0.10
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -983,6 +996,9 @@ limited_access_roads = {
 
 	max_railroad = 1
 	factory_cost = 0.15
+	mine_RGO_eff = 0.10
+	farm_RGO_eff = 0.10
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1024,7 +1040,8 @@ medicine = {
 	area = chemistry_and_electricity
 	year = 1836
 	cost = 7200
-
+	
+	pop_growth = 0.0001
 	supply_limit = 0.25
 	 
 	ai_chance = {
@@ -1046,6 +1063,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
 	
 	ai_chance = {
 		factor = 1.1
@@ -1081,6 +1099,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
 	
 	ai_chance = {
 		factor = 1.1
@@ -1116,6 +1135,7 @@ electricity = {
 	cost = 19800
 	
 	supply_limit = 0.50
+	pop_growth = 0.0001
 	ai_chance = {
 		factor = 2
 		modifier = {

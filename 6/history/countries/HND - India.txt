@@ -10,7 +10,6 @@ culture = sinhala
 culture = oriya
 culture = asian_minor
 culture = rajput
-culture = gujarati
 culture = sindi
 culture = kannada
 culture = gujarati

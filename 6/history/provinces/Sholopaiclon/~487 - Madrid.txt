@@ -1,6 +1,5 @@
 owner = D21
 controller = D21
 add_core = SPA
-add_core = CAT
 trade_goods = cattle
 life_rating = 45

@@ -1,5 +1,6 @@
-owner = GCO
-controller = GCO
+owner = PEU
+controller = PEU
+add_core = PEU
 add_core = GCO
 trade_goods = wool
 life_rating = 35

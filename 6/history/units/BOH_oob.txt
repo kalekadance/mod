@@ -16,26 +16,26 @@ army = {
 	}
 
 	regiment = {
-		name= "Королевские драгуны"
-		type = dragoon
+		name= "Королевские гусары"
+		type = hussar
 		home = 625
 	}
 
 	regiment = {
 		name= "Летучая Бригада"
-		type = dragoon
+		type = hussar
 		home = 627
 	}
 
 	regiment = {
-		name= "Бригада драгунов" 
-		type = dragoon
+		name= "Бригада гусаров" 
+		type = hussar
 		home = 628
 	}
 
 	regiment = {
-		name= "Бригада драгунов"
-		type = dragoon
+		name= "Бригада гусаров"
+		type = hussar
 		home = 626
 	}
 
@@ -45,8 +45,8 @@ army = {
 		home = 631
 	}
 	regiment = {
-		name= "Бригада драгунов"
-		type = dragoon
+		name= "Бригада гусаров"
+		type = hussar
 		home = 630
 	}
 

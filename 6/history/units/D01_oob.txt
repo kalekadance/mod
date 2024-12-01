@@ -12,32 +12,32 @@ army = {
 	name = "јрми€ –абочего —оюза"
 	location = 1778
 	regiment = {
-		name= "1-€ пехотна€ бригада"
-		type = infantry
+		name= "3-€ кавалерийска€ бригада"
+		type = cuirassier
 		home = 1778
 	}
 
 	regiment = {
-		name= "2-€ пехотна€ бригада"
-		type = infantry
+		name= "4-€ кавалерийска€ бригада"
+		type = cuirassier
 		home = 1789
 	}
 
 	regiment = {
-		name= "3-€ пехотна€ бригада"
-		type = infantry
+		name= "5-€ кавалерийска€ бригада"
+		type = cuirassier
 		home = 1791
 	}
 	
 		regiment = {
 		name= "1-€ кавалерийска€ бригада"
-		type = hussar
+		type = cuirassier
 		home = 1793
 	}
 
 	regiment = {
 		name= "2-€ кавалерийска€ бригада"
-		type = hussar
+		type = cuirassier
 		home = 1792
 	}
 	

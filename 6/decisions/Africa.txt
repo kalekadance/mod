@@ -287,6 +287,7 @@ political_decisions = {
 			add_accepted_culture = african_minor
 			add_accepted_culture = maghrebi
 			set_country_flag = A17_form
+			capital = 1916
 			
 		}
 	}
@@ -435,6 +436,7 @@ political_decisions = {
 			set_country_flag = ISR_claim1	
 		}
 	}
+	
 	ISR_claim2 = {
 		picture = kanun_i_esasi
 		potential = { 
@@ -644,6 +646,7 @@ political_decisions = {
 			prestige = 5
 			set_country_flag = RHO_claim
 		}
+		
 	}
 	RHO_claim1 = {
 		picture = form_arabia
@@ -656,7 +659,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			ideological_thought = 1
+			owns = 2064
 		}
 		
 		effect = {
@@ -664,6 +667,7 @@ political_decisions = {
 			POR_2049 = { add_core = THIS }
 			prestige = 5
 			set_country_flag = RHO_claim1
+			add_country_modifier = { name = RHO_modifier duration = 180 }
 		}
 	}
 	form_SAF = {
@@ -795,7 +799,11 @@ political_decisions = {
 				any_owned = { add_core = SAF }
 			}
 			ENG_2039 = { add_core = SAF }
+			ENG_2125 = { add_core = SAF }
+			ENG_1321 = { add_core = SAF }
 			ENG_2029 = { add_core = SAF }
+			ENG_2132 = { add_core = SAF }
+			AST_2244 = { add_core = SAF }
 			set_country_flag = SAF_claim3
 		}
 	}

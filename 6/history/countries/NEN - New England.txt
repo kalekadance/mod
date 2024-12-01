@@ -9,7 +9,7 @@ literacy = 0.35
 non_state_culture_literacy = 0.25
 civilized = yes
 
-set_country_flag = A04_baff
+set_country_flag = A03_baff
 
 # Political reforms
 slavery = no_slavery
