@@ -55,10 +55,25 @@ A03_guard = {
 			attack = 2
 			defence = 2
 			max_strength = 3
-			reconnaissance = 1
+			reconnaissance = 2
 			build_time = -60
 			supply_consumption = -0.3
 			maneuver = 1
+		}
+	}
+	
+}
+A03_guard1 = { 
+	limit = { 
+		muzzle_loaded_rifles = 1
+		has_country_flag = A03_baff
+	}
+	news = no
+	chance = { base = 90 }
+	effect = {
+		guard = {
+			attack = 2
+			defence = 2
 		}
 	}
 	
@@ -792,7 +807,10 @@ human_wave_vs_spearhead = {
 infantry_army = { 
 	limit = { 
 		flintlock_rifles = 1
-		NOT = { has_country_flag = ISR_baff }
+		NOT = { 
+			has_country_flag = ISR_baff
+			has_country_flag = MOR_baff
+		}
 	}
 	news = no
 	chance = { base = 100 }
@@ -840,17 +858,17 @@ flintlock_rifle_armament = {
 MOR_baff = {
 	limit = { 
 		flintlock_rifles = 1 
-		has_country_flag = MOR_bedouin
+		has_country_flag = MOR_baff
 	}
 	news = no
 	chance = {
 		base = 90
 	}
 	effect = { 
-			cavalry = {
+		cavalry = {
 			attack = 3
 			defence = 2
-			support = 0.75
+			support = 1
 			maneuver = 1
 			discipline = 0.2
 			reconnaissance = 1
@@ -859,12 +877,147 @@ MOR_baff = {
 			hills = {movement = 0.2}
 			woods = {movement = 0.2}
 			farmlands = {movement = 0.2}
-			steppe = {movement = 0.2}
-			plains = {movement = 0.2}
-			supply_consumption = 0.50
+			steppe = { movement = 0.2}
+			plains = { movement = 0.2}
+			desert = { movement = 1 }
+		}
+		irregular = {
+			maneuver = 1
+			defence = 2
+			support = 0.5
+			desert = { movement = 1 }
+		}
+		
+	}
+}
+A01_baff = {
+	limit = { 
+		flintlock_rifles = 1 
+		has_country_flag = A01_baff
+	}
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		activate_unit = engineer
+		engineer = {
+			reconnaissance = 1
+			support = 0.75
+			attack = 1
+			defence = 1.5
+		}
+		infantry = {
+			attack = 2
+			defence = 2
 		}
 	}
 }
+A01_baff1 = {
+	limit = { 
+		strategic_mobility = 1 
+		has_country_flag = A01_baff
+	}
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		engineer = {
+			reconnaissance = 1
+			support = 0.75
+			defence = 2.5
+			attack = 0.5
+		}
+		guard = {
+			attack = 6
+		}
+	}
+}
+Sibir_baff = { 
+	limit = { 
+		civilized = yes
+		flintlock_rifles = 1 
+		has_country_flag = MTC_baff
+	}
+	news = no
+	chance = {
+		base = 90
+	}
+	effect = {
+		hussar = {
+			attack = 2.5
+			defence = 2.5
+			support = 1.5
+			build_time = -30
+			default_organisation = 10
+			forest = {movement = 0.3}
+			mountain = {movement = 0.2}
+			hills = {movement = 0.2}
+			woods = {movement = 0.3}
+			jungle = {movement = 0.6} 
+			marsh  = {movement = 0.6}   
+			supply_consumption = 0.20
+		}
+		dragoon = {
+			attack = 3
+			defence = 5
+			discipline = 0.5
+			build_time = -60
+			default_organisation = 10
+			forest = {movement = 0.3}
+			mountain = {movement = 0.25}
+			hills = {movement = 0.25}
+			woods = {movement = 0.3}
+			jungle = {movement = 0.65} 
+			marsh  = {movement = 0.65}  
+			supply_consumption = 0.20
+		}
+		cuirassier = {
+			attack = 5
+			defence = 3
+			discipline = 0.5
+			default_organisation = 10
+			build_time = -60
+			forest = {movement = 0.2}
+			mountain = {movement = 0.3}
+			hills = {movement = 0.2}
+			woods = {movement = 0.2}
+			farmlands = {movement = 0.1}
+			steppe = {movement = 0.1}
+			plains = {movement = 0.1}
+			jungle = {movement = 0.6} 
+			marsh  = {movement = 0.6}   
+			desert	= {movement = 0.1}
+			supply_consumption = 0.20
+		}
+	}
+}	
+	A07_cuirassier = {
+		limit = { 
+			civilized = yes
+			flintlock_rifles = 1 
+			has_country_flag = A07_cuirassier			
+		}
+		news = no
+		chance = { base = 90 }
+		effect = { 
+			cuirassier = {
+				attack = 2
+				defence = 2
+				default_organisation = 10
+				discipline = 0.5
+				max_strength = 2
+				reconnaissance = 2
+			}
+			engineer = {
+				activate_unit = engineer
+				default_organisation = 30
+				max_strength = 2
+			}
+			reinforce_rate = 0.25
+		}	
+	}
 
 #muzzle_loaded_rifles 1836
 muzzle_loaded_rifle_armament = {
@@ -901,100 +1054,7 @@ muzzle_loaded_rifle_armament = {
 		}
 	}
 }
-A01_baff = {
-	limit = { 
-		muzzle_loaded_rifles = 1 
-		has_country_flag = A01_baff
-	}
-	news = no
-	chance = { 
-		base = 90
-	}
-	effect = {
-		engineer = {
-			support = 0.5
-			attack = 1
-			defence = 1
-		}
-	}
-}
-Sibir_baff = { 
-	limit = { 
-		civilized = yes
-		muzzle_loaded_rifles = 1 
-		has_country_flag = MTC_baff
-	}
-	news = no
-	chance = {
-		base = 90
-	}
-	effect = {
-		hussar = {
-			attack = 2.5
-			defence = 2.5
-			support = 1.5
-			max_strength = -1
-			build_time = -30
-			forest = {movement = 0.3}
-			mountain = {movement = 0.2}
-			hills = {movement = 0.2}
-			woods = {movement = 0.3}
-			jungle = {movement = 0.6} 
-			marsh  = {movement = 0.6}   
-			supply_consumption = 0.20
-		}
-		dragoon = {
-			attack = 3
-			defence = 5
-			discipline = 0.5
-			max_strength = -1
-			build_time = -60
-			forest = {movement = 0.3}
-			mountain = {movement = 0.25}
-			hills = {movement = 0.25}
-			woods = {movement = 0.3}
-			jungle = {movement = 0.65} 
-			marsh  = {movement = 0.65}  
-			supply_consumption = 0.20
-		}
-		cuirassier = {
-			attack = 5
-			defence = 3
-			discipline = 0.5
-			max_strength = -1
-			build_time = -60
-			forest = {movement = 0.2}
-			mountain = {movement = 0.3}
-			hills = {movement = 0.2}
-			woods = {movement = 0.2}
-			farmlands = {movement = 0.1}
-			steppe = {movement = 0.1}
-			plains = {movement = 0.1}
-			jungle = {movement = 0.6} 
-			marsh  = {movement = 0.6}   
-			desert	= {movement = 0.1}
-			supply_consumption = 0.20
-		}
-	}
-}	
-	A07_cuirassier = {
-		limit = { 
-			civilized = yes
-			muzzle_loaded_rifles = 1
-			has_country_flag = graet_pol			
-		}
-		news = no
-		chance = { base = 90 }
-		effect = { 
-			cuirassier = {
-				attack = 2
-				defence = 2
-				discipline = 0.5
-				max_strength = 3
-				reconnaissance = 2
-			}
-		}	
-	}
+
 
 #breech_loaded_rifles 1850
 breech_loaded_rifle_armament = {
@@ -1285,13 +1345,41 @@ A05_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.5
-			defence = 0.5
-			support = 0.5
+			attack = 0.75
+			defence = 0.75
+			support = 1
 			discipline = 0.1
+			build_time = -30
+			maneuver = 1
 		}
 	}
+	
 
+}
+A05_attrition = {
+	limit = { bronze_muzzle_loaded_artillery = 1 has_country_flag = A05_baff1 }
+	chance = {
+		base = 95
+	}
+	effect = {
+		land_attrition = -0.55
+		dragoon = {
+			default_organisation = 10
+			build_time = -120
+			discipline = 0.6
+		}
+	}
+}
+A05_attrition1 = {
+	limit = { year = 1840 bronze_muzzle_loaded_artillery = 1 has_country_flag = A05_baff1 }
+	chance = {
+		base = 95
+	}
+	effect = {
+		dragoon = {
+			build_time = 60
+		}
+	}
 }
 
 #iron_breech_loaded_artillery 1850
@@ -1468,16 +1556,54 @@ RHO_engineer_ap = {
 		base = 90
 	}
 	effect = {
+		gas_attack = yes
 		activate_unit = engineer
 		engineer = { 
 			supply_consumption = -0.5
 			build_time = 60
 			default_organisation = 15
-			support = 0.25
+			support = 1
 			reconnaissance = 2
 		}
 	}
 }
+RHO_engineer_ap1 = {
+	limit = { 
+		strategic_mobility = 1
+		has_country_flag = RHO_guard
+	} 
+	chance = { 
+		base = 90
+	}
+	effect = { 
+		engineer = {
+			support = 0.25
+			discipline = 0.1
+			supply_consumption = 0.25
+			maximum_speed = 1
+		}
+	}
+}
+RHO_guard_ap1 = { 
+	limit = { 
+		breech_loaded_rifles = 1
+		has_country_flag = RHO_guard
+	} 
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		guard = { 
+			supply_consumption = 0.25
+			build_time = -30
+			attack = 2
+			defence = 1
+			maximum_speed = 1
+		}
+	}
+}
+
 #military_plans 1836
  
 
@@ -1867,13 +1993,51 @@ ISR_baff = {
 		base = 100
 	}
 	effect = { 
-			irregular = {
+		irregular = {
 			attack = 3
 			defence = 4
 			discipline = 0.2
 			maneuver = 1
-			maximum_speed = 1
+			maximum_speed = 2
 		}
+		artillery = {
+			discipline = 0.3
+			maximum_speed = 2
+			desert	= { movement = 1}
+		}
+		engineer = {
+			support = -1
+			default_organisation = 15
+			defence = 12 
+		}
+	}
+}
+ISR_debaff = {
+	limit = { point_defense_system = 1 has_country_flag = ISR_baff }
+	chance = {
+		base = 100
+	}
+	effect = { 
+		engineer = {
+			support = -0.5
+			default_organisation = 5
+			defence = 6
+			attack = 2
+		} 
+	}
+}
+ISR_debaff1 = {
+	limit = { deep_defense_system = 1 has_country_flag = ISR_baff }
+	chance = {
+		base = 90
+	}
+	effect = { 
+		engineer = {
+			support = -0.25
+			default_organisation = 2.5
+			defence = 6
+			max_strength = 1
+		} 
 	}
 }
 A06_baff = {
@@ -1903,7 +2067,7 @@ A06_baff = {
 #army_professionalism 1836
 A04_baff = {
 	limit = { 
-		army_professionalism 1836 = 1
+		army_command_principle = 1
 		has_country_flag = A04_baff
 	}
 	news = no
@@ -1913,13 +2077,64 @@ A04_baff = {
 	effect = {
 		dragoon = {
 			attack = 3
-			defence = 3
+			defence = -1
 			maneuver = 1
-			discipline = 0.25
+			support = 1.5
 			build_time = -60
+			forest = {movement = 0.4}
+			mountain = {movement = 0.6}
+			hills = {movement = 0.6}
+			woods = {movement = 0.4}
+			desert	= {movement = -0.4}
+			supply_consumption = -0.25
+		}
+		engineer = {
+			defence = 3
+			attack = -1
+			support = 1.5
+			forest = {movement = 0.4}
+			mountain = {movement = 0.6}
+			hills = {movement = 0.6}
+			woods = {movement = 0.4}
+			desert	= {movement = -0.4}
 		}
 		military_tactics = 0.5
 	}
+}
+A04_baff1 = {
+	limit = { 
+		military_plans = 1
+		has_country_flag = A04_baff1
+	}
+	chance = {
+		base = 90
+	}
+	effect = {
+		dragoon = {
+			attack = 2
+			support = 0.5
+			jungle = { movement = 1 }
+		}
+	}
+
+}
+A04_baff2 = {
+	limit = { 
+		strategic_mobility = 1
+		has_country_flag = A04_baff1
+	}
+	chance = {
+		base = 90
+	}
+	effect = {
+		engineer = {
+			defence = 3
+			support = 0.5
+			discipline = 1
+			jungle = { movement = 1 }
+		}
+	}
+
 }
 army_academic_training = {
 	limit = { army_professionalism = 1 }

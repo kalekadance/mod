@@ -1433,31 +1433,31 @@
     }
 
     aristocrats = {
-        culture = spanish
+        culture = catalan
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = spanish
+        culture = catalan
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = spanish
+        culture = catalan
         religion = orthodox
         size = 3000
     }
 
     soldiers = {
-        culture = spanish
+        culture = catalan
         religion = orthodox
         size = 200
     }
 
     labourers = {
-        culture = spanish
+        culture = catalan
         religion = orthodox
         size = 15900
     }

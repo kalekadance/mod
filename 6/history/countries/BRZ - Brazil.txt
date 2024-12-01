@@ -5,8 +5,8 @@ religion = orthodox
 government = hms_government
 plurality = 35
 nationalvalue = nv_liberty
-literacy = 0.21
-non_state_culture_literacy = 0.01
+literacy = 0.35
+non_state_culture_literacy = 0.35
 civilized = yes
 prestige = 15
 

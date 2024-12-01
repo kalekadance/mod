@@ -16,7 +16,7 @@ ironclad = {
 
 	#Core Abilities
 	priority = 35
-	max_strength = 100
+	max_strength = 250
 	default_organisation = 30
 	maximum_speed = 8
 	weighted_value = 6.0

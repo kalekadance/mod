@@ -1,4 +1,4 @@
-#capital = 
+capital = 2049
 primary_culture = african_minor
 religion = orthodox
 government = absolute_monarchy

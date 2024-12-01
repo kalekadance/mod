@@ -1,3 +1,4 @@
+KOR = { value = -199 }
 leader = {
 	name = "Carlo1 Filangieri"
 	date = 1831.1.1

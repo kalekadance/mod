@@ -4,7 +4,7 @@ promotion_chance =
 	factor = 0.25
 	
 	modifier = {
-		factor = 0.15
+		factor = 0.2
 		country = {
 			economic_policy = laissez_faire
 		}
@@ -132,7 +132,7 @@ demotion_chance =
 	factor = 1
 	 
 	modifier = {
-		factor = 0.10
+		factor = 0.15
 		country = {
 			economic_policy = laissez_faire
 		}

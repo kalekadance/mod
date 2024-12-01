@@ -8,6 +8,7 @@ literacy = 0.3
 non_state_culture_literacy = 0.45
 civilized = yes
 
+set_country_flag = A07_cuirassier
 
 # Political reforms
 slavery = no_slavery

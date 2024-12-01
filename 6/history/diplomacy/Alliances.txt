@@ -15,13 +15,6 @@ alliance=
 	}
 alliance=
 	{
-		first="KTS"
-		second="D23"
-		end_date="1936.1.1"
-		start_date="1836.1.1"
-	}
-alliance=
-	{
 		first="YAR"
 		second="LIB"
 		end_date="1936.1.1"
@@ -51,9 +44,9 @@ alliance=
 alliance=
 	{
 		first="JAP"
-		second="CHI"
+		second="KOR"
 		end_date="1936.1.1"
-		start_date="1840.1.1"
+		start_date="1836.1.1"
 	}
 alliance=
 	{

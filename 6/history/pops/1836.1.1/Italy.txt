@@ -2189,43 +2189,43 @@
 #Cagliari
 765 = {
     aristocrats = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 1750
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 3400
     }
 
     officers = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 850
     }
 
     artisans = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 8000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 3000
     }
 
     farmers = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 120000
     }
@@ -2235,31 +2235,31 @@
 #Sassari
 766 = {
     aristocrats = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 1500
     }
 
     clergymen = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 14000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 3100
     }
 
     farmers = {
-        culture = north_italian
+        culture = french
         religion = orthodox
         size = 140000
     }

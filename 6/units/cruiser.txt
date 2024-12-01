@@ -12,7 +12,7 @@ cruiser = {
 	
 	#Core Abilities
 	priority = 12
-	max_strength = 100
+	max_strength = 150
 	default_organisation = 30
 	maximum_speed = 7
 	weighted_value = 8.0
@@ -21,7 +21,7 @@ cruiser = {
 
 
 	#Building Costs
-	build_time = 980
+	build_time = 480
 	build_cost = {
 		steamer_convoy = 6000
 		artillery = 4000
@@ -43,9 +43,9 @@ cruiser = {
 		explosives = 0.45					#20	=	20
 		ammunition = 0.5					#18	=	36
 		fuel = 3.3							#25	=	75
-		electric_gear = 0.1
-		radio = 0.2
-		telephones = 0.2
+		electric_gear = 0.05
+		radio = 0.05
+		telephones = 0.05
 	}										#154.8 / 366
 	
 	#Naval Abilties

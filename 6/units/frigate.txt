@@ -10,8 +10,8 @@ frigate = {
 	
 	#Core Abilities
 	priority = 13
-	max_strength = 100
-	default_organisation = 30
+	max_strength = 75
+	default_organisation = 35
 	maximum_speed = 7
 	weighted_value = 2.0
 	can_build_overseas = yes

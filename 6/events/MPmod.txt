@@ -1400,9 +1400,9 @@ country_event = {
 	id =1011018 #raskopka_meshaut
 	trigger = {
  
-	and = {
+	
 	has_country_flag = kopaem
-	has_country_flag = nam_meshaut }
+	has_country_flag = nam_meshaut 
 	 
 	}
 	

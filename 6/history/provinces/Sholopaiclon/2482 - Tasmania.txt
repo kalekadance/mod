@@ -1,2 +1,4 @@
+owner = D19
+controller = D19
 trade_goods = grain
 life_rating = 35

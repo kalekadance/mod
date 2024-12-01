@@ -19,7 +19,14 @@ Flot_CHI = {
 	limit = { battleship_column_doctrine = 1 has_country_flag = CHI_baff }
 	news = no
 	chance = { base = 90 }
-	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 2 } navy_base = { hull = 4 } navy_base = { maximum_speed = 2 } }
+	effect = { 
+		navy_base = { 
+			supply_consumption = -0.2  
+			gun_power = 2  
+			hull = 4  
+			maximum_speed = 2 
+		} 
+	}
 }
 
 Flot_CHI1 = {
@@ -28,11 +35,18 @@ Flot_CHI1 = {
 	chance = { 
 		base = -10 
 		modifier = { 
-			factor = 100 
+			factor = 95 
 			year = 1846  
 		}
 	}
-	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 3 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+	effect = { 
+		navy_base = { 
+			supply_consumption = -0.2  
+			gun_power = 3  
+			hull = 4  
+			maximum_speed = 1 
+		}  
+	}
 }
 
 Flot_CHI2 = {
@@ -45,7 +59,14 @@ Flot_CHI2 = {
 			year = 1856 
 		} 
 	}
-	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 3 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+	effect = { 
+		navy_base = { 
+			supply_consumption = -0.2  
+			gun_power = 3  
+			hull = 4  
+			maximum_speed = 1 
+		}  
+	}
 }
 
 Flot_CHI3 = {
@@ -54,11 +75,18 @@ Flot_CHI3 = {
 	chance = { 
 		base = -10 
 		modifier = { 
-			factor = 100 
+			factor = 95 
 			year = 1866 
 		} 
 	}
-	effect = { navy_base = { supply_consumption = -0.2 } navy_base = { gun_power = 2 } navy_base = { hull = 4 } navy_base = { maximum_speed = 1 }  }
+	effect = { 
+		navy_base = { 
+			supply_consumption = -0.15 
+			gun_power = 2.5  
+			hull = 4.5  
+			maximum_speed = 1.5 
+		}  
+	}
 }
 
 

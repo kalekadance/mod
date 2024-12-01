@@ -1479,6 +1479,14 @@ eng_exhaustion = {
 war_exhaustion = -0.3
 icon = 9
 }
+eng_exhaustion_A01 = {
+	war_exhaustion = -0.8
+	icon = 9
+}
+capital_supply_depot_pmodifier = {
+		max_attrition = -100
+		icon = 17
+	}
 arab_tech_school = {
 	diplomatic_points_modifier = 0.2
  leadership_modifier = 0.2
@@ -1497,6 +1505,12 @@ technical_school_UCA = {
 
 army_changed3 = {
 leadership_modifier = 0.30
+}
+RHO_modifier = {
+	war_exhaustion = -1
+}
+mcl_happened_modifier = {
+
 }
 
 raskopka = {
