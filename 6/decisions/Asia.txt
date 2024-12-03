@@ -54,8 +54,6 @@ political_decisions = {
 				}
 			}
 			effect = {
-				add_accepted_culture = uzbek
-				add_accepted_culture = tajik
 				set_country_flag = MTC_rise
 				AZB = { any_owned = { add_core = THIS } }
 				GEO = { any_owned = { add_core = THIS } }
@@ -94,7 +92,6 @@ political_decisions = {
 				RUS_2653 = { add_core = THIS }
 				RUS_1071 = { add_core = THIS }
 				add_accepted_culture = north_caucasian
-				add_accepted_culture = azerbaijani
 				set_country_flag = MTC_rise1
 			}
 			ai_will_do = { factor = 1 }
@@ -160,7 +157,7 @@ political_decisions = {
 				NOT = { has_country_flag = MTC_ap }		
 			}	
 			allow = {
-            	steel_railroad = 1
+            	iron_railroad = 1
 			}
 			effect = {
 				RUS_2618 = { add_province_modifier =  { name = baby_boom duration = 1825 } }
@@ -264,7 +261,7 @@ political_decisions = {
 			}
 			effect = {
 				add_accepted_culture = ukrainian
-				add_accepted_culture = finnish
+				add_accepted_culture = swedish
 				RUS_340 = { add_core = THIS }
 				RUS_336 = { add_core = THIS }
 				RUS_339 = { add_core = THIS }
@@ -281,10 +278,9 @@ political_decisions = {
 			}	
 			allow = {
 				NOT = { exists = FIN }
-				iron_steamers = 1
+				breech_loaded_rifles = 1
 			}
 			effect = {
-				add_accepted_culture = swedish
 				SWE_318 = { add_core = THIS }
 				SWE_308 = { add_core = THIS }
 				SWE_322 = { add_core = THIS }
@@ -307,7 +303,7 @@ political_decisions = {
 				}
 			}
 			effect = {
-				add_accepted_culture = pashtun
+				add_accepted_culture = persian
 				add_core = 1205
 				AFG_1217 = { add_core = THIS }
 				AFG_1214 = { add_core = THIS }
@@ -326,7 +322,7 @@ political_decisions = {
 				owns = 1219
 			}	
 			effect = {
-				add_accepted_culture = persian
+				add_accepted_culture = panjabi
 				set_country_flag = A08_asia1
 			}
 			ai_will_do = { factor = 1 }

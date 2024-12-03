@@ -3,43 +3,43 @@
 #Kabul (996000/249000 POPS)
 1209 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 2750
 	}
 
 	bureaucrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 825
 	}
 
 	officers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 625
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1375
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 5400
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 11000
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 113025
 	}
@@ -81,31 +81,31 @@
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 138
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 800
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 14662
 	}
@@ -113,31 +113,31 @@
 #Balkh (516000/129000 POPS)
 1211 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1600
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 813
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1650
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 825
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 76112
 	}
@@ -173,31 +173,31 @@
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 150
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 88
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 500
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 9162
 	}
@@ -205,31 +205,31 @@
 #Herat (324000/81000 POPS)
 1212 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 325
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 14650
 	}
@@ -267,31 +267,31 @@
 #Bamyan (412000/103000 POPS)
 1213 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 325
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 14650
 	}
@@ -327,61 +327,61 @@
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 1050
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 500
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 2700
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 49225
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 350
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 188
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 15612
 	}
@@ -389,31 +389,31 @@
 #Farrah (464000/116000 POPS)
 1214 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 550
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 288
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1400
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 24762
 	}
@@ -451,31 +451,31 @@
 #Qandahar (368000/92000 POPS)
 1215 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1200
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 625
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 3000
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 54375
 	}
@@ -511,31 +511,31 @@
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 175
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 525
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 10100
 	}
@@ -543,31 +543,31 @@
 #Jalalabad (268000/67000 POPS)
 1216 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1300
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 675
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 3350
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 4000
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 57985
 	}
@@ -575,95 +575,95 @@
 #Ghzani (324000/81000 POPS)
 1217 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 1350
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 688
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 3400
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = orthodox
 		size = 61887
 	}
 
 	aristocrats = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 113
 	}
 
 	artisans = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 650
 	}
 
 	soldiers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = hazara
+		culture = persian
 		religion = orthodox
 		size = 11912
 	}
 }
-#Badakhshan Region (340000)
+#Badakhthai Region (340000)
 #under the rule of Afghanistan in 1836
 #Faizabad (340000/85000 POPS)
 1210 = {
 	aristocrats = {
-		culture = uzbek
+		culture = kazak
 		religion = orthodox
 		size = 125
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = kazak
 		religion = orthodox
 		size = 63
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = kazak
 		religion = orthodox
 		size = 350
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = kazak
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = kazak
 		religion = orthodox
 		size = 5512
 	}

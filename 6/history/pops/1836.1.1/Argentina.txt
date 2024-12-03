@@ -79,7 +79,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 5550
+        size = 55550
     }
 
 }
@@ -113,7 +113,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -141,13 +141,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 10
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3900
+        size = 53900
     }
 
 }
@@ -175,13 +175,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -297,7 +297,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -355,7 +355,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -401,29 +401,29 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 16015
+        size = 76015
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 2750
     }
@@ -459,7 +459,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1800
+        size = 71800
     }
 
     clergymen = {
@@ -511,7 +511,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1875
+        size = 91875
     }
 
     clergymen = {
@@ -529,7 +529,7 @@
     soldiers = {
         culture = brazilian
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
@@ -539,31 +539,31 @@
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 2700
     }
@@ -593,13 +593,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3800
+        size = 53800
     }
 
 }
@@ -627,13 +627,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3625
+        size = 53625
     }
 
 }
@@ -661,13 +661,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4800
+        size = 54800
     }
 
 }
@@ -713,7 +713,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 9350
+        size = 59350
     }
 
 }
@@ -755,33 +755,33 @@
 #Resistencia
 2364 = {
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 2700
+        size = 72700
     }
 
     bureaucrats = {
@@ -819,33 +819,33 @@
 #Villa Angela
 2365 = {
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 2700
+        size = 72700
     }
 
     clergymen = {
@@ -877,33 +877,33 @@
 #Formosa
 2366 = {
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 4575
+        size = 74575
     }
 
     bureaucrats = {
@@ -941,31 +941,31 @@
 #Xolotas
 2367 = {
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 4575
     }
@@ -1013,7 +1013,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2300
+        size = 72300
     }
 
 }
@@ -1047,7 +1047,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 77900
     }
 
 }
@@ -1075,13 +1075,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 10
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 77900
     }
 
 }
@@ -1115,7 +1115,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 77900
     }
 
 }
@@ -1149,7 +1149,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 77900
     }
 
 }
@@ -1195,7 +1195,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3225
+        size = 93225
     }
 
 }
@@ -1223,13 +1223,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 92700
     }
 
 }
@@ -1263,7 +1263,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 79900
     }
 
 }
@@ -1309,7 +1309,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3605
+        size = 73605
     }
 
 }
@@ -1341,33 +1341,33 @@
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -1401,7 +1401,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4800
+        size = 54800
     }
 
 }
@@ -1475,7 +1475,7 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     farmers = {
@@ -1515,7 +1515,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1800
+        size = 51800
     }
 
 }
@@ -1549,7 +1549,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1800
+        size = 55800
     }
 
 }
@@ -1629,7 +1629,7 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     farmers = {
@@ -1665,7 +1665,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4900
+        size = 54900
     }
 
 }
@@ -1711,7 +1711,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4700
+        size = 94700
     }
 
 }
@@ -1739,13 +1739,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1800
+        size = 51800
     }
 
 }
@@ -1779,7 +1779,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 62700
     }
 
 }
@@ -1813,7 +1813,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 90900
     }
 
 }
@@ -1859,7 +1859,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4660
+        size = 94660
     }
 
 }
@@ -1887,13 +1887,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3800
+        size = 53800
     }
 
 }
@@ -1915,7 +1915,7 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
@@ -1951,7 +1951,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 1800
+        size = 51800
     }
 
 }
@@ -2013,13 +2013,13 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }
@@ -2041,7 +2041,7 @@
     soldiers = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 1425
     }
 
     farmers = {
@@ -2077,7 +2077,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3675
+        size = 88675
     }
 
 }
@@ -2111,7 +2111,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 62700
     }
 
 }
@@ -2145,7 +2145,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3900
+        size = 53900
     }
 
 }
@@ -2179,7 +2179,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3900
+        size = 63900
     }
 
 }
@@ -2213,7 +2213,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3900
+        size = 63900
     }
 
 }
@@ -2247,7 +2247,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2900
+        size = 62900
     }
 
 }
@@ -2281,7 +2281,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 3900
+        size = 93900
     }
 
 }
@@ -2313,33 +2313,33 @@
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 2700
+        size = 92700
     }
 
 }

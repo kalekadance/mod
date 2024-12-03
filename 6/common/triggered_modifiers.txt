@@ -114,3 +114,9 @@ TOP_7-8 = {
 	global_immigrant_attract = 0.1
 
 }
+AI_bonys5678 = {
+	trigger = {
+	ai = yes
+	}
+	max_national_focus = 3
+}

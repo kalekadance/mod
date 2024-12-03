@@ -3,103 +3,103 @@
 #Tabriz (808000/202000 POPS)
 1108 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 2500
 	}
 
 	bureaucrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 500
 	}
 
 	officers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 400
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1250
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 10000
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 6000
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 2000
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 95850
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1500
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 525
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 8500
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 800
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 70175
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 490
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1475
 	}
@@ -107,121 +107,121 @@
 #Khvoy (168000/42000 POPS)
 1109 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 175
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 400
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 7225
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 650
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 11875
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 150
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 400
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 7250
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 650
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 11925
 	}
@@ -229,121 +229,121 @@
 #Urumia (192000/48000 POPS)
 1110 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 600
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 10900
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 275
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 15575
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 225
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 600
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 10950
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 350
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 6425
 	}
@@ -351,61 +351,61 @@
 #Mahabad (200000/50000 POPS)
 1111 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 650
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 325
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1600
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 28425
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 300
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 900
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 175
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 16475
 	}
@@ -413,61 +413,61 @@
 #Ardabil (280000/70000 POPS)
 1112 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 625
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 325
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1550
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 27500
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 375
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 200
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 1100
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = orthodox
 		size = 20125
 	}
@@ -645,31 +645,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 275
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 1450
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 26200
 	}
@@ -721,73 +721,73 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 2450
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 250
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 6500
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 1250
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 28750
 	}
 
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 500
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 500
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 2250
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 750
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 20000
 	}
@@ -795,31 +795,31 @@
 #Sanandaj (92000/23000 POPS)
 1118 = {
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 425
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 1150
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 1250
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 60950
 	}
@@ -827,31 +827,31 @@
 #Ilam (84000/21000 POPS)
 1119 = {
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 325
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 2175
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = orthodox
 		size = 80500
 	}
@@ -977,25 +977,25 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 1000
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 3475
 	}
@@ -1033,25 +1033,25 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 490
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 490
 	}
@@ -1237,25 +1237,25 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 490
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 2925
 	}
@@ -1292,7 +1292,7 @@
 		size = 143700
 	}
 }
-#Kashan (112000/28000 POPS)
+#Kathai (112000/28000 POPS)
 1129 = {
 	aristocrats = {
 		culture = persian
@@ -1357,25 +1357,25 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 2450
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 4900
 	}
@@ -1457,13 +1457,13 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 2450
 	}
@@ -1641,13 +1641,13 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 5
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 245
 	}
@@ -1983,31 +1983,31 @@
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 175
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 450
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 8200
 	}
@@ -2059,31 +2059,31 @@
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 550
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 275
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 3500
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 750
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 13750
 	}
@@ -2121,31 +2121,31 @@
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 1000
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 500
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 3000
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 1500
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 30750
 	}
@@ -2183,31 +2183,31 @@
 	}
 
 	aristocrats = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 1250
 	}
 
 	clergymen = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 750
 	}
 
 	artisans = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 3500
 	}
 
 	soldiers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 750
 	}
 
 	farmers = {
-		culture = baluchi
+		culture = persian
 		religion = orthodox
 		size = 23750
 	}
@@ -2265,43 +2265,43 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 550
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 20050
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 5
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 245
 	}
@@ -2403,31 +2403,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 425
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = orthodox
 		size = 16225
 	}

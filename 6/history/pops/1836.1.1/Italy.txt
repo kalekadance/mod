@@ -851,13 +851,13 @@
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 4500
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 100
     }
@@ -903,7 +903,7 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 300
     }
@@ -915,7 +915,7 @@
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 325
     }

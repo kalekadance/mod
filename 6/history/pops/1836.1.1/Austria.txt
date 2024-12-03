@@ -259,25 +259,25 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 175
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 950
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 16675
     }

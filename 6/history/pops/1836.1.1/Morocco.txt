@@ -73,13 +73,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 3225
     }
@@ -405,13 +405,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 1200
     }
@@ -689,19 +689,19 @@
 #Melilla
 1689 = {
     bureaucrats = {
-        culture = spanish
+        culture = maghrebi
         religion = orthodox
         size = 15
     }
 
     artisans = {
-        culture = spanish
+        culture = maghrebi
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = spanish
+        culture = maghrebi
         religion = orthodox
         size = 200
     }
@@ -831,13 +831,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 4900
     }
@@ -907,13 +907,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 1200
     }
@@ -1319,31 +1319,31 @@
 #Rashidia
 1698 = {
     aristocrats = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 75
     }
 
     soldiers = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 13250
     }
@@ -1413,31 +1413,31 @@
     }
 
     aristocrats = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 75
     }
 
     soldiers = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = bedouin
+        culture = maghrebi
         religion = orthodox
         size = 13250
     }

@@ -1,25 +1,25 @@
 #Nuuk
 251 = {
     bureaucrats = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 2500
     }
 
     clergymen = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 15
     }
 
     artisans = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 75000
     }
@@ -29,19 +29,19 @@
 #Sisimiut
 2591 = {
     clergymen = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 4
     }
 
     farmers = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 75000
     }
@@ -51,19 +51,19 @@
 #Isortoq
 2632 = {
     clergymen = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 4
     }
 
     farmers = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 70000
     }
@@ -73,19 +73,19 @@
 #Aasiaat
 2636 = {
     clergymen = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 2
     }
 
     farmers = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 70000
     }

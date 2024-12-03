@@ -3,49 +3,49 @@
 #Lhasa (892000/223000 POPS)
 1587 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 4150
 	}
 
 	bureaucrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 750
 	}
 
 	officers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 950
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 2150
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 10000
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 400
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 4000
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 18560
 	}
@@ -77,31 +77,31 @@
 #Chamdo (624000/156000 POPS)
 1588 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 2750
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1450
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 7000
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1400
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 127400
 	}
@@ -133,31 +133,31 @@
 #Shigatse (332000/83000 POPS)
 1589 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1600
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 875
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 4000
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 800
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 72725
 	}
@@ -189,31 +189,31 @@
 #Lhodrak (688000/172000 POPS)
 1590 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 3375
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1750
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 8600
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1725
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 156550
 	}
@@ -221,31 +221,31 @@
 #Changtang (76000/19000 POPS)
 1591 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 375
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 200
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 950
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 175
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 17300
 	}
@@ -253,31 +253,31 @@
 #Ngari (304000/76000 POPS)
 1592 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1500
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 775
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 3800
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 750
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 69175
 	}
@@ -285,31 +285,31 @@
 #Tawang (836000/209000 POPS) #now NEFA in India asian_minor = Chin 
 1593 = {
 	aristocrats = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 2625
 	}
 
 	clergymen = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1350
 	}
 
 	artisans = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 6600
 	}
 
 	soldiers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 1325
 	}
 
 	farmers = {
-		culture = tibetan
+		culture = mongol
 		religion = orthodox
 		size = 120100
 	}

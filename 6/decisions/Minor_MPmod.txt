@@ -13,15 +13,16 @@ political_decisions = {
 		}
 		effect = { money = 100000 }
 	}
-	izi_goods = { 
+	izi_goods = {
 		picture = graet_eic
 		news = no
 		potential = { 
 			ai=yes
-			
+			NOT = { year = 1837 }
 		}
 		allow = { 
 			ai=yes
+			NOT = { year = 1837 }
 			OR = {
 				NOT = { ammunition = 1000 }
 				NOT = { artillery = 1000 }
@@ -34,31 +35,144 @@ political_decisions = {
 				NOT = { explosives = 1000 }
 				NOT = { steel = 1000 }
 				NOT = { wool = 1000 }
-				NOT = { barrels = 1000 }
-				NOT = { aeroplanes = 1000 }
-				NOT = { electric_gear = 1000 }
-				NOT = { telephones = 1000 }
-				NOT = { radio = 1000 }
+				#NOT = { barrels = 1000 }
+				#NOT = { aeroplanes = 1000 }
+				#NOT = { electric_gear = 1000 }
+				#NOT = { telephones = 1000 }
+				#NOT = { radio = 1000 }
 			}
 		}
 		effect = {
-			ammunition = 23000
-			artillery = 23000
-			canned_food = 23000
-			coal = 23000
-			clipper_convoy = 23000
-			steamer_convoy = 23000
-			liquor = 23000
-			wine = 23000
-			steel = 23000
-			explosives = 23000
-			wool = 23000
-			small_arms = 23000
-			aeroplanes = 23000
-			barrels = 23000
-			electric_gear = 23000
-			telephones = 23000
-			radio = 23000
+			ammunition = 1000
+			artillery = 1000
+			canned_food = 1000
+			coal = 1000
+			clipper_convoy = 1000
+			steamer_convoy = 1000
+			liquor = 1000
+			wine = 1000
+			steel = 1000
+			explosives = 1000
+			wool = 1000
+			small_arms = 1000
+			#barrels = 23000
+			#electric_gear = 23000
+			#telephones = 23000
+			#radio = 23000
+		}
+	}
+	izi_goods3 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { artillery = 1000 }
+		}
+		effect = {
+			artillery = 1000
+		}
+	}
+	izi_goods4 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { ammunition = 1000 }
+		}
+		effect = {
+			ammunition = 1000
+		}
+	}
+	izi_goods5 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { canned_food = 1000 }
+		}
+		effect = {
+			canned_food = 1000
+		}
+	}
+	izi_goods6 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { clipper_convoy = 1000 }
+		}
+		effect = {
+			clipper_convoy = 1000
+		}
+	}
+	izi_goods9 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { explosives = 1000 }
+		}
+		effect = {
+			explosives = 1000
+		}
+	}
+	izi_goods7 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { 	
+				OR = {	
+					liquor = 1000
+					wine = 1000
+					steel = 1000
+					wool = 1000
+				}
+			}
+		}
+		effect = {
+			liquor = 1000
+			wine = 1000
+			steel = 1000
+			wool = 1000
+		}
+	}
+	izi_goods8 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { steamer_convoy = 1000 }
+		}
+		effect = {
+			steamer_convoy = 1000
+		}
+	}
+	izi_goods10 = {
+		potential = { 
+			ai=yes
+			year = 1837
+		}
+		allow = { 
+			ai=yes
+			NOT = { small_arms = 1000 }
+		}
+		effect = {
+			small_arms = 1000
 		}
 	}
 	izi_goods2 = { 
@@ -290,6 +404,7 @@ political_decisions = {
 				add_core=258
 				add_core=261
 				add_core=260
+				DEN_251 = { add_core = A01 }
 			}
 			ai_will_do = {
 				factor = 1
@@ -329,9 +444,10 @@ political_decisions = {
 			owns = 252
 		}
 		effect = {
-			DEN_251 = { add_core = A01 }
+			POR_2134 = { add_core = A01 }
+			add_core = 2136
 			ENG_43 = { add_core = A01 }
-			add_accepted_culture = icelandic
+			ENG_2132 = { add_core = A01 }
 			set_country_flag = raise_A01
 		}
 	}
@@ -347,8 +463,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = raise1_A01
-			POR_2134 = { add_core = A01 }
+			ARG_2391 = { add_core = A01 }
 			ENG_2132 = { add_core = A01 }
+			add_core = 1955
+			add_core = 1954
 		}
 	}
 	raise2_A01 = {
@@ -365,7 +483,6 @@ political_decisions = {
 			set_country_flag = raise2_A01
 			ARG_2355 = { add_core = A01 }
 			ARG_2363 = { add_core = A01 }
-			ARG_2391 = { add_core = A01 }
 			ARG_2387 = { add_core = A01 }
 			add_accepted_culture = platinean
 		}
@@ -387,7 +504,6 @@ political_decisions = {
 			CHL_2332 = { add_core = A01 }
 			BOL_2305 = { add_core = A01 }
 			add_accepted_culture = south_andean
-			add_accepted_culture = aimara
 		}
 	}
 	#test_ships = {
@@ -454,6 +570,7 @@ political_decisions = {
 			517 = { 
 				secede_province = THIS
 			}
+			add_core = 517
 		}
 	}
 	A01_steal = {
@@ -679,7 +796,10 @@ political_decisions = {
 			owns = 372
 		}
 		effect = {
-			add_accepted_culture = danish
+			SWE_308 = { add_core = A01 }
+			SWE_309 = { add_core = A01 }
+			SWE_313 = { add_core = A01 }
+			add_accepted_culture = swedish
 			set_country_flag = A01_war1
 		}
 		ai_will_do = { factor = 1 }
@@ -698,7 +818,9 @@ political_decisions = {
 			}
 		}
 		effect = {
-			add_accepted_culture = swedish
+			SWE_318 = { add_core = A01 }
+			SWE_322 = { add_core = A01 }
+			SWE_329 = { add_core = A01 }
 			set_country_flag = A01_SCA
 		}
 		ai_will_do = { factor = 1 }
@@ -722,7 +844,7 @@ political_decisions = {
 			FRA_438 = { add_core = A01 }
 			FRA_425 = { add_core = A01 }
 			BEL_393 = { add_core = A01 }
-			add_accepted_culture = wallonian
+			add_accepted_culture = dutch
 			set_country_flag = A01_FRA_war
 		}
 	}
@@ -742,7 +864,6 @@ political_decisions = {
 			BEL_387 = { add_core = A01 }
 			NET_375 = { add_core = A01 }
 			NET_385 = { add_core = A01 }
-			add_accepted_culture = flemish
 			set_country_flag = A01_FRA_war1
 		}
 	}
@@ -819,8 +940,6 @@ political_decisions = {
 			change_tag = A02
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = flemish
-			add_accepted_culture = wallonian
 			add_accepted_culture = dutch
 			NET_375 = { add_core = A02 }
 			BEL_387 = { add_core = A02 }
@@ -1066,8 +1185,32 @@ political_decisions = {
 			ai_will_do = {
 				factor = 10
 			}
-		
 	}
+	own_Itali1 = {
+		picture = graet_eic
+		potential = {
+			tag = A03
+			has_country_flag = own_Itali
+			NOT = { has_country_flag = own_Itali1 }
+		}
+		allow = {
+			tag = A03
+			owns = 605
+			owns = 606
+		}
+		effect = {
+				SAR_720 = { add_core = A03 }
+				AUS_726 = { add_core = A03 }
+				AUS_612 = { add_core = A03 }
+				AUS_729 = { add_core = A03 }
+				set_country_flag = own_Itali1
+				add_accepted_culture = north_italian
+		}
+			ai_will_do = {
+				factor = 10
+			}
+	}
+	
 	own_SCA = {
 		picture = graet_eic
 		potential = {
@@ -1702,7 +1845,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = CZH_form
 			change_tag = CZH
-			add_accepted_culture = slovak
 			ruling_party_ideology = conservative
 			AUS_623 = {
 				add_core = CZH
@@ -1955,32 +2097,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	A05_chorvat = {
-		picture = graet_eic
-		potential = {
-			tag = A05
-			has_country_flag = A05_raise
-			NOT = { has_country_flag = A05_chorvat }
-		}
-		allow = { owns = 771 }	
-		effect = {
-			add_accepted_culture = croat
-			set_country_flag = A05_chorvat
-		}
-	}
-	A05_alban = {
-		picture = graet_eic
-		potential = {
-			tag = A05
-			has_country_flag = A05_raise
-			NOT = { has_country_flag = A05_alban }
-		}
-		allow = { owns = 850 }	
-		effect = {
-			add_accepted_culture = albanian
-			set_country_flag = A05_alban
-		}
-	}
 	A05_raise1 = {
 	picture = graet_eic
 		potential = {
@@ -1996,7 +2112,12 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = bulgarian
+			TUR_860 = { add_core = THIS }
+			TUR_805 = { add_core = THIS }
+			TUR_806 = { add_core = THIS }
+			AUS_780 = { add_core = THIS }
+			MON_2582 = { add_core = THIS }
+			add_accepted_culture = greek
 			set_country_flag = A05_raise1
 		}
 		ai_will_do = {
@@ -2019,8 +2140,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = danish
-			DEN_251 = { add_core = THIS }
+			DEN_372 = { add_core = THIS }
+			DEN_367 = { add_core = THIS }
 			set_global_flag = A05_nord	
 		}
 		ai_will_do = {
@@ -2069,7 +2190,6 @@ political_decisions = {
 			RUS_339 = { add_core = THIS }
 			SWE_318 = { add_core = THIS }
 			SWE_308 = { add_core = THIS }
-			add_accepted_culture = finnish
 			set_global_flag = A05_nord2
 		}
 		ai_will_do = {
@@ -2112,12 +2232,40 @@ political_decisions = {
 			}
 		}	
 		allow = {
-			owns = 967
+			owns = 676
 		}
 		
 		effect = {
 			add_accepted_culture = ukrainian
+			RUS_965 = { add_core = THIS }
+			RUS_980 = { add_core = THIS }
+			RUS_964 = { add_core = THIS }
 			set_global_flag = A05_Inter1	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	A05_Inter2 = {
+	picture = graet_eic
+		potential = {
+			tag = A05
+			has_global_flag = A05_Inter1
+			NOT = {
+					has_country_flag = A05_Inter2
+			}
+		}	
+		allow = {
+			owns = 967
+		}
+		
+		effect = {
+			add_accepted_culture = north_caucasian
+			RUS_1048 = { add_core = THIS }
+			RUS_1052 = { add_core = THIS }
+			RUS_979 = { add_core = THIS }
+			RUS_1098 = { add_core = THIS }
+			set_country_flag = A05_Inter2	
 		}
 		ai_will_do = {
 			factor = 1
@@ -2171,7 +2319,7 @@ political_decisions = {
 			NET_385 = { add_core = THIS }
 			NET_381 = { add_core = THIS }
 			NET_375 = { add_core = THIS }
-			add_accepted_culture = flemish
+			add_accepted_culture = dutch
 			set_country_flag = A05_Fra_war1
 		}	
 	}
@@ -2190,7 +2338,6 @@ political_decisions = {
 			BEL_387 = { add_core = THIS }
 			BEL_393 = { add_core = THIS }
 			BEL_394 = { add_core = THIS }
-			add_accepted_culture = wallonian
 			set_country_flag = A05_Fra_war2
 		}	
 	}
@@ -2490,61 +2637,52 @@ political_decisions = {
 			set_country_flag = A06_raise1
 		}
 	}
-	romanian_bulgarian = {
+	A06_raise2 = {
 		picture = graet_eic
 		potential = {
 			tag = A06
-			has_country_flag = form_RE
-			NOT = { has_country_flag = romanian_bulgarian }
+			has_country_flag = A06_raise1
+			NOT = { has_country_flag = A06_raise2 }
 		}
-		allow = {
-			TUR_810 = {
-				owned_by = A06
-			}
-		}
+		allow = { owns = 735 }
 		effect = {
-			add_accepted_culture = bulgarian
-			set_country_flag = romanian_bulgarian 
+			BAV_599 = { add_core = A06 }
+			WUR_589 = { add_core = A06 }
+			BAD_586 = { add_core = A06 }
+			set_country_flag = A06_raise2
 		}
 	}
-	romanian_Serbian = {
+	A06_raise3 = {
 		picture = graet_eic
 		potential = {
 			tag = A06
-			has_country_flag = form_RE
-			NOT = { has_country_flag = romanian_Serbian }
+			has_country_flag = A06_raise2
+			NOT = { has_country_flag = A06_raise3 }
 		}
-		allow = {
-			TUR_788 = {
-				owned_by = A06
-			}
-			MON_2582 = {
-				owned_by = A06
-			}
-		}
+		allow = { owns = 667 owns = 674 owns = 809 }
 		effect = {
-			add_accepted_culture = serb
-			set_country_flag = romanian_Serbian
+			AUS_623 = { add_core = A06 }
+			AUS_777 = { add_core = A06 }
+			WAL_665 = { add_core = A06 }
+			set_country_flag = A06_raise3
+			add_accepted_culture = romanian
 		}
 	}
-	romanian_Chorvat = {
+	A06_raise4 = {
 		picture = graet_eic
 		potential = {
 			tag = A06
-			has_country_flag = form_RE
-			NOT = { has_country_flag = romanian_Chorvat  }
+			has_country_flag = A06_raise3
+			NOT = { has_country_flag = A06_raise4 }
 		}
-		allow = {
-			AUS_780 = {
-				owned_by = A06
-			}
-		}
+		allow = { owns = 667 owns = 674 owns = 809 }
 		effect = {
-			add_accepted_culture = croat
-			set_country_flag = romanian_Chorvat 
+			MOL_673 = { add_core = A06 }
+			RUS_676 = { add_core = A06 }
+			AUS_657 = { add_core = A06 }
+			set_country_flag = A06_raise4
 		}
 	}
-	
 	romanian_alban = {
 		picture = graet_eic
 		potential = {
@@ -2559,7 +2697,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = romanian_alban
-			add_accepted_culture = albanian
+			add_accepted_culture = serb
 			TUR_869 = {
 				add_core = A06
 			}
@@ -2569,6 +2707,7 @@ political_decisions = {
 			TUR_873 = {
 				add_core = A06
 			}
+			add_core = 854
 		}
 			ai_will_do = { factor = 10 }
 	}
@@ -2593,12 +2732,106 @@ political_decisions = {
 		effect = {
 			set_country_flag = romanian_turkey
 			add_accepted_culture = turkish
+			TUR_876 = {
+				add_core = A06
+			}
+			TUR_881 = {
+				add_core = A06
+			}
+			TUR_885 = {
+				add_core = A06
+			}
 		}
 				ai_will_do = {
 				factor = 10
 			}
 	}
-
+	romanian_turkey1 = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = romanian_turkey
+			NOT = { has_country_flag = romanian_turkey1 }
+		}
+		allow = {
+			owns = 883
+			tag = A06
+		}
+		effect = {
+			set_country_flag = romanian_turkey1
+			TUR_884 = {
+				add_core = A06
+			}
+			TUR_889 = {
+				add_core = A06
+			}
+			TUR_885 = {
+				add_core = A06
+			}
+		}
+				ai_will_do = {
+				factor = 10
+			}
+	}
+	romanian_turkey2 = {
+		picture = graet_eic
+		potential = {
+			tag = A06
+			has_country_flag = romanian_turkey1
+			NOT = { has_country_flag = romanian_turkey2 }
+		}
+		allow = {
+			tag = A06
+			owns = 883
+		}
+		effect = {
+			add_accepted_culture = north_caucasian
+			set_country_flag = romanian_turkey2
+			RUS_1098 = {
+				add_core = A06
+			}
+			RUS_1052 = {
+				add_core = A06
+			}
+			RUS_1048 = {
+				add_core = A06
+			}
+		}
+				ai_will_do = {
+				factor = 10
+			}
+	}
+	romanian_alban1 = {
+		picture = graet_eic
+		potential = {
+			year = 1855
+			tag = A06
+			has_country_flag = romanian_alban
+			NOT = { has_country_flag = romanian_alban1 }
+		}
+		allow = {
+			owns = 855
+			owns = 848
+			owns = 854
+		}
+		effect = {
+			set_country_flag = romanian_alban1
+			add_accepted_culture = maghrebi
+			EGY_1754 = {
+				add_core = A06
+			}
+			TRI_1739 = {
+				add_core = A06
+			}
+			EGY_1753 = {
+				add_core = A06
+			}
+			EGY_1758 = {
+				add_core = A06
+			}
+		}
+			ai_will_do = { factor = 10 }
+	}
 
 	
 #Решения Польши
@@ -2886,7 +3119,7 @@ graet_pol4 = {
 			set_country_flag = raise_Intermarium33
 			TUR_674 = { add_core = THIS }
 			TUR_810 = { add_core = THIS }
-			add_accepted_culture = bulgarian
+			add_accepted_culture = serb
 		}
 		ai_will_do = {
 			factor = 10
@@ -2974,7 +3207,7 @@ graet_pol4 = {
 			set_country_flag = raise_Intermarium334
 			TUR_674 = { add_core = THIS }
 			TUR_810 = { add_core = THIS }
-			add_accepted_culture = bulgarian
+			add_accepted_culture = serb
 		}
 		ai_will_do = {
 			factor = 10
@@ -3192,7 +3425,49 @@ graet_pol4 = {
 			factor = 10
 		}
 	}
+	Intermarium_gre = {
+		picture = graet_eic
+		potential = {
+			tag = A07
+			OR = {
+				has_country_flag = raise_Intermarium33
+				has_country_flag = raise_Intermarium334
+			}
+			NOT = { has_country_flag = Intermarium_gre }				
+		}
+		allow = { owns = 809 owns = 860 }
+		effect = {
+			set_country_flag = Intermarium_gre
+			add_accepted_culture = greek
+			TUR_805 = { add_core = THIS }
+			TUR_806 = { add_core = THIS }
+			TUR_803 = { add_core = THIS }
+		}
+	}
+	Intermarium_gre = {
+		picture = graet_eic
+		potential = {
+			tag = A07
+			has_country_flag = Intermarium_gre
+			NOT = { has_global_flag = form_Intermarium331 }				
+		}
+		allow = { owns = 823 }
+		effect = {
+			TUR_832 = { add_core = THIS }
+			GRE_837 = { add_core = THIS }
+			GRE_826 = { add_core = THIS }
+			EGY_843 = { add_core = THIS }
+		}
+	}
+	
+	
+	
 	#Северное решение
+	
+	
+
+	
+	
 	nord_Intermarium = {
 	picture = graet_eic
 		potential = {

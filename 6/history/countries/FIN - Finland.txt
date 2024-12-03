@@ -1,5 +1,5 @@
 capital = 343
-primary_culture = finnish
+primary_culture = swedish
 culture = swedish
 culture = russian
 religion = orthodox

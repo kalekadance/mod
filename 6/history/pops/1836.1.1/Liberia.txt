@@ -1,37 +1,37 @@
 #Monrovia
 1887 = {
     bureaucrats = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 5
     }
 
     officers = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 41810
     }

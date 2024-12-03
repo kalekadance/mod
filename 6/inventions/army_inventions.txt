@@ -925,12 +925,12 @@ A01_baff1 = {
 	effect = {
 		engineer = {
 			reconnaissance = 1
-			support = 0.75
-			defence = 2.5
+			support = 0.25
+			defence = 1.5
 			attack = 0.5
 		}
 		guard = {
-			attack = 6
+			attack = 3
 		}
 	}
 }

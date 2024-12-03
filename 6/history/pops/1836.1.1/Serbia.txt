@@ -25,25 +25,25 @@
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 3675
     }
@@ -255,49 +255,49 @@
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 4625
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 450
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 9375
     }
@@ -479,19 +479,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 3800
     }
@@ -561,19 +561,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 8050
     }
@@ -673,25 +673,25 @@
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 19800
     }
@@ -749,25 +749,25 @@
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 23550
     }
@@ -813,31 +813,31 @@
     }
 
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 35501
     }

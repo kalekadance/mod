@@ -10,6 +10,7 @@ non_state_culture_literacy = 0.25
 civilized = yes
 
 prestige = 15
+set_country_flag = A01_baff
 
 ruling_party = NIP_reactionary
 upper_house = {

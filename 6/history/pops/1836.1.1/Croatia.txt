@@ -31,19 +31,19 @@
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 900
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
@@ -59,13 +59,13 @@
 #Zagreb
 771 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 450
     }
 
     bureaucrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
@@ -77,31 +77,31 @@
     }
 
     officers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1450
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2500
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 79250
     }
@@ -183,31 +183,31 @@
 #Sisak
 772 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1575
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 900
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 175
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 96400
     }
@@ -241,31 +241,31 @@
 #Karlovac
 773 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 550
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1700
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 100400
     }
@@ -299,31 +299,31 @@
 #Senj
 774 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 275
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 650
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 91525
     }
@@ -357,31 +357,31 @@
 #Varadzin
 775 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2075
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 850
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 175
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 95600
     }
@@ -391,25 +391,25 @@
 #Bjelovar
 776 = {
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2675
     }
@@ -467,31 +467,31 @@
 #Pozega
 777 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2200
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 98375
     }
@@ -501,19 +501,19 @@
 #Fiume
 778 = {
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1900
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 95050
     }
@@ -583,25 +583,25 @@
 #Osijek
 779 = {
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2250
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1300
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 275
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 94175
     }
@@ -695,31 +695,31 @@
 #Split
 780 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 94350
     }
@@ -753,43 +753,43 @@
 #Zadar
 781 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     bureaucrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     officers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 90525
     }
@@ -853,31 +853,31 @@
 #Dubrovnik
 782 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 69225
     }
@@ -941,25 +941,25 @@
 #Vukovar
 793 = {
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 175
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 14875
     }

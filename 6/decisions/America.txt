@@ -235,8 +235,7 @@ political_decisions = {
 			change_tag = A10
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = afro_american
-			any_owned = { remove_core = USA } 
+			any_owned = { remove_core = USA remove_core = GCO } 
 		}
 		ai_will_do = {
 			factor = 1
@@ -287,7 +286,6 @@ political_decisions = {
 			add_core = 192
 			add_core = 193
 			add_core = 194
-			add_accepted_culture = texan
 			set_global_flag = NSNY_claims
 		}
 		ai_will_do = {
@@ -343,7 +341,6 @@ political_decisions = {
 			set_country_flag = NEN_annexation2
 			ENG_36 = { add_core = THIS }
 			add_accepted_culture = french_canadian
-			add_accepted_culture = icelandic
 		}
 		ai_will_do = {
 		factor = 1
@@ -360,15 +357,14 @@ political_decisions = {
 		}	
 		allow = {
 			tag = A10
-			year = 1855
+			year = 1845
 			prestige = 250
 		}
 	
 		effect = {
 			set_country_flag = NEN_annexation3
-			ENG_36 = { add_core = THIS }
 			ENG_30 = { add_core = THIS }
-			add_accepted_culture = danish
+			add_accepted_culture = swedish
 		}
 		ai_will_do = {
 			factor = 1
@@ -518,7 +514,6 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = CAL_action1
-			add_accepted_culture = texan
 			any_owned = { remove_core = TEX }
 		}
 		ai_will_do = {
@@ -547,7 +542,6 @@ political_decisions = {
 			add_core = 207
 			add_core = 208
 			add_core = 210
-			add_accepted_culture = afro_american
 			set_global_flag = CAL_defens
 		}
 		ai_will_do = {
@@ -626,11 +620,11 @@ political_decisions = {
 			change_tag = A11
 			prestige = 20
 			ruling_party_ideology = conservative
-			add_accepted_culture = metis
-			add_accepted_culture = danish
+			add_accepted_culture = swedish
 			any_owned = {
 				remove_core = TEX
 				remove_core = USA
+				remove_core = GCO
 			} 
 		}
 		ai_will_do = {
@@ -663,7 +657,6 @@ political_decisions = {
 				remove_core = CAL
 			}
 			add_accepted_culture = native_american_minor
-			add_accepted_culture = icelandic
 	    }
 		ai_will_do = {
 			factor = 1.5
@@ -680,7 +673,7 @@ political_decisions = {
 			}		
 		}	
 		allow = { 
-			raider_group_doctrine = 1
+			owns = 2138
 		}
 		effect = {
 			set_global_flag = CAL_action4
@@ -890,12 +883,14 @@ political_decisions = {
 			add_accepted_culture = mexican
 			add_accepted_culture = caribeno
 			any_owned = {
+				remove_core = GCO
 				remove_core = HON
 				remove_core = PNM
                 remove_core = ELS		
 				remove_core = NIC
 			}
 			CLM_2251 = { add_core = THIS }
+			SPA_2209 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -904,7 +899,10 @@ political_decisions = {
 	UCA_nord_claim = {
 	picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			NOT = { has_global_flag = UCA_nord_claim }
 		}
 		allow = {  
@@ -932,7 +930,10 @@ political_decisions = {
 	UCA_atlantic_claim = {
 	picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			NOT = { has_country_flag = UCA_atlantic_claim }
 		}
 		allow = {  
@@ -942,7 +943,6 @@ political_decisions = {
 		    }
 		}
 		effect = {
-			SPA_2209 = { add_core = THIS }
 			ENG_2224 = { add_core = THIS }
 			ENG_2228 = { add_core = THIS }
 			ENG_203 = { add_core = THIS }
@@ -957,7 +957,10 @@ political_decisions = {
 	UCA_atlantic_claim1 = {
 	picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			NOT = { has_country_flag = UCA_atlantic_claim1 }
 		}
 		allow = {  
@@ -980,7 +983,10 @@ political_decisions = {
 	UCA_nord_claim11 = {
 	picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			has_global_flag = UCA_nord_claim
 			NOT = { has_global_flag = UCA_nord_claim1 }
 		}
@@ -1006,15 +1012,17 @@ political_decisions = {
 	UCA_nord_claim2 = {
 		picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			has_global_flag = UCA_nord_claim1 
 			NOT = { has_global_flag = UCA_nord_claim2 }
 		}
 		allow = {  
 			OR = {
-				AND = {
-					USA_200 = { owned_by = UCA }
-				}
+				USA_200 = { owned_by = UCA }
+				USA_200 = { owned_by = A13 }
 				AND = {
 					year = 1865
 					ai = yes
@@ -1047,8 +1055,8 @@ political_decisions = {
 			add_accepted_culture = north_andean
 			set_global_flag = UCA_south_claim
 			add_country_modifier = { name = technical_school_UCA duration = 732 }
-			CLM_2259 = { remove_core = GCO }
-			VNZ_2234 = { remove_core = GCO	}
+			VNZ_2234 = { add_core = THIS }
+			CLM_2259 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -1075,9 +1083,9 @@ political_decisions = {
 		}
 		effect = { 
 			set_country_flag = UCA_south_claim1
-			CLM_2251 = { remove_core = GCO }
-			VNZ_2278 = { remove_core = GCO }
-			VNZ_2265 = { remove_core = GCO	}
+			CLM_2251 = { add_core = THIS }
+			VNZ_2278 = { add_core = THIS }
+			VNZ_2265 = { add_core = THIS }
 			add_country_modifier = { name = army_changed3 duration = -1}
 		}
 		ai_will_do = {
@@ -1103,6 +1111,7 @@ political_decisions = {
 		effect = { 
 			set_country_flag = UCA_south_claim2
 			ENG_1980 = { add_core = THIS }
+			CLM_2262 = { add_core = THIS }
 			ENG_1979 = { add_core = THIS }
 			ECU_2279 = { add_core = THIS }
 			PEU_2289 = { add_core = THIS }
@@ -1135,9 +1144,10 @@ political_decisions = {
 			PEU_2297 = { add_core = THIS }
 			PEU_2291 = { add_core = THIS }
 			PEU_2300 = { add_core = THIS }
-			BOL_2321 = { add_core = THIS }
-			BOL_2305 = { add_core = THIS }
-			BOL_2317 = { add_core = THIS }
+			BOL = {
+                any_owned = { add_core = THIS }
+            }
+			add_accepted_culture = south_andean
 		}
 		ai_will_do = {
 			factor = 1.5
@@ -1146,7 +1156,10 @@ political_decisions = {
 	UCA_south_claim4 = {
 	picture = graet_eic
 		potential = { 
+		OR = {
 			tag = UCA
+			tag = A13
+		}
 			has_country_flag = UCA_south_claim3
 			NOT = { has_country_flag = UCA_south_claim4 }
 		}
@@ -1176,7 +1189,6 @@ political_decisions = {
 	picture = graet_eic
 		potential = {
 				tag = UCA
-				NOT = { has_country_flag = A13_form }
 					}		
 		allow = {
 			tag = UCA
@@ -1202,6 +1214,38 @@ political_decisions = {
 			any_owned = { limit = { is_core = THIS } assimilate = yes } 
 		}
 	}
+	A13_raise = {
+		picture = graet_eic
+		potential = {
+			tag = A13
+			NOT = { has_country_flag = A13_raise }
+		}
+		allow = { owns = 2371 }
+		effect = {
+			URU_2344 = { add_core = THIS }
+			BRZ_2467 = { add_core = THIS }
+			BRZ_2462 = { add_core = THIS }
+			add_accepted_culture = platinean
+			set_country_flag = A13_raise  
+		}
+	}
+	A13_raise1 = {
+		picture = graet_eic
+		potential = {
+			tag = A13
+			has_country_flag = A13_raise
+			NOT = { has_country_flag = A13_raise1 }
+		}
+		allow = { owns = 2344 }
+		effect = {
+			BRZ_2416 = { add_core = THIS }
+			BRZ_2306 = { add_core = THIS }
+			BRZ_2477 = { add_core = THIS }
+			add_accepted_culture = brazilian
+			set_country_flag = A13_raise1  
+		}
+	}
+	
 #	delet_core = {
 #		picture = graet_eic
 #		potential = { 

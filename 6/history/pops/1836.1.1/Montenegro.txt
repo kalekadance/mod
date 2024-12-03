@@ -19,25 +19,25 @@
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 90825
     }
@@ -65,31 +65,31 @@
     }
 
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 5825
     }
@@ -157,31 +157,31 @@
     }
 
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 36501
     }
@@ -191,25 +191,25 @@
 #Kotor
 2582 = {
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 4650
     }

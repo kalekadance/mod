@@ -1,25 +1,25 @@
 #Iceland
 252 = {
     bureaucrats = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 2500
     }
 
     clergymen = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 2000
     }
 
     artisans = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 750
     }
 
     farmers = {
-        culture = icelandic
+        culture = swedish
         religion = orthodox
         size = 113125
     }

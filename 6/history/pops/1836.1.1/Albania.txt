@@ -1,61 +1,61 @@
 #Tirana
 849 = {
     aristocrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1500
     }
 
     bureaucrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     officers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 625
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 3200
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 86025
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 9425
     }
@@ -65,49 +65,49 @@
 #Shkoder
 850 = {
     aristocrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 2150
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 750
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 3800
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 67300
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1050
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 24725
     }
@@ -117,49 +117,49 @@
 #Durres
 851 = {
     aristocrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 600
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 21075
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 5450
     }
@@ -169,49 +169,49 @@
 #Vlore
 852 = {
     aristocrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1400
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 625
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 3250
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 700
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 96025
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 5450
     }
@@ -221,49 +221,49 @@
 #Gjirokaster
 853 = {
     aristocrats = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 750
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1250
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 700
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 425
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 52875
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 6650
     }

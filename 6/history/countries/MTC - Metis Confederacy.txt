@@ -1,5 +1,5 @@
 capital = 2648
-primary_culture = metis
+primary_culture = cree
 culture = russian
 culture = kazak
 religion = orthodox

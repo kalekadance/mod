@@ -155,7 +155,7 @@
     farmers = {
         culture = central_american
         religion = orthodox
-        size = 44250
+        size = 84250
     }
 
     clergymen = {

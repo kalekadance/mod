@@ -33,7 +33,7 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = spanish
 		religion = orthodox
 		size = 400
 	}

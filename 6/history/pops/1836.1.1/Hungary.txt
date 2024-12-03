@@ -233,49 +233,49 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 750
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 13950
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 6525
     }
@@ -393,31 +393,31 @@
     }
 
     officers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 15
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = orthodox
         size = 7435
     }
@@ -677,25 +677,25 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 275
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1500
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 29925
     }
@@ -1107,25 +1107,25 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 6600
     }
@@ -1225,25 +1225,25 @@
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 915
     }

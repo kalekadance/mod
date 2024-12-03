@@ -1,5 +1,5 @@
 capital = 252
-primary_culture = icelandic
+primary_culture = swedish
 religion = orthodox
 government = democracy
 plurality = 40

@@ -871,6 +871,20 @@ the_decline_of_the_west_and_the_lost_generation = {
 	core_pop_consciousness_modifier = 0.05
 }
 #the rights of man - called enlightenment_thought in files...
+A01_AP = {
+	limit = { 
+		enlightenment_thought = 1
+		has_country_flag = A01_baff
+	}
+	news = no
+	chance = { 
+		base = 90
+	}
+	effect = {
+		max_national_focus = 2 
+	}
+	org_regain = 0.1
+}
 paternalism = {
 	limit = { enlightenment_thought = 1 }
 	news = no

@@ -1,5 +1,5 @@
 capital = 2512
-primary_culture = british
+primary_culture = aborigine
 religion = orthodox
 government = hms_government
 plurality = 0.88

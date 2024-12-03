@@ -31,19 +31,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 2100
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 56475
     }
@@ -67,19 +67,19 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 700
     }
 
     farmers = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 275
     }
@@ -89,19 +89,19 @@
 #Bitola
 807 = {
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 425
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 36275
     }
@@ -149,25 +149,25 @@
     }
 
     clergymen = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = albanian
+        culture = serb
         religion = orthodox
         size = 52275
     }
@@ -191,13 +191,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 975
     }
