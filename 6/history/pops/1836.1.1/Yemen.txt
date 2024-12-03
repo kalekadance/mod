@@ -227,13 +227,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 250
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 10750
     }

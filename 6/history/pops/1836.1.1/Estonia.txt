@@ -1,25 +1,25 @@
 #Reval
 349 = {
     clergymen = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 325
     }
 
     artisans = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 750
     }
 
     soldiers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 134925
     }
@@ -31,7 +31,7 @@
     }
 
     bureaucrats = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 1075
     }
@@ -125,25 +125,25 @@
 #Narva
 350 = {
     clergymen = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 2425
     }
 
     artisans = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 2300
     }
 
     soldiers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 110825
     }
@@ -207,25 +207,25 @@
     }
 
     clergymen = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 2600
     }
 
     artisans = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 120800
     }
@@ -259,25 +259,25 @@
     }
 
     clergymen = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 2450
     }
 
     artisans = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 1300
     }
 
     soldiers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 350
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 124500
     }
@@ -335,25 +335,25 @@
     }
 
     clergymen = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 123625
     }

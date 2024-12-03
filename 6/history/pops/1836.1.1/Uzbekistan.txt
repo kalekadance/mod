@@ -1,43 +1,43 @@
 #Khiva
 1191 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 950
     }
 
     bureaucrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 125
     }
 
     officers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 125
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2300
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 88050
     }
@@ -59,31 +59,31 @@
 #Nukus
 1192 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 1150
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 87325
     }
@@ -131,31 +131,31 @@
     }
 
     aristocrats = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 175
     }
 
     soldiers = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 3650
     }
@@ -165,61 +165,61 @@
 #Dashhowuz
 1196 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 900
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2300
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 88850
     }
 
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 125
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 2775
     }
@@ -259,73 +259,73 @@
 #Kokand
 1202 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 1100
     }
 
     bureaucrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 200
     }
 
     officers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 225
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 550
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 7050
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 575
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 46350
     }
 
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 94600
     }
@@ -365,43 +365,43 @@
 #Bukhara
 1198 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 3750
     }
 
     bureaucrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 525
     }
 
     officers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 475
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2000
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 4300
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 16000
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 168950
     }
@@ -467,13 +467,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 1950
     }
@@ -483,31 +483,31 @@
 #Samarkand
 1199 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2250
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 1250
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 4700
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 7000
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 150800
     }
@@ -577,31 +577,31 @@
 #Qarshi
 1200 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 1100
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2550
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 525
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 86425
     }
@@ -637,31 +637,31 @@
     }
 
     aristocrats = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = turkmen
+        culture = kazak
         religion = orthodox
         size = 6425
     }

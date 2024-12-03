@@ -69,31 +69,31 @@
 	}
 
 	aristocrats = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 20
 	}
 
 	clergymen = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 100
 	}
 
 	soldiers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 23000
 	}
@@ -101,31 +101,31 @@
 #Maripasoula (3000/750 POPS)
 2246 = {
 	aristocrats = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 1500
 	}
 
 	artisans = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 350
 	}
 
 	soldiers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 2090
 	}
 
 	farmers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 68000
 	}

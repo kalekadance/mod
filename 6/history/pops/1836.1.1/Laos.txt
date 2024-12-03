@@ -1,43 +1,43 @@
 #Luangprabang
 1356 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 800
     }
 
     bureaucrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 2500
     }
 
     officers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 97940
     }
@@ -77,31 +77,31 @@
 #Vientiane
 1357 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 2150
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 93700
     }
@@ -141,31 +141,31 @@
 #Savannakhet
 1361 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 750
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 203700
     }
@@ -205,31 +205,31 @@
 #Satavan
 1362 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 450
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 2250
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 121096
     }
@@ -269,61 +269,61 @@
 #Xiangabouli
 1360 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 8300
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 125
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 6375
     }
@@ -333,31 +333,31 @@
 #Pakche
 1363 = {
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 275
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 2150
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 93700
     }

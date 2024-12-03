@@ -505,31 +505,31 @@
 #Mao
 1824 = {
     aristocrats = {
-        culture = bedouin
+        culture = african_minor
         religion = orthodox
         size = 1650
     }
 
     clergymen = {
-        culture = bedouin
+        culture = african_minor
         religion = orthodox
         size = 1325
     }
 
     artisans = {
-        culture = bedouin
+        culture = african_minor
         religion = orthodox
         size = 5325
     }
 
     soldiers = {
-        culture = bedouin
+        culture = african_minor
         religion = orthodox
         size = 350
     }
 
     farmers = {
-        culture = bedouin
+        culture = african_minor
         religion = orthodox
         size = 143500
     }

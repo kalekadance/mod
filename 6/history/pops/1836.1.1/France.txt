@@ -83,19 +83,19 @@
     }
 
     artisans = {
-        culture = wallonian
+        culture = dutch
         religion = orthodox
         size = 2500
     }
 
     soldiers = {
-        culture = wallonian
+        culture = dutch
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = wallonian
+        culture = dutch
         religion = orthodox
         size = 15000
     }
@@ -210,7 +210,7 @@
 
 }
 
-#Laon
+#thain
 403 = {
     aristocrats = {
         culture = french
@@ -2987,31 +2987,31 @@
     }
 
     aristocrats = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 2500
     }
 
     soldiers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 41200
     }
@@ -3171,31 +3171,31 @@
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 275
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2250
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 24975
     }

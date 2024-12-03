@@ -206,7 +206,7 @@
 
 }
 
-#Sainshand
+#Sainthaid
 2207 = {
     aristocrats = {
         culture = mongol
@@ -375,31 +375,31 @@
 #Kyzyl
 1469 = {
     aristocrats = {
-        culture = tatar
+        culture = ukrainian
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = tatar
+        culture = ukrainian
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = tatar
+        culture = ukrainian
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = tatar
+        culture = ukrainian
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = tatar
+        culture = ukrainian
         religion = orthodox
         size = 57300
     }

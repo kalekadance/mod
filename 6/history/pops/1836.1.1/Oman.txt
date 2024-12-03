@@ -67,19 +67,19 @@
     }
 
     artisans = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 9250
     }
@@ -259,19 +259,19 @@
     }
 
     artisans = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 925
     }

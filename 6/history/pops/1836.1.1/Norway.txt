@@ -65,7 +65,7 @@
     }
 
     farmers = {
-        culture = finnish
+        culture = swedish
         religion = orthodox
         size = 9100
     }
@@ -105,7 +105,7 @@
     }
 
     farmers = {
-        culture = finnish
+        culture = swedish
         religion = orthodox
         size = 15200
     }

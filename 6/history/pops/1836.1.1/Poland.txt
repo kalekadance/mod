@@ -2639,25 +2639,25 @@
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 4625
     }
@@ -2971,25 +2971,25 @@
 #Bialystock
 719 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 325
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 350
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 30225
     }
@@ -3025,25 +3025,25 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1250
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 28225
     }

@@ -1,31 +1,31 @@
 #Khojand
 1201 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 775
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 96425
     }
@@ -129,31 +129,31 @@
     }
 
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 175
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 3650
     }
