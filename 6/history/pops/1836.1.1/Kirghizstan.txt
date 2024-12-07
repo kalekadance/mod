@@ -1,31 +1,31 @@
 #Bishkek
 1189 = {
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 800
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 7000
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 83775
     }
@@ -61,31 +61,31 @@
     }
 
     aristocrats = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 125
     }
 
     clergymen = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 7375
     }
@@ -95,61 +95,61 @@
 #Naryn
 1190 = {
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 92775
     }
 
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 4575
     }
@@ -189,61 +189,61 @@
 #Osh
 1203 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 175
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 450
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 8200
     }
 
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 375
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 175
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 900
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 83550
     }

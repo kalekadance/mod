@@ -125,7 +125,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 225
+        size = 2225
     }
 
     artisans = {
@@ -143,7 +143,7 @@
     farmers = {
         culture = african_minor
         religion = orthodox
-        size = 16025
+        size = 86025
     }
 
     slaves = {

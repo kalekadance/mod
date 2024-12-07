@@ -1811,31 +1811,31 @@
     }
 
     aristocrats = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 1425
     }
 
     clergymen = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 2225
     }
 
     artisans = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 4050
     }
 
     soldiers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 81050
     }
@@ -1845,31 +1845,31 @@
 #Ladysmith
 2112 = {
     aristocrats = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 750
     }
 
     clergymen = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 2400
     }
 
     artisans = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 1950
     }
 
     soldiers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 90000
     }
@@ -1879,43 +1879,43 @@
 #Ulundi
 2113 = {
     aristocrats = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 1550
     }
 
     bureaucrats = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 25
     }
 
     officers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 3825
     }
 
     artisans = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 4000
     }
 
     soldiers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 1600
     }
 
     farmers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 140000
     }
@@ -1925,31 +1925,31 @@
 #Mbabane
 2114 = {
     aristocrats = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 1250
     }
 
     clergymen = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 2750
     }
 
     artisans = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 2350
     }
 
     soldiers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 750
     }
 
     farmers = {
-        culture = zulu
+        culture = african_minor
         religion = orthodox
         size = 33750
     }

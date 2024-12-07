@@ -173,31 +173,31 @@
     }
 
     clergymen = {
-        culture = armenian
+        culture = north_caucasian
         religion = orthodox
         size = 1150
     }
 
     artisans = {
-        culture = armenian
+        culture = north_caucasian
         religion = orthodox
         size = 1000
     }
 
     farmers = {
-        culture = armenian
+        culture = north_caucasian
         religion = orthodox
         size = 6750
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 1900
     }
@@ -267,7 +267,7 @@
     clergymen = {
         culture = mashriqi
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     artisans = {
@@ -327,7 +327,7 @@
     farmers = {
         culture = mashriqi
         religion = orthodox
-        size = 20500
+        size = 60500
     }
 
     clergymen = {

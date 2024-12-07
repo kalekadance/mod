@@ -79,25 +79,25 @@
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 200
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 4700
     }
@@ -2827,7 +2827,7 @@
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = french
         religion = orthodox
         size = 850
     }
@@ -3167,13 +3167,13 @@
     }
 
     clergymen = {
-        culture = wallonian
+        culture = dutch
         religion = orthodox
         size = 10
     }
 
     farmers = {
-        culture = wallonian
+        culture = dutch
         religion = orthodox
         size = 990
     }
@@ -3847,7 +3847,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = french
         religion = orthodox
         size = 700
     }
@@ -4915,25 +4915,25 @@
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 5650
     }
@@ -4997,25 +4997,25 @@
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 89000
     }

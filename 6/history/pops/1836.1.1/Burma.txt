@@ -1,31 +1,31 @@
 #Rangoon
 1330 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     artisans = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 22000
     }
@@ -55,31 +55,31 @@
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 475
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 2350
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 38700
     }
@@ -89,31 +89,31 @@
 #Bassein
 1331 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 275
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1350
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 24775
     }
@@ -147,31 +147,31 @@
 #Pegu
 1332 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 44200
     }
@@ -201,43 +201,43 @@
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 850
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 600
     }
 
     officers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 67300
     }
@@ -247,67 +247,67 @@
 #Toungoo
 1333 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 2325
     }
 
     artisans = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 350
     }
 
     farmers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 89425
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 38750
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
@@ -317,31 +317,31 @@
 #Ava
 1334 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 139600
     }
@@ -377,31 +377,31 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 6425
     }
@@ -411,73 +411,73 @@
 #Kyaukse
 1335 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1150
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 425
     }
 
     officers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1125
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 5500
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100500
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 4600
     }
@@ -487,31 +487,31 @@
 #Magwe
 1336 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 325
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 126875
     }
@@ -521,31 +521,31 @@
 #Prome
 1337 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 625
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 3625
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 154850
     }
@@ -555,85 +555,85 @@
 #Taunggyi
 1338 = {
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 900
     }
 
     bureaucrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 3500
     }
 
     officers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 175
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 850
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 126750
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     officers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 2000
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 225
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 18300
     }
@@ -643,31 +643,31 @@
 #Lashio
 1340 = {
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 2500
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 46000
     }
@@ -703,25 +703,25 @@
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 6475
     }
@@ -731,31 +731,31 @@
 #Haka
 1339 = {
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 3650
     }
@@ -883,67 +883,67 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 21050
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1350
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 20950
     }
@@ -953,33 +953,33 @@
 #Moulmein
 1343 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = karen
+        culture = thai
         religion = orthodox
-        size = 350
+        size = 2350
     }
 
     artisans = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = karen
+        culture = thai
         religion = orthodox
-        size = 30950
+        size = 90950
     }
 
     aristocrats = {
@@ -1007,37 +1007,37 @@
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 1500
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 5075
     }
@@ -1053,31 +1053,31 @@
 #Mergui
 1344 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 375
     }
 
     artisans = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = karen
+        culture = thai
         religion = orthodox
         size = 34825
     }
@@ -1113,31 +1113,31 @@
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 350
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 24050
     }
@@ -1153,67 +1153,67 @@
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 2750
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 11875
     }
 
     aristocrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 375
     }
 
     artisans = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 6250
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = orthodox
         size = 18825
     }

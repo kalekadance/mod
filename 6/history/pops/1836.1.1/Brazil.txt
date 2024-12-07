@@ -73,7 +73,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 33144
+        size = 83144
     }
 
     clergymen = {
@@ -165,7 +165,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 15000
+        size = 85000
     }
 
 }
@@ -233,7 +233,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 15000
+        size = 85000
     }
 
 }
@@ -301,7 +301,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 15000
+        size = 95000
     }
 
 }
@@ -351,31 +351,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
@@ -529,7 +529,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 11000
+        size = 81000
     }
 
 }
@@ -633,7 +633,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -651,7 +651,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 11000
+        size = 41000
     }
 
 }
@@ -823,25 +823,25 @@
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 227
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 345
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 3931
     }
@@ -871,7 +871,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 42000
     }
 
     aristocrats = {
@@ -883,7 +883,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 1545
     }
 
     artisans = {
@@ -947,7 +947,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -965,7 +965,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8000
+        size = 38000
     }
 
 }
@@ -993,7 +993,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 52000
     }
 
     aristocrats = {
@@ -1005,7 +1005,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 22
+        size = 1822
     }
 
     artisans = {
@@ -1033,7 +1033,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 1345
     }
 
     artisans = {
@@ -1051,35 +1051,35 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 1660
+        size = 61660
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 45
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 136
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 22
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 2457
     }
@@ -1109,7 +1109,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 68
+        size = 1268
     }
 
     artisans = {
@@ -1127,35 +1127,35 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 4868
+        size = 54868
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 227
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1501
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2730
     }
@@ -1267,7 +1267,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -1285,7 +1285,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8000
+        size = 28000
     }
 
 }
@@ -1335,31 +1335,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 682
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4572
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8190
     }
@@ -1453,35 +1453,35 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 16290
+        size = 46290
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 819
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1159
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5323
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9010
     }
@@ -1579,31 +1579,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
@@ -1655,31 +1655,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 773
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 159
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5369
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9100
     }
@@ -1719,31 +1719,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
@@ -1783,31 +1783,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 682
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4572
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8190
     }
@@ -1859,31 +1859,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2730
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 159
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6412
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9100
     }
@@ -1923,31 +1923,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 10000
     }
@@ -1987,31 +1987,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 728
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 159
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6004
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9100
     }
@@ -2051,31 +2051,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 591
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 113
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8799
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 12000
     }
@@ -2127,31 +2127,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5005
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 273
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5505
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 16380
     }
@@ -2191,31 +2191,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 113
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1183
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 7553
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 14560
     }
@@ -2255,31 +2255,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 682
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4572
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8190
     }
@@ -2319,31 +2319,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 591
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9000
     }
@@ -2383,31 +2383,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 268
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1637
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 536
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 15073
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 17735
     }
@@ -2459,31 +2459,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 91
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1001
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 204
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8303
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 11830
     }
@@ -2523,31 +2523,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 7600
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 14000
     }
@@ -2587,31 +2587,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1400
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 16000
     }
@@ -2651,31 +2651,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 409
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8639
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9005
     }
@@ -2715,31 +2715,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 455
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 91
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 3048
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5460
     }
@@ -2779,31 +2779,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 91
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 910
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 182
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6097
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 10920
     }
@@ -2855,31 +2855,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2138
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 273
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8372
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 16380
     }
@@ -2919,31 +2919,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 91
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 910
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 182
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 7371
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 10920
     }
@@ -2983,31 +2983,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 90
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 7000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 10000
     }
@@ -3089,7 +3089,7 @@
     bureaucrats = {
         culture = brazilian
         religion = orthodox
-        size = 113
+        size = 3113
     }
 
     officers = {
@@ -3101,7 +3101,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -3119,35 +3119,35 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 38039
+        size = 68039
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 682
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 136
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4572
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8190
     }
@@ -3187,31 +3187,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1000
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 11000
     }
@@ -3251,31 +3251,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 9000
     }
@@ -3293,7 +3293,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 91
+        size = 1591
     }
 
     artisans = {
@@ -3311,35 +3311,35 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8281
+        size = 48281
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 182
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1092
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2275
     }
@@ -3379,31 +3379,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 1000
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 10000
     }
@@ -3415,7 +3415,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -3433,7 +3433,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 42000
     }
 
     aristocrats = {
@@ -3513,31 +3513,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8000
     }
@@ -3577,31 +3577,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 120
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
@@ -3665,61 +3665,61 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 3000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5000
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 8000
     }
@@ -3759,31 +3759,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 3000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 5000
     }
@@ -3847,31 +3847,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 273
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 4000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 6000
     }
@@ -3911,31 +3911,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 318
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 68
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8275
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 13640
     }
@@ -3987,31 +3987,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 591
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 113
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8799
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 7280
     }
@@ -4051,31 +4051,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 12000
     }
@@ -4115,55 +4115,55 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2270
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 15470
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 2730
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 45
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 227
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 45
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 4231
     }
@@ -4203,31 +4203,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8000
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = brazilian
         religion = orthodox
         size = 8000
     }
@@ -4261,31 +4261,31 @@
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 680
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 2270
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 1450
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 41630
     }
@@ -4303,7 +4303,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 2045
     }
 
     artisans = {
@@ -4321,7 +4321,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 3298
+        size = 93298
     }
 
 }

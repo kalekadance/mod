@@ -307,31 +307,31 @@
 #Arviat
 43 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 3500
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 40
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 1000
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 170025
     }
@@ -341,31 +341,31 @@
 #Echo Bay
 44 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 2300
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 80000
     }
@@ -375,31 +375,31 @@
 #Baffin Island
 45 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 90000
     }
@@ -409,31 +409,31 @@
 #Nunavut
 2595 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 35
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 150000
     }
@@ -783,25 +783,25 @@
 #Edmonton
 22 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 1000
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 33910
     }
@@ -973,25 +973,25 @@
 #Calgary
 26 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 30910
     }
@@ -1031,25 +1031,25 @@
 #Denwood
 27 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 30910
     }
@@ -1095,19 +1095,19 @@
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 5012
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 910
     }
@@ -1245,25 +1245,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 1200
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 40000
     }
@@ -1307,25 +1307,25 @@
 #Prince Albert
 32 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 1000
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 20000
     }
@@ -1365,25 +1365,25 @@
 #Asquith
 33 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 910
     }
@@ -1423,25 +1423,25 @@
 #Saskatoon
 34 = {
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 910
     }
@@ -1545,49 +1545,49 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 910
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 90100
     }
@@ -1695,25 +1695,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 98564
     }
@@ -1753,25 +1753,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 91000
     }
@@ -1811,25 +1811,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 90100
     }
@@ -1869,25 +1869,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 90100
     }
@@ -1939,7 +1939,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 35
+        size = 735
     }
 
     artisans = {
@@ -1957,7 +1957,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 1440
+        size = 31440
     }
 
 }
@@ -1995,25 +1995,25 @@
     }
 
     clergymen = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 15
     }
 
     farmers = {
-        culture = metis
+        culture = cree
         religion = orthodox
         size = 910
     }
@@ -2163,7 +2163,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 525
     }
 
     artisans = {
@@ -2181,7 +2181,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 900
+        size = 33900
     }
 
 }
@@ -2231,7 +2231,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 35
+        size = 935
     }
 
     artisans = {
@@ -2249,7 +2249,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 21445
+        size = 41445
     }
 
 }
@@ -2293,7 +2293,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 550
     }
 
     artisans = {
@@ -2311,7 +2311,7 @@
     labourers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 8350
+        size = 48350
     }
 
 }
@@ -2349,7 +2349,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 150
+        size = 1150
     }
 
     artisans = {
@@ -2367,7 +2367,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 13925
+        size = 63925
     }
 
     clergymen = {
@@ -2459,7 +2459,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 15
+        size = 615
     }
 
     artisans = {
@@ -2477,7 +2477,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 630
+        size = 52630
     }
 
 }
@@ -2485,31 +2485,31 @@
 #Ungava
 2592 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 20
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 35000
     }
@@ -2549,31 +2549,31 @@
 #Port Harrison
 2626 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 2
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 3
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 35000
     }
@@ -2613,31 +2613,31 @@
 #Fort Chimo
 2627 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 20
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 35360
     }
@@ -2685,7 +2685,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 725
     }
 
     artisans = {
@@ -2703,7 +2703,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 520
+        size = 33520
     }
 
 }
@@ -2719,7 +2719,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 10
+        size = 710
     }
 
     artisans = {
@@ -2737,7 +2737,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 360
+        size = 55360
     }
 
 }
@@ -2875,7 +2875,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 1025
     }
 
     artisans = {
@@ -2893,7 +2893,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 900
+        size = 30900
     }
 
     clergymen = {
@@ -2917,7 +2917,7 @@
     farmers = {
         culture = french_canadian
         religion = orthodox
-        size = 915
+        size = 30915
     }
 
 }
@@ -3065,7 +3065,7 @@
     clergymen = {
         culture = french_canadian
         religion = orthodox
-        size = 250
+        size = 850
     }
 
     artisans = {
@@ -3083,7 +3083,7 @@
     farmers = {
         culture = french_canadian
         religion = orthodox
-        size = 10900
+        size = 40900
     }
 
 }
@@ -3179,7 +3179,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 75
+        size = 675
     }
 
     artisans = {
@@ -3197,7 +3197,7 @@
     labourers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 11175
+        size = 41175
     }
 
     clergymen = {
@@ -3265,7 +3265,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 100
+        size = 1100
     }
 
     artisans = {
@@ -3283,7 +3283,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 14600
+        size = 34600
     }
 
     labourers = {
@@ -3293,7 +3293,7 @@
     }
 
     labourers = {
-        culture = afro_american
+        culture = dixie
         religion = orthodox
         size = 750
     }
@@ -3305,7 +3305,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -3323,7 +3323,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 21040
+        size = 31040
     }
 
     labourers = {
@@ -3339,7 +3339,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 750
     }
 
     artisans = {
@@ -3357,7 +3357,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 4650
+        size = 44650
     }
 
 }
@@ -3395,19 +3395,19 @@
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 60900
     }
@@ -3441,19 +3441,19 @@
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 36000
     }
@@ -3463,31 +3463,31 @@
 #Hopedale
 76 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 5
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25450
     }
@@ -3497,31 +3497,31 @@
 #Port Hope Simpson
 2625 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 75
     }
 
     soldiers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 31350
     }
@@ -3531,25 +3531,25 @@
 #St Pierre & Miquelon
 77 = {
     bureaucrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 4
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 45
     }
 
     labourers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 75000
     }

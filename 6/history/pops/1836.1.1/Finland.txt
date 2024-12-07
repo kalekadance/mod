@@ -1,184 +1,184 @@
 336 = {
 	bureaucrats = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 936
 	}
 	officers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 220
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1360
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4728
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1360
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 43399
 	}
 }
 337 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 500
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1800
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 2200
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 33890
 	}
 }
 338 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 980
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4320
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 910
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 80300
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4550
 	}
 }
 339 = {
 	bureaucrats = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	officers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 91
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 364
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1956
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 364
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 38857
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 227
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4231
 	}
 	aristocrats = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	bureaucrats = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 136
 	}
 	officers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 22
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 91
 	}
 }
 340 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1130
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 3682
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1360
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 62717
 	}
@@ -205,96 +205,96 @@
 }
 341 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 250
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1319
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 250
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 24592
 	}
 }
 342 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 318
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1683
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 318
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 31326
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 13
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 45
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 9
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 841
 	}
 }
 343 = {
 	officers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 450
 	}
 	bureaucrats = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 836
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 1360
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 2047
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 2910
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 57654
 	}
@@ -336,22 +336,22 @@
 }
 344 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 400
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 950
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 910
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 24508
 	}
@@ -383,22 +383,22 @@
 }
 345 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 523
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 2684
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 910
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 49572
 	}
@@ -430,22 +430,22 @@
 }
 346 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 432
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 2366
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 910
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 43611
 	}
@@ -477,22 +477,22 @@
 }
 347 = {
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 136
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 910
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 182
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 16971
 	}
@@ -544,22 +544,22 @@
 		size = 2174
 	}
 	clergymen = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4
 	}
 	artisans = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 9
 	}
 	soldiers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 4
 	}
 	farmers = {
-		culture = finnish
+		culture = swedish
 		religion = orthodox
 		size = 118
 	}

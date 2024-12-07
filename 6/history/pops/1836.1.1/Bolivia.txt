@@ -43,49 +43,49 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 2525
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 1075
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 63100
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 2775
     }
@@ -125,25 +125,25 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 3250
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 60400
     }
@@ -183,27 +183,27 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 6500
+        size = 90500
     }
 
 }
@@ -243,7 +243,7 @@
     soldiers = {
         culture = south_andean
         religion = orthodox
-        size = 50
+        size = 1425
     }
 
     farmers = {
@@ -253,27 +253,27 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 1050
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 23325
+        size = 93325
     }
 
 }
@@ -311,27 +311,27 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 1350
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 275
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 25250
+        size = 95250
     }
 
 }
@@ -369,27 +369,27 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 600
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 11225
+        size = 71225
     }
 
 }
@@ -435,29 +435,29 @@
     farmers = {
         culture = south_andean
         religion = orthodox
-        size = 20735
+        size = 90735
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 2775
     }
@@ -487,65 +487,65 @@
     farmers = {
         culture = south_andean
         religion = orthodox
-        size = 39900
+        size = 99900
     }
 
     aristocrats = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 1800
     }
 
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 1800
     }
@@ -555,33 +555,33 @@
 #Robore
 2318 = {
     aristocrats = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 75
+        size = 2175
     }
 
     artisans = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = guarani
+        culture = platinean
         religion = orthodox
-        size = 2700
+        size = 92700
     }
 
 }
@@ -627,59 +627,59 @@
     farmers = {
         culture = south_andean
         religion = orthodox
-        size = 32400
+        size = 132400
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 100
+        size = 1425
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 9350
     }
 
     aristocrats = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 5475
     }
@@ -689,33 +689,33 @@
 #Riberalta
 2320 = {
     aristocrats = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
-        size = 75
+        size = 1775
     }
 
     artisans = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
-        size = 22700
+        size = 92700
     }
 
 }
@@ -753,55 +753,55 @@
     }
 
     clergymen = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = aimara
+        culture = south_andean
         religion = orthodox
-        size = 22775
+        size = 92775
     }
 
     aristocrats = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = amazonian
+        culture = brazilian
         religion = orthodox
         size = 2700
     }

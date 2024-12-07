@@ -85,13 +85,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 4475
     }
@@ -395,13 +395,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 20
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 1230
     }
@@ -489,7 +489,7 @@
     }
 
     artisans = {
-        culture = sephardic
+        culture = maghrebi
         religion = orthodox
         size = 400
     }
@@ -793,13 +793,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 250
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 9750
     }
@@ -933,31 +933,31 @@
     }
 
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 15
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 35
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 19000
     }
@@ -1185,31 +1185,31 @@
     }
 
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 15
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 35
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 40000
     }
@@ -1283,31 +1283,31 @@
 #Tindouf
 1716 = {
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 3500
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 190000
     }
@@ -1317,31 +1317,31 @@
 #Chenachene
 1717 = {
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 3500
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 2250
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 190000
     }
@@ -1359,7 +1359,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 150
+        size = 2150
     }
 
     artisans = {
@@ -1385,31 +1385,31 @@
 #Ilizi
 1719 = {
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 3500
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 190000
     }
@@ -1419,31 +1419,31 @@
 #Timimoun
 1720 = {
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 4000
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 300
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 220000
     }
@@ -1461,7 +1461,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 150
+        size = 3150
     }
 
     artisans = {
@@ -1495,7 +1495,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
@@ -1529,7 +1529,7 @@
     clergymen = {
         culture = maghrebi
         religion = orthodox
-        size = 20
+        size = 2220
     }
 
     artisans = {
@@ -1551,31 +1551,31 @@
     }
 
     aristocrats = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 3500
     }
 
     soldiers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = african_minor
+        culture = maghrebi
         religion = orthodox
         size = 60000
     }

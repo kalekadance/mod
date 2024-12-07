@@ -297,7 +297,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     artisans = {
@@ -455,31 +455,31 @@
     }
 
     aristocrats = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 550
     }
 
     soldiers = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = uighur
+        culture = mongol
         religion = orthodox
         size = 10025
     }
@@ -489,31 +489,31 @@
 #Alma Ata
 1186 = {
     aristocrats = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = kirgiz
+        culture = kazak
         religion = orthodox
         size = 85475
     }
@@ -553,31 +553,31 @@
 #Kyzylorda
 1193 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 700
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 82775
     }
@@ -625,7 +625,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 75
+        size = 1275
     }
 
     artisans = {
@@ -685,31 +685,31 @@
 #Shymkent
 1197 = {
     aristocrats = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 750
     }
 
     soldiers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = uzbek
+        culture = kazak
         religion = orthodox
         size = 93725
     }

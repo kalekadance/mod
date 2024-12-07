@@ -1,4 +1,4 @@
-capital = 2247
+capital = 2417
 primary_culture = north_andean
 culture = brazilian
 culture = afro_brazilian

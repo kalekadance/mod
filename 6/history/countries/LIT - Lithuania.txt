@@ -1,5 +1,6 @@
 capital = 360
 primary_culture = lithuanian
+culture = polish
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.2

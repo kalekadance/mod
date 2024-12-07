@@ -1,25 +1,25 @@
 #Saint Thomas
 2223 = {
     aristocrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 200
     }
 
     bureaucrats = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 375
     }
 
     farmers = {
-        culture = danish
+        culture = swedish
         religion = orthodox
         size = 400
     }

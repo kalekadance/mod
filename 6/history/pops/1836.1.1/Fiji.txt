@@ -1,67 +1,68 @@
-#Eastern Melanesia (96000) 
-#uncolonized in 1836 #ruled by the King of Fiji}
-#Fiji (88000/22000 POPS) 
+#Fiji
 2454 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 1425
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 1425
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 1225
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 3225
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 4100
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 4100
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 225
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 225
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 200025
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 200025
+    }
+
 }
-#Lomaji (8000/2000 POPS) 
+
+#Taveuni
 2520 = {
-	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 250
-	}
+    aristocrats = {
+        culture = aborigine
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = aborigine
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 4000
-	}
+    artisans = {
+        culture = aborigine
+        religion = orthodox
+        size = 4000
+    }
 
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = aborigine
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = aborigine
-		religion = orthodox
-		size = 120000
-	}
+    farmers = {
+        culture = aborigine
+        religion = orthodox
+        size = 120000
+    }
+
 }
 

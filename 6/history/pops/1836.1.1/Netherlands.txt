@@ -74,7 +74,7 @@
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 6000
 	}
@@ -124,7 +124,7 @@
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 2500
 	}
@@ -200,13 +200,13 @@
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 2500
 	}
@@ -264,19 +264,19 @@
 	}
 
 	clergymen = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 6000
 	}
@@ -346,7 +346,7 @@
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = dutch
 		religion = orthodox
 		size = 2000
 	}

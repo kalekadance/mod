@@ -79,19 +79,19 @@
     }
 
     clergymen = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 1250
     }
 
     farmers = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 700
     }
@@ -191,19 +191,19 @@
     }
 
     clergymen = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 1250
     }
 
     farmers = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 700
     }
@@ -975,19 +975,19 @@
     }
 
     clergymen = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 1600
     }
 
     farmers = {
-        culture = nanfaren
+        culture = beifaren
         religion = orthodox
         size = 1350
     }
@@ -1127,25 +1127,25 @@
     }
 
     clergymen = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 300
     }
 
     artisans = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 1450
     }
 
     soldiers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 27000
     }
@@ -1185,25 +1185,25 @@
     }
 
     clergymen = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     artisans = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 14900
     }

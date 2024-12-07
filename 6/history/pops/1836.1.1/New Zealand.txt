@@ -9,7 +9,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 75
+        size = 1575
     }
 
     artisans = {
@@ -27,7 +27,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 33575
+        size = 133575
     }
 
     farmers = {
@@ -49,7 +49,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -67,7 +67,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 31775
+        size = 131775
     }
 
 }
@@ -83,7 +83,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 75
+        size = 2275
     }
 
     artisans = {
@@ -101,7 +101,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 32675
+        size = 232675
     }
 
 }
@@ -117,7 +117,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 75
+        size = 3775
     }
 
     artisans = {
@@ -135,7 +135,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 32675
+        size = 232675
     }
 
 }
@@ -151,7 +151,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 75
+        size = 1575
     }
 
     artisans = {
@@ -169,7 +169,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 32675
+        size = 132675
     }
 
 }
@@ -185,7 +185,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 25
+        size = 2225
     }
 
     artisans = {
@@ -203,7 +203,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 31900
+        size = 181900
     }
 
 }
@@ -219,7 +219,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 25
+        size = 2325
     }
 
     artisans = {
@@ -237,7 +237,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 31900
+        size = 231900
     }
 
 }
@@ -253,7 +253,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 50
+        size = 2250
     }
 
     artisans = {
@@ -287,7 +287,7 @@
     clergymen = {
         culture = aborigine
         religion = orthodox
-        size = 75
+        size = 3375
     }
 
     artisans = {
@@ -305,7 +305,7 @@
     farmers = {
         culture = aborigine
         religion = orthodox
-        size = 32675
+        size = 232675
     }
 
 }

@@ -59,31 +59,31 @@
 #Aperina (8000/2000 POPS)
 2245 = {
 	aristocrats = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 500
 	}
 
 	artisans = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 1000
 	}
 
 	soldiers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 250
 	}
 
 	farmers = {
-		culture = amazonian
+		culture = brazilian
 		religion = orthodox
 		size = 115000
 	}

@@ -1,7 +1,8 @@
 capital = 1121
 primary_culture = persian
-culture = azerbaijani
+culture = kazak
 culture = baluchi
+culture = north_caucasian
 religion = orthodox
 government = absolute_monarchy
 plurality = 40

@@ -19,43 +19,43 @@
     }
 
     aristocrats = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 1200
     }
 
     bureaucrats = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 1200
     }
 
     artisans = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 4500
     }
 
     soldiers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 4000
     }
 
     farmers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 108250
     }
@@ -65,31 +65,31 @@
 #Chitral
 1223 = {
     aristocrats = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 41000
     }
@@ -99,31 +99,31 @@
 #Quetta
 1219 = {
     aristocrats = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 1350
     }
 
     clergymen = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 1325
     }
 
     artisans = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 9000
     }
 
     soldiers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 7000
     }
 
     farmers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 123250
     }
@@ -133,31 +133,31 @@
 #Dalbandin
 1220 = {
     aristocrats = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 1250
     }
 
     clergymen = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 1250
     }
 
     artisans = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 6100
     }
 
     soldiers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 7000
     }
 
     farmers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 135000
     }
@@ -167,43 +167,43 @@
 #Kalat
 1221 = {
     aristocrats = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 2500
     }
 
     bureaucrats = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 2500
     }
 
     officers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 750
     }
 
     clergymen = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 12500
     }
 
     soldiers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 7000
     }
 
     farmers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 269250
     }
@@ -213,43 +213,43 @@
 #Bela
 1222 = {
     aristocrats = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 1350
     }
 
     bureaucrats = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 250
     }
 
     officers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 250
     }
 
     clergymen = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 1300
     }
 
     artisans = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 8500
     }
 
     soldiers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 3100
     }
 
     farmers = {
-        culture = baluchi
+        culture = persian
         religion = orthodox
         size = 178000
     }
@@ -289,85 +289,85 @@
     }
 
     aristocrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 350
     }
 
     bureaucrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 325
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 325
     }
 
     farmers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 29975
     }
 
     aristocrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 1600
     }
 
     bureaucrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 9000
     }
 
     soldiers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 114825
     }
@@ -377,91 +377,91 @@
 #Gilgit
 1225 = {
     aristocrats = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 50
     }
 
     clergymen = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = pashtun
+        culture = persian
         religion = orthodox
         size = 4600
     }
 
     aristocrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 450
     }
 
     clergymen = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 36725
     }
 
     aristocrats = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 19575
     }
@@ -471,61 +471,61 @@
 #Leh
 1226 = {
     aristocrats = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 350
     }
 
     soldiers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 75
     }
 
     farmers = {
-        culture = kashmiri
+        culture = panjabi
         religion = orthodox
         size = 6425
     }
 
     aristocrats = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 2100
     }
 
     soldiers = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = tibetan
+        culture = mongol
         religion = orthodox
         size = 38675
     }
@@ -1365,31 +1365,31 @@
     }
 
     aristocrats = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 1100
     }
 
     clergymen = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 750
     }
 
     artisans = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 3500
     }
 
     soldiers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 3000
     }
 
     farmers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 70750
     }
@@ -1707,31 +1707,31 @@
     }
 
     aristocrats = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 45000
     }
@@ -3493,7 +3493,7 @@
     clergymen = {
         culture = asian_minor
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -8661,43 +8661,43 @@
 #Tumlong
 1328 = {
     aristocrats = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 250
     }
 
     bureaucrats = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 10
     }
 
     officers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 15
     }
 
     clergymen = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 700
     }
 
     soldiers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = nepali
+        culture = panjabi
         religion = orthodox
         size = 11900
     }

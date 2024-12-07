@@ -1,25 +1,25 @@
 #Riga
 354 = {
     clergymen = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 325
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 1500
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 98775
     }
@@ -119,25 +119,25 @@
 #Valmiera
 355 = {
     clergymen = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 3100
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 1150
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 106500
     }
@@ -255,25 +255,25 @@
 #Daugavpils
 356 = {
     clergymen = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 3000
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 96675
     }
@@ -361,25 +361,25 @@
 #Jelgava
 357 = {
     clergymen = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 2250
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 168275
     }
@@ -443,19 +443,19 @@
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 275
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 159450
     }
@@ -485,7 +485,7 @@
     }
 
     farmers = {
-        culture = estonian
+        culture = polish
         religion = orthodox
         size = 1500
     }
@@ -519,25 +519,25 @@
 #Liepaja
 359 = {
     clergymen = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 1275
     }
 
     artisans = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = latvian
+        culture = polish
         religion = orthodox
         size = 51475
     }

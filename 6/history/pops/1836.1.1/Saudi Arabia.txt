@@ -409,7 +409,7 @@
     clergymen = {
         culture = bedouin
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -427,7 +427,7 @@
     farmers = {
         culture = bedouin
         religion = orthodox
-        size = 36750
+        size = 86750
     }
 
 }
@@ -443,7 +443,7 @@
     clergymen = {
         culture = bedouin
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -461,7 +461,7 @@
     farmers = {
         culture = bedouin
         religion = orthodox
-        size = 55250
+        size = 75250
     }
 
 }
@@ -477,7 +477,7 @@
     clergymen = {
         culture = bedouin
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -495,7 +495,7 @@
     farmers = {
         culture = bedouin
         religion = orthodox
-        size = 27500
+        size = 87500
     }
 
 }
@@ -511,7 +511,7 @@
     clergymen = {
         culture = bedouin
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -529,7 +529,7 @@
     farmers = {
         culture = bedouin
         religion = orthodox
-        size = 55250
+        size = 85250
     }
 
 }

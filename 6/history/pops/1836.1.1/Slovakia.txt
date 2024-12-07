@@ -1,7 +1,7 @@
 #Bratislava
 633 = {
     bureaucrats = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 125
     }
@@ -13,31 +13,31 @@
     }
 
     officers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1200
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 6200
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1250
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 115150
     }
@@ -185,25 +185,25 @@
 #Trencin
 634 = {
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 2600
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 48400
     }
@@ -267,25 +267,25 @@
 #Nitra
 635 = {
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 650
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 3400
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 650
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 63300
     }
@@ -397,25 +397,25 @@
 #Banska Bystrica
 636 = {
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 475
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 2650
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 49375
     }
@@ -449,37 +449,37 @@
 #Kosice
 637 = {
     bureaucrats = {
-        culture = slovak
+        culture = czech
         religion = orthodox
-        size = 75
+        size = 2575
     }
 
     officers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 975
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 5000
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 93875
     }
@@ -663,25 +663,25 @@
 #Roznava
 638 = {
     clergymen = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1750
     }
 
     artisans = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 200
     }
 
     farmers = {
-        culture = slovak
+        culture = czech
         religion = orthodox
         size = 138625
     }

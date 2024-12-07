@@ -167,7 +167,7 @@
     clergymen = {
         culture = thai
         religion = orthodox
-        size = 400
+        size = 1400
     }
 
     artisans = {
@@ -185,7 +185,7 @@
     farmers = {
         culture = thai
         religion = orthodox
-        size = 37300
+        size = 87300
     }
 
     slaves = {
@@ -673,37 +673,37 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 1425
     }
 
     officers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 75
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 2550
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 525
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 46250
     }
@@ -743,61 +743,61 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 425
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 1150
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = orthodox
         size = 71075
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 375
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 225
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 20200
     }
@@ -849,31 +849,31 @@
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 2500
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 1300
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 6400
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 1200
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 116600
     }
@@ -913,61 +913,61 @@
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 325
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 175
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 875
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 175
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = orthodox
         size = 17450
     }
 
     aristocrats = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 2750
     }
@@ -1007,31 +1007,31 @@
     }
 
     aristocrats = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 150
     }
 
     clergymen = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 1600
     }
 
     artisans = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = khmer
+        culture = thai
         religion = orthodox
         size = 99150
     }

@@ -77,19 +77,19 @@
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 15000
     }
@@ -209,19 +209,19 @@
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 15000
     }
@@ -261,13 +261,13 @@
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 18000
     }
@@ -757,31 +757,31 @@
 #BIlbao
 492 = {
     aristocrats = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 600
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 550
     }
 
     artisans = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 3000
     }
 
     soldiers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 550
     }
 
     farmers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 51800
     }
@@ -821,43 +821,43 @@
 #Pamplona
 493 = {
     aristocrats = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 1400
     }
 
     officers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 500
     }
 
     bureaucrats = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 800
     }
 
     artisans = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 5000
     }
 
     soldiers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 1200
     }
 
     labourers = {
-        culture = basque
+        culture = spanish
         religion = orthodox
         size = 50000
     }
@@ -991,13 +991,13 @@
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1950
     }
@@ -1037,31 +1037,31 @@
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1300
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 4000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2600
     }
 
     labourers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 35000
     }
@@ -1105,61 +1105,61 @@
 #Barcelona
 498 = {
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1700
     }
 
     officers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 200
     }
 
     bureaucrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 3550
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2825
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 10000
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2000
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 53225
     }
@@ -1211,31 +1211,31 @@
 #Gerona
 499 = {
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 900
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 4000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2500
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 50000
     }
@@ -1275,31 +1275,31 @@
 #Lerida
 500 = {
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 600
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 5000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 3000
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 50000
     }
@@ -1339,31 +1339,31 @@
 #Tarragona
 501 = {
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 900
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2500
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 6000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 700
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 80000
     }
@@ -1403,61 +1403,61 @@
 #Balearic Islands
 502 = {
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 6000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 33300
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 3000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 200
     }
 
     labourers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 15900
     }
@@ -1515,43 +1515,43 @@
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1100
     }
 
     officers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 100
     }
 
     bureaucrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2250
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 69675
     }
@@ -1591,31 +1591,31 @@
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 500
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2275
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 1700
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 40000
     }
@@ -1655,31 +1655,31 @@
     }
 
     aristocrats = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     clergymen = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 2000
     }
 
     soldiers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 400
     }
 
     labourers = {
-        culture = catalan
+        culture = spanish
         religion = orthodox
         size = 38300
     }

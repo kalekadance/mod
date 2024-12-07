@@ -1,128 +1,114 @@
-#Costa Rica Region (84000)
-#Ruled by Central America 1836
-#San Jose (52000/13000 POPS)
+#San Jose
 2201 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 1000
-		#militancy = 9
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 1000
+    }
 
-	bureaucrats = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-		#militancy = 9
-	}
+    bureaucrats = {
+        culture = central_american
+        religion = orthodox
+        size = 500
+    }
 
-	officers = {
-		culture = central_american
-		religion = orthodox
-		size = 250
-		#militancy = 9
-	}
+    officers = {
+        culture = central_american
+        religion = orthodox
+        size = 250
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 1250
-		#militancy = 9
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 1250
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 6500
-		#militancy = 9
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 6500
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 1250
-		#militancy = 9
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 1250
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 97250
-		#militancy = 9
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 97250
+    }
+
 }
-#Liberia (20000/5000 POPS)
+
+#Liberia
 2202 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 550
-		#militancy = 9
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 550
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-		#militancy = 9
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 1500
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 2500
-		#militancy = 9
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 2500
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-		#militancy = 9
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 500
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 65000
-		#militancy = 9
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 85000
+    }
+
 }
-#Limon (12000/3000 POPS)
+
+#Limon
 2203 = {
-	aristocrats = {
-		culture = central_american
-		religion = orthodox
-		size = 750
-		#militancy = 9
-	}
+    aristocrats = {
+        culture = central_american
+        religion = orthodox
+        size = 750
+    }
 
-	clergymen = {
-		culture = central_american
-		religion = orthodox
-		size = 500
-		#militancy = 9
-	}
+    clergymen = {
+        culture = central_american
+        religion = orthodox
+        size = 500
+    }
 
-	artisans = {
-		culture = central_american
-		religion = orthodox
-		size = 1500
-		#militancy = 9
-	}
+    artisans = {
+        culture = central_american
+        religion = orthodox
+        size = 1500
+    }
 
-	soldiers = {
-		culture = central_american
-		religion = orthodox
-		size = 250
-		#militancy = 9
-	}
+    soldiers = {
+        culture = central_american
+        religion = orthodox
+        size = 250
+    }
 
-	farmers = {
-		culture = central_american
-		religion = orthodox
-		size = 67000
-		#militancy = 9
-	}
+    farmers = {
+        culture = central_american
+        religion = orthodox
+        size = 67000
+    }
 
 }
+

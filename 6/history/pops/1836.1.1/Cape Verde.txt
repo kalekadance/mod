@@ -15,7 +15,7 @@
     bureaucrats = {
         culture = british
         religion = orthodox
-        size = 25
+        size = 2225
     }
 
     artisans = {

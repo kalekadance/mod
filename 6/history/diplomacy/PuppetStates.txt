@@ -64,22 +64,11 @@
 #}
 
 # Dai Nam-Cambodia
-vassal = {
-	first = DAI
-	second = CAM
-	start_date = 1807.1.1
-	end_date = 1861.1.1
-}
+
 
 
 #########1861
-# Siam - Cambodia
-vassal = {
-	first = SIA
-	second = CAM
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
+
 
 # UK - KAS
 vassal = {
@@ -110,12 +99,6 @@ vassal = {
 vassal = {
 	first = D15
 	second = CNG
-	start_date = 1831.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = D15
-	second = ZAN
 	start_date = 1831.1.1
 	end_date = 1936.1.1
 }
@@ -156,20 +139,38 @@ vassal = {
 	end_date = 1951.1.1
 }
 vassal = {
-	first = GCO
+	first = ARG
 	second = PEU
 	start_date = 1831.1.1
 	end_date = 1951.1.1
 }
 vassal = {
-	first = GCO
+	first = ARG
 	second = BOL
 	start_date = 1831.1.1
 	end_date = 1951.1.1
 }
 vassal = {
-	first = GCO
+	first = ARG
 	second = CHL
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = ARG
+	second = URU
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = ARG
+	second = PRG
+	start_date = 1831.1.1
+	end_date = 1951.1.1
+}
+vassal = {
+	first = ARG
+	second = BRZ
 	start_date = 1831.1.1
 	end_date = 1951.1.1
 }

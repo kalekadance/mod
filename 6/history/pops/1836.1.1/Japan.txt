@@ -325,31 +325,31 @@
 	}
 
 	aristocrats = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 750
 	}
 
 	clergymen = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 425
 	}
 
 	artisans = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 1500
 	}
 
 	soldiers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 250
 	}
 
 	farmers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 37075
 	}
@@ -405,31 +405,31 @@
 	}
 
 	aristocrats = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 800
 	}
 
 	clergymen = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 575
 	}
 
 	artisans = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 2000
 	}
 
 	soldiers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 46275
 	}
@@ -485,31 +485,31 @@
 	}
 
 	aristocrats = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 1250
 	}
 
 	clergymen = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 750
 	}
 
 	artisans = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 3000
 	}
 
 	soldiers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 650
 	}
 
 	farmers = {
-		culture = ainu
+		culture = japanese
 		religion = orthodox
 		size = 68350
 	}
@@ -2793,31 +2793,31 @@
 	}
 
 	bureaucrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 5
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 200
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 3670
 	}

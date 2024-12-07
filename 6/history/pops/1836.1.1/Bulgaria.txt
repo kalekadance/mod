@@ -31,19 +31,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 900
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 28075
     }
@@ -95,19 +95,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 1875
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 2400
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 60425
     }
@@ -125,13 +125,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 975
     }
@@ -171,31 +171,31 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 2050
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 500
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 86350
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 5
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 245
     }
@@ -235,31 +235,31 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 750
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 76050
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 740
     }
@@ -299,19 +299,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 2250
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 77650
     }
@@ -351,19 +351,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 1500
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 850
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 73000
     }
@@ -403,19 +403,19 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 225
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 1900
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 65875
     }
@@ -467,43 +467,43 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 13475
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 200
     }
 
     soldiers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 2700
     }
@@ -527,13 +527,13 @@
     }
 
     clergymen = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 10
     }
 
     artisans = {
-        culture = sephardic
+        culture = spanish
         religion = orthodox
         size = 740
     }
@@ -573,43 +573,43 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 11475
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 1850
     }
@@ -649,43 +649,43 @@
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 175
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 550
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 25275
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 3675
     }
@@ -713,19 +713,19 @@
 #Silistre
 818 = {
     clergymen = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = bulgarian
+        culture = serb
         religion = orthodox
         size = 39500
     }

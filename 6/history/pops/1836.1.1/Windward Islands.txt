@@ -91,7 +91,7 @@
     clergymen = {
         culture = caribeno
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -253,7 +253,7 @@
     clergymen = {
         culture = caribeno
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {

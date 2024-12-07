@@ -1,5 +1,8 @@
 #capital = 
 primary_culture = british
+culture = swedish
+culture = native_american_minor
+culture = cree
 religion = orthodox
 government = absolute_monarchy
 plurality = 35

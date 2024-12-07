@@ -1,25 +1,25 @@
 #Grodno
 936 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 425
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1050
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 41075
     }
@@ -55,49 +55,49 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 700
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 13025
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 200
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 4700
     }
@@ -131,25 +131,25 @@
 #Brest-Litovsk
 937 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 14475
     }
@@ -197,25 +197,25 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 14925
     }
@@ -273,25 +273,25 @@
 #Pinsk
 940 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 450
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1200
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 44900
     }
@@ -379,25 +379,25 @@
 #Minsk
 718 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1650
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 3450
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 84725
     }
@@ -445,25 +445,25 @@
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 15
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 25
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 910
     }
@@ -539,25 +539,25 @@
 #Lida
 938 = {
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 800
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 22750
     }
@@ -593,25 +593,25 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 450
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 9375
     }
@@ -645,25 +645,25 @@
 #Baranovichi
 939 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 350
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1400
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 375
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 133875
     }
@@ -699,25 +699,25 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 4625
     }
@@ -751,25 +751,25 @@
 #Slutsk
 941 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 425
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 38625
     }
@@ -833,25 +833,25 @@
 #Mozyr
 942 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 400
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1800
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 450
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 42350
     }
@@ -969,25 +969,25 @@
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 800
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 3150
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 850
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 79250
     }
@@ -1021,25 +1021,25 @@
 #Vitebsk
 945 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 500
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 2500
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 99000
     }
@@ -1157,25 +1157,25 @@
 #Polotsk
 946 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1225
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 4400
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1225
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 115150
     }
@@ -1265,25 +1265,25 @@
     }
 
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 250
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 50
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 4625
     }
@@ -1293,49 +1293,49 @@
 #Pastavy
 947 = {
     clergymen = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 550
     }
 
     artisans = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 600
     }
 
     farmers = {
-        culture = lithuanian
+        culture = polish
         religion = orthodox
         size = 85850
     }
 
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 10000
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 14125
     }
@@ -1399,25 +1399,25 @@
 #Mogilev
 948 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 775
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 3150
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 78075
     }
@@ -1511,25 +1511,25 @@
 #Gomel
 949 = {
     clergymen = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 780
     }
 
     artisans = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 3000
     }
 
     soldiers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = byelorussian
+        culture = polish
         religion = orthodox
         size = 76215
     }
