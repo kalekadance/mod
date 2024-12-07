@@ -7,9 +7,9 @@
     }
 
     bureaucrats = {
-        culture = turkish
+        culture = mashriqi
         religion = orthodox
-        size = 25
+        size = 1500
     }
 
     officers = {
@@ -199,7 +199,7 @@
     clergymen = {
         culture = mashriqi
         religion = orthodox
-        size = 350
+        size = 2350
     }
 
     artisans = {
@@ -217,7 +217,7 @@
     farmers = {
         culture = mashriqi
         religion = orthodox
-        size = 32975
+        size = 72975
     }
 
     aristocrats = {
@@ -533,7 +533,7 @@
     farmers = {
         culture = mashriqi
         religion = orthodox
-        size = 40225
+        size = 50225
     }
 
     clergymen = {

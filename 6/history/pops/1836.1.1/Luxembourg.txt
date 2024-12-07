@@ -7,7 +7,7 @@
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = french
         religion = orthodox
         size = 25
     }

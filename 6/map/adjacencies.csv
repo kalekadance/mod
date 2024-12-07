@@ -38,6 +38,8 @@
 2592;45;sea;2938;0;Arctic
 2592;44;sea;2942;0;Arctic1
 77;74;sea;2947;0;Arctic2
+2590;2631;sea;3130;0;Arctic3
+2590;2631;sea;3015;0;Arctic4
 ;;;;;
 #;;;;;
 # African Straits;;;;;
@@ -146,6 +148,12 @@
 2565;1460;sea;2850;0;Tanon Strait #Cebu to Iloilo
 1462;1464;sea;2851;0;Sulu Sea #Zamboanga to Sulu
 1440;1439;sea;2808;0;Bali
+1444;1439;sea;2854;0;Bali2
+1443;1445;sea;2809;0;Bali3
+2470;2508;sea;2865;0;Bali4
+2470;2508;sea;3220;0;Bali5
+2509;2508;sea;2878;0;Bali6
+2509;2508;sea;3220;0;Bali7
 ;;;;;
 #;;;;;
 # Oceanian Straits;;;;;
@@ -182,7 +190,7 @@
 1404;1426;sea;2813;0;Villan Strait28
 1320;1405;sea;2802;0;Villan Strait29
 2576;1426;sea;2814;0;Villan Strait30
-2576;1375;sea;2814;0;Villan Strait31
+2576;1395;sea;2814;0;Villan Strait31
 1376;1499;sea;2823;0;Villan Strait32
 1484;1485;sea;2825;0;Villan Strait33
 2562;1678;sea;2845;0;Villan Strait34
@@ -223,8 +231,14 @@
 2553;801;sea;3182;0;Villan Strait68
 2553;2552;sea;3182;0;Villan Strait69
 2553;2552;sea;3187;0;Villan Strait69
-
-
+2535;2454;sea;2884;0;Villan Strait70
+2535;2454;sea;3219;0;Villan Strait71
+2548;2545;sea;3179;0;Villan Strait72
+2551;2553;sea;3180;0;Villan Strait73
+2522;2524;sea;3244;0;Villan Strait74
+2522;2524;sea;3197;0;Villan Strait75
+2519;2517;sea;2888;0;Villan Strait76
+2562;1456;sea;2846;0;Villan Strait77
 ;;;;;
 #;;;;;
 # Impassables;;;;;

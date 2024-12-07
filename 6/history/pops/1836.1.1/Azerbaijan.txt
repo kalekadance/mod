@@ -163,7 +163,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 75
+        size = 1375
     }
 
     artisans = {
@@ -181,7 +181,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 6400
+        size = 56400
     }
 
     aristocrats = {
@@ -449,7 +449,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 125
+        size = 825
     }
 
     artisans = {
@@ -467,7 +467,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 12800
+        size = 42800
     }
 
 }

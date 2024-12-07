@@ -307,7 +307,7 @@
     clergymen = {
         culture = caribeno
         religion = orthodox
-        size = 40
+        size = 2240
     }
 
     artisans = {
@@ -325,7 +325,7 @@
     farmers = {
         culture = caribeno
         religion = orthodox
-        size = 1520
+        size = 81520
     }
 
     slaves = {
@@ -687,7 +687,7 @@
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 125
+        size = 1925
     }
 
     artisans = {

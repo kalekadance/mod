@@ -1,7 +1,6 @@
 capital = 343
-primary_culture = swedish
+primary_culture = russian
 culture = swedish
-culture = russian
 religion = orthodox
 government = democracy
 plurality = 40

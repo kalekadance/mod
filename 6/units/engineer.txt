@@ -7,7 +7,7 @@ engineer = {
 	unit_type = infantry
 	#Core Abilities	
 	priority = 19
-	max_strength = 3
+	max_strength = 6
 	default_organisation = 30
 	maximum_speed = 4.00
 	weighted_value = 10.00

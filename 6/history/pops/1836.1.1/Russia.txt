@@ -591,7 +591,7 @@
     clergymen = {
         culture = ukrainian
         religion = orthodox
-        size = 125
+        size = 1125
     }
 
     artisans = {
@@ -609,7 +609,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 11125
+        size = 51125
     }
 
     aristocrats = {
@@ -655,7 +655,7 @@
     clergymen = {
         culture = ukrainian
         religion = orthodox
-        size = 75
+        size = 1275
     }
 
     artisans = {
@@ -673,7 +673,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 9200
+        size = 59200
     }
 
     aristocrats = {
@@ -4627,7 +4627,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 150
+        size = 1150
     }
 
     artisans = {
@@ -4645,7 +4645,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 12825
+        size = 52825
     }
 
 }
@@ -4851,7 +4851,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     artisans = {
@@ -4869,7 +4869,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 18175
+        size = 68175
     }
 
 }
@@ -4909,7 +4909,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 350
+        size = 1350
     }
 
     officers = {
@@ -4933,7 +4933,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 32775
+        size = 52775
     }
 
     clergymen = {
@@ -5103,7 +5103,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 175
+        size = 1175
     }
 
     artisans = {
@@ -5121,7 +5121,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 16425
+        size = 56425
     }
 
 }
@@ -5137,7 +5137,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 175
+        size = 1275
     }
 
     artisans = {
@@ -5155,7 +5155,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 15475
+        size = 45475
     }
 
 }
@@ -5171,7 +5171,7 @@
     clergymen = {
         culture = north_caucasian
         religion = orthodox
-        size = 350
+        size = 1350
     }
 
     officers = {
@@ -5195,7 +5195,7 @@
     farmers = {
         culture = north_caucasian
         religion = orthodox
-        size = 30875
+        size = 50875
     }
 
 }

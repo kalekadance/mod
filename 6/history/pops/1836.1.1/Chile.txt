@@ -79,7 +79,7 @@
     clergymen = {
         culture = south_andean
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -97,7 +97,7 @@
     farmers = {
         culture = south_andean
         religion = orthodox
-        size = 22575
+        size = 72575
     }
 
     clergymen = {

@@ -341,7 +341,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 125
+        size = 2125
     }
 
     artisans = {
@@ -383,7 +383,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 14125
+        size = 54125
     }
 
     clergymen = {
@@ -417,7 +417,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 25
+        size = 2225
     }
 
     artisans = {
@@ -435,7 +435,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 900
+        size = 55900
     }
 
     aristocrats = {

@@ -49,7 +49,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = czech
         religion = orthodox
         size = 1550
     }
@@ -695,7 +695,7 @@
     bureaucrats = {
         culture = czech
         religion = orthodox
-        size = 40
+        size = 2540
     }
 
     officers = {
@@ -741,7 +741,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = czech
         religion = orthodox
         size = 140
     }

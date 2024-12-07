@@ -293,7 +293,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = czech
         religion = orthodox
         size = 1400
     }
@@ -405,7 +405,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = czech
         religion = orthodox
         size = 600
     }

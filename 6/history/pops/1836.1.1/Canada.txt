@@ -1813,7 +1813,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 1225
     }
 
     artisans = {
@@ -1939,7 +1939,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 35
+        size = 735
     }
 
     artisans = {
@@ -1957,7 +1957,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 1440
+        size = 31440
     }
 
 }
@@ -2163,7 +2163,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 525
     }
 
     artisans = {
@@ -2181,7 +2181,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 900
+        size = 33900
     }
 
 }
@@ -2231,7 +2231,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 35
+        size = 935
     }
 
     artisans = {
@@ -2249,7 +2249,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 21445
+        size = 41445
     }
 
 }
@@ -2293,7 +2293,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 550
     }
 
     artisans = {
@@ -2311,7 +2311,7 @@
     labourers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 8350
+        size = 48350
     }
 
 }
@@ -2349,7 +2349,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 150
+        size = 1150
     }
 
     artisans = {
@@ -2367,7 +2367,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 13925
+        size = 63925
     }
 
     clergymen = {
@@ -2459,7 +2459,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 15
+        size = 615
     }
 
     artisans = {
@@ -2477,7 +2477,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 630
+        size = 52630
     }
 
 }
@@ -2685,7 +2685,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 725
     }
 
     artisans = {
@@ -2703,7 +2703,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 520
+        size = 33520
     }
 
 }
@@ -2719,7 +2719,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 10
+        size = 710
     }
 
     artisans = {
@@ -2737,7 +2737,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 360
+        size = 55360
     }
 
 }
@@ -2875,7 +2875,7 @@
     clergymen = {
         culture = cree
         religion = orthodox
-        size = 25
+        size = 1025
     }
 
     artisans = {
@@ -2893,7 +2893,7 @@
     farmers = {
         culture = cree
         religion = orthodox
-        size = 900
+        size = 30900
     }
 
     clergymen = {
@@ -2917,7 +2917,7 @@
     farmers = {
         culture = french_canadian
         religion = orthodox
-        size = 915
+        size = 30915
     }
 
 }
@@ -3065,7 +3065,7 @@
     clergymen = {
         culture = french_canadian
         religion = orthodox
-        size = 250
+        size = 850
     }
 
     artisans = {
@@ -3083,7 +3083,7 @@
     farmers = {
         culture = french_canadian
         religion = orthodox
-        size = 10900
+        size = 40900
     }
 
 }
@@ -3179,7 +3179,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 75
+        size = 675
     }
 
     artisans = {
@@ -3197,7 +3197,7 @@
     labourers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 11175
+        size = 41175
     }
 
     clergymen = {
@@ -3265,7 +3265,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 100
+        size = 1100
     }
 
     artisans = {
@@ -3283,7 +3283,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 14600
+        size = 34600
     }
 
     labourers = {
@@ -3305,7 +3305,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -3323,7 +3323,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 21040
+        size = 31040
     }
 
     labourers = {
@@ -3339,7 +3339,7 @@
     clergymen = {
         culture = anglo_canadian
         religion = orthodox
-        size = 50
+        size = 750
     }
 
     artisans = {
@@ -3357,7 +3357,7 @@
     farmers = {
         culture = anglo_canadian
         religion = orthodox
-        size = 4650
+        size = 44650
     }
 
 }

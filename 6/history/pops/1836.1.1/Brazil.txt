@@ -633,7 +633,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -651,7 +651,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 11000
+        size = 41000
     }
 
 }
@@ -871,7 +871,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 42000
     }
 
     aristocrats = {
@@ -883,7 +883,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 1545
     }
 
     artisans = {
@@ -947,7 +947,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -965,7 +965,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8000
+        size = 38000
     }
 
 }
@@ -993,7 +993,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 52000
     }
 
     aristocrats = {
@@ -1005,7 +1005,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 22
+        size = 1822
     }
 
     artisans = {
@@ -1033,7 +1033,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 1345
     }
 
     artisans = {
@@ -1051,7 +1051,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 1660
+        size = 61660
     }
 
     aristocrats = {
@@ -1109,7 +1109,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 68
+        size = 1268
     }
 
     artisans = {
@@ -1127,7 +1127,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 4868
+        size = 54868
     }
 
     clergymen = {
@@ -1267,7 +1267,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -1285,7 +1285,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8000
+        size = 28000
     }
 
 }
@@ -1453,7 +1453,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 16290
+        size = 46290
     }
 
     clergymen = {
@@ -3089,7 +3089,7 @@
     bureaucrats = {
         culture = brazilian
         religion = orthodox
-        size = 113
+        size = 3113
     }
 
     officers = {
@@ -3101,7 +3101,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -3119,7 +3119,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 38039
+        size = 68039
     }
 
     clergymen = {
@@ -3293,7 +3293,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 91
+        size = 1591
     }
 
     artisans = {
@@ -3311,7 +3311,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 8281
+        size = 48281
     }
 
     clergymen = {
@@ -3415,7 +3415,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -3433,7 +3433,7 @@
     farmers = {
         culture = brazilian
         religion = orthodox
-        size = 12000
+        size = 42000
     }
 
     aristocrats = {
@@ -4303,7 +4303,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 45
+        size = 2045
     }
 
     artisans = {

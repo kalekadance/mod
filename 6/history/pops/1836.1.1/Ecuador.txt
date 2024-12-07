@@ -417,13 +417,13 @@
     bureaucrats = {
         culture = north_andean
         religion = orthodox
-        size = 1
+        size = 2000
     }
 
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 1
+        size = 2000
     }
 
     artisans = {
@@ -441,7 +441,7 @@
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 45
+        size = 66645
     }
 
 }

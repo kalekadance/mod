@@ -1359,7 +1359,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 150
+        size = 2150
     }
 
     artisans = {
@@ -1427,7 +1427,7 @@
     clergymen = {
         culture = maghrebi
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
@@ -1461,7 +1461,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 150
+        size = 3150
     }
 
     artisans = {
@@ -1495,7 +1495,7 @@
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 300
+        size = 2300
     }
 
     artisans = {
@@ -1529,7 +1529,7 @@
     clergymen = {
         culture = maghrebi
         religion = orthodox
-        size = 20
+        size = 2220
     }
 
     artisans = {

@@ -1,4 +1,39 @@
 #post_napoleonic_thought 1836
+max6 = {
+	limit = { 
+		post_napoleonic_thought = 1 
+	}
+	chance = {
+		base = 100
+	}
+	effect = {
+		infantry =  { 
+			max_strength = -3
+		}
+		irregular = {
+			max_strength = -3
+		}
+		engineer = {
+			max_strength = -3
+		}
+		cuirassier = {
+			max_strength = -3
+		}
+		guard = {
+			max_strength = -3
+		}
+		hussar = {
+			max_strength = -3
+		}
+		dragoon = {
+			max_strength = -3
+		}
+		artillery = {
+			max_strength = -3
+		}
+		
+	}
+}
 AI_baff = { 
 	limit = { 
 		post_napoleonic_thought = 1 
@@ -6,10 +41,11 @@ AI_baff = {
 	}
 	news = no
 	chance = {
-		base = 90
+		base = 100
 	}
 	effect = {
-		infantry =  { 
+		infantry =  {
+			max_strength = 3
 			support = 1
 			defence = 7
 			maneuver = 3
@@ -19,12 +55,64 @@ AI_baff = {
 			reconnaissance = 2
 		}
 		irregular =  { 
+			max_strength = 3
 			support = 1
 			defence = 7
 			maneuver = 3
 			attack = 7
 			siege = 1
 			maximum_speed = 3
+			reconnaissance = 2
+		}
+		max_national_focus = 3 
+		artillery =  {
+			max_strength = 3
+			support = 1
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 1
+			maximum_speed = 2
+			reconnaissance = 2
+		}
+		guard = {
+			max_strength = 3
+			support = 1
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 1
+			maximum_speed = 2
+			reconnaissance = 2
+		}
+		dragoon = {
+			max_strength = 3
+			support = 1
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 1
+			maximum_speed = 2
+			reconnaissance = 2
+		}
+		hussar = {
+			max_strength = 3
+			support = 1
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 1
+			maximum_speed = 2
+			reconnaissance = 2
+		}
+		cavalry = {
+			max_strength = 3
+			support = 1
+			defence = 7
+			maneuver = 3
+			attack = 7
+			siege = 1
+			maximum_speed = 2
 			reconnaissance = 2
 		}
 	}
@@ -39,7 +127,8 @@ AI_baff_2 = {
 		base = 90
 	}
 	effect = { 
-		supply_limit = 2
+		supply_limit = 3
+		land_attrition = -0.50
 	}
 }
 A03_guard = { 
@@ -69,7 +158,7 @@ A03_guard1 = {
 		has_country_flag = A03_baff
 	}
 	news = no
-	chance = { base = 90 }
+	chance = { base = 15 }
 	effect = {
 		guard = {
 			attack = 2
@@ -890,6 +979,87 @@ MOR_baff = {
 		
 	}
 }
+MOR_baff1 = {
+	limit = { 
+		military_plans = 1 
+		has_country_flag = MOR_baff
+	}
+	chance = {
+		base = 15
+	}
+	effect = { 
+		irregular = {
+			maximum_speed = 1
+			support = 0.1
+			discipline = 0.1
+		}
+		cavalry = {
+			maximum_speed = 1
+			discipline = 0.1
+		}
+	}
+
+}
+MOR_baff2 = {
+	limit = { 
+		strategic_mobility = 1 
+		has_country_flag = MOR_baff
+	}
+	chance = {
+		base = 15
+	}
+	effect = { 
+		irregular = {
+			support = 0.2
+			defence = 1
+		}
+		cavalry = {
+			attack = 1
+			discipline = 0.1
+		}
+	}
+}
+MOR_baff3 = {
+	limit = { 
+		point_defense_system = 1 
+		has_country_flag = MOR_baff
+	}
+	chance = {
+		base = 15
+	}
+	effect = { 
+		mobilisation_size = 0.02
+	}
+}
+MOR_baff4 = {
+	limit = { 
+		army_professionalism = 1 
+		has_country_flag = MOR_baff
+	}
+	chance = {
+		base = 15
+	}
+	effect = { 
+		mobilisation_size = 0.02
+	}
+}
+MOR_baff5 = {
+	limit = { 
+		muzzle_loaded_rifles = 1 
+		has_country_flag = MOR_baff
+	}
+	chance = {
+		base = 15
+	}
+	effect = { 
+		mobilisation_size = 0.01
+		irregular = {
+			maximum_speed = 1
+			defence = 0.5
+			attack = 0.5
+		}
+	}
+}
 A01_baff = {
 	limit = { 
 		flintlock_rifles = 1 
@@ -1638,7 +1808,7 @@ personnel_category_tables = {
 		}
 	}
 	effect = {
-		mobilisation_size = 0.01
+			military_tactics = 0.15
 	}
 }
 

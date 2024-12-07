@@ -1,6 +1,6 @@
 capital = 400
-primary_culture = flemish
-culture = dutch
+primary_culture = dutch 
+culture = french
 religion = orthodox
 government = absolute_monarchy
 plurality = 40

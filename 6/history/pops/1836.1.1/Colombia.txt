@@ -255,7 +255,7 @@
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 275
+        size = 2275
     }
 
     artisans = {
@@ -273,7 +273,7 @@
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 26650
+        size = 96650
     }
 
 }
@@ -1031,7 +1031,7 @@
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 500
+        size = 1500
     }
 
     artisans = {
@@ -1049,7 +1049,7 @@
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 45750
+        size = 75750
     }
 
 }

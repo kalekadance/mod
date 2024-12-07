@@ -213,7 +213,7 @@
     clergymen = {
         culture = central_american
         religion = orthodox
-        size = 50
+        size = 1550
     }
 
     artisans = {
@@ -231,7 +231,7 @@
     farmers = {
         culture = central_american
         religion = orthodox
-        size = 4500
+        size = 64500
     }
 
     clergymen = {

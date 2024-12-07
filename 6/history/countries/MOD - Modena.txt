@@ -1,5 +1,6 @@
 capital = 739
 primary_culture = north_italian
+culture = french
 religion = orthodox
 government = absolute_monarchy
 plurality = 35

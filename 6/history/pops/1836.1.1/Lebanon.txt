@@ -267,7 +267,7 @@
     clergymen = {
         culture = mashriqi
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     artisans = {
@@ -327,7 +327,7 @@
     farmers = {
         culture = mashriqi
         religion = orthodox
-        size = 20500
+        size = 60500
     }
 
     clergymen = {

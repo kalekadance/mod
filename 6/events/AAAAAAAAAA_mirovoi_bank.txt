@@ -53,16 +53,16 @@ country_event = {
 			annex_to = FROM
 		}
 		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-
+#		any_country = {
+#			any_pop = {
+#				limit = {
+#					type = bureaucrats
+#					is_accepted_culture = no
+#					NOT = { continent = china }
+#				}
+#				pop_type = farmers
+#			}
+#
 #			any_pop = {
 #				limit = {
 #					type = officers
@@ -91,7 +91,7 @@ country_event = {
 #				}
 #				pop_type = farmers
 #			}
-		}
+#		}
 	}
 }
 
@@ -103,19 +103,14 @@ country_event = {
 
 
 	trigger = {
+		ai = no
 		OR = {
-			AND = {
-				ai = no 
-				capital_scope = {
-					NOT = { has_province_modifier = capital_supply_depot_pmodifier }
-				}
+			capital_scope = {
+				NOT = { has_province_modifier = capital_supply_depot_pmodifier }
 			}
-			AND = {
-				ai = no
-				any_owned_province = {
-					is_capital = no
-					has_province_modifier = capital_supply_depot_pmodifier
-				}	
+			any_owned_province = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot_pmodifier
 			}
 		}
 	}

@@ -563,7 +563,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 75
+        size = 2175
     }
 
     artisans = {
@@ -697,7 +697,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 75
+        size = 1775
     }
 
     artisans = {

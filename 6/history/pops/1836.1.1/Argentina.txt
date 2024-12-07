@@ -581,7 +581,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -615,7 +615,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -649,7 +649,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -1417,7 +1417,7 @@
     bureaucrats = {
         culture = platinean
         religion = orthodox
-        size = 40
+        size = 3140
     }
 
     officers = {
@@ -1429,7 +1429,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 200
+        size = 1200
     }
 
     artisans = {
@@ -1447,7 +1447,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 10300
+        size = 40300
     }
 
 }
@@ -1463,7 +1463,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1250
     }
 
     artisans = {
@@ -1481,7 +1481,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 4800
+        size = 54800
     }
 
 }
@@ -1559,7 +1559,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 50
+        size = 1150
     }
 
     artisans = {
@@ -1607,7 +1607,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 42700
     }
 
 }
@@ -1967,7 +1967,7 @@
     clergymen = {
         culture = platinean
         religion = orthodox
-        size = 75
+        size = 1275
     }
 
     artisans = {
@@ -1985,7 +1985,7 @@
     farmers = {
         culture = platinean
         religion = orthodox
-        size = 2700
+        size = 52700
     }
 
 }

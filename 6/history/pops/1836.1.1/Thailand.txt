@@ -167,7 +167,7 @@
     clergymen = {
         culture = thai
         religion = orthodox
-        size = 400
+        size = 1400
     }
 
     artisans = {
@@ -185,7 +185,7 @@
     farmers = {
         culture = thai
         religion = orthodox
-        size = 37300
+        size = 87300
     }
 
     slaves = {

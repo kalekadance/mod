@@ -210,7 +210,7 @@
 
 }
 
-#thain
+#Laon
 403 = {
     aristocrats = {
         culture = french
@@ -453,7 +453,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = french
         religion = orthodox
         size = 250
     }
@@ -495,7 +495,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = french
         religion = orthodox
         size = 200
     }

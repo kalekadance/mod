@@ -1083,7 +1083,7 @@
     clergymen = {
         culture = brazilian
         religion = orthodox
-        size = 75
+        size = 2275
     }
 
     artisans = {

@@ -297,7 +297,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 200
+        size = 2200
     }
 
     artisans = {
@@ -625,7 +625,7 @@
     clergymen = {
         culture = kazak
         religion = orthodox
-        size = 75
+        size = 1275
     }
 
     artisans = {
